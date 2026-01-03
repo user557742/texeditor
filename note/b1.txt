@@ -1,0 +1,14 @@
+cách tạo ra một chương trình của sổ trống đầu tiên : 
+- SDL_Init(0); --> khởi tạo
+- SDL_Window* window = SDL_CreateWindow("name","size x","size y",mode);
+* các mode :
+    - SDL_WINDOW_RESIZABLE --> có thể thay đổi kích thước
+    - SDL_WINDOW_FULLSCREEN --> full màn hỉnh 
+    - SDL_WINDOW_HIDDEN --> ẩn cửa sổ
+--> 
+tạo ra cửa sổ 
+
+xóa của sổ + reset
+
+SDL_Destroy_Window(window);
+SDL_Quit();

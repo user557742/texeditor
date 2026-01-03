@@ -1,0 +1,20 @@
+vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.obj: \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\SDL_shaders_gpu.c \
+ D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\SDL_shaders_gpu.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\shaders/spir-v.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\shaders/color.frag.spv.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\shaders/linepoint.vert.spv.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\shaders/texture_advanced.frag.spv.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\shaders/texture_rgb.frag.spv.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\shaders/texture_rgba.frag.spv.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\shaders/tri_color.vert.spv.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\shaders/tri_texture.vert.spv.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\shaders/dxil.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\shaders/color.frag.dxil.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\shaders/linepoint.vert.dxil.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\shaders/texture_advanced.frag.dxil.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\shaders/texture_rgb.frag.dxil.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\shaders/texture_rgba.frag.dxil.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\shaders/tri_color.vert.dxil.h \
+ D:\projects\text-editor\vendored\SDL\src\render\gpu\shaders/tri_texture.vert.dxil.h

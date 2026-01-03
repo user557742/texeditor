@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/projects/text-editor/build/cmake_install.cmake",
+		"D:/projects/text-editor/build/vendored/SDL/cmake_install.cmake",
+		"D:/projects/text-editor/build/vendored/SDL_ttf/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

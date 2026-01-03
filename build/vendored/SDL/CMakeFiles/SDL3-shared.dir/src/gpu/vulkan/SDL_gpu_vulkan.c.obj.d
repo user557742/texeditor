@@ -1,0 +1,34 @@
+vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.obj: \
+ D:\projects\text-editor\vendored\SDL\src\gpu\vulkan\SDL_gpu_vulkan.c \
+ D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
+ D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan.h \
+ D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+ C:/msys64/mingw64/include/stddef.h C:/msys64/mingw64/include/crtdefs.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
+ D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h \
+ D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
+ D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h \
+ D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h \
+ D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
+ D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
+ D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h \
+ D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
+ D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h \
+ D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h \
+ D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
+ D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h \
+ D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
+ D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_beta.h \
+ D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+ D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+ D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
+ D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
+ D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+ D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
+ D:/projects/text-editor/vendored/SDL/src/gpu/SDL_sysgpu.h \
+ D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
+ D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
+ D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
+ D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
+ D:\projects\text-editor\vendored\SDL\src\gpu\vulkan\SDL_gpu_vulkan_vkfuncs.h

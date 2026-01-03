@@ -1,0 +1,9 @@
+
+- SDL_PollEvent(&e) : là hàm kiểm tra xem queue event còn có không
+
+- các event cơ bản : khai báo SDL_Event e;
+* phím
+    - có các kiểu sau trong e.key : + mod / key / scancode(ko học vội)
+        + key : in ra giá trị của phím được bấm đười dạng code : SDLK_val --> dùng hàm SDL_GetKeyName --> để lấy val
+        + mod : in ra giá trị đang giữ hiên tại của phím dưới dạng code --> dùng kiểu int --> bieu thi flag phim dac biet : SDL_KMOD_VAL
+        e.key.mod & SDL_KMOD_VAL + ... = combo special 

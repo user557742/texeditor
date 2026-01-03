@@ -1,0 +1,21 @@
+b1 : Cài MSYS2 . link : https://www.msys2.org/ + MỞ: MSYS2 MINGW64
+b2 : 
+    pacman -Syu
+    pacman -S mingw-w64-x86_64-toolchain
+    pacman -S mingw-w64-x86_64-cmake
+    pacman -S git
+    
+    check : 
+        g++ --version
+        cmake --version
+        git --version
+b3 : 
+    cd /d
+    mkdir projects
+    cd projects
+    mkdir text-editor
+    cd text-editor
+    mkdir external
+    git clone https://github.com/libsdl-org/SDL.git external/SDL
+    mkdir src
+    
