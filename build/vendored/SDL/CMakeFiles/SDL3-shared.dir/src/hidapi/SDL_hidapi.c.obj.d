@@ -1,14 +1,14 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\hidapi\SDL_hidapi.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:\projects\text-editor\vendored\SDL\src\hidapi\SDL_hidapi_c.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:\projects\text-editor\vendored\SDL\src\hidapi\hidapi/hidapi.h \
+ D:\texeditor\vendored\SDL\src\hidapi\SDL_hidapi.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:\texeditor\vendored\SDL\src\hidapi\SDL_hidapi_c.h \
+ D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+ D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+ D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:\texeditor\vendored\SDL\src\hidapi\hidapi/hidapi.h \
  C:/msys64/mingw64/include/wchar.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -88,18 +88,18 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.obj: \
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
  C:/msys64/mingw64/include/imm.h C:/msys64/mingw64/include/basetyps.h \
  C:/msys64/mingw64/include/mmreg.h C:/msys64/mingw64/include/pshpack1.h \
- D:/projects/text-editor/vendored/SDL/src/core/linux/SDL_udev.h \
+ D:/texeditor/vendored/SDL/src/core/linux/SDL_udev.h \
  C:/msys64/mingw64/include/initguid.h \
- D:\projects\text-editor\vendored\SDL\src\hidapi\SDL_hidapi_windows.h \
- D:\projects\text-editor\vendored\SDL\src\hidapi\windows/hid.c \
- D:\projects\text-editor\vendored\SDL\src\hidapi\windows/hidapi_winapi.h \
+ D:\texeditor\vendored\SDL\src\hidapi\SDL_hidapi_windows.h \
+ D:\texeditor\vendored\SDL\src\hidapi\windows/hid.c \
+ D:\texeditor\vendored\SDL\src\hidapi\windows/hidapi_winapi.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
- D:/projects/text-editor/vendored/SDL/src/hidapi/hidapi/hidapi.h \
- D:\projects\text-editor\vendored\SDL\src\hidapi\windows/hidapi_cfgmgr32.h \
+ D:/texeditor/vendored/SDL/src/hidapi/hidapi/hidapi.h \
+ D:\texeditor\vendored\SDL\src\hidapi\windows/hidapi_cfgmgr32.h \
  C:/msys64/mingw64/include/devpropdef.h \
- D:\projects\text-editor\vendored\SDL\src\hidapi\windows/hidapi_hidclass.h \
+ D:\texeditor\vendored\SDL\src\hidapi\windows/hidapi_hidclass.h \
  C:/msys64/mingw64/include/winioctl.h \
- D:\projects\text-editor\vendored\SDL\src\hidapi\windows/hidapi_hidsdi.h \
- D:\projects\text-editor\vendored\SDL\src\hidapi\windows/hidapi_hidpi.h \
- D:\projects\text-editor\vendored\SDL\src\hidapi\windows/hidapi_descriptor_reconstruct.c \
- D:\projects\text-editor\vendored\SDL\src\hidapi\windows/hidapi_descriptor_reconstruct.h
+ D:\texeditor\vendored\SDL\src\hidapi\windows/hidapi_hidsdi.h \
+ D:\texeditor\vendored\SDL\src\hidapi\windows/hidapi_hidpi.h \
+ D:\texeditor\vendored\SDL\src\hidapi\windows/hidapi_descriptor_reconstruct.c \
+ D:\texeditor\vendored\SDL\src\hidapi\windows/hidapi_descriptor_reconstruct.h

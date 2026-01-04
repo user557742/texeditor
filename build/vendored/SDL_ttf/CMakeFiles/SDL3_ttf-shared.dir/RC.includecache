@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/projects/text-editor/vendored/SDL_ttf/src/version.rc
+D:/texeditor/vendored/SDL_ttf/src/version.rc
 winresrc.h
-D:/projects/text-editor/vendored/SDL_ttf/src/winresrc.h
+D:/texeditor/vendored/SDL_ttf/src/winresrc.h
 

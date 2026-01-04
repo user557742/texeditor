@@ -1,16 +1,16 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\camera\SDL_camera.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:\projects\text-editor\vendored\SDL\src\camera\SDL_syscamera.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
- D:\projects\text-editor\vendored\SDL\src\camera\SDL_camera_c.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
- D:/projects/text-editor/vendored/SDL/src/thread/SDL_systhread.h \
- D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h \
- D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\camera\SDL_camera.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:\texeditor\vendored\SDL\src\camera\SDL_syscamera.h \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+ D:\texeditor\vendored\SDL\src\camera\SDL_camera_c.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+ D:/texeditor/vendored/SDL/src/thread/SDL_systhread.h \
+ D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h \
+ D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -90,5 +90,5 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.obj: \
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
  C:/msys64/mingw64/include/imm.h C:/msys64/mingw64/include/basetyps.h \
  C:/msys64/mingw64/include/mmreg.h C:/msys64/mingw64/include/pshpack1.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h
+ D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h

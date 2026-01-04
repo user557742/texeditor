@@ -1,8 +1,8 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\render\vulkan\SDL_render_vulkan.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_vulkan_internal.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\render\vulkan\SDL_render_vulkan.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_vulkan_internal.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -82,37 +82,37 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.ob
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
  C:/msys64/mingw64/include/imm.h C:/msys64/mingw64/include/basetyps.h \
  C:/msys64/mingw64/include/mmreg.h C:/msys64/mingw64/include/pshpack1.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
  C:/msys64/mingw64/include/stddef.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_win32.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
- D:/projects/text-editor/vendored/SDL/src/render/SDL_sysrender.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
- D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
- D:/projects/text-editor/vendored/SDL/src/render/SDL_d3dmath.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
- D:\projects\text-editor\vendored\SDL\src\render\vulkan\SDL_shaders_vulkan.h
+ D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_win32.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+ D:/texeditor/vendored/SDL/src/render/SDL_sysrender.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+ D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
+ D:/texeditor/vendored/SDL/src/render/SDL_d3dmath.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+ D:\texeditor\vendored\SDL\src\render\vulkan\SDL_shaders_vulkan.h

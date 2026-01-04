@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 #include <SDL3/SDL.h>
 #include <SDL3_ttf/SDL_ttf.h>
+#include <windows.h>
+#include <commdlg.h>
 #define rei(i,a,b) for(int i=a;i<=b;i++)
 using namespace std;
 
@@ -99,13 +101,13 @@ struct Line{
     string s;
     SDL_Texture* tex=nullptr;
     bool dirty=true;
+    Line(string _s="",SDL_Texture* _tex=nullptr,bool _dirty=0) : s(_s),tex(_tex),dirty(_dirty) {}
 };
 
 vector<Line> lines;
 int fontSize=30;
 int cpx=0,cpy=0;
 int chw=0,chh=0;
-
 /* ================= FONT REBUILD ================= */
 void rebuild_font(
     SDL_Renderer* renderer,
@@ -141,15 +143,105 @@ void rebuild_font(
     cpy=row*chh;
     cpx=col*chw;
 }
-int main(){
-    freopen("log.txt","w",stdout);
+bool openFile(std::string &path) {
+    char buf[MAX_PATH] = "";
 
+    OPENFILENAMEA ofn{};
+    ofn.lStructSize = sizeof(ofn);
+    ofn.lpstrFilter = "Text (*.txt)\0*.txt\0All (*.*)\0*.*\0";
+    ofn.lpstrFile = buf;
+    ofn.nMaxFile = MAX_PATH;
+    ofn.Flags = OFN_EXPLORER | OFN_FILEMUSTEXIST | OFN_PATHMUSTEXIST;
+
+    if (GetOpenFileNameA(&ofn)) {
+        path = buf;
+        return true;
+    }
+    return false;
+}
+bool saveFile(std::string &path) {
+    char buf[MAX_PATH] = "";
+
+    OPENFILENAMEA ofn{};
+    ofn.lStructSize = sizeof(ofn);
+    ofn.lpstrFilter = "Text (*.txt)\0*.txt\0All (*.*)\0*.*\0";
+    ofn.lpstrFile = buf;
+    ofn.nMaxFile = MAX_PATH;
+    ofn.Flags = OFN_EXPLORER | OFN_PATHMUSTEXIST | OFN_OVERWRITEPROMPT;
+
+    if (GetSaveFileNameA(&ofn)) {
+        path = buf;
+        return true;
+    }
+    return false;
+}
+// Ghi nội dung ra file
+bool writeFile(const string& path, const string& content) {
+    ofstream fout(path, ios::out | ios::binary);
+    if (!fout.is_open()) return false;
+    fout << content;
+    fout.close();
+    return true;
+}
+
+// Đọc toàn bộ file vào string
+bool readFile(const string& path, string& content) {
+    ifstream fin(path, ios::in | ios::binary);
+    if (!fin.is_open()) return false;
+    stringstream ss;
+    ss << fin.rdbuf();
+    content = ss.str();
+    fin.close();
+    return true;
+}
+string ctr(vector<Line> x){
+    string ds;
+    for(Line g:x) ds+=g.s;
+    return ds; 
+}
+vector<Line> cline(string text){
+    vector<Line> ds;
+    string cur;
+    for(char g:text){
+        cur+=g;
+        if(g=='\n'){
+            ds.push_back(Line(cur,nullptr,1));
+            cur="";
+        }
+    }
+    if(!cur.empty()) ds.push_back(Line(cur,nullptr,1));
+    return ds;
+}
+void loadText(const string& text) {
+    // destroy old textures
+    for (auto &l : lines)
+        if (l.tex) SDL_DestroyTexture(l.tex);
+    lines.clear();
+    string cur;
+    for (char c : text) {
+        cur += c;
+        if (c == '\n') {
+            lines.emplace_back(cur, nullptr, true);
+            cur.clear();
+        }
+    }
+    if (!cur.empty())
+        lines.emplace_back(cur, nullptr, true);
+
+    if (lines.empty())
+        lines.emplace_back("", nullptr, true);
+
+    cpx = 0;
+    cpy = 0;
+}
+
+int main(){
+    // freopen("log.txt","w",stdout);
     SDL_Init(SDL_INIT_VIDEO);
     TTF_Init();
-
+    string path, text;
     SDL_Window* win=SDL_CreateWindow("LIDE",800,600,SDL_WINDOW_RESIZABLE);
     SDL_Renderer* ren=SDL_CreateRenderer(win,nullptr);
-
     TTF_Font* font=nullptr;
     SDL_Texture* atlas=nullptr;
     unordered_map<char,SDL_Rect> glyph;
@@ -185,12 +277,12 @@ int main(){
                     int pos=cpx/chw;
                     nl.s=lines[row].s.substr(pos);
                     lines[row].s.erase(pos);
-                    lines[row].dirty=true;
+                    lines[row].dirty=1;
                     lines.insert(lines.begin()+row+1,nl);
+                    lines[row+1].dirty=1;
                     cpx=0;
                     cpy+=chh;
                 }
-
                 if(e.key.key==SDLK_BACKSPACE){
                     if(cpx>0){
                         int pos=cpx/chw-1;
@@ -207,7 +299,16 @@ int main(){
                         cpx=prev*chw;
                     }
                 }
-
+                if(e.key.key==SDLK_TAB){
+                    rei(i,0,3){
+                        char c=' ';
+                        int pos=cpx/chw;
+                        pos=min(pos,(int)lines[row].s.size());
+                        lines[row].s.insert(lines[row].s.begin()+pos,c);
+                        cpx+=chw;
+                        lines[row].dirty=true;
+                    }
+                }
                 if(e.key.key==SDLK_UP){
                     if(cpy>=chh) cpy-=chh;
                 }
@@ -224,10 +325,38 @@ int main(){
                 if(e.key.key==SDLK_F11) fullmh=1-fullmh;
                 if(e.key.key==SDLK_F10) borderlessss=1-borderlessss;
                 
-                if(fullmh) SDL_SetWindowFullscreen(win,SDL_WINDOW_FULLSCREEN);
+                if(fullmh) SDL_SetWindowFullscreen(win,1);
                 else SDL_SetWindowFullscreen(win,0);
-                if(borderlessss) SDL_SetWindowBordered(win,SDL_WINDOW_BORDERLESS);
+                if(borderlessss) SDL_SetWindowBordered(win,1);
                 else SDL_SetWindowBordered(win,0);
+                if(e.key.key==SDLK_O&&(e.key.mod&SDL_KMOD_CTRL)){
+                    if (openFile(path)) {
+                        readFile(path, text);
+                        loadText(text);
+                    }
+                }
+                if (e.key.key == SDLK_S && (e.key.mod & SDL_KMOD_CTRL)) {
+                    if (path.empty()) {
+                        if (saveFile(path)) {
+                            text=ctr(lines);
+                            writeFile(path, text);
+                        }
+                    } else {
+                        text=ctr(lines);
+                        writeFile(path,text);
+                    }
+                }
+                if (e.key.key == SDLK_S &&
+                    (e.key.mod & SDL_KMOD_CTRL) &&
+                    (e.key.mod & SDL_KMOD_SHIFT)) {
+                    string newPath;
+                    if (saveFile(newPath)) {
+                        path = newPath;
+                        text=ctr(lines);
+                        writeFile(path,text);
+                    }
+                }
+
                 if(
                     (e.key.key == SDLK_EQUALS || e.key.key == SDLK_KP_PLUS) &&
                     (e.key.mod & SDL_KMOD_CTRL)

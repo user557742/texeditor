@@ -169,73 +169,73 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch: vendored/SDL/CMakeFiles
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavesintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xtestintrin.h \
   vendored/SDL/include-config-/build_config/SDL_build_config.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_assert.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_asyncio.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_atomic.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_audio.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_bits.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_blendmode.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_camera.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_clipboard.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_cpuinfo.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_dialog.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_dlopennote.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_endian.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_events.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_filesystem.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_gamepad.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_gpu.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_guid.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_haptic.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_hidapi.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_hints.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_init.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_iostream.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_joystick.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_keyboard.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_keycode.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_loadso.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_locale.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_log.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_main.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_messagebox.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_metal.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_misc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_mouse.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_mutex.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_oldnames.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_pen.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_pixels.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_power.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_process.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_properties.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_rect.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_render.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_scancode.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_sensor.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_storage.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_surface.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_system.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_thread.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_time.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_timer.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_touch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_tray.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_version.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hashtable.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_utils_c.h \
-  D:/projects/text-editor/vendored/SDL/src/dynapi/SDL_dynapi.h \
-  D:/projects/text-editor/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_assert.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_asyncio.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_atomic.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_audio.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_bits.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_blendmode.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_camera.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_clipboard.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_cpuinfo.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_dialog.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_dlopennote.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_endian.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_events.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_filesystem.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_gamepad.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_gpu.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_guid.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_haptic.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_hidapi.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_hints.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_init.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_intrin.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_iostream.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_joystick.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_keyboard.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_keycode.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_loadso.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_locale.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_log.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_main.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_messagebox.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_metal.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_misc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_mouse.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_mutex.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_oldnames.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_pen.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_pixels.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_power.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_process.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_properties.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_rect.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_render.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_scancode.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_sensor.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_storage.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_surface.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_system.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_thread.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_time.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_timer.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_touch.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_tray.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_version.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/src/SDL_hashtable.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/SDL_utils_c.h \
+  D:/texeditor/vendored/SDL/src/dynapi/SDL_dynapi.h \
+  D:/texeditor/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h \
   vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx.gch: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx \
@@ -450,73 +450,73 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx.gch: vendored/SDL/CMakeFil
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavesintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xtestintrin.h \
   vendored/SDL/include-config-/build_config/SDL_build_config.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_assert.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_asyncio.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_atomic.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_audio.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_bits.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_blendmode.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_camera.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_clipboard.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_cpuinfo.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_dialog.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_dlopennote.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_endian.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_events.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_filesystem.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_gamepad.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_gpu.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_guid.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_haptic.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_hidapi.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_hints.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_init.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_iostream.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_joystick.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_keyboard.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_keycode.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_loadso.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_locale.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_log.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_main.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_messagebox.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_metal.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_misc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_mouse.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_mutex.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_oldnames.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_pen.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_pixels.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_power.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_process.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_properties.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_rect.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_render.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_scancode.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_sensor.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_storage.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_surface.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_system.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_thread.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_time.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_timer.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_touch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_tray.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_version.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hashtable.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_utils_c.h \
-  D:/projects/text-editor/vendored/SDL/src/dynapi/SDL_dynapi.h \
-  D:/projects/text-editor/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_assert.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_asyncio.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_atomic.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_audio.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_bits.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_blendmode.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_camera.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_clipboard.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_cpuinfo.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_dialog.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_dlopennote.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_endian.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_events.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_filesystem.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_gamepad.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_gpu.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_guid.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_haptic.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_hidapi.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_hints.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_init.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_intrin.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_iostream.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_joystick.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_keyboard.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_keycode.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_loadso.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_locale.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_log.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_main.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_messagebox.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_metal.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_misc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_mouse.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_mutex.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_oldnames.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_pen.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_pixels.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_power.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_process.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_properties.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_rect.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_render.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_scancode.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_sensor.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_storage.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_surface.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_system.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_thread.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_time.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_timer.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_touch.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_tray.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_version.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/src/SDL_hashtable.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/SDL_utils_c.h \
+  D:/texeditor/vendored/SDL/src/dynapi/SDL_dynapi.h \
+  D:/texeditor/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h \
   vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx.cxx
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
@@ -611,56 +611,56 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.obj: vendored/SDL/CMakeFiles/S
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
   vendored/SDL/include-revision/SDL3/SDL_revision.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL.c \
-  D:/projects/text-editor/vendored/SDL/src/SDL_assert_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_log_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_properties_c.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_sysaudio.h \
-  D:/projects/text-editor/vendored/SDL/src/camera/SDL_camera_c.h \
-  D:/projects/text-editor/vendored/SDL/src/core/linux/SDL_dbus.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/cpuinfo/SDL_cpuinfo_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/filesystem/SDL_filesystem_c.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/SDL_haptic_c.h \
-  D:/projects/text-editor/vendored/SDL/src/io/SDL_asyncio_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_gamepad_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_sysrender.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
-  D:/projects/text-editor/vendored/SDL/src/sensor/SDL_sensor_c.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_getenv_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/timer/SDL_timer_c.h \
-  D:/projects/text-editor/vendored/SDL/src/tray/SDL_tray_utils.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_video_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/SDL.c \
+  D:/texeditor/vendored/SDL/src/SDL_assert_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/SDL_log_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_properties_c.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_sysaudio.h \
+  D:/texeditor/vendored/SDL/src/camera/SDL_camera_c.h \
+  D:/texeditor/vendored/SDL/src/core/linux/SDL_dbus.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/cpuinfo/SDL_cpuinfo_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/filesystem/SDL_filesystem_c.h \
+  D:/texeditor/vendored/SDL/src/haptic/SDL_haptic_c.h \
+  D:/texeditor/vendored/SDL/src/io/SDL_asyncio_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_gamepad_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_sysrender.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
+  D:/texeditor/vendored/SDL/src/sensor/SDL_sensor_c.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_getenv_c.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
+  D:/texeditor/vendored/SDL/src/timer/SDL_timer_c.h \
+  D:/texeditor/vendored/SDL/src/tray/SDL_tray_utils.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_video_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -753,44 +753,44 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.obj: vendored/SDL/CMake
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_assert.c \
-  D:/projects/text-editor/vendored/SDL/src/SDL_assert_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/SDL_assert.c \
+  D:/texeditor/vendored/SDL/src/SDL_assert_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_error.c \
-  D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_vacopy.h
+  D:/texeditor/vendored/SDL/src/SDL_error.c \
+  D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_vacopy.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_guid.c \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h
+  D:/texeditor/vendored/SDL/src/SDL_guid.c \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hashtable.c \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h
+  D:/texeditor/vendored/SDL/src/SDL_hashtable.c \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints.c \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h
+  D:/texeditor/vendored/SDL/src/SDL_hints.c \
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_list.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_list.c
+  D:/texeditor/vendored/SDL/src/SDL_list.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/SDL_list.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -884,27 +884,27 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.obj: vendored/SDL/CMakeFil
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_log.c \
-  D:/projects/text-editor/vendored/SDL/src/SDL_log_c.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_vacopy.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/SDL_log.c \
+  D:/texeditor/vendored/SDL/src/SDL_log_c.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_vacopy.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_properties.c \
-  D:/projects/text-editor/vendored/SDL/src/SDL_properties_c.h
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/SDL_properties.c \
+  D:/texeditor/vendored/SDL/src/SDL_properties_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_utils.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/SDL_utils.c \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/atomic/SDL_atomic.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/atomic/SDL_atomic.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -997,9 +997,9 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.obj: vendored/
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/atomic/SDL_spinlock.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/atomic/SDL_spinlock.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -1092,56 +1092,56 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.obj: vendored/SDL/
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_systhread.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_audio.c \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_audio_c.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_sysaudio.h
+  D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_systhread.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_audio.c \
+  D:/texeditor/vendored/SDL/src/audio/SDL_audio_c.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_sysaudio.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_audio_channel_converters.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_audiocvt.c \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_audioqueue.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_audioresample.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_sysaudio.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_audio_channel_converters.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_audiocvt.c \
+  D:/texeditor/vendored/SDL/src/audio/SDL_audioqueue.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_audioresample.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_sysaudio.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_audiodev.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_audiodev.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_audioqueue.c \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_audioqueue.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_sysaudio.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_audioqueue.c \
+  D:/texeditor/vendored/SDL/src/audio/SDL_audioqueue.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_sysaudio.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_audioresample.c \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_audioresample.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_sysaudio.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_audioresample.c \
+  D:/texeditor/vendored/SDL/src/audio/SDL_audioresample.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_sysaudio.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_audiotypecvt.c \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_sysaudio.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_audiotypecvt.c \
+  D:/texeditor/vendored/SDL/src/audio/SDL_sysaudio.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_mixer.c \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_sysaudio.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_mixer.c \
+  D:/texeditor/vendored/SDL/src/audio/SDL_sysaudio.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_sysaudio.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_wave.c \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_wave.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_sysaudio.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_wave.c \
+  D:/texeditor/vendored/SDL/src/audio/SDL_wave.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/directsound/SDL_directsound.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -1281,25 +1281,25 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/directsound/SDL_directsound.c.
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_sysaudio.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_directx.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_immdevice.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/directsound/SDL_directsound.c \
-  D:/projects/text-editor/vendored/SDL/src/audio/directsound/SDL_directsound.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_sysaudio.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_directx.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_immdevice.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/audio/directsound/SDL_directsound.c \
+  D:/texeditor/vendored/SDL/src/audio/directsound/SDL_directsound.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_sysaudio.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/disk/SDL_diskaudio.c \
-  D:/projects/text-editor/vendored/SDL/src/audio/disk/SDL_diskaudio.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_sysaudio.h \
+  D:/texeditor/vendored/SDL/src/audio/disk/SDL_diskaudio.c \
+  D:/texeditor/vendored/SDL/src/audio/disk/SDL_diskaudio.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_sysaudio.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/dummy/SDL_dummyaudio.c \
-  D:/projects/text-editor/vendored/SDL/src/audio/dummy/SDL_dummyaudio.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_sysaudio.h \
+  D:/texeditor/vendored/SDL/src/audio/dummy/SDL_dummyaudio.c \
+  D:/texeditor/vendored/SDL/src/audio/dummy/SDL_dummyaudio.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/wasapi/SDL_wasapi.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -1429,16 +1429,16 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/wasapi/SDL_wasapi.c.obj: vendo
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_sysaudio.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_immdevice.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_systhread.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/wasapi/SDL_wasapi.c \
-  D:/projects/text-editor/vendored/SDL/src/audio/wasapi/SDL_wasapi.h
+  D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_sysaudio.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_immdevice.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_systhread.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
+  D:/texeditor/vendored/SDL/src/audio/wasapi/SDL_wasapi.c \
+  D:/texeditor/vendored/SDL/src/audio/wasapi/SDL_wasapi.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -1531,25 +1531,25 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.obj: vendored/SD
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_systhread.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/camera/SDL_camera.c \
-  D:/projects/text-editor/vendored/SDL/src/camera/SDL_camera_c.h \
-  D:/projects/text-editor/vendored/SDL/src/camera/SDL_syscamera.h
+  D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_systhread.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/camera/SDL_camera.c \
+  D:/texeditor/vendored/SDL/src/camera/SDL_camera_c.h \
+  D:/texeditor/vendored/SDL/src/camera/SDL_syscamera.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/camera/SDL_syscamera.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/camera/dummy/SDL_camera_dummy.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/camera/SDL_syscamera.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/camera/dummy/SDL_camera_dummy.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/mediafoundation/SDL_camera_mediafoundation.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -1682,22 +1682,22 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/mediafoundation/SDL_camera_me
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/camera/SDL_camera_c.h \
-  D:/projects/text-editor/vendored/SDL/src/camera/SDL_syscamera.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/camera/mediafoundation/SDL_camera_mediafoundation.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/camera/SDL_camera_c.h \
+  D:/texeditor/vendored/SDL/src/camera/SDL_syscamera.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/camera/mediafoundation/SDL_camera_mediafoundation.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/SDL_core_unsupported.c \
-  D:/projects/text-editor/vendored/SDL/src/core/SDL_core_unsupported.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/SDL_core_unsupported.c \
+  D:/texeditor/vendored/SDL/src/core/SDL_core_unsupported.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_gameinput.cpp.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_gameinput.cpp
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_gameinput.cpp
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_hid.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -1790,10 +1790,10 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_hid.c.obj: vendored
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_hid.c \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_hid.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_hid.c \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_hid.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_immdevice.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -1919,11 +1919,11 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_immdevice.c.obj: ve
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_sysaudio.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_immdevice.c \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_immdevice.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_sysaudio.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_immdevice.c \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_immdevice.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_windows.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -2048,11 +2048,11 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_windows.c.obj: vend
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.c \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.c \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_xinput.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -2146,18 +2146,18 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_xinput.c.obj: vendo
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_xinput.c \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_xinput.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_xinput.c \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_xinput.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/pch.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/pch.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/pch.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/pch_cpp.cpp.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/pch_cpp.cpp
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/pch_cpp.cpp
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -2250,21 +2250,21 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.obj: vendored/
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/cpuinfo/SDL_cpuinfo.c \
-  D:/projects/text-editor/vendored/SDL/src/cpuinfo/SDL_cpuinfo_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/cpuinfo/SDL_cpuinfo.c \
+  D:/texeditor/vendored/SDL/src/cpuinfo/SDL_cpuinfo_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/dialog/SDL_dialog.c \
-  D:/projects/text-editor/vendored/SDL/src/dialog/SDL_dialog.h \
-  D:/projects/text-editor/vendored/SDL/src/dialog/SDL_dialog_utils.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/dialog/SDL_dialog.c \
+  D:/texeditor/vendored/SDL/src/dialog/SDL_dialog.h \
+  D:/texeditor/vendored/SDL/src/dialog/SDL_dialog_utils.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/dialog/SDL_dialog_utils.c \
-  D:/projects/text-editor/vendored/SDL/src/dialog/SDL_dialog_utils.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/dialog/SDL_dialog_utils.c \
+  D:/texeditor/vendored/SDL/src/dialog/SDL_dialog_utils.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/windows/SDL_windowsdialog.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -2407,17 +2407,17 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/windows/SDL_windowsdialog.c.o
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/dialog/SDL_dialog.h \
-  D:/projects/text-editor/vendored/SDL/src/dialog/SDL_dialog_utils.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_systhread.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/dialog/windows/SDL_windowsdialog.c
+  D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/dialog/SDL_dialog.h \
+  D:/texeditor/vendored/SDL/src/dialog/SDL_dialog_utils.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_systhread.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
+  D:/texeditor/vendored/SDL/src/dialog/windows/SDL_windowsdialog.c
 
-vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.obj: D:/projects/text-editor/vendored/SDL/src/dynapi/SDL_dynapi.c \
+vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.obj: D:/texeditor/vendored/SDL/src/dynapi/SDL_dynapi.c \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_off_t.h \
@@ -2654,167 +2654,167 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.obj: D:/projects
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavesintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xtestintrin.h \
   vendored/SDL/include-config-/build_config/SDL_build_config.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_assert.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_asyncio.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_atomic.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_audio.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_bits.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_blendmode.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_camera.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_clipboard.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_cpuinfo.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_dialog.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_dlopennote.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_endian.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_events.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_filesystem.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_gamepad.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_gpu.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_guid.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_haptic.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_hidapi.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_hints.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_init.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_iostream.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_joystick.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_keyboard.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_keycode.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_loadso.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_locale.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_log.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_main.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_messagebox.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_metal.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_misc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_mouse.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_mutex.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_oldnames.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_pen.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_pixels.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_power.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_process.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_properties.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_rect.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_render.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_scancode.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_sensor.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_storage.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_surface.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_system.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_thread.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_time.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_timer.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_touch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_tray.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_version.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/core/SDL_core_unsupported.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_video_unsupported.h \
-  D:/projects/text-editor/vendored/SDL/src/dynapi/SDL_dynapi.h \
-  D:/projects/text-editor/vendored/SDL/src/dynapi/SDL_dynapi_procs.h \
-  D:/projects/text-editor/vendored/SDL/src/dynapi/SDL_dynapi_unsupported.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_assert.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_asyncio.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_atomic.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_audio.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_bits.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_blendmode.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_camera.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_clipboard.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_cpuinfo.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_dialog.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_dlopennote.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_endian.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_events.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_filesystem.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_gamepad.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_gpu.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_guid.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_haptic.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_hidapi.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_hints.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_init.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_iostream.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_joystick.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_keyboard.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_keycode.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_loadso.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_locale.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_log.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_main.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_messagebox.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_metal.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_misc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_mouse.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_mutex.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_oldnames.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_pen.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_pixels.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_power.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_process.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_properties.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_rect.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_render.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_scancode.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_sensor.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_storage.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_surface.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_system.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_thread.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_time.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_timer.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_touch.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_tray.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_version.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/core/SDL_core_unsupported.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_video_unsupported.h \
+  D:/texeditor/vendored/SDL/src/dynapi/SDL_dynapi.h \
+  D:/texeditor/vendored/SDL/src/dynapi/SDL_dynapi_procs.h \
+  D:/texeditor/vendored/SDL/src/dynapi/SDL_dynapi_unsupported.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_categories.c \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_categories_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_categories.c \
+  D:/texeditor/vendored/SDL/src/events/SDL_categories_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_clipboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents.c \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_clipboard_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents.c \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents.c \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents.c \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents.c \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents.c \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -2907,78 +2907,78 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.obj: vendored/SD
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/audio/SDL_audio_c.h \
-  D:/projects/text-editor/vendored/SDL/src/camera/SDL_camera_c.h \
-  D:/projects/text-editor/vendored/SDL/src/core/linux/SDL_udev.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/sensor/SDL_sensor_c.h \
-  D:/projects/text-editor/vendored/SDL/src/timer/SDL_timer_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events.c \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_eventwatch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/audio/SDL_audio_c.h \
+  D:/texeditor/vendored/SDL/src/camera/SDL_camera_c.h \
+  D:/texeditor/vendored/SDL/src/core/linux/SDL_udev.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/sensor/SDL_sensor_c.h \
+  D:/texeditor/vendored/SDL/src/timer/SDL_timer_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events.c \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_eventwatch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_eventwatch.c \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_eventwatch_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_eventwatch.c \
+  D:/texeditor/vendored/SDL/src/events/SDL_eventwatch_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard.c \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard.c \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap.c \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap.c \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keysym_to_keycode.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keysym_to_keycode.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keysym_to_scancode.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keysym_to_scancode.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -3071,142 +3071,142 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.obj: vendored/SDL
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse.c \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse.c \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen.c \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen.c \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/crtdefs.h \
   C:/msys64/mingw64/include/pthread_signal.h \
   C:/msys64/mingw64/include/signal.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_quit.c \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_quit.c \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_scancode_tables.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_scancode_tables.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch.c \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch.c \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/tray/SDL_tray_utils.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_eventwatch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents.c \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/tray/SDL_tray_utils.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_eventwatch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents.c \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/events/imKStoUCS.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/events/imKStoUCS.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_sysstdlib.h \
-  D:/projects/text-editor/vendored/SDL/src/filesystem/SDL_filesystem.c \
-  D:/projects/text-editor/vendored/SDL/src/filesystem/SDL_filesystem_c.h \
-  D:/projects/text-editor/vendored/SDL/src/filesystem/SDL_sysfilesystem.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_sysstdlib.h \
+  D:/texeditor/vendored/SDL/src/filesystem/SDL_filesystem.c \
+  D:/texeditor/vendored/SDL/src/filesystem/SDL_filesystem_c.h \
+  D:/texeditor/vendored/SDL/src/filesystem/SDL_sysfilesystem.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/windows/SDL_sysfilesystem.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -3349,10 +3349,10 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/windows/SDL_sysfilesystem
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/filesystem/SDL_sysfilesystem.h \
-  D:/projects/text-editor/vendored/SDL/src/filesystem/windows/SDL_sysfilesystem.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/filesystem/SDL_sysfilesystem.h \
+  D:/texeditor/vendored/SDL/src/filesystem/windows/SDL_sysfilesystem.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/windows/SDL_sysfsops.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -3445,24 +3445,24 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/windows/SDL_sysfsops.c.ob
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/filesystem/SDL_sysfilesystem.h \
-  D:/projects/text-editor/vendored/SDL/src/filesystem/windows/SDL_sysfsops.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/filesystem/SDL_sysfilesystem.h \
+  D:/texeditor/vendored/SDL/src/filesystem/windows/SDL_sysfsops.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/gpu/SDL_gpu.c \
-  D:/projects/text-editor/vendored/SDL/src/gpu/SDL_sysgpu.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/gpu/SDL_gpu.c \
+  D:/texeditor/vendored/SDL/src/gpu/SDL_sysgpu.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/d3d12/SDL_gpu_d3d12.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -3594,93 +3594,93 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/d3d12/SDL_gpu_d3d12.c.obj: vendo
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/gpu/SDL_sysgpu.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/directx/SDL_d3d12.h \
-  D:/projects/text-editor/vendored/SDL/src/video/directx/d3d12.h \
-  D:/projects/text-editor/vendored/SDL/src/video/directx/d3d12sdklayers.h \
-  D:/projects/text-editor/vendored/SDL/src/gpu/d3d12/D3D12_Blit.h \
-  D:/projects/text-editor/vendored/SDL/src/gpu/d3d12/SDL_gpu_d3d12.c
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/gpu/SDL_sysgpu.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/directx/SDL_d3d12.h \
+  D:/texeditor/vendored/SDL/src/video/directx/d3d12.h \
+  D:/texeditor/vendored/SDL/src/video/directx/d3d12sdklayers.h \
+  D:/texeditor/vendored/SDL/src/gpu/d3d12/D3D12_Blit.h \
+  D:/texeditor/vendored/SDL/src/gpu/d3d12/SDL_gpu_d3d12.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/crtdefs.h \
   C:/msys64/mingw64/include/stddef.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/gpu/SDL_sysgpu.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_beta.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h \
-  D:/projects/text-editor/vendored/SDL/src/gpu/vulkan/SDL_gpu_vulkan.c \
-  D:/projects/text-editor/vendored/SDL/src/gpu/vulkan/SDL_gpu_vulkan_vkfuncs.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/gpu/SDL_sysgpu.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_beta.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h \
+  D:/texeditor/vendored/SDL/src/gpu/vulkan/SDL_gpu_vulkan.c \
+  D:/texeditor/vendored/SDL/src/gpu/vulkan/SDL_gpu_vulkan_vkfuncs.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/SDL_haptic.c \
-  D:/projects/text-editor/vendored/SDL/src/haptic/SDL_haptic_c.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/SDL_syshaptic.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic.h
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/haptic/SDL_haptic.c \
+  D:/texeditor/vendored/SDL/src/haptic/SDL_haptic_c.h \
+  D:/texeditor/vendored/SDL/src/haptic/SDL_syshaptic.h \
+  D:/texeditor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_haptic.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_joystick.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_mutex.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/SDL_syshaptic.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic.c \
-  D:/projects/text-editor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_haptic.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_joystick.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_mutex.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/haptic/SDL_syshaptic.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic.c \
+  D:/texeditor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic.h \
+  D:/texeditor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/math.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_haptic.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_joystick.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_mutex.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_thread.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_timer.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/SDL_syshaptic.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic_c.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_haptic.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_joystick.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_mutex.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_thread.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_timer.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/haptic/SDL_syshaptic.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic_c.h \
+  D:/texeditor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_dinputhaptic.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -3814,17 +3814,17 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_dinputhaptic.c.ob
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_directx.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_xinput.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/SDL_syshaptic.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/windows/SDL_dinputhaptic.c \
-  D:/projects/text-editor/vendored/SDL/src/haptic/windows/SDL_dinputhaptic_c.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/windows/SDL_windowshaptic_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_directx.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_xinput.h \
+  D:/texeditor/vendored/SDL/src/haptic/SDL_syshaptic.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick_c.h \
+  D:/texeditor/vendored/SDL/src/haptic/windows/SDL_dinputhaptic.c \
+  D:/texeditor/vendored/SDL/src/haptic/windows/SDL_dinputhaptic_c.h \
+  D:/texeditor/vendored/SDL/src/haptic/windows/SDL_windowshaptic_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_windowshaptic.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -3958,18 +3958,18 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_windowshaptic.c.o
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_directx.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_xinput.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/SDL_syshaptic.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_xinputjoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/windows/SDL_dinputhaptic_c.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/windows/SDL_windowshaptic.c \
-  D:/projects/text-editor/vendored/SDL/src/haptic/windows/SDL_windowshaptic_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_directx.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_xinput.h \
+  D:/texeditor/vendored/SDL/src/haptic/SDL_syshaptic.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_xinputjoystick_c.h \
+  D:/texeditor/vendored/SDL/src/haptic/windows/SDL_dinputhaptic_c.h \
+  D:/texeditor/vendored/SDL/src/haptic/windows/SDL_windowshaptic.c \
+  D:/texeditor/vendored/SDL/src/haptic/windows/SDL_windowshaptic_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -4067,31 +4067,31 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.obj: vendored/SD
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/linux/SDL_udev.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/hidapi/hidapi/hidapi.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/hidapi/SDL_hidapi.c \
-  D:/projects/text-editor/vendored/SDL/src/hidapi/SDL_hidapi_c.h \
-  D:/projects/text-editor/vendored/SDL/src/hidapi/SDL_hidapi_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/hidapi/hidapi/hidapi.h \
-  D:/projects/text-editor/vendored/SDL/src/hidapi/windows/hid.c \
-  D:/projects/text-editor/vendored/SDL/src/hidapi/windows/hidapi_cfgmgr32.h \
-  D:/projects/text-editor/vendored/SDL/src/hidapi/windows/hidapi_descriptor_reconstruct.c \
-  D:/projects/text-editor/vendored/SDL/src/hidapi/windows/hidapi_descriptor_reconstruct.h \
-  D:/projects/text-editor/vendored/SDL/src/hidapi/windows/hidapi_hidclass.h \
-  D:/projects/text-editor/vendored/SDL/src/hidapi/windows/hidapi_hidpi.h \
-  D:/projects/text-editor/vendored/SDL/src/hidapi/windows/hidapi_hidsdi.h \
-  D:/projects/text-editor/vendored/SDL/src/hidapi/windows/hidapi_winapi.h
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/linux/SDL_udev.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/hidapi/hidapi/hidapi.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/hidapi/SDL_hidapi.c \
+  D:/texeditor/vendored/SDL/src/hidapi/SDL_hidapi_c.h \
+  D:/texeditor/vendored/SDL/src/hidapi/SDL_hidapi_windows.h \
+  D:/texeditor/vendored/SDL/src/hidapi/hidapi/hidapi.h \
+  D:/texeditor/vendored/SDL/src/hidapi/windows/hid.c \
+  D:/texeditor/vendored/SDL/src/hidapi/windows/hidapi_cfgmgr32.h \
+  D:/texeditor/vendored/SDL/src/hidapi/windows/hidapi_descriptor_reconstruct.c \
+  D:/texeditor/vendored/SDL/src/hidapi/windows/hidapi_descriptor_reconstruct.h \
+  D:/texeditor/vendored/SDL/src/hidapi/windows/hidapi_hidclass.h \
+  D:/texeditor/vendored/SDL/src/hidapi/windows/hidapi_hidpi.h \
+  D:/texeditor/vendored/SDL/src/hidapi/windows/hidapi_hidsdi.h \
+  D:/texeditor/vendored/SDL/src/hidapi/windows/hidapi_winapi.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/io/SDL_asyncio.c \
-  D:/projects/text-editor/vendored/SDL/src/io/SDL_asyncio_c.h \
-  D:/projects/text-editor/vendored/SDL/src/io/SDL_sysasyncio.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/io/SDL_asyncio.c \
+  D:/texeditor/vendored/SDL/src/io/SDL_asyncio_c.h \
+  D:/texeditor/vendored/SDL/src/io/SDL_sysasyncio.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -4192,20 +4192,20 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.obj: vendored/SDL/
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/io/SDL_iostream.c \
-  D:/projects/text-editor/vendored/SDL/src/io/SDL_iostream_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/io/SDL_iostream.c \
+  D:/texeditor/vendored/SDL/src/io/SDL_iostream_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/io/SDL_sysasyncio.h \
-  D:/projects/text-editor/vendored/SDL/src/io/generic/SDL_asyncio_generic.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/io/SDL_sysasyncio.h \
+  D:/texeditor/vendored/SDL/src/io/generic/SDL_asyncio_generic.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/windows/SDL_asyncio_windows_ioring.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/io/SDL_sysasyncio.h \
-  D:/projects/text-editor/vendored/SDL/src/io/windows/SDL_asyncio_windows_ioring.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/io/SDL_sysasyncio.h \
+  D:/texeditor/vendored/SDL/src/io/windows/SDL_asyncio_windows_ioring.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -4298,39 +4298,39 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.obj: vendored
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_gamepad.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_gamepad_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_gamepad_db.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/controller_type.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_flydigi.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_nintendo.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_sinput.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_gamepad.c \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_gamepad_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_gamepad_db.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/controller_type.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_flydigi.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_nintendo.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_sinput.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -4424,39 +4424,39 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.obj: vendore
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/virtual/SDL_virtualjoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/sensor/SDL_sensor_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_gamepad_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/controller_type.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/virtual/SDL_virtualjoystick_c.h \
+  D:/texeditor/vendored/SDL/src/sensor/SDL_sensor_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_gamepad_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick.c \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/controller_type.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -4549,115 +4549,115 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.c \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/controller_list.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/controller_type.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/controller_type.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/controller_list.h \
+  D:/texeditor/vendored/SDL/src/joystick/controller_type.c \
+  D:/texeditor/vendored/SDL/src/joystick/controller_type.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_8bitdo.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_8bitdo.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_combined.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_combined.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_flydigi.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_flydigi.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_flydigi.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_flydigi.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/hidapi/SDL_hidapi_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/misc/SDL_libusb.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_gamecube.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/hidapi/SDL_hidapi_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/misc/SDL_libusb.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_gamecube.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_gip.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_gip.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_events.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_lg4ff.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_events.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_lg4ff.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_luna.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_luna.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps3.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps3.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps4.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps4.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps5.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps5.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -4750,158 +4750,158 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_systhread.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_systhread.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_shield.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_shield.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_sinput.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_sinput.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_sinput.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_sinput.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_stadia.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_stadia.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/steam/controller_constants.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/steam/controller_structs.h
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/steam/controller_constants.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/steam/controller_structs.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam_hori.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam_hori.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam_triton.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/steam/controller_constants.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/steam/controller_structs.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam_triton.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/steam/controller_constants.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/steam/controller_structs.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steamdeck.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/steam/controller_constants.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/steam/controller_structs.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steamdeck.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/steam/controller_constants.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/steam/controller_structs.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_nintendo.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_switch.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_nintendo.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_switch.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/misc/SDL_libusb.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_switch2.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/misc/SDL_libusb.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_switch2.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_nintendo.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_wii.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_nintendo.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_wii.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_xbox360.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_xbox360.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_xbox360w.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_xbox360w.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_xboxone.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_report_descriptor.h
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_xboxone.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_report_descriptor.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_zuiki.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_zuiki.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -4994,28 +4994,28 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descriptor.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_report_descriptor.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_report_descriptor.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_report_descriptor.c \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_report_descriptor.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/virtual/SDL_virtualjoystick.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/virtual/SDL_virtualjoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/virtual/SDL_virtualjoystick.c \
+  D:/texeditor/vendored/SDL/src/joystick/virtual/SDL_virtualjoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_dinputjoystick.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -5149,19 +5149,19 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_dinputjoystick.
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_directx.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_xinput.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_dinputjoystick.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_dinputjoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_xinputjoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_directx.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_xinput.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_dinputjoystick.c \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_dinputjoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_xinputjoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_rawinputjoystick.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -5304,15 +5304,15 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_rawinputjoystic
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_hid.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_xinput.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_hid.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_xinput.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_windows_gaming_input.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -5458,14 +5458,14 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_windows_gaming_
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_windows_gaming_input.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_windows_gaming_input.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_windowsjoystick.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -5599,25 +5599,25 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_windowsjoystick
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_directx.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_hid.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_xinput.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/SDL_syshaptic.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/windows/SDL_dinputhaptic_c.h \
-  D:/projects/text-editor/vendored/SDL/src/haptic/windows/SDL_windowshaptic_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_systhread.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_dinputjoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_xinputjoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_directx.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_hid.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_xinput.h \
+  D:/texeditor/vendored/SDL/src/haptic/SDL_syshaptic.h \
+  D:/texeditor/vendored/SDL/src/haptic/windows/SDL_dinputhaptic_c.h \
+  D:/texeditor/vendored/SDL/src/haptic/windows/SDL_windowshaptic_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_systhread.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_dinputjoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick.c \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_xinputjoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_xinputjoystick.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -5751,18 +5751,18 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_xinputjoystick.
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_directx.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_xinput.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_xinputjoystick.c \
-  D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_xinputjoystick_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_directx.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_xinput.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+  D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_xinputjoystick.c \
+  D:/texeditor/vendored/SDL/src/joystick/windows/SDL_xinputjoystick_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/windows/SDL_sysloadso.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -5855,14 +5855,14 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/windows/SDL_sysloadso.c.obj: 
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/loadso/windows/SDL_sysloadso.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/loadso/windows/SDL_sysloadso.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/locale/SDL_locale.c \
-  D:/projects/text-editor/vendored/SDL/src/locale/SDL_syslocale.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/locale/SDL_locale.c \
+  D:/texeditor/vendored/SDL/src/locale/SDL_syslocale.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/locale/windows/SDL_syslocale.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -5955,34 +5955,34 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/locale/windows/SDL_syslocale.c.obj: 
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/locale/SDL_syslocale.h \
-  D:/projects/text-editor/vendored/SDL/src/locale/windows/SDL_syslocale.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/locale/SDL_syslocale.h \
+  D:/texeditor/vendored/SDL/src/locale/windows/SDL_syslocale.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/main/SDL_main_callbacks.c \
-  D:/projects/text-editor/vendored/SDL/src/main/SDL_main_callbacks.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/main/SDL_main_callbacks.c \
+  D:/texeditor/vendored/SDL/src/main/SDL_main_callbacks.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/main/SDL_main_callbacks.h \
-  D:/projects/text-editor/vendored/SDL/src/main/SDL_runapp.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/main/SDL_main_callbacks.h \
+  D:/texeditor/vendored/SDL/src/main/SDL_runapp.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/main/SDL_main_callbacks.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/main/generic/SDL_sysmain_callbacks.c
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/main/SDL_main_callbacks.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/main/generic/SDL_sysmain_callbacks.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/windows/SDL_sysmain_runapp.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -6075,20 +6075,20 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/windows/SDL_sysmain_runapp.c.ob
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/main/SDL_main_callbacks.h \
-  D:/projects/text-editor/vendored/SDL/src/main/windows/SDL_sysmain_runapp.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/main/SDL_main_callbacks.h \
+  D:/texeditor/vendored/SDL/src/main/windows/SDL_sysmain_runapp.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/misc/SDL_libusb.c \
-  D:/projects/text-editor/vendored/SDL/src/misc/SDL_libusb.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/misc/SDL_libusb.c \
+  D:/texeditor/vendored/SDL/src/misc/SDL_libusb.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/misc/SDL_sysurl.h \
-  D:/projects/text-editor/vendored/SDL/src/misc/SDL_url.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/misc/SDL_sysurl.h \
+  D:/texeditor/vendored/SDL/src/misc/SDL_url.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/windows/SDL_sysurl.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -6182,15 +6182,15 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/windows/SDL_sysurl.c.obj: vendo
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/misc/SDL_sysurl.h \
-  D:/projects/text-editor/vendored/SDL/src/misc/windows/SDL_sysurl.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/misc/SDL_sysurl.h \
+  D:/texeditor/vendored/SDL/src/misc/windows/SDL_sysurl.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/power/SDL_power.c \
-  D:/projects/text-editor/vendored/SDL/src/power/SDL_syspower.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/power/SDL_power.c \
+  D:/texeditor/vendored/SDL/src/power/SDL_syspower.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/power/windows/SDL_syspower.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -6283,14 +6283,14 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/power/windows/SDL_syspower.c.obj: ve
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/power/windows/SDL_syspower.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/power/windows/SDL_syspower.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/process/SDL_process.c \
-  D:/projects/text-editor/vendored/SDL/src/process/SDL_sysprocess.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/process/SDL_process.c \
+  D:/texeditor/vendored/SDL/src/process/SDL_sysprocess.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/windows/SDL_windowsprocess.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -6383,36 +6383,36 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/windows/SDL_windowsprocess.c
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/io/SDL_iostream_c.h \
-  D:/projects/text-editor/vendored/SDL/src/process/SDL_sysprocess.h \
-  D:/projects/text-editor/vendored/SDL/src/process/windows/SDL_windowsprocess.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/io/SDL_iostream_c.h \
+  D:/texeditor/vendored/SDL/src/process/SDL_sysprocess.h \
+  D:/texeditor/vendored/SDL/src/process/windows/SDL_windowsprocess.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_video_c.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_render.c \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_render_debug_font.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_sysrender.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_render_sw_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_video_c.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_render.c \
+  D:/texeditor/vendored/SDL/src/render/SDL_render_debug_font.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_sysrender.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_render_sw_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_render_unsupported.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_render_unsupported.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_yuv_c.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw.c \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_yuv_c.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw.c \
+  D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -6544,41 +6544,41 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.obj
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_d3dmath.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_sysrender.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d/SDL_render_d3d.c \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d/SDL_shaders_d3d.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_d3dmath.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_sysrender.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d/SDL_render_d3d.c \
+  D:/texeditor/vendored/SDL/src/render/direct3d/SDL_shaders_d3d.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -6699,13 +6699,13 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.ob
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d/D3D9_PixelShader_Palette_Linear.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d/D3D9_PixelShader_Palette_Nearest.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d/D3D9_PixelShader_YUV.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d/SDL_shaders_d3d.c \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d/SDL_shaders_d3d.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d/D3D9_PixelShader_Palette_Linear.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d/D3D9_PixelShader_Palette_Nearest.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d/D3D9_PixelShader_YUV.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d/SDL_shaders_d3d.c \
+  D:/texeditor/vendored/SDL/src/render/direct3d/SDL_shaders_d3d.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -6848,30 +6848,30 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_d3dmath.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_sysrender.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d11/SDL_render_d3d11.c \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d11/SDL_shaders_d3d11.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_d3dmath.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_sysrender.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d11/SDL_render_d3d11.c \
+  D:/texeditor/vendored/SDL/src/render/direct3d11/SDL_shaders_d3d11.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -7008,14 +7008,14 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Advanced.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Colors.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Textures.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d11/D3D11_VertexShader.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d11/SDL_shaders_d3d11.c \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d11/SDL_shaders_d3d11.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Advanced.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Colors.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Textures.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d11/D3D11_VertexShader.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d11/SDL_shaders_d3d11.c \
+  D:/texeditor/vendored/SDL/src/render/direct3d11/SDL_shaders_d3d11.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -7149,33 +7149,33 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_d3dmath.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_sysrender.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/directx/SDL_d3d12.h \
-  D:/projects/text-editor/vendored/SDL/src/video/directx/d3d12.h \
-  D:/projects/text-editor/vendored/SDL/src/video/directx/d3d12sdklayers.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d12/SDL_render_d3d12.c \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d12/SDL_shaders_d3d12.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_d3dmath.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_sysrender.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/directx/SDL_d3d12.h \
+  D:/texeditor/vendored/SDL/src/video/directx/d3d12.h \
+  D:/texeditor/vendored/SDL/src/video/directx/d3d12sdklayers.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d12/SDL_render_d3d12.c \
+  D:/texeditor/vendored/SDL/src/render/direct3d12/SDL_shaders_d3d12.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -7307,71 +7307,71 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/directx/SDL_d3d12.h \
-  D:/projects/text-editor/vendored/SDL/src/video/directx/d3d12.h \
-  D:/projects/text-editor/vendored/SDL/src/video/directx/d3d12sdklayers.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Advanced.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Colors.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Textures.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_RootSig_Advanced.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_RootSig_Color.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_RootSig_Texture.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Advanced.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Color.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Texture.h \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d12/SDL_shaders_d3d12.c \
-  D:/projects/text-editor/vendored/SDL/src/render/direct3d12/SDL_shaders_d3d12.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/video/directx/SDL_d3d12.h \
+  D:/texeditor/vendored/SDL/src/video/directx/d3d12.h \
+  D:/texeditor/vendored/SDL/src/video/directx/d3d12sdklayers.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Advanced.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Colors.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Textures.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_RootSig_Advanced.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_RootSig_Color.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_RootSig_Texture.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Advanced.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Color.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Texture.h \
+  D:/texeditor/vendored/SDL/src/render/direct3d12/SDL_shaders_d3d12.c \
+  D:/texeditor/vendored/SDL/src/render/direct3d12/SDL_shaders_d3d12.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_sysrender.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/SDL_gpu_util.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/SDL_pipeline_gpu.c \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/SDL_pipeline_gpu.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/SDL_shaders_gpu.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_sysrender.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/SDL_gpu_util.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/SDL_pipeline_gpu.c \
+  D:/texeditor/vendored/SDL/src/render/gpu/SDL_pipeline_gpu.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/SDL_shaders_gpu.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_d3dmath.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_sysrender.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/SDL_gpu_util.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/SDL_pipeline_gpu.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/SDL_render_gpu.c \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/SDL_shaders_gpu.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_d3dmath.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_sysrender.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/SDL_gpu_util.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/SDL_pipeline_gpu.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/SDL_render_gpu.c \
+  D:/texeditor/vendored/SDL/src/render/gpu/SDL_shaders_gpu.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/SDL_shaders_gpu.c \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/SDL_shaders_gpu.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/color.frag.dxil.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/color.frag.spv.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/dxil.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/linepoint.vert.dxil.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/linepoint.vert.spv.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/spir-v.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/texture_advanced.frag.dxil.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/texture_advanced.frag.spv.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/texture_rgb.frag.dxil.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/texture_rgb.frag.spv.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/texture_rgba.frag.dxil.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/texture_rgba.frag.spv.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/tri_color.vert.dxil.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/tri_color.vert.spv.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/tri_texture.vert.dxil.h \
-  D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/tri_texture.vert.spv.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/SDL_shaders_gpu.c \
+  D:/texeditor/vendored/SDL/src/render/gpu/SDL_shaders_gpu.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/shaders/color.frag.dxil.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/shaders/color.frag.spv.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/shaders/dxil.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/shaders/linepoint.vert.dxil.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/shaders/linepoint.vert.spv.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/shaders/spir-v.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/shaders/texture_advanced.frag.dxil.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/shaders/texture_advanced.frag.spv.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/shaders/texture_rgb.frag.dxil.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/shaders/texture_rgb.frag.spv.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/shaders/texture_rgba.frag.dxil.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/shaders/texture_rgba.frag.spv.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/shaders/tri_color.vert.dxil.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/shaders/tri_color.vert.spv.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/shaders/tri_texture.vert.dxil.h \
+  D:/texeditor/vendored/SDL/src/render/gpu/shaders/tri_texture.vert.spv.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/render/ngage/SDL_render_ngage.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/render/ngage/SDL_render_ngage.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -7463,25 +7463,25 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.obj: v
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengl_glext.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_sysrender.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/render/opengl/SDL_glfuncs.h \
-  D:/projects/text-editor/vendored/SDL/src/render/opengl/SDL_render_gl.c \
-  D:/projects/text-editor/vendored/SDL/src/render/opengl/SDL_shaders_gl.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_opengl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_opengl_glext.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_sysrender.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/render/opengl/SDL_glfuncs.h \
+  D:/texeditor/vendored/SDL/src/render/opengl/SDL_render_gl.c \
+  D:/texeditor/vendored/SDL/src/render/opengl/SDL_shaders_gl.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -7573,137 +7573,137 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.obj: 
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengl_glext.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/render/opengl/SDL_shaders_gl.c \
-  D:/projects/text-editor/vendored/SDL/src/render/opengl/SDL_shaders_gl.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_opengl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_opengl_glext.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/render/opengl/SDL_shaders_gl.c \
+  D:/texeditor/vendored/SDL/src/render/opengl/SDL_shaders_gl.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengles2.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_sysrender.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/GLES2/gl2.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/GLES2/gl2ext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/GLES2/gl2platform.h \
-  D:/projects/text-editor/vendored/SDL/src/render/opengles2/SDL_gles2funcs.h \
-  D:/projects/text-editor/vendored/SDL/src/render/opengles2/SDL_render_gles2.c \
-  D:/projects/text-editor/vendored/SDL/src/render/opengles2/SDL_shaders_gles2.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_opengles2.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_sysrender.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/GLES2/gl2.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/GLES2/gl2ext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/GLES2/gl2platform.h \
+  D:/texeditor/vendored/SDL/src/render/opengles2/SDL_gles2funcs.h \
+  D:/texeditor/vendored/SDL/src/render/opengles2/SDL_render_gles2.c \
+  D:/texeditor/vendored/SDL/src/render/opengles2/SDL_shaders_gles2.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengles2.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/GLES2/gl2.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/GLES2/gl2ext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/GLES2/gl2platform.h \
-  D:/projects/text-editor/vendored/SDL/src/render/opengles2/SDL_shaders_gles2.c \
-  D:/projects/text-editor/vendored/SDL/src/render/opengles2/SDL_shaders_gles2.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_opengles2.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/GLES2/gl2.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/GLES2/gl2ext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/GLES2/gl2platform.h \
+  D:/texeditor/vendored/SDL/src/render/opengles2/SDL_shaders_gles2.c \
+  D:/texeditor/vendored/SDL/src/render/opengles2/SDL_shaders_gles2.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/render/ps2/SDL_render_ps2.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/render/ps2/SDL_render_ps2.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/render/psp/SDL_render_psp.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/render/psp/SDL_render_psp.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_blendfillrect.c \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_blendfillrect.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_draw.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_blendfillrect.c \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_blendfillrect.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_draw.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_blendline.c \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_blendline.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_blendpoint.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_draw.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_blendline.c \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_blendline.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_blendpoint.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_draw.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_blendpoint.c \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_blendpoint.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_draw.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_blendpoint.c \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_blendpoint.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_draw.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_draw.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_drawline.c \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_drawline.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_drawpoint.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_draw.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_drawline.c \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_drawline.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_drawpoint.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_draw.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_drawpoint.c \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_drawpoint.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_draw.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_drawpoint.c \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_drawpoint.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_sysrender.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_rotate.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_blendfillrect.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_blendline.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_blendpoint.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_draw.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_drawline.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_drawpoint.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_render_sw.c \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_render_sw_c.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_triangle.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_sysrender.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_rotate.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_blendfillrect.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_blendline.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_blendpoint.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_draw.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_drawline.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_drawpoint.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_render_sw.c \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_render_sw_c.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_triangle.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_triangle.c \
-  D:/projects/text-editor/vendored/SDL/src/render/software/SDL_triangle.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_triangle.c \
+  D:/texeditor/vendored/SDL/src/render/software/SDL_triangle.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_tools.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_tools.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -7799,72 +7799,72 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.ob
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_d3dmath.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_sysrender.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_vulkan_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_win32.h \
-  D:/projects/text-editor/vendored/SDL/src/render/vulkan/SDL_render_vulkan.c \
-  D:/projects/text-editor/vendored/SDL/src/render/vulkan/SDL_shaders_vulkan.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_d3dmath.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_sysrender.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_vulkan_internal.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_win32.h \
+  D:/texeditor/vendored/SDL/src/render/vulkan/SDL_render_vulkan.c \
+  D:/texeditor/vendored/SDL/src/render/vulkan/SDL_shaders_vulkan.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/render/vulkan/SDL_shaders_vulkan.c \
-  D:/projects/text-editor/vendored/SDL/src/render/vulkan/SDL_shaders_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Advanced.h \
-  D:/projects/text-editor/vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Colors.h \
-  D:/projects/text-editor/vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Textures.h \
-  D:/projects/text-editor/vendored/SDL/src/render/vulkan/VULKAN_VertexShader.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/render/vulkan/SDL_shaders_vulkan.c \
+  D:/texeditor/vendored/SDL/src/render/vulkan/SDL_shaders_vulkan.h \
+  D:/texeditor/vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Advanced.h \
+  D:/texeditor/vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Colors.h \
+  D:/texeditor/vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Textures.h \
+  D:/texeditor/vendored/SDL/src/render/vulkan/VULKAN_VertexShader.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/SDL_gamepad_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/sensor/SDL_sensor.c \
-  D:/projects/text-editor/vendored/SDL/src/sensor/SDL_sensor_c.h \
-  D:/projects/text-editor/vendored/SDL/src/sensor/SDL_syssensor.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/SDL_gamepad_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/sensor/SDL_sensor.c \
+  D:/texeditor/vendored/SDL/src/sensor/SDL_sensor_c.h \
+  D:/texeditor/vendored/SDL/src/sensor/SDL_syssensor.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/windows/SDL_windowssensor.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -7992,20 +7992,20 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/windows/SDL_windowssensor.c.o
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/sensor/SDL_sensor_c.h \
-  D:/projects/text-editor/vendored/SDL/src/sensor/SDL_syssensor.h \
-  D:/projects/text-editor/vendored/SDL/src/sensor/windows/SDL_windowssensor.c \
-  D:/projects/text-editor/vendored/SDL/src/sensor/windows/SDL_windowssensor.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/sensor/SDL_sensor_c.h \
+  D:/texeditor/vendored/SDL/src/sensor/SDL_syssensor.h \
+  D:/texeditor/vendored/SDL/src/sensor/windows/SDL_windowssensor.c \
+  D:/texeditor/vendored/SDL/src/sensor/windows/SDL_windowssensor.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_crc16.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_crc16.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_crc32.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_crc32.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -8098,79 +8098,79 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.obj: vendored/SD
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_getenv.c \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_getenv_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_getenv.c \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_getenv_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_iconv.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_iconv.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_malloc.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_malloc.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_memcpy.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_memcpy.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_memmove.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_memmove.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_memset.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_memset.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_mslibc.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_mslibc.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_murmur3.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_murmur3.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_qsort.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_qsort.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_random.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_random.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/libm/math_libm.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_stdlib.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/libm/math_libm.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_stdlib.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_casefolding.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_string.c \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_sysstdlib.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_vacopy.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_casefolding.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_string.c \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_sysstdlib.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_vacopy.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_strtokr.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/stdlib/SDL_strtokr.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/filesystem/SDL_sysfilesystem.h \
-  D:/projects/text-editor/vendored/SDL/src/storage/SDL_storage.c \
-  D:/projects/text-editor/vendored/SDL/src/storage/SDL_sysstorage.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/filesystem/SDL_sysfilesystem.h \
+  D:/texeditor/vendored/SDL/src/storage/SDL_storage.c \
+  D:/texeditor/vendored/SDL/src/storage/SDL_sysstorage.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/storage/SDL_sysstorage.h \
-  D:/projects/text-editor/vendored/SDL/src/storage/generic/SDL_genericstorage.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/storage/SDL_sysstorage.h \
+  D:/texeditor/vendored/SDL/src/storage/generic/SDL_genericstorage.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/storage/SDL_sysstorage.h \
-  D:/projects/text-editor/vendored/SDL/src/storage/steam/SDL_steamstorage.c \
-  D:/projects/text-editor/vendored/SDL/src/storage/steam/SDL_steamstorage_proc.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/storage/SDL_sysstorage.h \
+  D:/texeditor/vendored/SDL/src/storage/steam/SDL_steamstorage.c \
+  D:/texeditor/vendored/SDL/src/storage/steam/SDL_steamstorage_proc.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -8263,24 +8263,24 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.obj: vendored/SD
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_systhread.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread.c \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h
+  D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_systhread.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_thread.c \
+  D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/generic/SDL_syscond.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/generic/SDL_syscond_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/generic/SDL_syscond.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/thread/generic/SDL_syscond_c.h \
+  D:/texeditor/vendored/SDL/src/thread/generic/SDL_syscond.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/generic/SDL_sysrwlock.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/generic/SDL_sysrwlock_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/generic/SDL_sysrwlock.c \
-  D:/projects/text-editor/vendored/SDL/src/thread/generic/SDL_systhread_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/thread/generic/SDL_sysrwlock_c.h \
+  D:/texeditor/vendored/SDL/src/thread/generic/SDL_sysrwlock.c \
+  D:/texeditor/vendored/SDL/src/thread/generic/SDL_systhread_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_syscond_cv.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -8373,11 +8373,11 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_syscond_cv.c.obj:
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/generic/SDL_syscond_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_syscond_cv.c \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_sysmutex_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/thread/generic/SDL_syscond_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_syscond_cv.c \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_sysmutex_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysmutex.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -8470,10 +8470,10 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysmutex.c.obj: v
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_sysmutex.c \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_sysmutex_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_sysmutex.c \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_sysmutex_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysrwlock_srw.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -8566,11 +8566,11 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysrwlock_srw.c.o
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/generic/SDL_sysrwlock_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_sysmutex_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_sysrwlock_srw.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/thread/generic/SDL_sysrwlock_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_sysmutex_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_sysrwlock_srw.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_syssem.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -8663,9 +8663,9 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_syssem.c.obj: ven
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_syssem.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_syssem.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_systhread.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -8758,14 +8758,14 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_systhread.c.obj: 
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_systhread.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread.c \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h
+  D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_systhread.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread.c \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_systls.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -8858,17 +8858,17 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_systls.c.obj: ven
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systls.c
+  D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_systls.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/time/SDL_time.c \
-  D:/projects/text-editor/vendored/SDL/src/time/SDL_time_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/time/SDL_time.c \
+  D:/texeditor/vendored/SDL/src/time/SDL_time_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/time/windows/SDL_systime.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -8961,10 +8961,10 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/time/windows/SDL_systime.c.obj: vend
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/time/SDL_time_c.h \
-  D:/projects/text-editor/vendored/SDL/src/time/windows/SDL_systime.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/time/SDL_time_c.h \
+  D:/texeditor/vendored/SDL/src/time/windows/SDL_systime.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -9066,14 +9066,14 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.obj: vendored/SDL/
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_systhread.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/timer/SDL_timer.c \
-  D:/projects/text-editor/vendored/SDL/src/timer/SDL_timer_c.h
+  D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_systhread.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
+  D:/texeditor/vendored/SDL/src/timer/SDL_timer.c \
+  D:/texeditor/vendored/SDL/src/timer/SDL_timer_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/timer/windows/SDL_systimer.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -9166,33 +9166,33 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/timer/windows/SDL_systimer.c.obj: ve
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/timer/windows/SDL_systimer.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/timer/windows/SDL_systimer.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/tray/SDL_tray_utils.c \
-  D:/projects/text-editor/vendored/SDL/src/tray/SDL_tray_utils.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/tray/SDL_tray_utils.c \
+  D:/texeditor/vendored/SDL/src/tray/SDL_tray_utils.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/tray/windows/SDL_tray.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -9287,130 +9287,130 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/tray/windows/SDL_tray.c.obj: vendore
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/tray/SDL_tray_utils.h \
-  D:/projects/text-editor/vendored/SDL/src/tray/windows/SDL_tray.c
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/tray/SDL_tray_utils.h \
+  D:/texeditor/vendored/SDL/src/tray/windows/SDL_tray.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_RLEaccel.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_RLEaccel_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_RLEaccel.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_RLEaccel_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_RLEaccel_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_auto.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_copy.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_slow.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_RLEaccel_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit_auto.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit_copy.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit_slow.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_0.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit_0.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_1.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit_1.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_A.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit_A.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_N.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_copy.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit_N.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit_copy.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_auto.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_auto.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit_auto.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit_auto.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_copy.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_copy.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit_copy.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit_copy.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_slow.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_slow.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit_slow.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit_slow.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_bmp.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_bmp.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_clipboard.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_clipboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_clipboard.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_clipboard_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -9505,99 +9505,99 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.obj: vendored/SDL/CM
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengl_glext.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_opengl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_opengl_glext.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_fillrect.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_fillrect.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_RLEaccel_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_RLEaccel_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_rect.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_rect_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_rect_impl.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_rect.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_rect_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_rect_impl.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_rotate.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_rotate.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_rotate.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_rotate.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_stb.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_stb_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/miniz.h \
-  D:/projects/text-editor/vendored/SDL/src/video/stb_image.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_stb.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_stb_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/miniz.h \
+  D:/texeditor/vendored/SDL/src/video/stb_image.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_stretch.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_stretch.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_sysrender.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_RLEaccel_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_rotate.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_stb_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_video_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_yuv_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_sysrender.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_RLEaccel_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_rotate.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_stb_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_video_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_yuv_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -9690,54 +9690,54 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.obj: vendored/SDL/
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengl_glext.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_properties_c.h \
-  D:/projects/text-editor/vendored/SDL/src/camera/SDL_camera_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/main/SDL_main_callbacks.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_sysrender.h \
-  D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
-  D:/projects/text-editor/vendored/SDL/src/timer/SDL_timer_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_clipboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_rect_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_video.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_video_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_opengl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_opengl_glext.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/SDL_properties_c.h \
+  D:/texeditor/vendored/SDL/src/camera/SDL_camera_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/main/SDL_main_callbacks.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_sysrender.h \
+  D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
+  D:/texeditor/vendored/SDL/src/timer/SDL_timer_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_clipboard_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_rect_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_video.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_video_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_video_unsupported.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_video_unsupported.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_video_unsupported.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_video_unsupported.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -9833,148 +9833,148 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.obj: vendor
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_win32.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_vulkan_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_vulkan_utils.c
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_win32.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_vulkan_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_vulkan_utils.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_yuv.c \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_yuv_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_common.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_yuv.c \
+  D:/texeditor/vendored/SDL/src/video/SDL_yuv_c.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_common.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/dummy/SDL_nullevents.c \
-  D:/projects/text-editor/vendored/SDL/src/video/dummy/SDL_nullevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/dummy/SDL_nullvideo.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/dummy/SDL_nullevents.c \
+  D:/texeditor/vendored/SDL/src/video/dummy/SDL_nullevents_c.h \
+  D:/texeditor/vendored/SDL/src/video/dummy/SDL_nullvideo.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_properties_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/dummy/SDL_nullframebuffer.c \
-  D:/projects/text-editor/vendored/SDL/src/video/dummy/SDL_nullframebuffer_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/SDL_properties_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/dummy/SDL_nullframebuffer.c \
+  D:/texeditor/vendored/SDL/src/video/dummy/SDL_nullframebuffer_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/dummy/SDL_nullevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/dummy/SDL_nullframebuffer_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/dummy/SDL_nullvideo.c \
-  D:/projects/text-editor/vendored/SDL/src/video/dummy/SDL_nullvideo.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/dummy/SDL_nullevents_c.h \
+  D:/texeditor/vendored/SDL/src/video/dummy/SDL_nullframebuffer_c.h \
+  D:/texeditor/vendored/SDL/src/video/dummy/SDL_nullvideo.c \
+  D:/texeditor/vendored/SDL/src/video/dummy/SDL_nullvideo.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenevents.c \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenvideo.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenevents.c \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenevents_c.h \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenvideo.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_properties_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenframebuffer.c \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenframebuffer_c.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/SDL_properties_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenframebuffer.c \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenframebuffer_c.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -10067,26 +10067,26 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengle
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenopengles.c \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenwindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenopengles.c \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenopengles.h \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenvideo.h \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenwindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -10179,29 +10179,29 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenframebuffer_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenvideo.c \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenvulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenwindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenevents_c.h \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenframebuffer_c.h \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenopengles.h \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenvideo.c \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenvideo.h \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenvulkan.h \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenwindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/_mingw.h \
@@ -10297,32 +10297,32 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_vulkan_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_win32.h \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenvulkan.c
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_vulkan_internal.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_win32.h \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenvulkan.c
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -10415,26 +10415,26 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenwindow.c \
-  D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenwindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenvideo.h \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenwindow.c \
+  D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenwindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsclipboard.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -10563,47 +10563,47 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsclipboard.c
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_clipboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.c \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_clipboard_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.c \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsevents.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -10747,49 +10747,49 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsevents.c.ob
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_hid.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/scancodes_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/main/SDL_main_callbacks.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.c \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_hid.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/scancodes_windows.h \
+  D:/texeditor/vendored/SDL/src/main/SDL_main_callbacks.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.c \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsframebuffer.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -10918,36 +10918,36 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsframebuffer
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsframebuffer.c \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsframebuffer.c \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsgameinput.cpp.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -11076,36 +11076,36 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsgameinput.c
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.cpp \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.cpp \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowskeyboard.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -11234,39 +11234,39 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowskeyboard.c.
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/scancodes_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.c \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/scancodes_windows.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.c \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmessagebox.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -11396,36 +11396,36 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmessagebox.
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmessagebox.c \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmessagebox.c \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmodes.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -11559,37 +11559,37 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmodes.c.obj
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.c \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.c \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmouse.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -11718,40 +11718,40 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmouse.c.obj
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_video_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.c \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsrawinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_video_c.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.c \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsrawinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsopengl.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -11880,39 +11880,39 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsopengl.c.ob
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengl_glext.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.c \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_opengl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_opengl_glext.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.c \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsopengles.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -12041,36 +12041,36 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsopengles.c.
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.c \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.c \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsrawinput.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -12199,51 +12199,51 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsrawinput.c.
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_systhread.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsrawinput.c \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_events_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_systhread.h \
+  D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h \
+  D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsrawinput.c \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsshape.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -12372,36 +12372,36 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsshape.c.obj
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.c \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.c \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsvideo.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -12545,57 +12545,57 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsvideo.c.obj
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_hid.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_vulkan_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_win32.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsframebuffer.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmessagebox.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsrawinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.c \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_hid.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_vulkan_internal.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_win32.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsframebuffer.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmessagebox.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsrawinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.c \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvulkan.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsvulkan.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -12726,51 +12726,51 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsvulkan.c.ob
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_vulkan_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_win32.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvulkan.c \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_vulkan_internal.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_win32.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvulkan.c \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvulkan.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowswindow.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   C:/msys64/mingw64/include/KHR/khrplatform.h \
@@ -12910,622 +12910,672 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowswindow.c.ob
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
-  D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h \
-  D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
-  D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
-  D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.c \
-  D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+  D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+  D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h \
+  D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+  D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+  D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.c \
+  D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_common.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.c \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_common.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_internal.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.c \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_common.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.c \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse_func.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_common.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_internal.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.c \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse_func.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.h
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.obj: vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
-  D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_common.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_internal.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.c \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.h \
-  D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std_func.h
+  D:/texeditor/vendored/SDL/src/SDL_internal.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_common.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_internal.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.c \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.h \
+  D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std_func.h
 
 
-D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.c:
+D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvulkan.h:
+D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsframebuffer.h:
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmessagebox.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsrawinput.c:
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.c:
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsrawinput.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsrawinput.h:
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmessagebox.c:
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.c:
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsrawinput.h:
+
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmessagebox.c:
+
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.c:
+
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.cpp:
+
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsframebuffer.c:
+
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.c:
+
+D:/texeditor/vendored/SDL/src/events/scancodes_windows.h:
 
 C:/msys64/mingw64/include/tpcshrd.h:
 
 C:/msys64/mingw64/include/setupapi.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.c:
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenvulkan.c:
+D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenwindow.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenvideo.c:
+D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenvulkan.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenopengles.c:
+D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenvideo.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenframebuffer.c:
+D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenwindow.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenvideo.h:
+D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenvideo.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/dummy/SDL_nullframebuffer_c.h:
+D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenevents_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/dummy/SDL_nullvideo.h:
+D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenevents.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/dummy/SDL_nullevents_c.h:
+D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/dummy/SDL_nullevents.c:
+D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_common.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std.h:
+D:/texeditor/vendored/SDL/src/video/SDL_yuv.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.h:
+D:/texeditor/vendored/SDL/src/video/SDL_video.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_common.h:
+D:/texeditor/vendored/SDL/src/video/SDL_stretch.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb.h:
+D:/texeditor/vendored/SDL/src/video/stb_image.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_yuv.c:
+D:/texeditor/vendored/SDL/src/video/SDL_stb_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_vulkan_utils.c:
+D:/texeditor/vendored/SDL/src/video/SDL_stb.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_surface.c:
+D:/texeditor/vendored/SDL/src/video/SDL_rotate.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_stb.c:
+D:/texeditor/vendored/SDL/src/video/SDL_rect_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_rotate.c:
+D:/texeditor/vendored/SDL/src/video/SDL_rect.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_rect_impl.h:
+D:/texeditor/vendored/SDL/src/video/SDL_pixels.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_rect.c:
+D:/texeditor/vendored/SDL/src/video/SDL_egl.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_fillrect.c:
+D:/texeditor/vendored/SDL/src/video/SDL_clipboard.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_A.c:
+D:/texeditor/vendored/SDL/src/video/SDL_blit_copy.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_slow.h:
+D:/texeditor/vendored/SDL/src/video/SDL_blit_auto.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_RLEaccel_c.h:
+D:/texeditor/vendored/SDL/src/video/SDL_blit_N.c:
 
-C:/msys64/mingw64/include/windowsx.h:
+D:/texeditor/vendored/SDL/src/video/SDL_blit_0.c:
 
-D:/projects/text-editor/vendored/SDL/src/time/SDL_time.c:
+D:/texeditor/vendored/SDL/src/video/SDL_blit_copy.h:
 
-D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systls.c:
+D:/texeditor/vendored/SDL/src/video/SDL_blit.c:
 
-D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_syssem.c:
+D:/texeditor/vendored/SDL/src/video/SDL_RLEaccel_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_syscond_cv.c:
+D:/texeditor/vendored/SDL/src/video/SDL_RLEaccel.c:
 
-D:/projects/text-editor/vendored/SDL/src/thread/generic/SDL_sysrwlock.c:
+D:/texeditor/vendored/SDL/src/tray/SDL_tray_utils.c:
 
-D:/projects/text-editor/vendored/SDL/src/thread/generic/SDL_syscond.c:
+D:/texeditor/vendored/SDL/src/timer/windows/SDL_systimer.c:
 
-D:/projects/text-editor/vendored/SDL/src/thread/generic/SDL_syscond_c.h:
+D:/texeditor/vendored/SDL/src/timer/SDL_timer.c:
 
-D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread.c:
+D:/texeditor/vendored/SDL/src/time/windows/SDL_systime.c:
 
-D:/projects/text-editor/vendored/SDL/src/storage/steam/SDL_steamstorage.c:
+D:/texeditor/vendored/SDL/src/time/SDL_time.c:
 
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_strtokr.c:
+D:/texeditor/vendored/SDL/src/thread/windows/SDL_systls.c:
 
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_casefolding.h:
+D:/texeditor/vendored/SDL/src/thread/windows/SDL_sysmutex.c:
 
-D:/projects/text-editor/vendored/SDL/src/libm/math_libm.h:
+D:/texeditor/vendored/SDL/src/thread/generic/SDL_systhread_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_qsort.c:
+D:/texeditor/vendored/SDL/src/thread/generic/SDL_sysrwlock.c:
 
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_murmur3.c:
+D:/texeditor/vendored/SDL/src/video/SDL_video_unsupported.c:
 
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_memmove.c:
+D:/texeditor/vendored/SDL/src/thread/generic/SDL_syscond.c:
 
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_crc32.c:
+D:/texeditor/vendored/SDL/src/thread/generic/SDL_syscond_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_crc16.c:
+D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenvulkan.c:
 
-D:/projects/text-editor/vendored/SDL/src/time/windows/SDL_systime.c:
+D:/texeditor/vendored/SDL/src/thread/SDL_thread.c:
+
+D:/texeditor/vendored/SDL/src/storage/steam/SDL_steamstorage_proc.h:
+
+D:/texeditor/vendored/SDL/src/video/SDL_bmp.c:
+
+D:/texeditor/vendored/SDL/src/storage/steam/SDL_steamstorage.c:
+
+D:/texeditor/vendored/SDL/src/storage/generic/SDL_genericstorage.c:
+
+D:/texeditor/vendored/SDL/src/stdlib/SDL_casefolding.h:
+
+D:/texeditor/vendored/SDL/src/stdlib/SDL_qsort.c:
+
+D:/texeditor/vendored/SDL/src/stdlib/SDL_murmur3.c:
+
+D:/texeditor/vendored/SDL/src/stdlib/SDL_memset.c:
+
+D:/texeditor/vendored/SDL/src/stdlib/SDL_memmove.c:
+
+D:/texeditor/vendored/SDL/src/stdlib/SDL_memcpy.c:
+
+D:/texeditor/vendored/SDL/src/stdlib/SDL_iconv.c:
+
+D:/texeditor/vendored/SDL/src/stdlib/SDL_crc32.c:
+
+D:/texeditor/vendored/SDL/src/sensor/windows/SDL_windowssensor.h:
+
+D:/texeditor/vendored/SDL/src/sensor/windows/SDL_windowssensor.c:
 
 C:/msys64/mingw64/include/sensorsapi.h:
 
-C:/msys64/mingw64/include/sensors.h:
+D:/texeditor/vendored/SDL/src/sensor/SDL_sensor.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_copy.h:
+D:/texeditor/vendored/SDL/src/render/vulkan/VULKAN_VertexShader.h:
 
-C:/msys64/mingw64/include/portabledevicetypes.h:
+D:/texeditor/vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Advanced.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_win32.h:
+D:/texeditor/vendored/SDL/src/render/vulkan/SDL_shaders_vulkan.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_tools.c:
+D:/texeditor/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.c:
+D:/texeditor/vendored/SDL/src/render/software/SDL_triangle.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/software/SDL_triangle.c:
+D:/texeditor/vendored/SDL/src/render/software/SDL_render_sw.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/software/SDL_triangle.h:
+D:/texeditor/vendored/SDL/src/video/SDL_blit_A.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/software/SDL_drawpoint.c:
+D:/texeditor/vendored/SDL/src/render/software/SDL_drawpoint.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/software/SDL_blendpoint.c:
+D:/texeditor/vendored/SDL/src/render/software/SDL_blendpoint.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/software/SDL_blendline.h:
+D:/texeditor/vendored/SDL/src/render/software/SDL_blendpoint.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/software/SDL_blendfillrect.h:
+D:/texeditor/vendored/SDL/src/render/software/SDL_draw.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/software/SDL_blendfillrect.c:
+D:/texeditor/vendored/SDL/src/storage/SDL_storage.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/psp/SDL_render_psp.c:
+D:/texeditor/vendored/SDL/src/render/software/SDL_blendfillrect.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/khronos/GLES2/gl2platform.h:
+D:/texeditor/vendored/SDL/src/render/psp/SDL_render_psp.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/khronos/GLES2/gl2ext.h:
+D:/texeditor/vendored/SDL/src/render/ps2/SDL_render_ps2.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/khronos/GLES2/gl2.h:
+D:/texeditor/vendored/SDL/src/render/opengles2/SDL_gles2funcs.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengles2.h:
+D:/texeditor/vendored/SDL/src/video/khronos/GLES2/gl2ext.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/opengl/SDL_shaders_gl.h:
+D:/texeditor/vendored/SDL/src/video/SDL_rect_impl.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/opengl/SDL_render_gl.c:
+D:/texeditor/vendored/SDL/src/video/khronos/GLES2/gl2.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/tri_texture.vert.dxil.h:
+D:/texeditor/vendored/SDL/src/video/dummy/SDL_nullframebuffer.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/texture_rgba.frag.spv.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_opengles2.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/texture_rgb.frag.dxil.h:
+D:/texeditor/vendored/SDL/src/render/opengl/SDL_render_gl.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/gpu/SDL_shaders_gpu.c:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_opengl.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/gpu/SDL_shaders_gpu.h:
+D:/texeditor/vendored/SDL/src/render/ngage/SDL_render_ngage.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/gpu/SDL_pipeline_gpu.h:
+D:/texeditor/vendored/SDL/src/render/gpu/shaders/tri_color.vert.dxil.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/gpu/SDL_pipeline_gpu.c:
+D:/texeditor/vendored/SDL/src/render/gpu/shaders/texture_rgba.frag.dxil.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/gpu/SDL_gpu_util.h:
+D:/texeditor/vendored/SDL/src/render/gpu/shaders/texture_rgb.frag.dxil.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/opengles2/SDL_render_gles2.c:
+D:/texeditor/vendored/SDL/src/render/gpu/shaders/texture_advanced.frag.dxil.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d12/SDL_shaders_d3d12.c:
+D:/texeditor/vendored/SDL/src/render/gpu/shaders/spir-v.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_RootSig_Advanced.h:
+D:/texeditor/vendored/SDL/src/video/dummy/SDL_nullframebuffer_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/opengl/SDL_shaders_gl.c:
+D:/texeditor/vendored/SDL/src/render/gpu/shaders/linepoint.vert.spv.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Colors.h:
+D:/texeditor/vendored/SDL/src/render/gpu/SDL_shaders_gpu.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Advanced.h:
+D:/texeditor/vendored/SDL/src/render/gpu/SDL_render_gpu.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d12/SDL_render_d3d12.c:
+D:/texeditor/vendored/SDL/src/render/gpu/SDL_shaders_gpu.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d11/SDL_shaders_d3d11.c:
+D:/texeditor/vendored/SDL/src/render/gpu/SDL_pipeline_gpu.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Colors.h:
+D:/texeditor/vendored/SDL/src/render/gpu/SDL_pipeline_gpu.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvulkan.c:
+D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std_func.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Advanced.h:
+D:/texeditor/vendored/SDL/src/thread/windows/SDL_syscond_cv.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d11/SDL_shaders_d3d11.h:
+D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Texture.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Textures.h:
+D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Color.h:
+
+D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Advanced.h:
+
+D:/texeditor/vendored/SDL/src/video/dummy/SDL_nullvideo.h:
+
+D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_RootSig_Texture.h:
+
+D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_RootSig_Advanced.h:
+
+D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Advanced.h:
+
+D:/texeditor/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm_tools.c:
+
+D:/texeditor/vendored/SDL/src/render/direct3d11/SDL_shaders_d3d11.h:
 
 C:/msys64/mingw64/include/d3d10shader.h:
 
+C:/msys64/mingw64/include/d3d10misc.h:
+
 C:/msys64/mingw64/include/d3d10effect.h:
+
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.c:
+
+C:/msys64/mingw64/include/d3d10_1shader.h:
 
 C:/msys64/mingw64/include/d3d10_1.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d/SDL_shaders_d3d.c:
+C:/msys64/mingw64/include/d3d10.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d/D3D9_PixelShader_Palette_Nearest.h:
+D:/texeditor/vendored/SDL/src/render/direct3d/SDL_render_d3d.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d/SDL_shaders_d3d.h:
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.h:
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmouse.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.h:
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengles.h:
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.h:
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsevents.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/software/SDL_render_sw.c:
+D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.h:
+D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h:
-
-D:/projects/text-editor/vendored/SDL/src/time/SDL_time_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_slow.c:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h:
+D:/texeditor/vendored/SDL/src/render/SDL_d3dmath.h:
 
 C:/msys64/mingw64/include/shellscalingapi.h:
 
-D:/projects/text-editor/vendored/SDL/src/timer/SDL_timer.c:
-
 C:/msys64/mingw64/include/d3d9types.h:
-
-C:/msys64/mingw64/include/d3d9caps.h:
 
 C:/msys64/mingw64/include/d3d9.h:
 
 C:/msys64/mingw64/include/KHR/khrplatform.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/dummy/SDL_nullvideo.c:
+D:/texeditor/vendored/SDL/src/video/SDL_yuv_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw.c:
+D:/texeditor/vendored/SDL/src/render/SDL_render_unsupported.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_yuv_c.h:
+D:/texeditor/vendored/SDL/src/render/gpu/shaders/color.frag.dxil.h:
 
-C:/msys64/mingw64/include/d3d10_1shader.h:
+D:/texeditor/vendored/SDL/src/render/SDL_render_debug_font.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/SDL_render.c:
+D:/texeditor/vendored/SDL/src/render/SDL_render.c:
 
-D:/projects/text-editor/vendored/SDL/src/process/SDL_process.c:
+D:/texeditor/vendored/SDL/src/process/SDL_process.c:
 
-D:/projects/text-editor/vendored/SDL/src/power/SDL_syspower.h:
+D:/texeditor/vendored/SDL/src/render/gpu/SDL_gpu_util.h:
 
-D:/projects/text-editor/vendored/SDL/src/misc/windows/SDL_sysurl.c:
+D:/texeditor/vendored/SDL/src/power/windows/SDL_syspower.c:
 
-D:/projects/text-editor/vendored/SDL/src/misc/SDL_url.c:
+D:/texeditor/vendored/SDL/src/render/opengles2/SDL_render_gles2.c:
 
-D:/projects/text-editor/vendored/SDL/src/misc/SDL_libusb.c:
+D:/texeditor/vendored/SDL/src/power/SDL_syspower.h:
 
-D:/projects/text-editor/vendored/SDL/src/main/SDL_main_callbacks.c:
+D:/texeditor/vendored/SDL/src/misc/SDL_url.c:
 
-D:/projects/text-editor/vendored/SDL/src/locale/windows/SDL_syslocale.c:
+D:/texeditor/vendored/SDL/src/misc/SDL_libusb.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/spir-v.h:
+D:/texeditor/vendored/SDL/src/main/windows/SDL_sysmain_runapp.c:
 
-D:/projects/text-editor/vendored/SDL/src/locale/SDL_syslocale.h:
+D:/texeditor/vendored/SDL/src/locale/windows/SDL_syslocale.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/SDL_d3dmath.h:
+C:/msys64/mingw64/include/sensors.h:
 
-D:/projects/text-editor/vendored/SDL/src/locale/SDL_locale.c:
+D:/texeditor/vendored/SDL/src/joystick/windows/SDL_xinputjoystick.c:
 
-C:/msys64/mingw64/include/d3d10misc.h:
-
-D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick.c:
+D:/texeditor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick.c:
 
 C:/msys64/mingw64/include/dbt.h:
 
 C:/msys64/mingw64/include/cfgmgr32.h:
 
+D:/texeditor/vendored/SDL/src/video/dummy/SDL_nullvideo.c:
+
+D:/texeditor/vendored/SDL/src/render/opengl/SDL_glfuncs.h:
+
 C:/msys64/mingw64/include/cfg.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick.c:
+D:/texeditor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick.c:
+
+D:/texeditor/vendored/SDL/src/video/SDL_fillrect.c:
 
 C:/msys64/mingw64/include/windowscontracts.h:
 
-C:/msys64/mingw64/include/windows.system.h:
+D:/texeditor/vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Advanced.h:
 
 C:/msys64/mingw64/include/windows.gaming.input.h:
 
-C:/msys64/mingw64/include/windows.foundation.collections.h:
+D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_RootSig_Color.h:
 
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_stdlib.c:
+C:/msys64/mingw64/include/windows.foundation.numerics.h:
 
 C:/msys64/mingw64/include/windows.devices.haptics.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Textures.h:
+C:/msys64/mingw64/include/windows.devices.geolocation.h:
+
+D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenopengles.c:
 
 C:/msys64/mingw64/include/eventtoken.h:
 
 C:/msys64/mingw64/include/asyncinfo.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_dinputjoystick_c.h:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_report_descriptor.c:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_zuiki.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick_c.h:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_xbox360.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_zuiki.c:
+C:/msys64/mingw64/include/portabledevicetypes.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/tri_color.vert.dxil.h:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_wii.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_report_descriptor.h:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_switch2.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_xboxone.c:
+C:/msys64/mingw64/include/windows.system.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_xbox360w.c:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steamdeck.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_xbox360.c:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam.c:
 
-D:/projects/text-editor/vendored/SDL/src/process/windows/SDL_windowsprocess.c:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_sinput.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_wii.c:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_shield.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_switch2.c:
+D:/texeditor/vendored/SDL/src/render/gpu/shaders/tri_color.vert.spv.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam_hori.c:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps4.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/steam/controller_structs.h:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps3.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Colors.h:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_luna.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/steam/controller_constants.h:
+D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_stadia.c:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_lg4ff.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_sinput.c:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_gip.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_clipboard.c:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_flydigi.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_N.c:
+D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenframebuffer.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps5.c:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_combined.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps3.c:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowskeyboard.c:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_8bitdo.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_luna.c:
+D:/texeditor/vendored/SDL/src/joystick/controller_type.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_gip.c:
+D:/texeditor/vendored/SDL/src/video/miniz.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_gamecube.c:
+D:/texeditor/vendored/SDL/src/joystick/controller_list.h:
 
-D:/projects/text-editor/vendored/SDL/src/misc/SDL_libusb.h:
+D:/texeditor/vendored/SDL/src/render/direct3d12/SDL_render_d3d12.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_flydigi.c:
+D:/texeditor/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_combined.c:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/controller_list.h:
+D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.c:
+D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_win32.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick.c:
+D:/texeditor/vendored/SDL/src/joystick/virtual/SDL_virtualjoystick_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_nintendo.h:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_sinput.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/controller_type.h:
+D:/texeditor/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/SDL_steam_virtual_gamepad.h:
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/SDL_gamepad_db.h:
+D:/texeditor/vendored/SDL/src/io/windows/SDL_asyncio_windows_ioring.c:
 
-D:/projects/text-editor/vendored/SDL/src/io/SDL_iostream_c.h:
+D:/texeditor/vendored/SDL/src/io/generic/SDL_asyncio_generic.c:
 
-D:/projects/text-editor/vendored/SDL/src/io/SDL_iostream.c:
+D:/texeditor/vendored/SDL/src/locale/SDL_syslocale.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/miniz.h:
+D:/texeditor/vendored/SDL/src/io/SDL_iostream_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_RootSig_Color.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/direct3d11/SDL_render_d3d11.c:
+D:/texeditor/vendored/SDL/src/io/SDL_iostream.c:
 
 C:/msys64/mingw64/include/sys/stat.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenframebuffer_c.h:
-
 C:/msys64/mingw64/include/io.h:
 
-D:/projects/text-editor/vendored/SDL/src/io/SDL_sysasyncio.h:
+D:/texeditor/vendored/SDL/src/hidapi/windows/hidapi_hidpi.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/texture_advanced.frag.dxil.h:
+D:/texeditor/vendored/SDL/src/stdlib/SDL_random.c:
 
-D:/projects/text-editor/vendored/SDL/src/hidapi/windows/hidapi_hidsdi.h:
+D:/texeditor/vendored/SDL/src/hidapi/windows/hidapi_hidclass.h:
 
-D:/projects/text-editor/vendored/SDL/src/hidapi/windows/hidapi_hidpi.h:
+D:/texeditor/vendored/SDL/src/hidapi/windows/hidapi_descriptor_reconstruct.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_dinputjoystick.c:
+D:/texeditor/vendored/SDL/src/misc/SDL_sysurl.h:
 
-D:/projects/text-editor/vendored/SDL/src/hidapi/windows/hidapi_descriptor_reconstruct.h:
+D:/texeditor/vendored/SDL/src/hidapi/windows/hidapi_descriptor_reconstruct.c:
 
-D:/projects/text-editor/vendored/SDL/src/hidapi/windows/hid.c:
+D:/texeditor/vendored/SDL/src/render/gpu/shaders/texture_rgba.frag.spv.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h:
+C:/msys64/mingw64/include/d3d10sdklayers.h:
 
-D:/projects/text-editor/vendored/SDL/src/hidapi/hidapi/hidapi.h:
+D:/texeditor/vendored/SDL/src/hidapi/windows/hidapi_cfgmgr32.h:
+
+D:/texeditor/vendored/SDL/src/render/gpu/shaders/texture_rgb.frag.spv.h:
+
+D:/texeditor/vendored/SDL/src/hidapi/SDL_hidapi.c:
+
+D:/texeditor/vendored/SDL/src/hidapi/hidapi/hidapi.h:
 
 C:/msys64/mingw64/include/devpropdef.h:
 
-D:/projects/text-editor/vendored/SDL/src/haptic/windows/SDL_windowshaptic.c:
+D:/texeditor/vendored/SDL/src/joystick/windows/SDL_xinputjoystick_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/storage/SDL_sysstorage.h:
+D:/texeditor/vendored/SDL/src/haptic/windows/SDL_windowshaptic_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/vulkan/SDL_shaders_vulkan.c:
+D:/texeditor/vendored/SDL/src/haptic/windows/SDL_dinputhaptic_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/haptic/windows/SDL_dinputhaptic_c.h:
+D:/texeditor/vendored/SDL/src/video/dummy/SDL_nullevents.c:
 
-D:/projects/text-editor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c:
+D:/texeditor/vendored/SDL/src/haptic/windows/SDL_dinputhaptic.c:
 
-D:/projects/text-editor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic_c.h:
+D:/texeditor/vendored/SDL/src/render/direct3d12/SDL_shaders_d3d12.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/virtual/SDL_virtualjoystick_c.h:
+D:/texeditor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic.c:
+D:/texeditor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h:
+D:/texeditor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/gpu/vulkan/SDL_gpu_vulkan.c:
+D:/texeditor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h:
+D:/texeditor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan_beta.h:
+D:/texeditor/vendored/SDL/src/render/software/SDL_triangle.c:
 
-D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread.c:
+D:/texeditor/vendored/SDL/src/haptic/SDL_syshaptic.h:
 
-D:/projects/text-editor/vendored/SDL/src/main/windows/SDL_sysmain_runapp.c:
+D:/texeditor/vendored/SDL/src/gpu/vulkan/SDL_gpu_vulkan.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vulkan.h:
+D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_core.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h:
+D:/texeditor/vendored/SDL/src/time/SDL_time_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h:
+D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan_beta.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h:
+D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vulkan.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h:
+D:/texeditor/vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Textures.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h:
+D:/texeditor/vendored/SDL/src/hidapi/SDL_hidapi_windows.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h:
+D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h:
+D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/directx/d3d12sdklayers.h:
+D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/directx/d3d12.h:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_switch.c:
 
-D:/projects/text-editor/vendored/SDL/src/video/directx/SDL_d3d12.h:
+D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_auto.h:
+D:/texeditor/vendored/SDL/src/render/vulkan/SDL_shaders_vulkan.h:
+
+D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h:
+
+D:/texeditor/vendored/SDL/src/render/direct3d/SDL_shaders_d3d.c:
+
+D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_av1std.h:
+
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengl.h:
+
+D:/texeditor/vendored/SDL/src/video/directx/d3d12sdklayers.h:
+
+D:/texeditor/vendored/SDL/src/video/directx/d3d12.h:
+
+D:/texeditor/vendored/SDL/src/video/directx/SDL_d3d12.h:
 
 C:/msys64/mingw64/include/dxgitype.h:
 
+C:/msys64/mingw64/include/dxgidebug.h:
+
+C:/msys64/mingw64/include/dxgi1_6.h:
+
 C:/msys64/mingw64/include/dxgi1_5.h:
 
-C:/msys64/mingw64/include/dxgi1_4.h:
+C:/msys64/mingw64/include/dxgi1_3.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/SDL_render_unsupported.c:
+D:/texeditor/vendored/SDL/src/joystick/windows/SDL_windows_gaming_input.c:
 
 C:/msys64/mingw64/include/d3dcommon.h:
 
-D:/projects/text-editor/vendored/SDL/src/gpu/SDL_gpu.c:
+D:/texeditor/vendored/SDL/src/gpu/SDL_gpu.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/software/SDL_drawpoint.h:
+D:/texeditor/vendored/SDL/src/filesystem/windows/SDL_sysfsops.c:
 
-D:/projects/text-editor/vendored/SDL/src/filesystem/windows/SDL_sysfsops.c:
+D:/texeditor/vendored/SDL/src/render/gpu/shaders/tri_texture.vert.dxil.h:
 
-D:/projects/text-editor/vendored/SDL/src/filesystem/windows/SDL_sysfilesystem.c:
+D:/texeditor/vendored/SDL/src/filesystem/windows/SDL_sysfilesystem.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_lg4ff.c:
+D:/texeditor/vendored/SDL/src/stdlib/SDL_sysstdlib.h:
 
-D:/projects/text-editor/vendored/SDL/src/filesystem/SDL_sysfilesystem.h:
+D:/texeditor/vendored/SDL/src/events/imKStoUCS.c:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_scancode_tables.c:
+D:/texeditor/vendored/SDL/src/events/SDL_touch.c:
+
+D:/texeditor/vendored/SDL/src/events/SDL_scancode_tables.c:
+
+C:/msys64/mingw64/include/signal.h:
 
 C:/msys64/mingw64/include/pthread_signal.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps4.c:
+D:/texeditor/vendored/SDL/src/events/SDL_pen.c:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_pen.c:
+D:/texeditor/vendored/SDL/src/events/SDL_keysym_to_keycode.c:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_keysym_to_scancode.c:
+D:/texeditor/vendored/SDL/src/events/SDL_keymap.c:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_keysym_to_keycode.c:
+D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_internal.h:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard.c:
+D:/texeditor/vendored/SDL/src/events/SDL_keyboard.c:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/SDL_gamepad.c:
+D:/texeditor/vendored/SDL/src/events/SDL_eventwatch_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_eventwatch_c.h:
+C:/msys64/mingw64/include/windowsx.h:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_events.c:
+D:/texeditor/vendored/SDL/src/events/SDL_dropevents.c:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_touch.c:
+D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents.c:
 
-D:/projects/text-editor/vendored/SDL/src/core/linux/SDL_udev.h:
+C:/msys64/mingw64/include/windows.foundation.collections.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/vulkan/VULKAN_VertexShader.h:
+D:/texeditor/vendored/SDL/src/events/SDL_categories.c:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents.c:
+D:/texeditor/vendored/SDL/src/hidapi/windows/hidapi_hidsdi.h:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents.c:
+D:/texeditor/vendored/SDL/src/dynapi/SDL_dynapi_unsupported.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_clipboard_c.h:
+D:/texeditor/vendored/SDL/src/dynapi/SDL_dynapi.c:
 
-C:/msys64/mingw64/include/d3d10.h:
+D:/texeditor/vendored/SDL/src/dialog/windows/SDL_windowsdialog.c:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_categories.c:
-
-D:/projects/text-editor/vendored/SDL/src/render/software/SDL_drawline.c:
-
-D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h:
-
-D:/projects/text-editor/vendored/SDL/src/dynapi/SDL_dynapi_unsupported.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/SDL_RLEaccel.c:
-
-D:/projects/text-editor/vendored/SDL/src/dynapi/SDL_dynapi_procs.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/SDL_video_unsupported.h:
-
-D:/projects/text-editor/vendored/SDL/src/storage/generic/SDL_genericstorage.c:
-
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_iconv.c:
-
-D:/projects/text-editor/vendored/SDL/src/dynapi/SDL_dynapi.c:
-
-D:/projects/text-editor/vendored/SDL/src/render/vulkan/SDL_shaders_vulkan.h:
-
-D:/projects/text-editor/vendored/SDL/src/dialog/windows/SDL_windowsdialog.c:
-
-D:/projects/text-editor/vendored/SDL/src/joystick/virtual/SDL_virtualjoystick.c:
+D:/texeditor/vendored/SDL/src/events/SDL_eventwatch.c:
 
 C:/msys64/mingw64/include/wincrypt.h:
 
@@ -13535,21 +13585,27 @@ C:/msys64/mingw64/include/c++/15.2.0/bits/version.h:
 
 C:/msys64/mingw64/include/sysinfoapi.h:
 
+D:/texeditor/vendored/SDL/src/render/opengles2/SDL_shaders_gles2.c:
+
 C:/msys64/mingw64/include/winnt.h:
+
+D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h:
 
 C:/msys64/mingw64/include/audioclient.h:
 
-D:/projects/text-editor/vendored/SDL/src/haptic/SDL_syshaptic.h:
+D:/texeditor/vendored/SDL/src/haptic/SDL_haptic.c:
+
+C:/msys64/mingw64/include/c++/15.2.0/bits/utility.h:
 
 C:/msys64/mingw64/include/processtopologyapi.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/linepoint.vert.dxil.h:
-
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick.c:
-
 C:/msys64/mingw64/include/c++/15.2.0/bits/stl_iterator.h:
 
-C:/msys64/mingw64/include/c++/15.2.0/bits/stl_algobase.h:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_report_descriptor.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_oldnames.h:
+
+D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h:
 
 C:/msys64/mingw64/include/c++/15.2.0/bits/move.h:
 
@@ -13561,165 +13617,189 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx:
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c:
 
-D:/projects/text-editor/vendored/SDL/src/dynapi/SDL_dynapi.h:
+D:/texeditor/vendored/SDL/src/SDL_utils_c.h:
 
-C:/msys64/mingw64/include/c++/15.2.0/pstl/pstl_config.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/vpclmulqdqintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_switch.c:
+D:/texeditor/vendored/SDL/src/events/SDL_categories_c.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h:
+C:/msys64/mingw64/include/threadpoollegacyapiset.h:
 
-D:/projects/text-editor/vendored/SDL/src/power/windows/SDL_syspower.c:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_tray.h:
 
-D:/projects/text-editor/vendored/SDL/src/audio/SDL_audioqueue.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_time.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h:
+C:/msys64/mingw64/include/oleauto.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_properties.h:
+C:/msys64/mingw64/include/wtypesbase.h:
 
-C:/msys64/mingw64/include/poppack.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_power.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxint8intrin.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_platform.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Advanced.h:
+D:/texeditor/vendored/SDL/src/core/linux/SDL_udev.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_pixels.h:
+C:/msys64/mingw64/include/objidl.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_pen.h:
+C:/msys64/mingw64/include/dxgi1_4.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam_triton.c:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_misc.h:
 
-D:/projects/text-editor/vendored/SDL/src/events/imKStoUCS.c:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_locale.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_misc.h:
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_main.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_pixels.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_loadso.h:
+D:/texeditor/vendored/SDL/src/events/SDL_events.c:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/hresetintrin.h:
+C:/msys64/mingw64/include/wchar.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2copyintrin.h:
+C:/msys64/mingw64/include/_mingw_dxhelper.h:
 
-C:/msys64/mingw64/include/guiddef.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_joystick.h:
 
-C:/msys64/mingw64/include/wingdi.h:
+D:/texeditor/vendored/SDL/src/sensor/SDL_syssensor.h:
 
-D:/projects/text-editor/vendored/SDL/src/thread/generic/SDL_systhread_c.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlintrin.h:
 
-C:/msys64/mingw64/include/windows.devices.geolocation.h:
+C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h:
 
-D:/projects/text-editor/vendored/SDL/src/hidapi/windows/hidapi_hidclass.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_init.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_haptic.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.c:
+C:/msys64/mingw64/include/c++/15.2.0/tr1/ell_integral.tcc:
 
-D:/projects/text-editor/vendored/SDL/src/haptic/SDL_haptic_c.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_hints.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_gamepad.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vpopcntdqintrin.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_dlopennote.h:
+C:/msys64/mingw64/include/d3d9caps.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_dialog.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_assert.h:
 
-C:/msys64/mingw64/include/windows.devices.power.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_haptic.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_joystick.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_guid.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_init.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_gpu.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_egl.c:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniintrin.h:
 
-C:/msys64/mingw64/include/combaseapi.h:
+D:/texeditor/vendored/SDL/src/stdlib/SDL_getenv.c:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_cpuinfo.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_mutex.h:
 
-C:/msys64/mingw64/include/concurrencysal.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_filesystem.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cpuid.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/popcntintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam.c:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_events.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_guid.h:
+D:/texeditor/vendored/SDL/src/core/windows/SDL_xinput.c:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_audio.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movrsintrin.h:
+
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_ps5.c:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h:
+
+D:/texeditor/vendored/SDL/src/atomic/SDL_atomic.c:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_dialog.h:
+
+D:/texeditor/vendored/SDL/src/render/opengles2/SDL_shaders_gles2.h:
+
+D:/texeditor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h:
+
+D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_cpuinfo.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h:
+
+D:/texeditor/vendored/SDL/src/events/SDL_keyboard_c.h:
+
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvideo.c:
+
+D:/texeditor/vendored/SDL/src/SDL_hashtable.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_clipboard.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_audio.h:
+
+D:/texeditor/vendored/SDL/src/render/gpu/shaders/texture_advanced.frag.spv.h:
+
+C:/msys64/mingw64/include/c++/15.2.0/bits/std_abs.h:
+
+D:/texeditor/vendored/SDL/src/main/SDL_main_callbacks.c:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_atomic.h:
 
 vendored/SDL/include-config-/build_config/SDL_build_config.h:
 
-D:/projects/text-editor/vendored/SDL/src/hidapi/windows/hidapi_descriptor_reconstruct.c:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_process.h:
 
-D:/projects/text-editor/vendored/SDL/src/SDL_assert_c.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cpuid.h:
 
-D:/projects/text-editor/vendored/SDL/src/audio/disk/SDL_diskaudio.h:
+D:/texeditor/vendored/SDL/src/camera/dummy/SDL_camera_dummy.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/color.frag.spv.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_camera.h:
 
-D:/projects/text-editor/vendored/SDL/src/haptic/hidapi/SDL_hidapihaptic.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sm3intrin.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavesintrin.h:
+D:/texeditor/vendored/SDL/src/events/SDL_dropevents_c.h:
 
 C:/msys64/mingw64/include/inspectable.h:
 
+D:/texeditor/vendored/SDL/include/SDL3/SDL_version.h:
+
+C:/msys64/mingw64/include/guiddef.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h:
+
+D:/texeditor/vendored/SDL/src/audio/SDL_audio.c:
+
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xopintrin.h:
+
+D:/texeditor/vendored/SDL/src/core/windows/pch_cpp.cpp:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86gprintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/bmi2intrin.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_blendmode.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/nmmintrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_auto.c:
-
-C:/msys64/mingw64/include/systemtopologyapi.h:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_report_descriptor.c:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsaveoptintrin.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_sensor.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_1.c:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/gfniintrin.h:
-
 vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx.cxx:
 
-D:/projects/text-editor/vendored/SDL/src/SDL_guid.c:
+D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse_func.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/vpclmulqdqintrin.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm3dnow.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_locale.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_loadso.h:
 
-C:/msys64/mingw64/include/threadpoollegacyapiset.h:
+D:/texeditor/vendored/SDL/src/render/gpu/shaders/tri_texture.vert.spv.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/vaesintrin.h:
 
+D:/texeditor/vendored/SDL/src/video/SDL_video_unsupported.h:
+
 C:/msys64/mingw64/include/setjmp.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_process.h:
-
-C:/msys64/mingw64/include/datetimeapi.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/usermsrintrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/events/SDL_pen_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.h:
 
 C:/msys64/mingw64/include/c++/15.2.0/bits/stl_pair.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tsxldtrkintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmessagebox.h:
-
 C:/msys64/mingw64/include/securitybaseapi.h:
 
-D:/projects/text-editor/vendored/SDL/src/audio/wasapi/SDL_wasapi.c:
-
 C:/msys64/mingw64/include/ks.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_rect.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsaveintrin.h:
 
@@ -13727,63 +13807,53 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vnniintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/SDL_render_debug_font.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_surface.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.c:
-
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_msctf.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/SDL_video_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/events/SDL_quit.c:
-
 C:/msys64/mingw64/include/mfapi.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h:
 
+D:/texeditor/vendored/SDL/src/render/opengl/SDL_shaders_gl.h:
+
+D:/texeditor/vendored/SDL/src/render/direct3d11/D3D11_VertexShader.h:
+
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h:
+
+D:/texeditor/vendored/SDL/src/libm/math_libm.h:
 
 C:/msys64/mingw64/include/specstrings.h:
 
+D:/texeditor/vendored/SDL/src/locale/SDL_locale.c:
+
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sm4intrin.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sm3intrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/dxil.h:
-
-D:/projects/text-editor/vendored/SDL/src/SDL_internal.h:
 
 C:/msys64/mingw64/include/c++/15.2.0/bits/requires_hosted.h:
 
+D:/texeditor/vendored/SDL/src/render/software/SDL_blendfillrect.c:
+
 C:/msys64/mingw64/include/basetsd.h:
-
-D:/projects/text-editor/vendored/SDL/src/atomic/SDL_atomic.c:
-
-D:/projects/text-editor/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h:
 
 C:/msys64/mingw64/include/securityappcontainer.h:
 
-D:/projects/text-editor/vendored/SDL/src/power/SDL_power.c:
+D:/texeditor/vendored/SDL/src/joystick/SDL_joystick.c:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sha512intrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap.c:
-
 C:/msys64/mingw64/include/c++/15.2.0/bits/predefined_ops.h:
+
+D:/texeditor/vendored/SDL/src/render/direct3d11/SDL_shaders_d3d11.c:
+
+D:/texeditor/vendored/SDL/src/dynapi/SDL_dynapi_procs.h:
 
 C:/msys64/mingw64/include/winsvc.h:
 
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavesintrin.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_endian.h:
+
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rtmintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents.c:
+D:/texeditor/vendored/SDL/src/io/SDL_sysasyncio.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/direct3d/D3D9_PixelShader_Palette_Linear.h:
+D:/texeditor/vendored/SDL/src/dynapi/SDL_dynapi.h:
 
 C:/msys64/mingw64/include/windows.gaming.input.forcefeedback.h:
 
@@ -13793,27 +13863,15 @@ C:/msys64/mingw64/include/windows.storage.search.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchiintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.h:
-
-D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_windows_gaming_input.c:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_keyboard.h:
-
 C:/msys64/mingw64/include/c++/15.2.0/bits/functexcept.h:
 
 C:/msys64/mingw64/include/xinput.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/popcntintrin.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_iostream.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_shield.c:
+D:/texeditor/vendored/SDL/src/SDL_hints.c:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pmmintrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/audio/SDL_sysaudio.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_asyncio.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2vlintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pconfigintrin.h:
 
@@ -13821,29 +13879,27 @@ C:/msys64/mingw64/include/mftransform.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clwbintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/opengles2/SDL_shaders_gles2.c:
-
-D:/projects/text-editor/vendored/SDL/src/hidapi/SDL_hidapi_c.h:
-
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxfp16intrin.h:
 
 C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2bf16intrin.h:
+D:/texeditor/vendored/SDL/src/audio/wasapi/SDL_wasapi.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/ngage/SDL_render_ngage.c:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2bf16intrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cldemoteintrin.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_assert.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512minmaxintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_xinputjoystick_c.h:
+D:/texeditor/vendored/SDL/src/events/SDL_touch_c.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmaintrin.h:
+D:/texeditor/vendored/SDL/src/stdlib/SDL_malloc.c:
 
-C:/msys64/mingw64/include/c++/15.2.0/ext/numeric_traits.h:
+D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h:
 
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_random.c:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2satcvtintrin.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2intrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512bf16intrin.h:
 
@@ -13851,149 +13907,113 @@ C:/msys64/mingw64/include/windows.storage.h:
 
 C:/msys64/mingw64/include/mmsystem.h:
 
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsshape.h:
+
+D:/texeditor/vendored/SDL/src/render/SDL_sysrender.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_hidapi.h:
+
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavecintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtf32intrin.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL.h:
+D:/texeditor/vendored/SDL/src/SDL_list.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsshape.c:
-
-C:/msys64/mingw64/include/corecrt_startup.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512minmaxintrin.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_tray.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/direct3d/D3D9_PixelShader_YUV.h:
-
-D:/projects/text-editor/vendored/SDL/src/SDL_hashtable.h:
-
-C:/msys64/mingw64/include/oleidl.h:
-
-D:/projects/text-editor/vendored/SDL/src/thread/generic/SDL_sysrwlock_c.h:
-
-C:/msys64/mingw64/include/dxgi1_6.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_messagebox.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmouse.c:
-
-D:/projects/text-editor/vendored/SDL/src/render/direct3d11/D3D11_VertexShader.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_timer.h:
-
-C:/msys64/mingw64/include/stddef.h:
-
-C:/msys64/mingw64/include/unknwn.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Texture.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h:
-
-C:/msys64/mingw64/include/c++/15.2.0/tr1/ell_integral.tcc:
-
-C:/msys64/mingw64/include/sec_api/wchar_s.h:
-
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_sinput.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_mouse.h:
-
-C:/msys64/mingw64/include/c++/15.2.0/bits/ptr_traits.h:
-
-C:/msys64/mingw64/include/commdlg.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenopengles.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/events/SDL_keymap_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/texture_advanced.frag.spv.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_dlopennote.h:
 
 C:/msys64/mingw64/include/sec_api/stdio_s.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/ps2/SDL_render_ps2.c:
+D:/texeditor/vendored/SDL/src/video/SDL_clipboard_c.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_oldnames.h:
+C:/msys64/mingw64/include/corecrt_startup.h:
+
+D:/texeditor/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm.c:
+
+D:/texeditor/vendored/SDL/src/SDL_assert_c.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/hresetintrin.h:
+
+D:/texeditor/vendored/SDL/src/stdlib/SDL_crc16.c:
+
+C:/msys64/mingw64/include/c++/15.2.0/bits/stl_algobase.h:
+
+D:/texeditor/vendored/SDL/src/events/SDL_mouse_c.h:
+
+C:/msys64/mingw64/include/oleidl.h:
+
+D:/texeditor/vendored/SDL/src/joystick/usb_ids.h:
+
+C:/msys64/mingw64/include/sec_api/wchar_s.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_sensor.h:
+
+C:/msys64/mingw64/include/sdkddkver.h:
+
+D:/texeditor/vendored/SDL/src/stdlib/SDL_stdlib.c:
+
+D:/texeditor/vendored/SDL/src/process/windows/SDL_windowsprocess.c:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16intrin.h:
+
+D:/texeditor/vendored/SDL/src/dialog/SDL_dialog.c:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h:
 
 C:/msys64/mingw64/include/strings.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fxsrintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/io/SDL_asyncio.c:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_gamecube.c:
 
 C:/msys64/mingw64/include/commctrl.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codecs_common.h:
+D:/texeditor/vendored/SDL/src/video/SDL_blit_slow.h:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_displayevents_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/storage/steam/SDL_steamstorage_proc.h:
+D:/texeditor/vendored/SDL/src/stdlib/SDL_mslibc.c:
 
 C:/msys64/mingw64/include/stdint.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_stb_c.h:
-
 C:/msys64/mingw64/include/c++/15.2.0/limits:
 
-C:/msys64/mingw64/include/initguid.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_mutex.h:
+D:/texeditor/vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Colors.h:
 
 C:/msys64/mingw64/include/_mingw_stat64.h:
 
+D:/texeditor/vendored/SDL/include/SDL3/SDL_storage.h:
+
+C:/msys64/mingw64/include/playsoundapi.h:
+
+C:/msys64/mingw64/include/_mingw_secapi.h:
+
 C:/msys64/mingw64/include/stdarg.h:
-
-C:/msys64/mingw64/include/tlhelp32.h:
-
-C:/msys64/mingw64/include/apisetcconv.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/lwpintrin.h:
 
+D:/texeditor/vendored/SDL/src/render/gpu/shaders/color.frag.spv.h:
+
+C:/msys64/mingw64/include/pshpack8.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h:
+
 C:/msys64/mingw64/include/_mingw_off_t.h:
-
-D:/projects/text-editor/vendored/SDL/src/storage/SDL_storage.c:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/tri_texture.vert.spv.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/tray/SDL_tray_utils.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movrsintrin.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_clipboard.h:
-
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_mslibc.c:
 
 C:/msys64/mingw64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h:
 
 C:/msys64/mingw64/include/corecrt_stdio_config.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse_func.h:
+D:/texeditor/vendored/SDL/src/stdlib/SDL_string.c:
 
-D:/projects/text-editor/vendored/SDL/src/dialog/SDL_dialog.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_main.h:
+
+D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenopengles.h:
+
+D:/texeditor/vendored/SDL/src/render/software/SDL_drawpoint.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxcomplexintrin.h:
 
-C:/msys64/mingw64/include/pshpack2.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlbwintrin.h:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam_hori.c:
 
 C:/msys64/mingw64/include/c++/15.2.0/bits/cpp_type_traits.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_log.h:
-
-C:/msys64/mingw64/include/sdkddkver.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_iostream.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bf16vlintrin.h:
 
@@ -14001,23 +14021,19 @@ C:/msys64/mingw64/include/_mingw_stdarg.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bwintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_copy.c:
+D:/texeditor/vendored/SDL/src/events/SDL_keysym_to_scancode.c:
 
 C:/msys64/mingw64/include/swprintf.inl:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_storage.h:
+D:/texeditor/vendored/SDL/src/audio/SDL_audio_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_internal.h:
+D:/texeditor/vendored/SDL/src/joystick/windows/SDL_dinputjoystick.c:
 
-C:/msys64/mingw64/include/shtypes.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_asyncio.h:
 
-D:/projects/text-editor/vendored/SDL/src/main/SDL_main_callbacks.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_atomic.h:
+D:/texeditor/vendored/SDL/src/core/SDL_core_unsupported.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/color.frag.dxil.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchwintrin.h:
 
@@ -14027,61 +14043,63 @@ C:/msys64/mingw64/include/corecrt.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/smmintrin.h:
 
-C:/msys64/mingw64/include/d3d11_1.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wbnoinvdintrin.h:
-
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/serializeintrin.h:
 
 C:/msys64/mingw64/include/process.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdbool.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2minmaxintrin.h:
-
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtransposeintrin.h:
+
+D:/texeditor/vendored/SDL/src/haptic/windows/SDL_windowshaptic.c:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512convertintrin.h:
+
+C:/msys64/mingw64/include/propkeydef.h:
 
 C:/msys64/mingw64/include/errno.h:
 
-C:/msys64/mingw64/include/audiosessiontypes.h:
+D:/texeditor/vendored/SDL/src/audio/SDL_audio_channel_converters.h:
 
-C:/msys64/mingw64/include/_mingw.h:
+D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxint8intrin.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_timer.h:
+
+C:/msys64/mingw64/include/c++/15.2.0/tr1/exp_integral.tcc:
+
+D:/texeditor/vendored/SDL/src/filesystem/SDL_filesystem.c:
+
+C:/msys64/mingw64/include/ddraw.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_flydigi.h:
+C:/msys64/mingw64/include/unknwn.h:
+
+C:/msys64/mingw64/include/c++/15.2.0/bits/ptr_traits.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h:
+
+C:/msys64/mingw64/include/commdlg.h:
+
+D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h264std.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h:
 
+D:/texeditor/vendored/SDL/src/stdlib/SDL_vacopy.h:
+
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/shaintrin.h:
+
+D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread.c:
 
 C:/msys64/mingw64/include/_mingw_mac.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenevents_c.h:
+D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/uintrintrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h:
+D:/texeditor/vendored/SDL/src/misc/windows/SDL_sysurl.c:
 
 C:/msys64/mingw64/include/dxgicommon.h:
 
 C:/msys64/mingw64/include/msxml.h:
-
-C:/msys64/mingw64/include/d3d11sdklayers.h:
-
-C:/msys64/mingw64/include/pshpack4.h:
-
-C:/msys64/mingw64/include/avrt.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/software/SDL_render_sw_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick_c.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm3dnow.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_version.h:
-
-C:/msys64/mingw64/include/oleauto.h:
 
 C:/msys64/mingw64/include/intrin.h:
 
@@ -14089,17 +14107,11 @@ C:/msys64/mingw64/include/rpc.h:
 
 C:/msys64/mingw64/include/servprov.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h:
-
 C:/msys64/mingw64/include/sdks/_mingw_ddk.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d12/SDL_shaders_d3d12.h:
-
-D:/projects/text-editor/vendored/SDL/src/SDL_assert.c:
+D:/texeditor/vendored/SDL/src/video/SDL_surface.c:
 
 C:/msys64/mingw64/include/shlguid.h:
-
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_getenv.c:
 
 C:/msys64/mingw64/include/float.h:
 
@@ -14107,75 +14119,77 @@ C:/msys64/mingw64/include/c++/15.2.0/bits/stl_iterator_base_types.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tbmintrin.h:
 
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_stadia.c:
+
+D:/texeditor/vendored/SDL/src/hidapi/windows/hidapi_winapi.h:
+
 C:/msys64/mingw64/include/inttypes.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clflushoptintrin.h:
+
+D:/texeditor/vendored/SDL/src/gpu/vulkan/SDL_gpu_vulkan_vkfuncs.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxfp8intrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Advanced.h:
+D:/texeditor/vendored/SDL/src/render/software/SDL_render_sw_c.h:
 
-C:/msys64/mingw64/include/winioctl.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/keylockerintrin.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fma4intrin.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectintrin.h:
 
 C:/msys64/mingw64/include/malloc.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenwindow.c:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/uintrintrin.h:
 
-C:/msys64/mingw64/include/dxgi1_3.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_surface.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_events.h:
+C:/msys64/mingw64/include/consoleapi2.h:
 
-D:/projects/text-editor/vendored/SDL/src/audio/SDL_wave.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_metal.h:
 
 C:/msys64/mingw64/include/math.h:
 
+D:/texeditor/vendored/SDL/src/render/gpu/shaders/linepoint.vert.dxil.h:
+
 C:/msys64/mingw64/include/sys/types.h:
 
+D:/texeditor/vendored/SDL/src/render/software/SDL_blendline.h:
+
+D:/texeditor/vendored/SDL/src/audio/SDL_audiotypecvt.c:
+
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxmovrsintrin.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitxintrin.h:
 
 C:/msys64/mingw64/include/sec_api/stdlib_s.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.c:
-
 C:/msys64/mingw64/include/driverspecs.h:
 
 C:/msys64/mingw64/include/sec_api/string_s.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tmmintrin.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_log.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bf16intrin.h:
+
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvulkan.h:
 
 C:/msys64/mingw64/include/synchapi.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengl_glext.h:
+D:/texeditor/vendored/SDL/src/core/windows/SDL_hid.c:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512mediaintrin.h:
 
+D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Colors.h:
+
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h:
+
+D:/texeditor/vendored/SDL/src/filesystem/SDL_sysfilesystem.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2mediaintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Textures.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2satcvtintrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/loadso/windows/SDL_sysloadso.c:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2intrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsgameinput.cpp:
-
-D:/projects/text-editor/vendored/SDL/src/haptic/SDL_haptic.c:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_hidapi.h:
-
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_getenv_c.h:
+D:/texeditor/vendored/SDL/src/hidapi/windows/hid.c:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx2intrin.h:
 
@@ -14183,81 +14197,33 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xtestintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cetintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/gpu/SDL_sysgpu.h:
-
 C:/msys64/mingw64/include/consoleapi.h:
 
-D:/projects/text-editor/vendored/SDL/src/hidapi/windows/hidapi_winapi.h:
+D:/texeditor/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bf16intrin.h:
+D:/texeditor/vendored/SDL/src/dialog/SDL_dialog.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/opengles2/SDL_gles2funcs.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rdseedintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/SDL_utils_c.h:
+D:/texeditor/vendored/SDL/src/thread/windows/SDL_sysmutex_c.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_thread.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/bmiintrin.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_gpu.h:
+C:/msys64/mingw64/include/systemtopologyapi.h:
 
-D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_sysmutex_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/io/generic/SDL_asyncio_generic.c:
+D:/texeditor/vendored/SDL/src/render/direct3d11/SDL_render_d3d11.c:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bitalgintrin.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_gamepad.h:
 
 C:/msys64/mingw64/include/crtdefs.h:
 
 C:/msys64/mingw64/include/mfobjects.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_rect.h:
+D:/texeditor/vendored/SDL/src/joystick/SDL_gamepad.c:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/immintrin.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_endian.h:
-
-D:/projects/text-editor/vendored/SDL/src/sensor/windows/SDL_windowssensor.c:
-
-D:/projects/text-editor/vendored/SDL/src/render/vulkan/SDL_render_vulkan.c:
-
-D:/projects/text-editor/vendored/SDL/src/joystick/controller_type.c:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512dqintrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/timer/SDL_timer_c.h:
-
-C:/msys64/mingw64/include/wtypes.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_hints.h:
-
-C:/msys64/mingw64/include/windows.storage.fileproperties.h:
-
-C:/msys64/mingw64/include/knownfolders.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fintrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/software/SDL_blendpoint.h:
-
-C:/msys64/mingw64/include/imm.h:
-
-D:/projects/text-editor/vendored/SDL/src/main/generic/SDL_sysmain_callbacks.c:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_bits.h:
-
-C:/msys64/mingw64/include/excpt.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint16intrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/stb_image.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsclipboard.h:
-
-C:/msys64/mingw64/include/roapi.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmivlintrin.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_time.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmavlintrin.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmiintrin.h:
 
 C:/msys64/mingw64/include/sec_api/stralign_s.h:
 
@@ -14265,43 +14231,73 @@ C:/msys64/mingw64/include/profileapi.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bitalgvlintrin.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmiintrin.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/immintrin.h:
 
-C:/msys64/mingw64/include/wchar.h:
+D:/texeditor/vendored/SDL/src/events/SDL_clipboardevents_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/gpu/vulkan/SDL_gpu_vulkan_vkfuncs.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_touch.h:
 
-C:/msys64/mingw64/include/_mingw_dxhelper.h:
+D:/texeditor/vendored/SDL/src/misc/SDL_libusb.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlintrin.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_bits.h:
 
-C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h:
+D:/texeditor/vendored/SDL/src/render/opengl/SDL_shaders_gl.c:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengl.h:
+C:/msys64/mingw64/include/objidlbase.h:
+
+C:/msys64/mingw64/include/virtdisk.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vldqintrin.h:
+
+C:/msys64/mingw64/include/rpcnterr.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512dqintrin.h:
+
+D:/texeditor/vendored/SDL/src/SDL_assert.c:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_scancode.h:
+
+C:/msys64/mingw64/include/wtypes.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_keyboard.h:
+
+D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h:
+
+C:/msys64/mingw64/include/imm.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint16intrin.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmaintrin.h:
+
+C:/msys64/mingw64/include/roapi.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmivlintrin.h:
+
+D:/texeditor/vendored/SDL/src/events/SDL_windowevents.c:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmavlintrin.h:
+
+D:/texeditor/vendored/SDL/src/events/SDL_pen_c.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tmmintrin.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_blendmode.h:
+
+D:/texeditor/vendored/SDL/src/timer/SDL_timer_c.h:
 
 C:/msys64/mingw64/include/c++/15.2.0/bits/specfun.h:
 
 C:/msys64/mingw64/include/c++/15.2.0/cstdlib:
 
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_malloc.c:
+D:/texeditor/vendored/SDL/src/render/direct3d/SDL_shaders_d3d.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vpopcntdqintrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/sensor/SDL_sensor_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/bmiintrin.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsopengl.c:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vpopcntdqvlintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movdirintrin.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_filesystem.h:
 
 C:/msys64/mingw64/include/c++/15.2.0/tr1/riemann_zeta.tcc:
 
@@ -14309,17 +14305,13 @@ C:/msys64/mingw64/include/shellapi.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxifmaintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/camera/SDL_camera_c.h:
-
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/waitpkgintrin.h:
+
+D:/texeditor/vendored/SDL/src/main/SDL_main_callbacks.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectvlintrin.h:
 
 C:/msys64/mingw64/include/stdlib.h:
-
-D:/projects/text-editor/vendored/SDL/src/sensor/SDL_syssensor.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/texture_rgba.frag.dxil.h:
 
 C:/msys64/mingw64/include/winreg.h:
 
@@ -14327,9 +14319,17 @@ C:/msys64/mingw64/include/winbase.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitintrin.h:
 
+D:/texeditor/vendored/SDL/src/SDL_error.c:
+
+D:/texeditor/vendored/SDL/src/events/SDL_displayevents_c.h:
+
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsvulkan.c:
+
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint8intrin.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniintrin.h:
+D:/texeditor/vendored/SDL/src/render/gpu/shaders/dxil.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_mouse.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clzerointrin.h:
 
@@ -14339,53 +14339,87 @@ C:/msys64/mingw64/include/string.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h:
 
-D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_hid.c:
-
 C:/msys64/mingw64/include/processenv.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_bmp.c:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2copyintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/cpuinfo/SDL_cpuinfo_c.h:
+D:/texeditor/vendored/SDL/src/SDL_list.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/software/SDL_blendline.c:
+D:/texeditor/vendored/SDL/src/joystick/SDL_gamepad_db.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/f16cintrin.h:
+
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsmodes.c:
+
+C:/msys64/mingw64/include/winnetwk.h:
+
+D:/texeditor/vendored/SDL/src/audio/SDL_mixer.c:
+
+D:/texeditor/vendored/SDL/src/audio/disk/SDL_diskaudio.c:
+
+D:/texeditor/vendored/SDL/src/thread/generic/SDL_sysrwlock_c.h:
+
+D:/texeditor/vendored/SDL/src/render/direct3d12/SDL_shaders_d3d12.c:
 
 C:/msys64/mingw64/include/c++/15.2.0/cmath:
 
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsopengles.h:
+
+D:/texeditor/vendored/SDL/src/joystick/SDL_gamepad_c.h:
+
+C:/msys64/mingw64/include/winioctl.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/keylockerintrin.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fma4intrin.h:
+
+D:/texeditor/vendored/SDL/src/gpu/d3d12/D3D12_Blit.h:
+
+C:/msys64/mingw64/include/corecrt_wctype.h:
+
+C:/msys64/mingw64/include/cguid.h:
+
+D:/texeditor/vendored/SDL/src/loadso/windows/SDL_sysloadso.c:
+
+C:/msys64/mingw64/include/propsys.h:
+
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsframebuffer.h:
+
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fmaintrin.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_system.h:
+D:/texeditor/vendored/SDL/src/video/khronos/GLES2/gl2platform.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512satcvtintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_blit_0.c:
-
-D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h:
-
 C:/msys64/mingw64/include/minwindef.h:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents.c:
+D:/texeditor/vendored/SDL/src/video/windows/SDL_msctf.h:
 
 C:/msys64/mingw64/include/limits.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ia32intrin.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_messagebox.h:
 
-D:/projects/text-editor/vendored/SDL/src/events/scancodes_windows.h:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ia32intrin.h:
 
 vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 C:/msys64/mingw64/include/winver.h:
 
+D:/texeditor/vendored/SDL/src/joystick/controller_type.h:
+
 C:/msys64/mingw64/include/corecrt_wstdlib.h:
 
 C:/msys64/mingw64/include/vadefs.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectintrin.h:
+D:/texeditor/vendored/SDL/src/stdlib/SDL_strtokr.c:
 
-D:/projects/text-editor/vendored/SDL/src/dialog/SDL_dialog.c:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_opengl_glext.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxneconvertintrin.h:
 
 C:/msys64/mingw64/include/c++/15.2.0/debug/assertions.h:
+
+D:/texeditor/vendored/SDL/src/storage/SDL_sysstorage.h:
 
 C:/msys64/mingw64/include/windows.storage.streams.h:
 
@@ -14393,13 +14427,31 @@ C:/msys64/mingw64/include/c++/15.2.0/debug/debug.h:
 
 C:/msys64/mingw64/include/c++/15.2.0/ext/type_traits.h:
 
+D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw.c:
+
+D:/texeditor/vendored/SDL/src/audio/directsound/SDL_directsound.c:
+
+C:/msys64/mingw64/include/c++/15.2.0/pstl/pstl_config.h:
+
+C:/msys64/mingw64/include/mmiscapi2.h:
+
+C:/msys64/mingw64/include/rpcsal.h:
+
+C:/msys64/mingw64/include/c++/15.2.0/stdlib.h:
+
+D:/texeditor/vendored/SDL/src/video/SDL_vulkan_utils.c:
+
+D:/texeditor/vendored/SDL/src/gpu/d3d12/SDL_gpu_d3d12.c:
+
 C:/msys64/mingw64/include/dxgi.h:
 
 C:/msys64/mingw64/include/debugapi.h:
 
 C:/msys64/mingw64/include/c++/15.2.0/tr1/bessel_function.tcc:
 
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_memcpy.c:
+D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_sse.h:
+
+D:/texeditor/vendored/SDL/src/joystick/hidapi/steam/controller_constants.h:
 
 C:/msys64/mingw64/include/rpcndr.h:
 
@@ -14407,41 +14459,23 @@ C:/msys64/mingw64/include/stringapiset.h:
 
 C:/msys64/mingw64/include/c++/15.2.0/tr1/beta_function.tcc:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsmodes.c:
-
-C:/msys64/mingw64/include/c++/15.2.0/tr1/hypergeometric.tcc:
-
-C:/msys64/mingw64/include/c++/15.2.0/tr1/exp_integral.tcc:
-
-D:/projects/text-editor/vendored/SDL/src/SDL_log.c:
-
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsframebuffer.c:
-
-C:/msys64/mingw64/include/c++/15.2.0/stdlib.h:
-
-D:/projects/text-editor/vendored/SDL/src/audio/SDL_audio.c:
-
-C:/msys64/mingw64/include/ddraw.h:
-
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/enqcmdintrin.h:
 
 C:/msys64/mingw64/include/c++/15.2.0/tr1/gamma.tcc:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_camera.h:
+D:/texeditor/vendored/SDL/src/video/SDL_blit_slow.c:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h:
+
+D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.c:
 
 C:/msys64/mingw64/include/c++/15.2.0/tr1/legendre_function.tcc:
-
-D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2convertintrin.h:
 
 C:/msys64/mingw64/include/ole2.h:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_clipboardevents_c.h:
-
 C:/msys64/mingw64/include/c++/15.2.0/tr1/modified_bessel_func.tcc:
-
-D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/tri_color.vert.spv.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxbf16intrin.h:
 
@@ -14449,9 +14483,17 @@ C:/msys64/mingw64/include/c++/15.2.0/tr1/poly_hermite.tcc:
 
 C:/msys64/mingw64/include/c++/15.2.0/tr1/poly_laguerre.tcc:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_video_unsupported.c:
+D:/texeditor/vendored/SDL/src/video/offscreen/SDL_offscreenframebuffer_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_vulkan_internal.h:
+D:/texeditor/vendored/SDL/src/thread/windows/SDL_syssem.c:
+
+D:/texeditor/vendored/SDL/src/video/SDL_vulkan_internal.h:
+
+C:/msys64/mingw64/include/rpcasync.h:
+
+C:/msys64/mingw64/include/c++/15.2.0/tr1/special_function_util.h:
+
+D:/texeditor/vendored/SDL/src/video/SDL_blit_auto.h:
 
 C:/msys64/mingw64/include/rpcdce.h:
 
@@ -14463,89 +14505,95 @@ C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/cpu_defines.h:
 
 C:/msys64/mingw64/include/_mingw_unicode.h:
 
+D:/texeditor/vendored/SDL/include/SDL3/SDL_keycode.h:
+
 C:/msys64/mingw64/include/apiset.h:
+
+C:/msys64/mingw64/include/tlhelp32.h:
+
+C:/msys64/mingw64/include/apisetcconv.h:
+
+D:/texeditor/vendored/SDL/src/io/SDL_asyncio.c:
 
 C:/msys64/mingw64/include/basetyps.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.c:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/gfniintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/gpu/d3d12/D3D12_Blit.h:
+D:/texeditor/vendored/SDL/src/camera/SDL_camera.c:
 
-C:/msys64/mingw64/include/consoleapi2.h:
+C:/msys64/mingw64/include/mediaobj.h:
+
+C:/msys64/mingw64/include/bemapiset.h:
+
+D:/texeditor/vendored/SDL/src/audio/disk/SDL_diskaudio.h:
+
+C:/msys64/mingw64/include/concurrencysal.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_system.h:
 
 C:/msys64/mingw64/include/consoleapi3.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsevents.h:
+D:/texeditor/vendored/SDL/src/camera/SDL_syscamera.h:
 
-D:/projects/text-editor/vendored/SDL/src/SDL.c:
+D:/texeditor/vendored/SDL/src/dialog/SDL_dialog_utils.h:
+
+D:/texeditor/vendored/SDL/src/render/direct3d12/D3D12_PixelShader_Textures.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/usermsrintrin.h:
+
+C:/msys64/mingw64/include/datetimeapi.h:
+
+D:/texeditor/vendored/SDL/src/events/SDL_displayevents.c:
+
+C:/msys64/mingw64/include/timeapi.h:
 
 C:/msys64/mingw64/include/errhandlingapi.h:
 
 C:/msys64/mingw64/include/handleapi.h:
 
-D:/projects/text-editor/vendored/SDL/src/haptic/windows/SDL_windowshaptic_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_xinput.h:
+C:/msys64/mingw64/include/excpt.h:
 
 C:/msys64/mingw64/include/fibersapi.h:
 
 C:/msys64/mingw64/include/fileapi.h:
 
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2vlintrin.h:
+
+D:/texeditor/vendored/SDL/src/SDL_utils.c:
+
+C:/msys64/mingw64/include/initguid.h:
+
+D:/texeditor/vendored/SDL/src/audio/SDL_wave.c:
+
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cmpccxaddintrin.h:
 
 C:/msys64/mingw64/include/unknwnbase.h:
+
+D:/texeditor/vendored/SDL/src/core/windows/SDL_immdevice.c:
 
 C:/msys64/mingw64/include/psdk_inc/intrin-impl.h:
 
 C:/msys64/mingw64/include/fltwinerror.h:
 
-D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_sysmutex.c:
-
 C:/msys64/mingw64/include/heapapi.h:
 
-D:/projects/text-editor/vendored/SDL/src/misc/SDL_sysurl.h:
-
 C:/msys64/mingw64/include/interlockedapi.h:
-
-C:/msys64/mingw64/include/c++/15.2.0/bits/utility.h:
-
-D:/projects/text-editor/vendored/SDL/src/audio/directsound/SDL_directsound.c:
-
-D:/projects/text-editor/vendored/SDL/src/hidapi/SDL_hidapi_windows.h:
-
-D:/projects/text-editor/vendored/SDL/src/SDL_log_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/dialog/SDL_dialog_utils.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/software/SDL_drawline.h:
 
 C:/msys64/mingw64/include/ioapiset.h:
 
 C:/msys64/mingw64/include/jobapi.h:
 
-D:/projects/text-editor/vendored/SDL/src/audio/SDL_audio_channel_converters.h:
-
 C:/msys64/mingw64/include/ktmtypes.h:
-
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steamdeck.c:
 
 C:/msys64/mingw64/include/libloaderapi.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/opengles2/SDL_shaders_gles2.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vpopcntdqvlintrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/SDL_error.c:
-
 C:/msys64/mingw64/include/dxgi1_2.h:
-
-D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse.c:
 
 C:/msys64/mingw64/include/memoryapi.h:
 
-C:/msys64/mingw64/include/minwinbase.h:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_nintendo.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h:
+C:/msys64/mingw64/include/minwinbase.h:
 
 C:/msys64/mingw64/include/c++/15.2.0/math.h:
 
@@ -14559,83 +14607,87 @@ C:/msys64/mingw64/include/namedpipeapi.h:
 
 C:/msys64/mingw64/include/namespaceapi.h:
 
-D:/projects/text-editor/vendored/SDL/src/process/SDL_sysprocess.h:
+D:/texeditor/vendored/SDL/src/io/SDL_asyncio_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/atomic/SDL_spinlock.c:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h:
+
+C:/msys64/mingw64/include/poppack.h:
+
+D:/texeditor/vendored/SDL/src/haptic/SDL_haptic_c.h:
 
 C:/msys64/mingw64/include/pshpack1.h:
 
+D:/texeditor/vendored/SDL/src/main/generic/SDL_sysmain_callbacks.c:
+
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_flydigi.h:
+
 C:/msys64/mingw64/include/dpapi.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_VertexShader_Color.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h:
-
-C:/msys64/mingw64/include/pshpack8.h:
-
-D:/projects/text-editor/vendored/SDL/src/audio/disk/SDL_diskaudio.c:
 
 C:/msys64/mingw64/include/realtimeapiset.h:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_metal.h:
-
 C:/msys64/mingw64/include/reason.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_intrin.h:
 
 C:/msys64/mingw64/include/sal.h:
 
-D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_gameinput.cpp:
-
-C:/msys64/mingw64/include/stralign.h:
-
 C:/msys64/mingw64/include/threadpoolapiset.h:
+
+D:/texeditor/vendored/SDL/src/render/vulkan/VULKAN_PixelShader_Colors.h:
 
 C:/msys64/mingw64/include/ivectorchangedeventargs.h:
 
 C:/msys64/mingw64/include/timezoneapi.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_8bitdo.c:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_keycode.h:
-
-D:/projects/text-editor/vendored/SDL/src/events/SDL_keyboard_c.h:
-
 C:/msys64/mingw64/include/tvout.h:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_render.h:
 
 C:/msys64/mingw64/include/utilapiset.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/linepoint.vert.spv.h:
+D:/texeditor/vendored/SDL/src/video/dummy/SDL_nullevents_c.h:
 
 C:/msys64/mingw64/include/winapifamily.h:
 
 C:/msys64/mingw64/include/wincon.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/khronos/vulkan/vk_platform.h:
+C:/msys64/mingw64/include/dinput.h:
 
-D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_immdevice.c:
+C:/msys64/mingw64/include/wincontypes.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sgxintrin.h:
 
 C:/msys64/mingw64/include/windef.h:
 
+C:/msys64/mingw64/include/d3d11.h:
+
+D:/texeditor/vendored/SDL/src/joystick/virtual/SDL_virtualjoystick.c:
+
+C:/msys64/mingw64/include/windows.h:
+
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_xbox360w.c:
+
 C:/msys64/mingw64/include/winerror.h:
 
+C:/msys64/mingw64/include/d3d11sdklayers.h:
+
+C:/msys64/mingw64/include/pshpack4.h:
+
+C:/msys64/mingw64/include/avrt.h:
+
+D:/texeditor/vendored/SDL/src/SDL_error_c.h:
+
+C:/msys64/mingw64/include/wingdi.h:
+
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.c:
+
+D:/texeditor/vendored/SDL/src/gpu/SDL_sysgpu.h:
+
 C:/msys64/mingw64/include/winnls.h:
-
-D:/projects/text-editor/vendored/SDL/src/SDL_list.h:
-
-D:/projects/text-editor/vendored/SDL/src/events/SDL_eventwatch.c:
 
 C:/msys64/mingw64/include/winuser.h:
 
 C:/msys64/mingw64/include/rpcdcep.h:
 
-C:/msys64/mingw64/include/sherrors.h:
-
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vnnivlintrin.h:
+
+C:/msys64/mingw64/include/sherrors.h:
 
 C:/msys64/mingw64/include/wnnc.h:
 
@@ -14643,215 +14695,163 @@ C:/msys64/mingw64/include/wow64apiset.h:
 
 vendored/SDL/include-revision/SDL3/SDL_revision.h:
 
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_string.c:
+D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/opengl/SDL_glfuncs.h:
+D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h:
+D:/texeditor/vendored/SDL/src/SDL.c:
 
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenwindow.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/SDL_stretch.c:
-
-D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/SDL_video.c:
-
-D:/projects/text-editor/vendored/SDL/src/tray/SDL_tray_utils.c:
-
-D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h:
-
-D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h:
-
-C:/msys64/mingw64/include/propidl.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/dummy/SDL_nullframebuffer.c:
-
-D:/projects/text-editor/vendored/SDL/src/hidapi/windows/hidapi_cfgmgr32.h:
-
-C:/msys64/mingw64/include/timeapi.h:
-
-D:/projects/text-editor/vendored/SDL/src/SDL_properties_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenevents.c:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pkuintrin.h:
-
-C:/msys64/mingw64/include/isguids.h:
-
-D:/projects/text-editor/vendored/SDL/src/core/linux/SDL_dbus.h:
-
-D:/projects/text-editor/vendored/SDL/src/events/SDL_dropevents_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/events/SDL_events_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/vitagxm/SDL_render_vita_gxm.c:
-
-C:/msys64/mingw64/include/d3d11.h:
-
-C:/msys64/mingw64/include/windows.h:
-
-D:/projects/text-editor/vendored/SDL/src/events/SDL_touch_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/io/windows/SDL_asyncio_windows_ioring.c:
-
-C:/msys64/mingw64/include/rpcasync.h:
-
-C:/msys64/mingw64/include/c++/15.2.0/tr1/special_function_util.h:
-
-D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h:
-
-C:/msys64/mingw64/include/c++/15.2.0/concepts:
-
-D:/projects/text-editor/vendored/SDL/src/filesystem/SDL_filesystem_c.h:
-
-C:/msys64/mingw64/include/d3d10sdklayers.h:
-
-D:/projects/text-editor/vendored/SDL/src/audio/SDL_mixer.c:
-
-D:/projects/text-editor/vendored/SDL/src/io/SDL_asyncio_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/joystick/SDL_gamepad_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/SDL_sysrender.h:
-
-D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h:
-
-C:/msys64/mingw64/include/objidlbase.h:
-
-D:/projects/text-editor/vendored/SDL/src/render/direct3d/SDL_render_d3d.c:
-
-C:/msys64/mingw64/include/virtdisk.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vldqintrin.h:
-
-C:/msys64/mingw64/include/rpcnterr.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rdseedintrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/core/windows/pch.c:
-
-D:/projects/text-editor/vendored/SDL/src/SDL_hashtable.c:
-
-D:/projects/text-editor/vendored/SDL/src/SDL_hints.c:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16intrin.h:
-
-D:/projects/text-editor/vendored/SDL/src/SDL_list.c:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_scancode.h:
-
-D:/projects/text-editor/vendored/SDL/src/SDL_properties.c:
-
-C:/msys64/mingw64/include/joystickapi.h:
-
-D:/projects/text-editor/vendored/SDL/src/audio/dummy/SDL_dummyaudio.c:
-
-D:/projects/text-editor/vendored/SDL/src/SDL_utils.c:
-
-D:/projects/text-editor/vendored/SDL/src/render/gpu/SDL_render_gpu.c:
-
-C:/msys64/mingw64/include/winnetwk.h:
-
-D:/projects/text-editor/vendored/SDL/src/core/windows/pch_cpp.cpp:
-
-D:/projects/text-editor/vendored/SDL/src/thread/SDL_systhread.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/SDL_rotate.h:
-
-D:/projects/text-editor/vendored/SDL/src/audio/SDL_audio_c.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h:
-
-C:/msys64/mingw64/include/prsht.h:
-
-C:/msys64/mingw64/include/mediaobj.h:
-
-C:/msys64/mingw64/include/bemapiset.h:
-
-D:/projects/text-editor/vendored/SDL/src/audio/SDL_audiocvt.c:
-
-D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_sysrwlock_srw.c:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_power.h:
-
-D:/projects/text-editor/vendored/SDL/src/audio/SDL_audioresample.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels.c:
-
-C:/msys64/mingw64/include/oaidl.h:
-
-D:/projects/text-editor/vendored/SDL/src/audio/SDL_audiodev.c:
-
-D:/projects/text-editor/vendored/SDL/src/sensor/windows/SDL_windowssensor.h:
-
-D:/projects/text-editor/vendored/SDL/src/audio/SDL_audioqueue.c:
-
-D:/projects/text-editor/vendored/SDL/src/audio/SDL_audioresample.c:
-
-D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_touch.h:
-
-C:/msys64/mingw64/include/rpcnsi.h:
-
-D:/projects/text-editor/vendored/SDL/src/audio/SDL_audiotypecvt.c:
-
-D:/projects/text-editor/vendored/SDL/src/audio/SDL_wave.c:
-
-D:/projects/text-editor/vendored/SDL/src/render/software/SDL_draw.h:
-
-C:/msys64/mingw64/include/corecrt_wctype.h:
-
-C:/msys64/mingw64/include/cguid.h:
-
-C:/msys64/mingw64/include/propsys.h:
-
-C:/msys64/mingw64/include/wincontypes.h:
-
-C:/msys64/mingw64/include/dinput.h:
-
-C:/msys64/mingw64/include/dsound.h:
-
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16vlintrin.h:
-
-C:/msys64/mingw64/include/mciapi.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_std_func.h:
+D:/texeditor/vendored/SDL/src/render/software/SDL_drawline.c:
 
 C:/msys64/mingw64/include/mmdeviceapi.h:
 
-D:/projects/text-editor/vendored/SDL/src/tray/windows/SDL_tray.c:
+C:/msys64/mingw64/include/c++/15.2.0/concepts:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512cdintrin.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_intrin.h:
 
-C:/msys64/mingw64/include/mmeapi.h:
+D:/texeditor/vendored/SDL/src/SDL_hints_c.h:
 
-C:/msys64/mingw64/include/mmiscapi.h:
+D:/texeditor/vendored/SDL/src/render/software/SDL_blendline.c:
 
-D:/projects/text-editor/vendored/SDL/src/cpuinfo/SDL_cpuinfo.c:
+C:/msys64/mingw64/include/propidl.h:
 
-D:/projects/text-editor/vendored/SDL/src/hidapi/SDL_hidapi.c:
+D:/texeditor/vendored/SDL/src/SDL_log_c.h:
 
-C:/msys64/mingw64/include/rpcsal.h:
+C:/msys64/mingw64/include/stddef.h:
 
-C:/msys64/mingw64/include/mmiscapi2.h:
+D:/texeditor/vendored/SDL/src/SDL_properties_c.h:
+
+D:/texeditor/vendored/SDL/src/audio/SDL_sysaudio.h:
+
+D:/texeditor/vendored/SDL/src/SDL_guid.c:
+
+D:/texeditor/vendored/SDL/src/filesystem/SDL_filesystem_c.h:
+
+D:/texeditor/vendored/SDL/src/camera/SDL_camera_c.h:
+
+D:/texeditor/vendored/SDL/src/video/SDL_rotate.h:
+
+D:/texeditor/vendored/SDL/src/core/linux/SDL_dbus.h:
+
+D:/texeditor/vendored/SDL/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h:
+
+D:/texeditor/vendored/SDL/src/cpuinfo/SDL_cpuinfo_c.h:
+
+C:/msys64/mingw64/include/hstring.h:
+
+D:/texeditor/vendored/SDL/src/events/SDL_events_c.h:
 
 C:/msys64/mingw64/include/processthreadsapi.h:
 
 C:/msys64/mingw64/include/mmsyscom.h:
 
-C:/msys64/mingw64/include/objidl.h:
+D:/texeditor/vendored/SDL/src/events/SDL_keymap_c.h:
 
-C:/msys64/mingw64/include/windows.foundation.numerics.h:
+D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/haptic/windows/SDL_dinputhaptic.c:
+C:/msys64/mingw64/include/combaseapi.h:
 
-D:/projects/text-editor/vendored/SDL/src/core/SDL_core_unsupported.c:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_steam_triton.c:
 
-D:/projects/text-editor/vendored/SDL/src/render/gpu/shaders/texture_rgb.frag.spv.h:
+D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.h:
+D:/texeditor/vendored/SDL/src/render/direct3d/D3D9_PixelShader_Palette_Linear.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512cdintrin.h:
+
+C:/msys64/mingw64/include/mmeapi.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_thread.h:
+
+D:/texeditor/vendored/SDL/src/sensor/SDL_sensor_c.h:
+
+D:/texeditor/vendored/SDL/src/core/windows/SDL_immdevice.h:
+
+D:/texeditor/vendored/SDL/src/render/direct3d11/D3D11_PixelShader_Textures.h:
+
+D:/texeditor/vendored/SDL/src/stdlib/SDL_getenv_c.h:
+
+D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h:
+
+D:/texeditor/vendored/SDL/src/render/software/SDL_drawline.h:
+
+C:/msys64/mingw64/include/mmiscapi.h:
+
+D:/texeditor/vendored/SDL/src/joystick/windows/SDL_dinputjoystick_c.h:
+
+D:/texeditor/vendored/SDL/src/SDL_internal.h:
+
+D:/texeditor/vendored/SDL/src/tray/SDL_tray_utils.h:
+
+D:/texeditor/vendored/SDL/src/video/SDL_video_c.h:
+
+D:/texeditor/vendored/SDL/src/SDL_hashtable.c:
+
+C:/msys64/mingw64/include/windows.storage.fileproperties.h:
+
+C:/msys64/mingw64/include/knownfolders.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fintrin.h:
+
+D:/texeditor/vendored/SDL/src/SDL_log.c:
+
+C:/msys64/mingw64/include/stralign.h:
+
+D:/texeditor/vendored/SDL/src/SDL_properties.c:
+
+D:/texeditor/vendored/SDL/src/atomic/SDL_spinlock.c:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdbool.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2minmaxintrin.h:
+
+D:/texeditor/vendored/SDL/src/thread/SDL_systhread.h:
+
+D:/texeditor/vendored/SDL/src/audio/SDL_audiocvt.c:
+
+D:/texeditor/vendored/SDL/src/process/SDL_sysprocess.h:
+
+D:/texeditor/vendored/SDL/src/audio/SDL_audioqueue.h:
+
+D:/texeditor/vendored/SDL/src/core/SDL_core_unsupported.c:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/nmmintrin.h:
+
+D:/texeditor/vendored/SDL/src/audio/SDL_audioresample.h:
+
+C:/msys64/mingw64/include/d3d11_1.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wbnoinvdintrin.h:
+
+D:/texeditor/vendored/SDL/src/audio/SDL_audiodev.c:
+
+C:/msys64/mingw64/include/c++/15.2.0/ext/numeric_traits.h:
+
+D:/texeditor/vendored/SDL/src/audio/SDL_audioqueue.c:
+
+D:/texeditor/vendored/SDL/src/video/SDL_blit_1.c:
+
+D:/texeditor/vendored/SDL/src/video/SDL_blit.h:
+
+D:/texeditor/vendored/SDL/src/audio/SDL_audioresample.c:
+
+D:/texeditor/vendored/SDL/src/audio/SDL_wave.h:
+
+C:/msys64/mingw64/include/dsound.h:
+
+D:/texeditor/vendored/SDL/include/SDL3/SDL_properties.h:
+
+C:/msys64/mingw64/include/joystickapi.h:
+
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16vlintrin.h:
+
+C:/msys64/mingw64/include/mciapi.h:
+
+D:/texeditor/vendored/SDL/src/render/direct3d/D3D9_PixelShader_Palette_Nearest.h:
+
+C:/msys64/mingw64/include/oaidl.h:
+
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_xboxone.c:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h:
 
@@ -14859,115 +14859,109 @@ C:/msys64/mingw64/include/stdio.h:
 
 C:/msys64/mingw64/include/ocidl.h:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_mouse_c.h:
+C:/msys64/mingw64/include/rpcnsi.h:
 
-D:/projects/text-editor/vendored/SDL/src/camera/mediafoundation/SDL_camera_mediafoundation.c:
+D:/texeditor/vendored/SDL/src/events/SDL_quit.c:
 
-D:/projects/text-editor/vendored/SDL/src/sensor/SDL_sensor.c:
-
-D:/projects/text-editor/vendored/SDL/src/audio/directsound/SDL_directsound.h:
-
-C:/msys64/mingw64/include/playsoundapi.h:
+C:/msys64/mingw64/include/shtypes.h:
 
 C:/msys64/mingw64/include/structuredquerycondition.h:
 
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_vacopy.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_render.h:
 
 C:/msys64/mingw64/include/urlmon.h:
 
-D:/projects/text-editor/vendored/SDL/src/render/direct3d12/D3D12_RootSig_Texture.h:
+D:/texeditor/vendored/SDL/src/render/direct3d/D3D9_PixelShader_YUV.h:
 
-C:/msys64/mingw64/include/wtypesbase.h:
+D:/texeditor/vendored/SDL/src/core/windows/SDL_directx.h:
 
-D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_directx.h:
+D:/texeditor/vendored/SDL/src/audio/directsound/SDL_directsound.h:
 
-D:/projects/text-editor/vendored/SDL/src/timer/windows/SDL_systimer.c:
+D:/texeditor/vendored/SDL/src/audio/dummy/SDL_dummyaudio.c:
 
-D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_immdevice.h:
+D:/texeditor/vendored/SDL/src/video/yuv2rgb/yuv_rgb_lsx.c:
 
-C:/msys64/mingw64/include/c++/15.2.0/bits/std_abs.h:
+D:/texeditor/vendored/SDL/src/video/windows/SDL_windowsgameinput.h:
 
-D:/projects/text-editor/vendored/SDL/src/audio/dummy/SDL_dummyaudio.h:
+D:/texeditor/vendored/SDL/src/hidapi/SDL_hidapi_c.h:
+
+C:/msys64/mingw64/include/c++/15.2.0/tr1/hypergeometric.tcc:
+
+D:/texeditor/vendored/SDL/src/audio/dummy/SDL_dummyaudio.h:
+
+C:/msys64/mingw64/include/_mingw.h:
+
+C:/msys64/mingw64/include/audiosessiontypes.h:
 
 C:/msys64/mingw64/include/ksmedia.h:
 
-D:/projects/text-editor/vendored/SDL/src/audio/wasapi/SDL_wasapi.h:
+D:/texeditor/vendored/SDL/src/events/SDL_mouse.c:
 
-C:/msys64/mingw64/include/dxgidebug.h:
-
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_sysstdlib.h:
-
-D:/projects/text-editor/vendored/SDL/src/camera/SDL_camera.c:
-
-C:/msys64/mingw64/include/_mingw_secapi.h:
-
-D:/projects/text-editor/vendored/SDL/src/camera/dummy/SDL_camera_dummy.c:
-
-D:/projects/text-editor/vendored/SDL/src/video/offscreen/SDL_offscreenvulkan.h:
-
-D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.c:
+D:/texeditor/vendored/SDL/src/audio/wasapi/SDL_wasapi.h:
 
 C:/msys64/mingw64/include/windows.foundation.h:
 
-D:/projects/text-editor/vendored/SDL/src/gpu/d3d12/SDL_gpu_d3d12.c:
+D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapi_rumble.c:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wmmintrin.h:
 
 C:/msys64/mingw64/include/dxgiformat.h:
 
-D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_xinputjoystick.c:
+D:/texeditor/vendored/SDL/include/SDL3/SDL.h:
 
 C:/msys64/mingw64/include/mfidl.h:
 
-D:/projects/text-editor/vendored/SDL/src/main/SDL_runapp.c:
-
 C:/msys64/mingw64/include/mfreadwrite.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowsvideo.c:
+C:/msys64/mingw64/include/windows.devices.power.h:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/f16cintrin.h:
+D:/texeditor/vendored/SDL/src/camera/mediafoundation/SDL_camera_mediafoundation.c:
 
-D:/projects/text-editor/vendored/SDL/src/core/SDL_core_unsupported.h:
+D:/texeditor/vendored/SDL/src/tray/windows/SDL_tray.c:
 
-D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_hid.h:
+D:/texeditor/vendored/SDL/src/core/windows/SDL_gameinput.cpp:
+
+D:/texeditor/vendored/SDL/src/core/windows/SDL_hid.h:
 
 C:/msys64/mingw64/include/activation.h:
 
-C:/msys64/mingw64/include/hstring.h:
+C:/msys64/mingw64/include/pshpack2.h:
 
-D:/projects/text-editor/vendored/SDL/src/stdlib/SDL_memset.c:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlbwintrin.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h:
+D:/texeditor/vendored/SDL/src/core/windows/pch.c:
 
-C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512convertintrin.h:
+D:/texeditor/vendored/SDL/src/cpuinfo/SDL_cpuinfo.c:
 
-C:/msys64/mingw64/include/propkeydef.h:
-
-D:/projects/text-editor/vendored/SDL/src/camera/SDL_syscamera.h:
-
-D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.c:
-
-D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_xinput.c:
-
-C:/msys64/mingw64/include/signal.h:
-
-D:/projects/text-editor/vendored/SDL/src/dialog/SDL_dialog_utils.c:
+D:/texeditor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick_c.h:
 
 C:/msys64/mingw64/include/memory.h:
 
 C:/msys64/mingw64/include/bcrypt.h:
 
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pkuintrin.h:
+
+C:/msys64/mingw64/include/isguids.h:
+
+D:/texeditor/vendored/SDL/src/dialog/SDL_dialog_utils.c:
+
+D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h:
+
 C:/msys64/mingw64/include/c++/15.2.0/bit:
 
 C:/msys64/mingw64/include/comcat.h:
+
+D:/texeditor/vendored/SDL/src/thread/windows/SDL_sysrwlock_srw.c:
+
+D:/texeditor/vendored/SDL/src/joystick/hidapi/steam/controller_structs.h:
 
 C:/msys64/mingw64/include/c++/15.2.0/bits/exception_defines.h:
 
 C:/msys64/mingw64/include/docobj.h:
 
-D:/projects/text-editor/vendored/SDL/src/video/SDL_rect_c.h:
+D:/texeditor/vendored/SDL/src/power/SDL_power.c:
 
-D:/projects/text-editor/vendored/SDL/src/events/SDL_categories_c.h:
+D:/texeditor/vendored/SDL/include/SDL3/SDL_pen.h:
 
 C:/msys64/mingw64/include/exdisp.h:
 
@@ -14977,8 +14971,14 @@ C:/msys64/mingw64/include/ncrypt.h:
 
 C:/msys64/mingw64/include/objectarray.h:
 
-C:/msys64/mingw64/include/shldisp.h:
+C:/msys64/mingw64/include/prsht.h:
 
-D:/projects/text-editor/vendored/SDL/src/filesystem/SDL_filesystem.c:
+D:/texeditor/vendored/SDL/src/render/vulkan/SDL_render_vulkan.c:
+
+D:/texeditor/vendored/SDL/src/main/SDL_runapp.c:
+
+D:/texeditor/vendored/SDL/src/core/windows/SDL_xinput.h:
+
+C:/msys64/mingw64/include/shldisp.h:
 
 C:/msys64/mingw64/include/shlobj.h:

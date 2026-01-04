@@ -11,7 +11,7 @@ C_FLAGS = -fvisibility=hidden -Wall -Wextra -Wno-unused-parameter
 
 RC_DEFINES = -DBUILD_SDL -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DTTF_USE_HARFBUZZ=1
 
-RC_INCLUDES = -I D:\projects\text-editor\vendored\SDL_ttf\include -I D:\projects\text-editor\build\vendored\SDL\include-revision -I D:\projects\text-editor\vendored\SDL\include -I C:\msys64\mingw64\include\harfbuzz -I C:\msys64\mingw64\include\freetype2
+RC_INCLUDES = -I D:\texeditor\vendored\SDL_ttf\include -I D:\texeditor\build\vendored\SDL\include-revision -I D:\texeditor\vendored\SDL\include -I C:\msys64\mingw64\include\harfbuzz -I C:\msys64\mingw64\include\freetype2
 
 RC_FLAGS = 
 

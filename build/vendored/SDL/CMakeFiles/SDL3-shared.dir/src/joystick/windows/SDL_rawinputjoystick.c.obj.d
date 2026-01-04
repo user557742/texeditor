@@ -1,10 +1,10 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_rawinputjoystick.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\joystick\windows\SDL_rawinputjoystick.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\joystick\windows\SDL_rawinputjoystick.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+ D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+ D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -84,11 +84,11 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_rawinputjoystic
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
  C:/msys64/mingw64/include/imm.h C:/msys64/mingw64/include/basetyps.h \
  C:/msys64/mingw64/include/mmreg.h C:/msys64/mingw64/include/pshpack1.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_hid.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_xinput.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_hid.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:/texeditor/vendored/SDL/src/joystick/hidapi/SDL_hidapijoystick_c.h \
+ D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_xinput.h \
  C:/msys64/mingw64/include/xinput.h \
  C:/msys64/mingw64/include/windows.gaming.input.h \
  C:/msys64/mingw64/include/rpc.h C:/msys64/mingw64/include/rpcdce.h \

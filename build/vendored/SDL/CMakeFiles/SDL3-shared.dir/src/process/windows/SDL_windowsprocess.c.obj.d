@@ -1,7 +1,7 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/windows/SDL_windowsprocess.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\process\windows\SDL_windowsprocess.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\process\windows\SDL_windowsprocess.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -81,5 +81,5 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/windows/SDL_windowsprocess.c
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
  C:/msys64/mingw64/include/imm.h C:/msys64/mingw64/include/basetyps.h \
  C:/msys64/mingw64/include/mmreg.h C:/msys64/mingw64/include/pshpack1.h \
- D:/projects/text-editor/vendored/SDL/src/process/SDL_sysprocess.h \
- D:/projects/text-editor/vendored/SDL/src/io/SDL_iostream_c.h
+ D:/texeditor/vendored/SDL/src/process/SDL_sysprocess.h \
+ D:/texeditor/vendored/SDL/src/io/SDL_iostream_c.h

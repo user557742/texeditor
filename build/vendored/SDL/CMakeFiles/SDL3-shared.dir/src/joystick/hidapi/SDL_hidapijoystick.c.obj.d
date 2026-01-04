@@ -1,15 +1,15 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\joystick\hidapi\SDL_hidapijoystick.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
- D:\projects\text-editor\vendored\SDL\src\joystick\hidapi\SDL_hidapijoystick_c.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
- D:\projects\text-editor\vendored\SDL\src\joystick\hidapi\SDL_hidapi_rumble.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick_c.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\joystick\hidapi\SDL_hidapijoystick.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+ D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+ D:\texeditor\vendored\SDL\src\joystick\hidapi\SDL_hidapijoystick_c.h \
+ D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+ D:\texeditor\vendored\SDL\src\joystick\hidapi\SDL_hidapi_rumble.h \
+ D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/joystick/windows/SDL_rawinputjoystick_c.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \

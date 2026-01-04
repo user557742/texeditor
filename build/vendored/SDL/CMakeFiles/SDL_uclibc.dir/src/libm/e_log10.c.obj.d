@@ -1,10 +1,10 @@
 vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\libm\e_log10.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/build/vendored/SDL/include-config-/build_config/SDL_build_config.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
- D:/projects/text-editor/vendored/SDL/src/dynapi/SDL_dynapi.h \
- D:/projects/text-editor/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h \
+ D:\texeditor\vendored\SDL\src\libm\e_log10.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/build/vendored/SDL/include-config-/build_config/SDL_build_config.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+ D:/texeditor/vendored/SDL/src/dynapi/SDL_dynapi.h \
+ D:/texeditor/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h \
  C:/msys64/mingw64/include/sys/types.h \
  C:/msys64/mingw64/include/crtdefs.h C:/msys64/mingw64/include/corecrt.h \
  C:/msys64/mingw64/include/_mingw.h \
@@ -42,69 +42,69 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj: \
  C:/msys64/mingw64/include/stdint.h C:/msys64/mingw64/include/math.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
  C:/msys64/mingw64/include/float.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdbool.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_assert.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_asyncio.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_atomic.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_audio.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_endian.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_mutex.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_thread.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_properties.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_assert.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_asyncio.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_atomic.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_audio.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_endian.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_mutex.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_thread.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_properties.h \
  C:/msys64/mingw64/include/process.h \
  C:/msys64/mingw64/include/corecrt_startup.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_iostream.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_bits.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_blendmode.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_camera.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_pixels.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_surface.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_rect.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_clipboard.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_cpuinfo.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_dialog.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_dlopennote.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_events.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_gamepad.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_guid.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_joystick.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_power.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_sensor.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_keyboard.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_keycode.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_scancode.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_mouse.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_pen.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_touch.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_filesystem.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_gpu.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_haptic.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_hidapi.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_hints.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_init.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_loadso.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_locale.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_log.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_messagebox.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_metal.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_misc.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_process.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_render.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_storage.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_system.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_time.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_timer.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_tray.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_version.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_oldnames.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_intrin.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_iostream.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_bits.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_blendmode.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_camera.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_pixels.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_surface.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_rect.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_clipboard.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_cpuinfo.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_dialog.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_dlopennote.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_events.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_gamepad.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_guid.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_joystick.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_power.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_sensor.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_keyboard.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_keycode.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_scancode.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_mouse.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_pen.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_touch.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_filesystem.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_gpu.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_haptic.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_hidapi.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_hints.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_init.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_loadso.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_locale.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_log.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_messagebox.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_metal.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_misc.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_platform.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_process.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_render.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_storage.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_system.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_time.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_timer.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_tray.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_version.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_oldnames.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_intrin.h \
  C:/msys64/mingw64/include/intrin.h C:/msys64/mingw64/include/setjmp.h \
  C:/msys64/mingw64/include/psdk_inc/intrin-impl.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
@@ -226,8 +226,8 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj: \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xopintrin.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cpuid.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/nmmintrin.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_main.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_utils_c.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_hashtable.h \
- D:\projects\text-editor\vendored\SDL\src\libm\math_libm.h \
- D:\projects\text-editor\vendored\SDL\src\libm\math_private.h
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_main.h \
+ D:/texeditor/vendored/SDL/src/SDL_utils_c.h \
+ D:/texeditor/vendored/SDL/src/SDL_hashtable.h \
+ D:\texeditor\vendored\SDL\src\libm\math_libm.h \
+ D:\texeditor\vendored\SDL\src\libm\math_private.h

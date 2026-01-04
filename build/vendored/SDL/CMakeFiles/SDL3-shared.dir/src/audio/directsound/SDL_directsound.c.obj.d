@@ -1,10 +1,10 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/directsound/SDL_directsound.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\audio\directsound\SDL_directsound.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/audio/SDL_sysaudio.h \
- D:\projects\text-editor\vendored\SDL\src\audio\directsound\SDL_directsound.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_directx.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\audio\directsound\SDL_directsound.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/audio/SDL_sysaudio.h \
+ D:\texeditor\vendored\SDL\src\audio\directsound\SDL_directsound.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_directx.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -111,7 +111,7 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/directsound/SDL_directsound.c.
  C:/msys64/mingw64/include/dsound.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
  C:/msys64/mingw64/include/float.h C:/msys64/mingw64/include/dinput.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_immdevice.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_immdevice.h \
  C:/msys64/mingw64/include/mmdeviceapi.h \
  C:/msys64/mingw64/include/propsys.h C:/msys64/mingw64/include/ocidl.h \
  C:/msys64/mingw64/include/shtypes.h \

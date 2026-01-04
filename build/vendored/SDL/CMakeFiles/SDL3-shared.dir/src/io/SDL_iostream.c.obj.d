@@ -1,7 +1,7 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\io\SDL_iostream.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\io\SDL_iostream.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -87,4 +87,4 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.obj: \
  C:/msys64/mingw64/include/sys/types.h \
  C:/msys64/mingw64/include/_mingw_stat64.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
- D:\projects\text-editor\vendored\SDL\src\io\SDL_iostream_c.h
+ D:\texeditor\vendored\SDL\src\io\SDL_iostream_c.h

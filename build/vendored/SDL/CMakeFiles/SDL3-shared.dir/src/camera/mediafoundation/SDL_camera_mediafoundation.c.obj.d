@@ -1,7 +1,7 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/mediafoundation/SDL_camera_mediafoundation.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\camera\mediafoundation\SDL_camera_mediafoundation.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\camera\mediafoundation\SDL_camera_mediafoundation.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -106,8 +106,8 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/mediafoundation/SDL_camera_me
  C:/msys64/mingw64/include/dxgiformat.h C:/msys64/mingw64/include/mfidl.h \
  C:/msys64/mingw64/include/mftransform.h \
  C:/msys64/mingw64/include/mfreadwrite.h \
- D:/projects/text-editor/vendored/SDL/src/camera/SDL_syscamera.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
- D:/projects/text-editor/vendored/SDL/src/camera/SDL_camera_c.h
+ D:/texeditor/vendored/SDL/src/camera/SDL_syscamera.h \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+ D:/texeditor/vendored/SDL/src/camera/SDL_camera_c.h

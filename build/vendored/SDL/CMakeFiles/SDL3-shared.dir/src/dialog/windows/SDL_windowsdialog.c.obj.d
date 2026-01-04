@@ -1,7 +1,7 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/windows/SDL_windowsdialog.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\dialog\windows\SDL_windowsdialog.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\dialog\windows\SDL_windowsdialog.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -81,8 +81,8 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/windows/SDL_windowsdialog.c.o
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
  C:/msys64/mingw64/include/imm.h C:/msys64/mingw64/include/basetyps.h \
  C:/msys64/mingw64/include/mmreg.h C:/msys64/mingw64/include/pshpack1.h \
- D:/projects/text-editor/vendored/SDL/src/dialog/SDL_dialog.h \
- D:/projects/text-editor/vendored/SDL/src/dialog/SDL_dialog_utils.h \
+ D:/texeditor/vendored/SDL/src/dialog/SDL_dialog.h \
+ D:/texeditor/vendored/SDL/src/dialog/SDL_dialog_utils.h \
  C:/msys64/mingw64/include/unknwn.h C:/msys64/mingw64/include/rpc.h \
  C:/msys64/mingw64/include/rpcdce.h C:/msys64/mingw64/include/rpcdcep.h \
  C:/msys64/mingw64/include/rpcnsi.h C:/msys64/mingw64/include/rpcnterr.h \
@@ -113,9 +113,9 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/windows/SDL_windowsdialog.c.o
  C:/msys64/mingw64/include/propkeydef.h \
  C:/msys64/mingw64/include/objectarray.h \
  C:/msys64/mingw64/include/sherrors.h \
- D:/projects/text-editor/vendored/SDL/src/thread/SDL_systhread.h \
- D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h \
- D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h
+ D:/texeditor/vendored/SDL/src/thread/SDL_systhread.h \
+ D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h \
+ D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h

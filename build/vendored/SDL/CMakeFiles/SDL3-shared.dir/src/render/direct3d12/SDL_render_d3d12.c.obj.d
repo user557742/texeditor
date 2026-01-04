@@ -1,7 +1,7 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\render\direct3d12\SDL_render_d3d12.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\render\direct3d12\SDL_render_d3d12.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -81,30 +81,30 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
  C:/msys64/mingw64/include/imm.h C:/msys64/mingw64/include/basetyps.h \
  C:/msys64/mingw64/include/mmreg.h C:/msys64/mingw64/include/pshpack1.h \
- D:/projects/text-editor/vendored/SDL/src/video/windows/SDL_windowswindow.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+ D:/texeditor/vendored/SDL/src/video/windows/SDL_windowswindow.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
  C:/msys64/mingw64/include/KHR/khrplatform.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
- D:/projects/text-editor/vendored/SDL/src/render/SDL_sysrender.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
- D:/projects/text-editor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
- D:/projects/text-editor/vendored/SDL/src/render/SDL_d3dmath.h \
- D:/projects/text-editor/vendored/SDL/src/video/directx/SDL_d3d12.h \
- D:/projects/text-editor/vendored/SDL/src/video/directx/d3d12.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+ D:/texeditor/vendored/SDL/src/render/SDL_sysrender.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+ D:/texeditor/vendored/SDL/src/render/SDL_yuv_sw_c.h \
+ D:/texeditor/vendored/SDL/src/render/SDL_d3dmath.h \
+ D:/texeditor/vendored/SDL/src/video/directx/SDL_d3d12.h \
+ D:/texeditor/vendored/SDL/src/video/directx/d3d12.h \
  C:/msys64/mingw64/include/rpc.h C:/msys64/mingw64/include/rpcdce.h \
  C:/msys64/mingw64/include/rpcdcep.h C:/msys64/mingw64/include/rpcnsi.h \
  C:/msys64/mingw64/include/rpcnterr.h \
@@ -124,11 +124,11 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c
  C:/msys64/mingw64/include/ocidl.h C:/msys64/mingw64/include/dxgicommon.h \
  C:/msys64/mingw64/include/dxgiformat.h \
  C:/msys64/mingw64/include/d3dcommon.h \
- D:/projects/text-editor/vendored/SDL/src/video/directx/d3d12sdklayers.h \
+ D:/texeditor/vendored/SDL/src/video/directx/d3d12sdklayers.h \
  C:/msys64/mingw64/include/dxgi1_6.h C:/msys64/mingw64/include/dxgi1_5.h \
  C:/msys64/mingw64/include/dxgi1_4.h C:/msys64/mingw64/include/dxgi1_3.h \
  C:/msys64/mingw64/include/dxgi1_2.h C:/msys64/mingw64/include/dxgi.h \
  C:/msys64/mingw64/include/dxgitype.h \
  C:/msys64/mingw64/include/dxgidebug.h \
- D:\projects\text-editor\vendored\SDL\src\render\direct3d12\SDL_shaders_d3d12.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_pixels_c.h
+ D:\texeditor\vendored\SDL\src\render\direct3d12\SDL_shaders_d3d12.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_pixels_c.h

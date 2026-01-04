@@ -1,7 +1,7 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/wasapi/SDL_wasapi.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\audio\wasapi\SDL_wasapi.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\audio\wasapi\SDL_wasapi.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -81,7 +81,7 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/wasapi/SDL_wasapi.c.obj: \
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
  C:/msys64/mingw64/include/imm.h C:/msys64/mingw64/include/basetyps.h \
  C:/msys64/mingw64/include/mmreg.h C:/msys64/mingw64/include/pshpack1.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_immdevice.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_immdevice.h \
  C:/msys64/mingw64/include/mmdeviceapi.h C:/msys64/mingw64/include/rpc.h \
  C:/msys64/mingw64/include/rpcdce.h C:/msys64/mingw64/include/rpcdcep.h \
  C:/msys64/mingw64/include/rpcnsi.h C:/msys64/mingw64/include/rpcnterr.h \
@@ -102,14 +102,14 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/wasapi/SDL_wasapi.c.obj: \
  C:/msys64/mingw64/include/shtypes.h \
  C:/msys64/mingw64/include/structuredquerycondition.h \
  C:/msys64/mingw64/include/propkeydef.h \
- D:/projects/text-editor/vendored/SDL/src/thread/SDL_systhread.h \
- D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h \
- D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/audio/SDL_sysaudio.h \
+ D:/texeditor/vendored/SDL/src/thread/SDL_systhread.h \
+ D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h \
+ D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/audio/SDL_sysaudio.h \
  C:/msys64/mingw64/include/audioclient.h \
  C:/msys64/mingw64/include/audiosessiontypes.h \
  C:/msys64/mingw64/include/ks.h C:/msys64/mingw64/include/ksmedia.h \
- D:\projects\text-editor\vendored\SDL\src\audio\wasapi\SDL_wasapi.h
+ D:\texeditor\vendored\SDL\src\audio\wasapi\SDL_wasapi.h

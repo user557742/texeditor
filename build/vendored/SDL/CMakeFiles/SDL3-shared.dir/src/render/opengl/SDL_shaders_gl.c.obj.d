@@ -1,8 +1,8 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\render\opengl\SDL_shaders_gl.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengl.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform.h \
+ D:\texeditor\vendored\SDL\src\render\opengl\SDL_shaders_gl.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_opengl.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_platform.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -81,6 +81,6 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.obj: 
  C:/msys64/mingw64/include/sec_api/stralign_s.h \
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
  C:/msys64/mingw64/include/imm.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_opengl_glext.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_opengl_glext.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
- D:\projects\text-editor\vendored\SDL\src\render\opengl\SDL_shaders_gl.h
+ D:\texeditor\vendored\SDL\src\render\opengl\SDL_shaders_gl.h

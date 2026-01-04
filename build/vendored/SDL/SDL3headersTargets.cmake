@@ -50,7 +50,7 @@ unset(_cmake_expected_targets)
 add_library(SDL3::Headers INTERFACE IMPORTED)
 
 set_target_properties(SDL3::Headers PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "D:/projects/text-editor/build/vendored/SDL/include-revision;D:/projects/text-editor/vendored/SDL/include"
+  INTERFACE_INCLUDE_DIRECTORIES "D:/texeditor/build/vendored/SDL/include-revision;D:/texeditor/vendored/SDL/include"
 )
 
 # This file does not depend on other imported targets which have

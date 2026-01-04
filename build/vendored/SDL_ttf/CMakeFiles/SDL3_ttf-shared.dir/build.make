@@ -52,10 +52,10 @@ RM = C:\msys64\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\projects\text-editor
+CMAKE_SOURCE_DIR = D:\texeditor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\projects\text-editor\build
+CMAKE_BINARY_DIR = D:\texeditor\build
 
 # Include any dependencies generated for this target.
 include vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/depend.make
@@ -73,98 +73,98 @@ vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/codegen:
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/flags.make
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/includes_C.rsp
-vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.obj: D:/projects/text-editor/vendored/SDL_ttf/src/SDL_hashtable.c
+vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.obj: D:/texeditor/vendored/SDL_ttf/src/SDL_hashtable.c
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\text-editor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.obj"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.obj -MF CMakeFiles\SDL3_ttf-shared.dir\src\SDL_hashtable.c.obj.d -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_hashtable.c.obj -c D:\projects\text-editor\vendored\SDL_ttf\src\SDL_hashtable.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\texeditor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.obj"
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.obj -MF CMakeFiles\SDL3_ttf-shared.dir\src\SDL_hashtable.c.obj.d -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_hashtable.c.obj -c D:\texeditor\vendored\SDL_ttf\src\SDL_hashtable.c
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.i"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\projects\text-editor\vendored\SDL_ttf\src\SDL_hashtable.c > CMakeFiles\SDL3_ttf-shared.dir\src\SDL_hashtable.c.i
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\texeditor\vendored\SDL_ttf\src\SDL_hashtable.c > CMakeFiles\SDL3_ttf-shared.dir\src\SDL_hashtable.c.i
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.s"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\projects\text-editor\vendored\SDL_ttf\src\SDL_hashtable.c -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_hashtable.c.s
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\texeditor\vendored\SDL_ttf\src\SDL_hashtable.c -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_hashtable.c.s
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/flags.make
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/includes_C.rsp
-vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.obj: D:/projects/text-editor/vendored/SDL_ttf/src/SDL_hashtable_ttf.c
+vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.obj: D:/texeditor/vendored/SDL_ttf/src/SDL_hashtable_ttf.c
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\text-editor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.obj"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.obj -MF CMakeFiles\SDL3_ttf-shared.dir\src\SDL_hashtable_ttf.c.obj.d -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_hashtable_ttf.c.obj -c D:\projects\text-editor\vendored\SDL_ttf\src\SDL_hashtable_ttf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\texeditor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.obj"
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.obj -MF CMakeFiles\SDL3_ttf-shared.dir\src\SDL_hashtable_ttf.c.obj.d -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_hashtable_ttf.c.obj -c D:\texeditor\vendored\SDL_ttf\src\SDL_hashtable_ttf.c
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.i"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\projects\text-editor\vendored\SDL_ttf\src\SDL_hashtable_ttf.c > CMakeFiles\SDL3_ttf-shared.dir\src\SDL_hashtable_ttf.c.i
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\texeditor\vendored\SDL_ttf\src\SDL_hashtable_ttf.c > CMakeFiles\SDL3_ttf-shared.dir\src\SDL_hashtable_ttf.c.i
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.s"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\projects\text-editor\vendored\SDL_ttf\src\SDL_hashtable_ttf.c -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_hashtable_ttf.c.s
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\texeditor\vendored\SDL_ttf\src\SDL_hashtable_ttf.c -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_hashtable_ttf.c.s
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/flags.make
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/includes_C.rsp
-vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.obj: D:/projects/text-editor/vendored/SDL_ttf/src/SDL_gpu_textengine.c
+vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.obj: D:/texeditor/vendored/SDL_ttf/src/SDL_gpu_textengine.c
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\text-editor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.obj"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.obj -MF CMakeFiles\SDL3_ttf-shared.dir\src\SDL_gpu_textengine.c.obj.d -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_gpu_textengine.c.obj -c D:\projects\text-editor\vendored\SDL_ttf\src\SDL_gpu_textengine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\texeditor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.obj"
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.obj -MF CMakeFiles\SDL3_ttf-shared.dir\src\SDL_gpu_textengine.c.obj.d -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_gpu_textengine.c.obj -c D:\texeditor\vendored\SDL_ttf\src\SDL_gpu_textengine.c
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.i"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\projects\text-editor\vendored\SDL_ttf\src\SDL_gpu_textengine.c > CMakeFiles\SDL3_ttf-shared.dir\src\SDL_gpu_textengine.c.i
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\texeditor\vendored\SDL_ttf\src\SDL_gpu_textengine.c > CMakeFiles\SDL3_ttf-shared.dir\src\SDL_gpu_textengine.c.i
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.s"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\projects\text-editor\vendored\SDL_ttf\src\SDL_gpu_textengine.c -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_gpu_textengine.c.s
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\texeditor\vendored\SDL_ttf\src\SDL_gpu_textengine.c -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_gpu_textengine.c.s
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/flags.make
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/includes_C.rsp
-vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.obj: D:/projects/text-editor/vendored/SDL_ttf/src/SDL_renderer_textengine.c
+vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.obj: D:/texeditor/vendored/SDL_ttf/src/SDL_renderer_textengine.c
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\text-editor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.obj"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.obj -MF CMakeFiles\SDL3_ttf-shared.dir\src\SDL_renderer_textengine.c.obj.d -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_renderer_textengine.c.obj -c D:\projects\text-editor\vendored\SDL_ttf\src\SDL_renderer_textengine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\texeditor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.obj"
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.obj -MF CMakeFiles\SDL3_ttf-shared.dir\src\SDL_renderer_textengine.c.obj.d -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_renderer_textengine.c.obj -c D:\texeditor\vendored\SDL_ttf\src\SDL_renderer_textengine.c
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.i"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\projects\text-editor\vendored\SDL_ttf\src\SDL_renderer_textengine.c > CMakeFiles\SDL3_ttf-shared.dir\src\SDL_renderer_textengine.c.i
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\texeditor\vendored\SDL_ttf\src\SDL_renderer_textengine.c > CMakeFiles\SDL3_ttf-shared.dir\src\SDL_renderer_textengine.c.i
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.s"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\projects\text-editor\vendored\SDL_ttf\src\SDL_renderer_textengine.c -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_renderer_textengine.c.s
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\texeditor\vendored\SDL_ttf\src\SDL_renderer_textengine.c -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_renderer_textengine.c.s
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/flags.make
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/includes_C.rsp
-vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.obj: D:/projects/text-editor/vendored/SDL_ttf/src/SDL_surface_textengine.c
+vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.obj: D:/texeditor/vendored/SDL_ttf/src/SDL_surface_textengine.c
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\text-editor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.obj"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.obj -MF CMakeFiles\SDL3_ttf-shared.dir\src\SDL_surface_textengine.c.obj.d -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_surface_textengine.c.obj -c D:\projects\text-editor\vendored\SDL_ttf\src\SDL_surface_textengine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\texeditor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.obj"
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.obj -MF CMakeFiles\SDL3_ttf-shared.dir\src\SDL_surface_textengine.c.obj.d -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_surface_textengine.c.obj -c D:\texeditor\vendored\SDL_ttf\src\SDL_surface_textengine.c
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.i"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\projects\text-editor\vendored\SDL_ttf\src\SDL_surface_textengine.c > CMakeFiles\SDL3_ttf-shared.dir\src\SDL_surface_textengine.c.i
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\texeditor\vendored\SDL_ttf\src\SDL_surface_textengine.c > CMakeFiles\SDL3_ttf-shared.dir\src\SDL_surface_textengine.c.i
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.s"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\projects\text-editor\vendored\SDL_ttf\src\SDL_surface_textengine.c -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_surface_textengine.c.s
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\texeditor\vendored\SDL_ttf\src\SDL_surface_textengine.c -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_surface_textengine.c.s
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/flags.make
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/includes_C.rsp
-vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.obj: D:/projects/text-editor/vendored/SDL_ttf/src/SDL_ttf.c
+vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.obj: D:/texeditor/vendored/SDL_ttf/src/SDL_ttf.c
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\text-editor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.obj"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.obj -MF CMakeFiles\SDL3_ttf-shared.dir\src\SDL_ttf.c.obj.d -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_ttf.c.obj -c D:\projects\text-editor\vendored\SDL_ttf\src\SDL_ttf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\texeditor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.obj"
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.obj -MF CMakeFiles\SDL3_ttf-shared.dir\src\SDL_ttf.c.obj.d -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_ttf.c.obj -c D:\texeditor\vendored\SDL_ttf\src\SDL_ttf.c
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.i"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\projects\text-editor\vendored\SDL_ttf\src\SDL_ttf.c > CMakeFiles\SDL3_ttf-shared.dir\src\SDL_ttf.c.i
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\texeditor\vendored\SDL_ttf\src\SDL_ttf.c > CMakeFiles\SDL3_ttf-shared.dir\src\SDL_ttf.c.i
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.s"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\projects\text-editor\vendored\SDL_ttf\src\SDL_ttf.c -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_ttf.c.s
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\texeditor\vendored\SDL_ttf\src\SDL_ttf.c -o CMakeFiles\SDL3_ttf-shared.dir\src\SDL_ttf.c.s
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/version.rc.obj: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/flags.make
-vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/version.rc.obj: D:/projects/text-editor/vendored/SDL_ttf/src/version.rc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\text-editor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building RC object vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/version.rc.obj"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) D:\projects\text-editor\vendored\SDL_ttf\src\version.rc CMakeFiles\SDL3_ttf-shared.dir\src\version.rc.obj
+vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/version.rc.obj: D:/texeditor/vendored/SDL_ttf/src/version.rc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\texeditor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building RC object vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/version.rc.obj"
+	cd /d D:\texeditor\build\vendored\SDL_ttf && C:\msys64\mingw64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) D:\texeditor\vendored\SDL_ttf\src\version.rc CMakeFiles\SDL3_ttf-shared.dir\src\version.rc.obj
 
 # Object files for target SDL3_ttf-shared
 SDL3_ttf__shared_OBJECTS = \
@@ -190,23 +190,23 @@ SDL3_ttf.dll: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/build.make
 SDL3_ttf.dll: vendored/SDL/libSDL3.dll.a
 SDL3_ttf.dll: C:/msys64/mingw64/lib/libharfbuzz.dll.a
 SDL3_ttf.dll: C:/msys64/mingw64/lib/libfreetype.dll.a
-SDL3_ttf.dll: D:/projects/text-editor/vendored/SDL_ttf/src/SDL_ttf.sym
-SDL3_ttf.dll: D:/projects/text-editor/vendored/SDL/src/dynapi/SDL_dynapi.sym
+SDL3_ttf.dll: D:/texeditor/vendored/SDL_ttf/src/SDL_ttf.sym
+SDL3_ttf.dll: D:/texeditor/vendored/SDL/src/dynapi/SDL_dynapi.sym
 SDL3_ttf.dll: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/linkLibs.rsp
 SDL3_ttf.dll: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/objects1.rsp
 SDL3_ttf.dll: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\projects\text-editor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library ..\..\SDL3_ttf.dll"
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SDL3_ttf-shared.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\texeditor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library ..\..\SDL3_ttf.dll"
+	cd /d D:\texeditor\build\vendored\SDL_ttf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SDL3_ttf-shared.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/build: SDL3_ttf.dll
 .PHONY : vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/build
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/clean:
-	cd /d D:\projects\text-editor\build\vendored\SDL_ttf && $(CMAKE_COMMAND) -P CMakeFiles\SDL3_ttf-shared.dir\cmake_clean.cmake
+	cd /d D:\texeditor\build\vendored\SDL_ttf && $(CMAKE_COMMAND) -P CMakeFiles\SDL3_ttf-shared.dir\cmake_clean.cmake
 .PHONY : vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/clean
 
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\projects\text-editor D:\projects\text-editor\vendored\SDL_ttf D:\projects\text-editor\build D:\projects\text-editor\build\vendored\SDL_ttf D:\projects\text-editor\build\vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\DependInfo.cmake "--color=$(COLOR)" SDL3_ttf-shared
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\texeditor D:\texeditor\vendored\SDL_ttf D:\texeditor\build D:\texeditor\build\vendored\SDL_ttf D:\texeditor\build\vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\DependInfo.cmake "--color=$(COLOR)" SDL3_ttf-shared
 .PHONY : vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/depend
 

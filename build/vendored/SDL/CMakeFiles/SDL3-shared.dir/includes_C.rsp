@@ -1,1 +1,1 @@
--I"D:/projects/text-editor/build/vendored/SDL/include-config-/build_config" -I"D:/projects/text-editor/build/vendored/SDL/include-revision" -I"D:/projects/text-editor/vendored/SDL/include" -I"D:/projects/text-editor/vendored/SDL/src"
+-I"D:/texeditor/build/vendored/SDL/include-config-/build_config" -I"D:/texeditor/build/vendored/SDL/include-revision" -ID:/texeditor/vendored/SDL/include -ID:/texeditor/vendored/SDL/src

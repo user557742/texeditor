@@ -1,13 +1,13 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\joystick\hidapi\SDL_hidapi_rumble.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:\projects\text-editor\vendored\SDL\src\joystick\hidapi\SDL_hidapijoystick_c.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
- D:\projects\text-editor\vendored\SDL\src\joystick\hidapi\SDL_hidapi_rumble.h \
- D:/projects/text-editor/vendored/SDL/src/thread/SDL_systhread.h \
- D:/projects/text-editor/vendored/SDL/src/thread/SDL_thread_c.h \
- D:/projects/text-editor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\joystick\hidapi\SDL_hidapi_rumble.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:\texeditor\vendored\SDL\src\joystick\hidapi\SDL_hidapijoystick_c.h \
+ D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+ D:\texeditor\vendored\SDL\src\joystick\hidapi\SDL_hidapi_rumble.h \
+ D:/texeditor/vendored/SDL/src/thread/SDL_systhread.h \
+ D:/texeditor/vendored/SDL/src/thread/SDL_thread_c.h \
+ D:/texeditor/vendored/SDL/src/thread/windows/SDL_systhread_c.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -87,5 +87,5 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
  C:/msys64/mingw64/include/imm.h C:/msys64/mingw64/include/basetyps.h \
  C:/msys64/mingw64/include/mmreg.h C:/msys64/mingw64/include/pshpack1.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_error_c.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h
+ D:/texeditor/vendored/SDL/src/SDL_error_c.h \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h

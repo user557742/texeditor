@@ -1,11 +1,11 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\joystick\hidapi\SDL_hidapi_wii.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_hints_c.h \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
- D:\projects\text-editor\vendored\SDL\src\joystick\hidapi\SDL_hidapijoystick_c.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/usb_ids.h \
- D:\projects\text-editor\vendored\SDL\src\joystick\hidapi\SDL_hidapi_rumble.h \
- D:\projects\text-editor\vendored\SDL\src\joystick\hidapi\SDL_hidapi_nintendo.h
+ D:\texeditor\vendored\SDL\src\joystick\hidapi\SDL_hidapi_wii.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/SDL_hints_c.h \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+ D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+ D:\texeditor\vendored\SDL\src\joystick\hidapi\SDL_hidapijoystick_c.h \
+ D:/texeditor/vendored/SDL/src/joystick/usb_ids.h \
+ D:\texeditor\vendored\SDL\src\joystick\hidapi\SDL_hidapi_rumble.h \
+ D:\texeditor\vendored\SDL\src\joystick\hidapi\SDL_hidapi_nintendo.h

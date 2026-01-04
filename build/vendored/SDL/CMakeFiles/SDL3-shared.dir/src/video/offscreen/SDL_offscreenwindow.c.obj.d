@@ -1,21 +1,21 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\video\offscreen\SDL_offscreenwindow.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
- D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_egl_c.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_egl.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/egl.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
+ D:\texeditor\vendored\SDL\src\video\offscreen\SDL_offscreenwindow.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+ D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_egl_c.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_egl.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/EGL/egl.h \
+ D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglplatform.h \
  C:/msys64/mingw64/include/KHR/khrplatform.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
@@ -96,7 +96,7 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.
  C:/msys64/mingw64/include/sec_api/stralign_s.h \
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
  C:/msys64/mingw64/include/imm.h \
- D:/projects/text-editor/vendored/SDL/src/video/khronos/EGL/eglext.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
- D:\projects\text-editor\vendored\SDL\src\video\offscreen\SDL_offscreenwindow.h \
- D:\projects\text-editor\vendored\SDL\src\video\offscreen\SDL_offscreenvideo.h
+ D:/texeditor/vendored/SDL/src/video/khronos/EGL/eglext.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+ D:\texeditor\vendored\SDL\src\video\offscreen\SDL_offscreenwindow.h \
+ D:\texeditor\vendored\SDL\src\video\offscreen\SDL_offscreenvideo.h

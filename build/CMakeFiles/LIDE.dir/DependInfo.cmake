@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/projects/text-editor/src/main.cpp" "CMakeFiles/LIDE.dir/src/main.cpp.obj" "gcc" "CMakeFiles/LIDE.dir/src/main.cpp.obj.d"
+  "D:/texeditor/src/main.cpp" "CMakeFiles/LIDE.dir/src/main.cpp.obj" "gcc" "CMakeFiles/LIDE.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -56,10 +56,10 @@ RM = C:\msys64\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\projects\text-editor
+CMAKE_SOURCE_DIR = D:\texeditor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\projects\text-editor\build
+CMAKE_BINARY_DIR = D:\texeditor\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\projects\text-editor\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\projects\text-editor\build\CMakeFiles D:\projects\text-editor\build\vendored\SDL_ttf\\CMakeFiles\progress.marks
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL_ttf/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\text-editor\build\CMakeFiles 0
+	cd /d D:\texeditor\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\texeditor\build\CMakeFiles D:\texeditor\build\vendored\SDL_ttf\\CMakeFiles\progress.marks
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL_ttf/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\texeditor\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL_ttf/clean
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL_ttf/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,23 +102,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL_ttf/preinstall
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL_ttf/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL_ttf/preinstall
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL_ttf/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\projects\text-editor\build && $(CMAKE_COMMAND) -P D:\projects\text-editor\build\CMakeFiles\VerifyGlobs.cmake
-	cd /d D:\projects\text-editor\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\texeditor\build && $(CMAKE_COMMAND) -P D:\texeditor\build\CMakeFiles\VerifyGlobs.cmake
+	cd /d D:\texeditor\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/rule:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/rule
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/rule
 .PHONY : vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ SDL3_ttf-shared: vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/rule
 
 # fast build rule for target.
 SDL3_ttf-shared/fast:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/build
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/build
 .PHONY : SDL3_ttf-shared/fast
 
 src/SDL_gpu_textengine.obj: src/SDL_gpu_textengine.c.obj
@@ -135,7 +135,7 @@ src/SDL_gpu_textengine.obj: src/SDL_gpu_textengine.c.obj
 
 # target to build an object file
 src/SDL_gpu_textengine.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.obj
 .PHONY : src/SDL_gpu_textengine.c.obj
 
 src/SDL_gpu_textengine.i: src/SDL_gpu_textengine.c.i
@@ -143,7 +143,7 @@ src/SDL_gpu_textengine.i: src/SDL_gpu_textengine.c.i
 
 # target to preprocess a source file
 src/SDL_gpu_textengine.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.i
 .PHONY : src/SDL_gpu_textengine.c.i
 
 src/SDL_gpu_textengine.s: src/SDL_gpu_textengine.c.s
@@ -151,7 +151,7 @@ src/SDL_gpu_textengine.s: src/SDL_gpu_textengine.c.s
 
 # target to generate assembly for a file
 src/SDL_gpu_textengine.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.s
 .PHONY : src/SDL_gpu_textengine.c.s
 
 src/SDL_hashtable.obj: src/SDL_hashtable.c.obj
@@ -159,7 +159,7 @@ src/SDL_hashtable.obj: src/SDL_hashtable.c.obj
 
 # target to build an object file
 src/SDL_hashtable.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.obj
 .PHONY : src/SDL_hashtable.c.obj
 
 src/SDL_hashtable.i: src/SDL_hashtable.c.i
@@ -167,7 +167,7 @@ src/SDL_hashtable.i: src/SDL_hashtable.c.i
 
 # target to preprocess a source file
 src/SDL_hashtable.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.i
 .PHONY : src/SDL_hashtable.c.i
 
 src/SDL_hashtable.s: src/SDL_hashtable.c.s
@@ -175,7 +175,7 @@ src/SDL_hashtable.s: src/SDL_hashtable.c.s
 
 # target to generate assembly for a file
 src/SDL_hashtable.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.s
 .PHONY : src/SDL_hashtable.c.s
 
 src/SDL_hashtable_ttf.obj: src/SDL_hashtable_ttf.c.obj
@@ -183,7 +183,7 @@ src/SDL_hashtable_ttf.obj: src/SDL_hashtable_ttf.c.obj
 
 # target to build an object file
 src/SDL_hashtable_ttf.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.obj
 .PHONY : src/SDL_hashtable_ttf.c.obj
 
 src/SDL_hashtable_ttf.i: src/SDL_hashtable_ttf.c.i
@@ -191,7 +191,7 @@ src/SDL_hashtable_ttf.i: src/SDL_hashtable_ttf.c.i
 
 # target to preprocess a source file
 src/SDL_hashtable_ttf.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.i
 .PHONY : src/SDL_hashtable_ttf.c.i
 
 src/SDL_hashtable_ttf.s: src/SDL_hashtable_ttf.c.s
@@ -199,7 +199,7 @@ src/SDL_hashtable_ttf.s: src/SDL_hashtable_ttf.c.s
 
 # target to generate assembly for a file
 src/SDL_hashtable_ttf.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.s
 .PHONY : src/SDL_hashtable_ttf.c.s
 
 src/SDL_renderer_textengine.obj: src/SDL_renderer_textengine.c.obj
@@ -207,7 +207,7 @@ src/SDL_renderer_textengine.obj: src/SDL_renderer_textengine.c.obj
 
 # target to build an object file
 src/SDL_renderer_textengine.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.obj
 .PHONY : src/SDL_renderer_textengine.c.obj
 
 src/SDL_renderer_textengine.i: src/SDL_renderer_textengine.c.i
@@ -215,7 +215,7 @@ src/SDL_renderer_textengine.i: src/SDL_renderer_textengine.c.i
 
 # target to preprocess a source file
 src/SDL_renderer_textengine.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.i
 .PHONY : src/SDL_renderer_textengine.c.i
 
 src/SDL_renderer_textengine.s: src/SDL_renderer_textengine.c.s
@@ -223,7 +223,7 @@ src/SDL_renderer_textengine.s: src/SDL_renderer_textengine.c.s
 
 # target to generate assembly for a file
 src/SDL_renderer_textengine.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.s
 .PHONY : src/SDL_renderer_textengine.c.s
 
 src/SDL_surface_textengine.obj: src/SDL_surface_textengine.c.obj
@@ -231,7 +231,7 @@ src/SDL_surface_textengine.obj: src/SDL_surface_textengine.c.obj
 
 # target to build an object file
 src/SDL_surface_textengine.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.obj
 .PHONY : src/SDL_surface_textengine.c.obj
 
 src/SDL_surface_textengine.i: src/SDL_surface_textengine.c.i
@@ -239,7 +239,7 @@ src/SDL_surface_textengine.i: src/SDL_surface_textengine.c.i
 
 # target to preprocess a source file
 src/SDL_surface_textengine.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.i
 .PHONY : src/SDL_surface_textengine.c.i
 
 src/SDL_surface_textengine.s: src/SDL_surface_textengine.c.s
@@ -247,7 +247,7 @@ src/SDL_surface_textengine.s: src/SDL_surface_textengine.c.s
 
 # target to generate assembly for a file
 src/SDL_surface_textengine.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.s
 .PHONY : src/SDL_surface_textengine.c.s
 
 src/SDL_ttf.obj: src/SDL_ttf.c.obj
@@ -255,7 +255,7 @@ src/SDL_ttf.obj: src/SDL_ttf.c.obj
 
 # target to build an object file
 src/SDL_ttf.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.obj
 .PHONY : src/SDL_ttf.c.obj
 
 src/SDL_ttf.i: src/SDL_ttf.c.i
@@ -263,7 +263,7 @@ src/SDL_ttf.i: src/SDL_ttf.c.i
 
 # target to preprocess a source file
 src/SDL_ttf.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.i
 .PHONY : src/SDL_ttf.c.i
 
 src/SDL_ttf.s: src/SDL_ttf.c.s
@@ -271,7 +271,7 @@ src/SDL_ttf.s: src/SDL_ttf.c.s
 
 # target to generate assembly for a file
 src/SDL_ttf.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.s
 .PHONY : src/SDL_ttf.c.s
 
 src/version.obj: src/version.rc.obj
@@ -279,7 +279,7 @@ src/version.obj: src/version.rc.obj
 
 # target to build an object file
 src/version.rc.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/version.rc.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL_ttf\CMakeFiles\SDL3_ttf-shared.dir\build.make vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/version.rc.obj
 .PHONY : src/version.rc.obj
 
 # Help Target
@@ -321,7 +321,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\projects\text-editor\build && $(CMAKE_COMMAND) -P D:\projects\text-editor\build\CMakeFiles\VerifyGlobs.cmake
-	cd /d D:\projects\text-editor\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\texeditor\build && $(CMAKE_COMMAND) -P D:\texeditor\build\CMakeFiles\VerifyGlobs.cmake
+	cd /d D:\texeditor\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

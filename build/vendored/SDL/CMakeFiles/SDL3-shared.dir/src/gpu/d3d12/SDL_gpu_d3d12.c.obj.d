@@ -1,8 +1,8 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/d3d12/SDL_gpu_d3d12.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\gpu\d3d12\SDL_gpu_d3d12.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/events/SDL_windowevents_c.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\gpu\d3d12\SDL_gpu_d3d12.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/events/SDL_windowevents_c.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -82,8 +82,8 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/d3d12/SDL_gpu_d3d12.c.obj: \
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
  C:/msys64/mingw64/include/imm.h C:/msys64/mingw64/include/basetyps.h \
  C:/msys64/mingw64/include/mmreg.h C:/msys64/mingw64/include/pshpack1.h \
- D:/projects/text-editor/vendored/SDL/src/video/directx/SDL_d3d12.h \
- D:/projects/text-editor/vendored/SDL/src/video/directx/d3d12.h \
+ D:/texeditor/vendored/SDL/src/video/directx/SDL_d3d12.h \
+ D:/texeditor/vendored/SDL/src/video/directx/d3d12.h \
  C:/msys64/mingw64/include/rpc.h C:/msys64/mingw64/include/rpcdce.h \
  C:/msys64/mingw64/include/rpcdcep.h C:/msys64/mingw64/include/rpcnsi.h \
  C:/msys64/mingw64/include/rpcnterr.h \
@@ -103,20 +103,20 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/d3d12/SDL_gpu_d3d12.c.obj: \
  C:/msys64/mingw64/include/ocidl.h C:/msys64/mingw64/include/dxgicommon.h \
  C:/msys64/mingw64/include/dxgiformat.h \
  C:/msys64/mingw64/include/d3dcommon.h \
- D:/projects/text-editor/vendored/SDL/src/video/directx/d3d12sdklayers.h \
+ D:/texeditor/vendored/SDL/src/video/directx/d3d12sdklayers.h \
  C:/msys64/mingw64/include/dxgi1_6.h C:/msys64/mingw64/include/dxgi1_5.h \
  C:/msys64/mingw64/include/dxgi1_4.h C:/msys64/mingw64/include/dxgi1_3.h \
  C:/msys64/mingw64/include/dxgi1_2.h C:/msys64/mingw64/include/dxgi.h \
  C:/msys64/mingw64/include/dxgitype.h \
  C:/msys64/mingw64/include/dxgidebug.h \
- D:/projects/text-editor/vendored/SDL/src/gpu/SDL_sysgpu.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_sysvideo.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_vulkan.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_stdinc.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_error.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_video.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_begin_code.h \
- D:/projects/text-editor/vendored/SDL/include/SDL3/SDL_close_code.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_surface_c.h \
- D:/projects/text-editor/vendored/SDL/src/video/SDL_blit.h \
- D:\projects\text-editor\vendored\SDL\src\gpu\d3d12\D3D12_Blit.h
+ D:/texeditor/vendored/SDL/src/gpu/SDL_sysgpu.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_sysvideo.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_vulkan.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_stdinc.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_error.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_video.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_begin_code.h \
+ D:/texeditor/vendored/SDL/include/SDL3/SDL_close_code.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_surface_c.h \
+ D:/texeditor/vendored/SDL/src/video/SDL_blit.h \
+ D:\texeditor\vendored\SDL\src\gpu\d3d12\D3D12_Blit.h

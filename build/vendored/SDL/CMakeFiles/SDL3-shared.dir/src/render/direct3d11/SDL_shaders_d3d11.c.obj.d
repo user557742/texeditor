@@ -1,7 +1,7 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\render\direct3d11\SDL_shaders_d3d11.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\render\direct3d11\SDL_shaders_d3d11.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -112,8 +112,8 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.
  C:/msys64/mingw64/include/d3d11sdklayers.h \
  C:/msys64/mingw64/include/d3d10misc.h \
  C:/msys64/mingw64/include/d3d10effect.h \
- D:\projects\text-editor\vendored\SDL\src\render\direct3d11\SDL_shaders_d3d11.h \
- D:\projects\text-editor\vendored\SDL\src\render\direct3d11\D3D11_PixelShader_Colors.h \
- D:\projects\text-editor\vendored\SDL\src\render\direct3d11\D3D11_PixelShader_Textures.h \
- D:\projects\text-editor\vendored\SDL\src\render\direct3d11\D3D11_PixelShader_Advanced.h \
- D:\projects\text-editor\vendored\SDL\src\render\direct3d11\D3D11_VertexShader.h
+ D:\texeditor\vendored\SDL\src\render\direct3d11\SDL_shaders_d3d11.h \
+ D:\texeditor\vendored\SDL\src\render\direct3d11\D3D11_PixelShader_Colors.h \
+ D:\texeditor\vendored\SDL\src\render\direct3d11\D3D11_PixelShader_Textures.h \
+ D:\texeditor\vendored\SDL\src\render\direct3d11\D3D11_PixelShader_Advanced.h \
+ D:\texeditor\vendored\SDL\src\render\direct3d11\D3D11_VertexShader.h

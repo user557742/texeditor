@@ -1,8 +1,8 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysmutex.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\thread\windows\SDL_sysmutex.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:\projects\text-editor\vendored\SDL\src\thread\windows\SDL_sysmutex_c.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\thread\windows\SDL_sysmutex.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:\texeditor\vendored\SDL\src\thread\windows\SDL_sysmutex_c.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \

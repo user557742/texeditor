@@ -56,10 +56,10 @@ RM = C:\msys64\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\projects\text-editor
+CMAKE_SOURCE_DIR = D:\texeditor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\projects\text-editor\build
+CMAKE_BINARY_DIR = D:\texeditor\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\projects\text-editor\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\projects\text-editor\build\CMakeFiles D:\projects\text-editor\build\vendored\SDL\\CMakeFiles\progress.marks
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\text-editor\build\CMakeFiles 0
+	cd /d D:\texeditor\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\texeditor\build\CMakeFiles D:\texeditor\build\vendored\SDL\\CMakeFiles\progress.marks
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\texeditor\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL/clean
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,23 +102,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL/preinstall
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL/preinstall
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\projects\text-editor\build && $(CMAKE_COMMAND) -P D:\projects\text-editor\build\CMakeFiles\VerifyGlobs.cmake
-	cd /d D:\projects\text-editor\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\texeditor\build && $(CMAKE_COMMAND) -P D:\texeditor\build\CMakeFiles\VerifyGlobs.cmake
+	cd /d D:\texeditor\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 vendored/SDL/CMakeFiles/SDL3-shared.dir/rule:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL/CMakeFiles/SDL3-shared.dir/rule
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL/CMakeFiles/SDL3-shared.dir/rule
 .PHONY : vendored/SDL/CMakeFiles/SDL3-shared.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ SDL3-shared: vendored/SDL/CMakeFiles/SDL3-shared.dir/rule
 
 # fast build rule for target.
 SDL3-shared/fast:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/build
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/build
 .PHONY : SDL3-shared/fast
 
 # Convenience name for target.
 vendored/SDL/CMakeFiles/SDL3_test.dir/rule:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL/CMakeFiles/SDL3_test.dir/rule
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL/CMakeFiles/SDL3_test.dir/rule
 .PHONY : vendored/SDL/CMakeFiles/SDL3_test.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ SDL3_test: vendored/SDL/CMakeFiles/SDL3_test.dir/rule
 
 # fast build rule for target.
 SDL3_test/fast:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/build
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/build
 .PHONY : SDL3_test/fast
 
 # Convenience name for target.
 vendored/SDL/CMakeFiles/SDL_uclibc.dir/rule:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL/CMakeFiles/SDL_uclibc.dir/rule
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vendored/SDL/CMakeFiles/SDL_uclibc.dir/rule
 .PHONY : vendored/SDL/CMakeFiles/SDL_uclibc.dir/rule
 
 # Convenience name for target.
@@ -155,37 +155,37 @@ SDL_uclibc: vendored/SDL/CMakeFiles/SDL_uclibc.dir/rule
 
 # fast build rule for target.
 SDL_uclibc/fast:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/build
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/build
 .PHONY : SDL_uclibc/fast
 
 # target to build an object file
 cmake_pch.h.gch:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
 .PHONY : cmake_pch.h.gch
 
 # target to preprocess a source file
 cmake_pch.h.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.i
 .PHONY : cmake_pch.h.i
 
 # target to generate assembly for a file
 cmake_pch.h.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.s
 .PHONY : cmake_pch.h.s
 
 # target to build an object file
 cmake_pch.hxx.gch:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx.gch
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx.gch
 .PHONY : cmake_pch.hxx.gch
 
 # target to preprocess a source file
 cmake_pch.hxx.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx.i
 .PHONY : cmake_pch.hxx.i
 
 # target to generate assembly for a file
 cmake_pch.hxx.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.hxx.s
 .PHONY : cmake_pch.hxx.s
 
 src/SDL.obj: src/SDL.c.obj
@@ -193,7 +193,7 @@ src/SDL.obj: src/SDL.c.obj
 
 # target to build an object file
 src/SDL.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.obj
 .PHONY : src/SDL.c.obj
 
 src/SDL.i: src/SDL.c.i
@@ -201,7 +201,7 @@ src/SDL.i: src/SDL.c.i
 
 # target to preprocess a source file
 src/SDL.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.i
 .PHONY : src/SDL.c.i
 
 src/SDL.s: src/SDL.c.s
@@ -209,7 +209,7 @@ src/SDL.s: src/SDL.c.s
 
 # target to generate assembly for a file
 src/SDL.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.s
 .PHONY : src/SDL.c.s
 
 src/SDL_assert.obj: src/SDL_assert.c.obj
@@ -217,7 +217,7 @@ src/SDL_assert.obj: src/SDL_assert.c.obj
 
 # target to build an object file
 src/SDL_assert.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.obj
 .PHONY : src/SDL_assert.c.obj
 
 src/SDL_assert.i: src/SDL_assert.c.i
@@ -225,7 +225,7 @@ src/SDL_assert.i: src/SDL_assert.c.i
 
 # target to preprocess a source file
 src/SDL_assert.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.i
 .PHONY : src/SDL_assert.c.i
 
 src/SDL_assert.s: src/SDL_assert.c.s
@@ -233,7 +233,7 @@ src/SDL_assert.s: src/SDL_assert.c.s
 
 # target to generate assembly for a file
 src/SDL_assert.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.s
 .PHONY : src/SDL_assert.c.s
 
 src/SDL_error.obj: src/SDL_error.c.obj
@@ -241,7 +241,7 @@ src/SDL_error.obj: src/SDL_error.c.obj
 
 # target to build an object file
 src/SDL_error.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.obj
 .PHONY : src/SDL_error.c.obj
 
 src/SDL_error.i: src/SDL_error.c.i
@@ -249,7 +249,7 @@ src/SDL_error.i: src/SDL_error.c.i
 
 # target to preprocess a source file
 src/SDL_error.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.i
 .PHONY : src/SDL_error.c.i
 
 src/SDL_error.s: src/SDL_error.c.s
@@ -257,7 +257,7 @@ src/SDL_error.s: src/SDL_error.c.s
 
 # target to generate assembly for a file
 src/SDL_error.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_error.c.s
 .PHONY : src/SDL_error.c.s
 
 src/SDL_guid.obj: src/SDL_guid.c.obj
@@ -265,7 +265,7 @@ src/SDL_guid.obj: src/SDL_guid.c.obj
 
 # target to build an object file
 src/SDL_guid.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.obj
 .PHONY : src/SDL_guid.c.obj
 
 src/SDL_guid.i: src/SDL_guid.c.i
@@ -273,7 +273,7 @@ src/SDL_guid.i: src/SDL_guid.c.i
 
 # target to preprocess a source file
 src/SDL_guid.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.i
 .PHONY : src/SDL_guid.c.i
 
 src/SDL_guid.s: src/SDL_guid.c.s
@@ -281,7 +281,7 @@ src/SDL_guid.s: src/SDL_guid.c.s
 
 # target to generate assembly for a file
 src/SDL_guid.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.s
 .PHONY : src/SDL_guid.c.s
 
 src/SDL_hashtable.obj: src/SDL_hashtable.c.obj
@@ -289,7 +289,7 @@ src/SDL_hashtable.obj: src/SDL_hashtable.c.obj
 
 # target to build an object file
 src/SDL_hashtable.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.obj
 .PHONY : src/SDL_hashtable.c.obj
 
 src/SDL_hashtable.i: src/SDL_hashtable.c.i
@@ -297,7 +297,7 @@ src/SDL_hashtable.i: src/SDL_hashtable.c.i
 
 # target to preprocess a source file
 src/SDL_hashtable.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.i
 .PHONY : src/SDL_hashtable.c.i
 
 src/SDL_hashtable.s: src/SDL_hashtable.c.s
@@ -305,7 +305,7 @@ src/SDL_hashtable.s: src/SDL_hashtable.c.s
 
 # target to generate assembly for a file
 src/SDL_hashtable.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.s
 .PHONY : src/SDL_hashtable.c.s
 
 src/SDL_hints.obj: src/SDL_hints.c.obj
@@ -313,7 +313,7 @@ src/SDL_hints.obj: src/SDL_hints.c.obj
 
 # target to build an object file
 src/SDL_hints.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.obj
 .PHONY : src/SDL_hints.c.obj
 
 src/SDL_hints.i: src/SDL_hints.c.i
@@ -321,7 +321,7 @@ src/SDL_hints.i: src/SDL_hints.c.i
 
 # target to preprocess a source file
 src/SDL_hints.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.i
 .PHONY : src/SDL_hints.c.i
 
 src/SDL_hints.s: src/SDL_hints.c.s
@@ -329,7 +329,7 @@ src/SDL_hints.s: src/SDL_hints.c.s
 
 # target to generate assembly for a file
 src/SDL_hints.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.s
 .PHONY : src/SDL_hints.c.s
 
 src/SDL_list.obj: src/SDL_list.c.obj
@@ -337,7 +337,7 @@ src/SDL_list.obj: src/SDL_list.c.obj
 
 # target to build an object file
 src/SDL_list.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.obj
 .PHONY : src/SDL_list.c.obj
 
 src/SDL_list.i: src/SDL_list.c.i
@@ -345,7 +345,7 @@ src/SDL_list.i: src/SDL_list.c.i
 
 # target to preprocess a source file
 src/SDL_list.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.i
 .PHONY : src/SDL_list.c.i
 
 src/SDL_list.s: src/SDL_list.c.s
@@ -353,7 +353,7 @@ src/SDL_list.s: src/SDL_list.c.s
 
 # target to generate assembly for a file
 src/SDL_list.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_list.c.s
 .PHONY : src/SDL_list.c.s
 
 src/SDL_log.obj: src/SDL_log.c.obj
@@ -361,7 +361,7 @@ src/SDL_log.obj: src/SDL_log.c.obj
 
 # target to build an object file
 src/SDL_log.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.obj
 .PHONY : src/SDL_log.c.obj
 
 src/SDL_log.i: src/SDL_log.c.i
@@ -369,7 +369,7 @@ src/SDL_log.i: src/SDL_log.c.i
 
 # target to preprocess a source file
 src/SDL_log.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.i
 .PHONY : src/SDL_log.c.i
 
 src/SDL_log.s: src/SDL_log.c.s
@@ -377,7 +377,7 @@ src/SDL_log.s: src/SDL_log.c.s
 
 # target to generate assembly for a file
 src/SDL_log.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_log.c.s
 .PHONY : src/SDL_log.c.s
 
 src/SDL_properties.obj: src/SDL_properties.c.obj
@@ -385,7 +385,7 @@ src/SDL_properties.obj: src/SDL_properties.c.obj
 
 # target to build an object file
 src/SDL_properties.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.obj
 .PHONY : src/SDL_properties.c.obj
 
 src/SDL_properties.i: src/SDL_properties.c.i
@@ -393,7 +393,7 @@ src/SDL_properties.i: src/SDL_properties.c.i
 
 # target to preprocess a source file
 src/SDL_properties.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.i
 .PHONY : src/SDL_properties.c.i
 
 src/SDL_properties.s: src/SDL_properties.c.s
@@ -401,7 +401,7 @@ src/SDL_properties.s: src/SDL_properties.c.s
 
 # target to generate assembly for a file
 src/SDL_properties.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.s
 .PHONY : src/SDL_properties.c.s
 
 src/SDL_utils.obj: src/SDL_utils.c.obj
@@ -409,7 +409,7 @@ src/SDL_utils.obj: src/SDL_utils.c.obj
 
 # target to build an object file
 src/SDL_utils.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.obj
 .PHONY : src/SDL_utils.c.obj
 
 src/SDL_utils.i: src/SDL_utils.c.i
@@ -417,7 +417,7 @@ src/SDL_utils.i: src/SDL_utils.c.i
 
 # target to preprocess a source file
 src/SDL_utils.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.i
 .PHONY : src/SDL_utils.c.i
 
 src/SDL_utils.s: src/SDL_utils.c.s
@@ -425,7 +425,7 @@ src/SDL_utils.s: src/SDL_utils.c.s
 
 # target to generate assembly for a file
 src/SDL_utils.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.s
 .PHONY : src/SDL_utils.c.s
 
 src/atomic/SDL_atomic.obj: src/atomic/SDL_atomic.c.obj
@@ -433,7 +433,7 @@ src/atomic/SDL_atomic.obj: src/atomic/SDL_atomic.c.obj
 
 # target to build an object file
 src/atomic/SDL_atomic.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.obj
 .PHONY : src/atomic/SDL_atomic.c.obj
 
 src/atomic/SDL_atomic.i: src/atomic/SDL_atomic.c.i
@@ -441,7 +441,7 @@ src/atomic/SDL_atomic.i: src/atomic/SDL_atomic.c.i
 
 # target to preprocess a source file
 src/atomic/SDL_atomic.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.i
 .PHONY : src/atomic/SDL_atomic.c.i
 
 src/atomic/SDL_atomic.s: src/atomic/SDL_atomic.c.s
@@ -449,7 +449,7 @@ src/atomic/SDL_atomic.s: src/atomic/SDL_atomic.c.s
 
 # target to generate assembly for a file
 src/atomic/SDL_atomic.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.s
 .PHONY : src/atomic/SDL_atomic.c.s
 
 src/atomic/SDL_spinlock.obj: src/atomic/SDL_spinlock.c.obj
@@ -457,7 +457,7 @@ src/atomic/SDL_spinlock.obj: src/atomic/SDL_spinlock.c.obj
 
 # target to build an object file
 src/atomic/SDL_spinlock.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.obj
 .PHONY : src/atomic/SDL_spinlock.c.obj
 
 src/atomic/SDL_spinlock.i: src/atomic/SDL_spinlock.c.i
@@ -465,7 +465,7 @@ src/atomic/SDL_spinlock.i: src/atomic/SDL_spinlock.c.i
 
 # target to preprocess a source file
 src/atomic/SDL_spinlock.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.i
 .PHONY : src/atomic/SDL_spinlock.c.i
 
 src/atomic/SDL_spinlock.s: src/atomic/SDL_spinlock.c.s
@@ -473,7 +473,7 @@ src/atomic/SDL_spinlock.s: src/atomic/SDL_spinlock.c.s
 
 # target to generate assembly for a file
 src/atomic/SDL_spinlock.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.s
 .PHONY : src/atomic/SDL_spinlock.c.s
 
 src/audio/SDL_audio.obj: src/audio/SDL_audio.c.obj
@@ -481,7 +481,7 @@ src/audio/SDL_audio.obj: src/audio/SDL_audio.c.obj
 
 # target to build an object file
 src/audio/SDL_audio.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.obj
 .PHONY : src/audio/SDL_audio.c.obj
 
 src/audio/SDL_audio.i: src/audio/SDL_audio.c.i
@@ -489,7 +489,7 @@ src/audio/SDL_audio.i: src/audio/SDL_audio.c.i
 
 # target to preprocess a source file
 src/audio/SDL_audio.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.i
 .PHONY : src/audio/SDL_audio.c.i
 
 src/audio/SDL_audio.s: src/audio/SDL_audio.c.s
@@ -497,7 +497,7 @@ src/audio/SDL_audio.s: src/audio/SDL_audio.c.s
 
 # target to generate assembly for a file
 src/audio/SDL_audio.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.s
 .PHONY : src/audio/SDL_audio.c.s
 
 src/audio/SDL_audiocvt.obj: src/audio/SDL_audiocvt.c.obj
@@ -505,7 +505,7 @@ src/audio/SDL_audiocvt.obj: src/audio/SDL_audiocvt.c.obj
 
 # target to build an object file
 src/audio/SDL_audiocvt.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.obj
 .PHONY : src/audio/SDL_audiocvt.c.obj
 
 src/audio/SDL_audiocvt.i: src/audio/SDL_audiocvt.c.i
@@ -513,7 +513,7 @@ src/audio/SDL_audiocvt.i: src/audio/SDL_audiocvt.c.i
 
 # target to preprocess a source file
 src/audio/SDL_audiocvt.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.i
 .PHONY : src/audio/SDL_audiocvt.c.i
 
 src/audio/SDL_audiocvt.s: src/audio/SDL_audiocvt.c.s
@@ -521,7 +521,7 @@ src/audio/SDL_audiocvt.s: src/audio/SDL_audiocvt.c.s
 
 # target to generate assembly for a file
 src/audio/SDL_audiocvt.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.s
 .PHONY : src/audio/SDL_audiocvt.c.s
 
 src/audio/SDL_audiodev.obj: src/audio/SDL_audiodev.c.obj
@@ -529,7 +529,7 @@ src/audio/SDL_audiodev.obj: src/audio/SDL_audiodev.c.obj
 
 # target to build an object file
 src/audio/SDL_audiodev.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.obj
 .PHONY : src/audio/SDL_audiodev.c.obj
 
 src/audio/SDL_audiodev.i: src/audio/SDL_audiodev.c.i
@@ -537,7 +537,7 @@ src/audio/SDL_audiodev.i: src/audio/SDL_audiodev.c.i
 
 # target to preprocess a source file
 src/audio/SDL_audiodev.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.i
 .PHONY : src/audio/SDL_audiodev.c.i
 
 src/audio/SDL_audiodev.s: src/audio/SDL_audiodev.c.s
@@ -545,7 +545,7 @@ src/audio/SDL_audiodev.s: src/audio/SDL_audiodev.c.s
 
 # target to generate assembly for a file
 src/audio/SDL_audiodev.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.s
 .PHONY : src/audio/SDL_audiodev.c.s
 
 src/audio/SDL_audioqueue.obj: src/audio/SDL_audioqueue.c.obj
@@ -553,7 +553,7 @@ src/audio/SDL_audioqueue.obj: src/audio/SDL_audioqueue.c.obj
 
 # target to build an object file
 src/audio/SDL_audioqueue.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.obj
 .PHONY : src/audio/SDL_audioqueue.c.obj
 
 src/audio/SDL_audioqueue.i: src/audio/SDL_audioqueue.c.i
@@ -561,7 +561,7 @@ src/audio/SDL_audioqueue.i: src/audio/SDL_audioqueue.c.i
 
 # target to preprocess a source file
 src/audio/SDL_audioqueue.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.i
 .PHONY : src/audio/SDL_audioqueue.c.i
 
 src/audio/SDL_audioqueue.s: src/audio/SDL_audioqueue.c.s
@@ -569,7 +569,7 @@ src/audio/SDL_audioqueue.s: src/audio/SDL_audioqueue.c.s
 
 # target to generate assembly for a file
 src/audio/SDL_audioqueue.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.s
 .PHONY : src/audio/SDL_audioqueue.c.s
 
 src/audio/SDL_audioresample.obj: src/audio/SDL_audioresample.c.obj
@@ -577,7 +577,7 @@ src/audio/SDL_audioresample.obj: src/audio/SDL_audioresample.c.obj
 
 # target to build an object file
 src/audio/SDL_audioresample.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.obj
 .PHONY : src/audio/SDL_audioresample.c.obj
 
 src/audio/SDL_audioresample.i: src/audio/SDL_audioresample.c.i
@@ -585,7 +585,7 @@ src/audio/SDL_audioresample.i: src/audio/SDL_audioresample.c.i
 
 # target to preprocess a source file
 src/audio/SDL_audioresample.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.i
 .PHONY : src/audio/SDL_audioresample.c.i
 
 src/audio/SDL_audioresample.s: src/audio/SDL_audioresample.c.s
@@ -593,7 +593,7 @@ src/audio/SDL_audioresample.s: src/audio/SDL_audioresample.c.s
 
 # target to generate assembly for a file
 src/audio/SDL_audioresample.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.s
 .PHONY : src/audio/SDL_audioresample.c.s
 
 src/audio/SDL_audiotypecvt.obj: src/audio/SDL_audiotypecvt.c.obj
@@ -601,7 +601,7 @@ src/audio/SDL_audiotypecvt.obj: src/audio/SDL_audiotypecvt.c.obj
 
 # target to build an object file
 src/audio/SDL_audiotypecvt.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.obj
 .PHONY : src/audio/SDL_audiotypecvt.c.obj
 
 src/audio/SDL_audiotypecvt.i: src/audio/SDL_audiotypecvt.c.i
@@ -609,7 +609,7 @@ src/audio/SDL_audiotypecvt.i: src/audio/SDL_audiotypecvt.c.i
 
 # target to preprocess a source file
 src/audio/SDL_audiotypecvt.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.i
 .PHONY : src/audio/SDL_audiotypecvt.c.i
 
 src/audio/SDL_audiotypecvt.s: src/audio/SDL_audiotypecvt.c.s
@@ -617,7 +617,7 @@ src/audio/SDL_audiotypecvt.s: src/audio/SDL_audiotypecvt.c.s
 
 # target to generate assembly for a file
 src/audio/SDL_audiotypecvt.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.s
 .PHONY : src/audio/SDL_audiotypecvt.c.s
 
 src/audio/SDL_mixer.obj: src/audio/SDL_mixer.c.obj
@@ -625,7 +625,7 @@ src/audio/SDL_mixer.obj: src/audio/SDL_mixer.c.obj
 
 # target to build an object file
 src/audio/SDL_mixer.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.obj
 .PHONY : src/audio/SDL_mixer.c.obj
 
 src/audio/SDL_mixer.i: src/audio/SDL_mixer.c.i
@@ -633,7 +633,7 @@ src/audio/SDL_mixer.i: src/audio/SDL_mixer.c.i
 
 # target to preprocess a source file
 src/audio/SDL_mixer.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.i
 .PHONY : src/audio/SDL_mixer.c.i
 
 src/audio/SDL_mixer.s: src/audio/SDL_mixer.c.s
@@ -641,7 +641,7 @@ src/audio/SDL_mixer.s: src/audio/SDL_mixer.c.s
 
 # target to generate assembly for a file
 src/audio/SDL_mixer.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.s
 .PHONY : src/audio/SDL_mixer.c.s
 
 src/audio/SDL_wave.obj: src/audio/SDL_wave.c.obj
@@ -649,7 +649,7 @@ src/audio/SDL_wave.obj: src/audio/SDL_wave.c.obj
 
 # target to build an object file
 src/audio/SDL_wave.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.obj
 .PHONY : src/audio/SDL_wave.c.obj
 
 src/audio/SDL_wave.i: src/audio/SDL_wave.c.i
@@ -657,7 +657,7 @@ src/audio/SDL_wave.i: src/audio/SDL_wave.c.i
 
 # target to preprocess a source file
 src/audio/SDL_wave.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.i
 .PHONY : src/audio/SDL_wave.c.i
 
 src/audio/SDL_wave.s: src/audio/SDL_wave.c.s
@@ -665,7 +665,7 @@ src/audio/SDL_wave.s: src/audio/SDL_wave.c.s
 
 # target to generate assembly for a file
 src/audio/SDL_wave.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.s
 .PHONY : src/audio/SDL_wave.c.s
 
 src/audio/directsound/SDL_directsound.obj: src/audio/directsound/SDL_directsound.c.obj
@@ -673,7 +673,7 @@ src/audio/directsound/SDL_directsound.obj: src/audio/directsound/SDL_directsound
 
 # target to build an object file
 src/audio/directsound/SDL_directsound.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/directsound/SDL_directsound.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/directsound/SDL_directsound.c.obj
 .PHONY : src/audio/directsound/SDL_directsound.c.obj
 
 src/audio/directsound/SDL_directsound.i: src/audio/directsound/SDL_directsound.c.i
@@ -681,7 +681,7 @@ src/audio/directsound/SDL_directsound.i: src/audio/directsound/SDL_directsound.c
 
 # target to preprocess a source file
 src/audio/directsound/SDL_directsound.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/directsound/SDL_directsound.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/directsound/SDL_directsound.c.i
 .PHONY : src/audio/directsound/SDL_directsound.c.i
 
 src/audio/directsound/SDL_directsound.s: src/audio/directsound/SDL_directsound.c.s
@@ -689,7 +689,7 @@ src/audio/directsound/SDL_directsound.s: src/audio/directsound/SDL_directsound.c
 
 # target to generate assembly for a file
 src/audio/directsound/SDL_directsound.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/directsound/SDL_directsound.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/directsound/SDL_directsound.c.s
 .PHONY : src/audio/directsound/SDL_directsound.c.s
 
 src/audio/disk/SDL_diskaudio.obj: src/audio/disk/SDL_diskaudio.c.obj
@@ -697,7 +697,7 @@ src/audio/disk/SDL_diskaudio.obj: src/audio/disk/SDL_diskaudio.c.obj
 
 # target to build an object file
 src/audio/disk/SDL_diskaudio.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.obj
 .PHONY : src/audio/disk/SDL_diskaudio.c.obj
 
 src/audio/disk/SDL_diskaudio.i: src/audio/disk/SDL_diskaudio.c.i
@@ -705,7 +705,7 @@ src/audio/disk/SDL_diskaudio.i: src/audio/disk/SDL_diskaudio.c.i
 
 # target to preprocess a source file
 src/audio/disk/SDL_diskaudio.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.i
 .PHONY : src/audio/disk/SDL_diskaudio.c.i
 
 src/audio/disk/SDL_diskaudio.s: src/audio/disk/SDL_diskaudio.c.s
@@ -713,7 +713,7 @@ src/audio/disk/SDL_diskaudio.s: src/audio/disk/SDL_diskaudio.c.s
 
 # target to generate assembly for a file
 src/audio/disk/SDL_diskaudio.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.s
 .PHONY : src/audio/disk/SDL_diskaudio.c.s
 
 src/audio/dummy/SDL_dummyaudio.obj: src/audio/dummy/SDL_dummyaudio.c.obj
@@ -721,7 +721,7 @@ src/audio/dummy/SDL_dummyaudio.obj: src/audio/dummy/SDL_dummyaudio.c.obj
 
 # target to build an object file
 src/audio/dummy/SDL_dummyaudio.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.obj
 .PHONY : src/audio/dummy/SDL_dummyaudio.c.obj
 
 src/audio/dummy/SDL_dummyaudio.i: src/audio/dummy/SDL_dummyaudio.c.i
@@ -729,7 +729,7 @@ src/audio/dummy/SDL_dummyaudio.i: src/audio/dummy/SDL_dummyaudio.c.i
 
 # target to preprocess a source file
 src/audio/dummy/SDL_dummyaudio.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.i
 .PHONY : src/audio/dummy/SDL_dummyaudio.c.i
 
 src/audio/dummy/SDL_dummyaudio.s: src/audio/dummy/SDL_dummyaudio.c.s
@@ -737,7 +737,7 @@ src/audio/dummy/SDL_dummyaudio.s: src/audio/dummy/SDL_dummyaudio.c.s
 
 # target to generate assembly for a file
 src/audio/dummy/SDL_dummyaudio.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.s
 .PHONY : src/audio/dummy/SDL_dummyaudio.c.s
 
 src/audio/wasapi/SDL_wasapi.obj: src/audio/wasapi/SDL_wasapi.c.obj
@@ -745,7 +745,7 @@ src/audio/wasapi/SDL_wasapi.obj: src/audio/wasapi/SDL_wasapi.c.obj
 
 # target to build an object file
 src/audio/wasapi/SDL_wasapi.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/wasapi/SDL_wasapi.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/wasapi/SDL_wasapi.c.obj
 .PHONY : src/audio/wasapi/SDL_wasapi.c.obj
 
 src/audio/wasapi/SDL_wasapi.i: src/audio/wasapi/SDL_wasapi.c.i
@@ -753,7 +753,7 @@ src/audio/wasapi/SDL_wasapi.i: src/audio/wasapi/SDL_wasapi.c.i
 
 # target to preprocess a source file
 src/audio/wasapi/SDL_wasapi.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/wasapi/SDL_wasapi.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/wasapi/SDL_wasapi.c.i
 .PHONY : src/audio/wasapi/SDL_wasapi.c.i
 
 src/audio/wasapi/SDL_wasapi.s: src/audio/wasapi/SDL_wasapi.c.s
@@ -761,7 +761,7 @@ src/audio/wasapi/SDL_wasapi.s: src/audio/wasapi/SDL_wasapi.c.s
 
 # target to generate assembly for a file
 src/audio/wasapi/SDL_wasapi.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/wasapi/SDL_wasapi.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/audio/wasapi/SDL_wasapi.c.s
 .PHONY : src/audio/wasapi/SDL_wasapi.c.s
 
 src/camera/SDL_camera.obj: src/camera/SDL_camera.c.obj
@@ -769,7 +769,7 @@ src/camera/SDL_camera.obj: src/camera/SDL_camera.c.obj
 
 # target to build an object file
 src/camera/SDL_camera.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.obj
 .PHONY : src/camera/SDL_camera.c.obj
 
 src/camera/SDL_camera.i: src/camera/SDL_camera.c.i
@@ -777,7 +777,7 @@ src/camera/SDL_camera.i: src/camera/SDL_camera.c.i
 
 # target to preprocess a source file
 src/camera/SDL_camera.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.i
 .PHONY : src/camera/SDL_camera.c.i
 
 src/camera/SDL_camera.s: src/camera/SDL_camera.c.s
@@ -785,7 +785,7 @@ src/camera/SDL_camera.s: src/camera/SDL_camera.c.s
 
 # target to generate assembly for a file
 src/camera/SDL_camera.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.s
 .PHONY : src/camera/SDL_camera.c.s
 
 src/camera/dummy/SDL_camera_dummy.obj: src/camera/dummy/SDL_camera_dummy.c.obj
@@ -793,7 +793,7 @@ src/camera/dummy/SDL_camera_dummy.obj: src/camera/dummy/SDL_camera_dummy.c.obj
 
 # target to build an object file
 src/camera/dummy/SDL_camera_dummy.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.obj
 .PHONY : src/camera/dummy/SDL_camera_dummy.c.obj
 
 src/camera/dummy/SDL_camera_dummy.i: src/camera/dummy/SDL_camera_dummy.c.i
@@ -801,7 +801,7 @@ src/camera/dummy/SDL_camera_dummy.i: src/camera/dummy/SDL_camera_dummy.c.i
 
 # target to preprocess a source file
 src/camera/dummy/SDL_camera_dummy.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.i
 .PHONY : src/camera/dummy/SDL_camera_dummy.c.i
 
 src/camera/dummy/SDL_camera_dummy.s: src/camera/dummy/SDL_camera_dummy.c.s
@@ -809,7 +809,7 @@ src/camera/dummy/SDL_camera_dummy.s: src/camera/dummy/SDL_camera_dummy.c.s
 
 # target to generate assembly for a file
 src/camera/dummy/SDL_camera_dummy.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.s
 .PHONY : src/camera/dummy/SDL_camera_dummy.c.s
 
 src/camera/mediafoundation/SDL_camera_mediafoundation.obj: src/camera/mediafoundation/SDL_camera_mediafoundation.c.obj
@@ -817,7 +817,7 @@ src/camera/mediafoundation/SDL_camera_mediafoundation.obj: src/camera/mediafound
 
 # target to build an object file
 src/camera/mediafoundation/SDL_camera_mediafoundation.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/mediafoundation/SDL_camera_mediafoundation.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/mediafoundation/SDL_camera_mediafoundation.c.obj
 .PHONY : src/camera/mediafoundation/SDL_camera_mediafoundation.c.obj
 
 src/camera/mediafoundation/SDL_camera_mediafoundation.i: src/camera/mediafoundation/SDL_camera_mediafoundation.c.i
@@ -825,7 +825,7 @@ src/camera/mediafoundation/SDL_camera_mediafoundation.i: src/camera/mediafoundat
 
 # target to preprocess a source file
 src/camera/mediafoundation/SDL_camera_mediafoundation.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/mediafoundation/SDL_camera_mediafoundation.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/mediafoundation/SDL_camera_mediafoundation.c.i
 .PHONY : src/camera/mediafoundation/SDL_camera_mediafoundation.c.i
 
 src/camera/mediafoundation/SDL_camera_mediafoundation.s: src/camera/mediafoundation/SDL_camera_mediafoundation.c.s
@@ -833,7 +833,7 @@ src/camera/mediafoundation/SDL_camera_mediafoundation.s: src/camera/mediafoundat
 
 # target to generate assembly for a file
 src/camera/mediafoundation/SDL_camera_mediafoundation.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/mediafoundation/SDL_camera_mediafoundation.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/camera/mediafoundation/SDL_camera_mediafoundation.c.s
 .PHONY : src/camera/mediafoundation/SDL_camera_mediafoundation.c.s
 
 src/core/SDL_core_unsupported.obj: src/core/SDL_core_unsupported.c.obj
@@ -841,7 +841,7 @@ src/core/SDL_core_unsupported.obj: src/core/SDL_core_unsupported.c.obj
 
 # target to build an object file
 src/core/SDL_core_unsupported.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.obj
 .PHONY : src/core/SDL_core_unsupported.c.obj
 
 src/core/SDL_core_unsupported.i: src/core/SDL_core_unsupported.c.i
@@ -849,7 +849,7 @@ src/core/SDL_core_unsupported.i: src/core/SDL_core_unsupported.c.i
 
 # target to preprocess a source file
 src/core/SDL_core_unsupported.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.i
 .PHONY : src/core/SDL_core_unsupported.c.i
 
 src/core/SDL_core_unsupported.s: src/core/SDL_core_unsupported.c.s
@@ -857,7 +857,7 @@ src/core/SDL_core_unsupported.s: src/core/SDL_core_unsupported.c.s
 
 # target to generate assembly for a file
 src/core/SDL_core_unsupported.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.s
 .PHONY : src/core/SDL_core_unsupported.c.s
 
 src/core/windows/SDL_gameinput.obj: src/core/windows/SDL_gameinput.cpp.obj
@@ -865,7 +865,7 @@ src/core/windows/SDL_gameinput.obj: src/core/windows/SDL_gameinput.cpp.obj
 
 # target to build an object file
 src/core/windows/SDL_gameinput.cpp.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_gameinput.cpp.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_gameinput.cpp.obj
 .PHONY : src/core/windows/SDL_gameinput.cpp.obj
 
 src/core/windows/SDL_gameinput.i: src/core/windows/SDL_gameinput.cpp.i
@@ -873,7 +873,7 @@ src/core/windows/SDL_gameinput.i: src/core/windows/SDL_gameinput.cpp.i
 
 # target to preprocess a source file
 src/core/windows/SDL_gameinput.cpp.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_gameinput.cpp.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_gameinput.cpp.i
 .PHONY : src/core/windows/SDL_gameinput.cpp.i
 
 src/core/windows/SDL_gameinput.s: src/core/windows/SDL_gameinput.cpp.s
@@ -881,7 +881,7 @@ src/core/windows/SDL_gameinput.s: src/core/windows/SDL_gameinput.cpp.s
 
 # target to generate assembly for a file
 src/core/windows/SDL_gameinput.cpp.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_gameinput.cpp.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_gameinput.cpp.s
 .PHONY : src/core/windows/SDL_gameinput.cpp.s
 
 src/core/windows/SDL_hid.obj: src/core/windows/SDL_hid.c.obj
@@ -889,7 +889,7 @@ src/core/windows/SDL_hid.obj: src/core/windows/SDL_hid.c.obj
 
 # target to build an object file
 src/core/windows/SDL_hid.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_hid.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_hid.c.obj
 .PHONY : src/core/windows/SDL_hid.c.obj
 
 src/core/windows/SDL_hid.i: src/core/windows/SDL_hid.c.i
@@ -897,7 +897,7 @@ src/core/windows/SDL_hid.i: src/core/windows/SDL_hid.c.i
 
 # target to preprocess a source file
 src/core/windows/SDL_hid.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_hid.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_hid.c.i
 .PHONY : src/core/windows/SDL_hid.c.i
 
 src/core/windows/SDL_hid.s: src/core/windows/SDL_hid.c.s
@@ -905,7 +905,7 @@ src/core/windows/SDL_hid.s: src/core/windows/SDL_hid.c.s
 
 # target to generate assembly for a file
 src/core/windows/SDL_hid.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_hid.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_hid.c.s
 .PHONY : src/core/windows/SDL_hid.c.s
 
 src/core/windows/SDL_immdevice.obj: src/core/windows/SDL_immdevice.c.obj
@@ -913,7 +913,7 @@ src/core/windows/SDL_immdevice.obj: src/core/windows/SDL_immdevice.c.obj
 
 # target to build an object file
 src/core/windows/SDL_immdevice.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_immdevice.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_immdevice.c.obj
 .PHONY : src/core/windows/SDL_immdevice.c.obj
 
 src/core/windows/SDL_immdevice.i: src/core/windows/SDL_immdevice.c.i
@@ -921,7 +921,7 @@ src/core/windows/SDL_immdevice.i: src/core/windows/SDL_immdevice.c.i
 
 # target to preprocess a source file
 src/core/windows/SDL_immdevice.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_immdevice.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_immdevice.c.i
 .PHONY : src/core/windows/SDL_immdevice.c.i
 
 src/core/windows/SDL_immdevice.s: src/core/windows/SDL_immdevice.c.s
@@ -929,7 +929,7 @@ src/core/windows/SDL_immdevice.s: src/core/windows/SDL_immdevice.c.s
 
 # target to generate assembly for a file
 src/core/windows/SDL_immdevice.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_immdevice.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_immdevice.c.s
 .PHONY : src/core/windows/SDL_immdevice.c.s
 
 src/core/windows/SDL_windows.obj: src/core/windows/SDL_windows.c.obj
@@ -937,7 +937,7 @@ src/core/windows/SDL_windows.obj: src/core/windows/SDL_windows.c.obj
 
 # target to build an object file
 src/core/windows/SDL_windows.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_windows.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_windows.c.obj
 .PHONY : src/core/windows/SDL_windows.c.obj
 
 src/core/windows/SDL_windows.i: src/core/windows/SDL_windows.c.i
@@ -945,7 +945,7 @@ src/core/windows/SDL_windows.i: src/core/windows/SDL_windows.c.i
 
 # target to preprocess a source file
 src/core/windows/SDL_windows.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_windows.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_windows.c.i
 .PHONY : src/core/windows/SDL_windows.c.i
 
 src/core/windows/SDL_windows.s: src/core/windows/SDL_windows.c.s
@@ -953,7 +953,7 @@ src/core/windows/SDL_windows.s: src/core/windows/SDL_windows.c.s
 
 # target to generate assembly for a file
 src/core/windows/SDL_windows.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_windows.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_windows.c.s
 .PHONY : src/core/windows/SDL_windows.c.s
 
 src/core/windows/SDL_xinput.obj: src/core/windows/SDL_xinput.c.obj
@@ -961,7 +961,7 @@ src/core/windows/SDL_xinput.obj: src/core/windows/SDL_xinput.c.obj
 
 # target to build an object file
 src/core/windows/SDL_xinput.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_xinput.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_xinput.c.obj
 .PHONY : src/core/windows/SDL_xinput.c.obj
 
 src/core/windows/SDL_xinput.i: src/core/windows/SDL_xinput.c.i
@@ -969,7 +969,7 @@ src/core/windows/SDL_xinput.i: src/core/windows/SDL_xinput.c.i
 
 # target to preprocess a source file
 src/core/windows/SDL_xinput.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_xinput.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_xinput.c.i
 .PHONY : src/core/windows/SDL_xinput.c.i
 
 src/core/windows/SDL_xinput.s: src/core/windows/SDL_xinput.c.s
@@ -977,7 +977,7 @@ src/core/windows/SDL_xinput.s: src/core/windows/SDL_xinput.c.s
 
 # target to generate assembly for a file
 src/core/windows/SDL_xinput.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_xinput.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/SDL_xinput.c.s
 .PHONY : src/core/windows/SDL_xinput.c.s
 
 src/core/windows/pch.obj: src/core/windows/pch.c.obj
@@ -985,7 +985,7 @@ src/core/windows/pch.obj: src/core/windows/pch.c.obj
 
 # target to build an object file
 src/core/windows/pch.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/pch.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/pch.c.obj
 .PHONY : src/core/windows/pch.c.obj
 
 src/core/windows/pch.i: src/core/windows/pch.c.i
@@ -993,7 +993,7 @@ src/core/windows/pch.i: src/core/windows/pch.c.i
 
 # target to preprocess a source file
 src/core/windows/pch.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/pch.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/pch.c.i
 .PHONY : src/core/windows/pch.c.i
 
 src/core/windows/pch.s: src/core/windows/pch.c.s
@@ -1001,7 +1001,7 @@ src/core/windows/pch.s: src/core/windows/pch.c.s
 
 # target to generate assembly for a file
 src/core/windows/pch.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/pch.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/pch.c.s
 .PHONY : src/core/windows/pch.c.s
 
 src/core/windows/pch_cpp.obj: src/core/windows/pch_cpp.cpp.obj
@@ -1009,7 +1009,7 @@ src/core/windows/pch_cpp.obj: src/core/windows/pch_cpp.cpp.obj
 
 # target to build an object file
 src/core/windows/pch_cpp.cpp.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/pch_cpp.cpp.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/pch_cpp.cpp.obj
 .PHONY : src/core/windows/pch_cpp.cpp.obj
 
 src/core/windows/pch_cpp.i: src/core/windows/pch_cpp.cpp.i
@@ -1017,7 +1017,7 @@ src/core/windows/pch_cpp.i: src/core/windows/pch_cpp.cpp.i
 
 # target to preprocess a source file
 src/core/windows/pch_cpp.cpp.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/pch_cpp.cpp.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/pch_cpp.cpp.i
 .PHONY : src/core/windows/pch_cpp.cpp.i
 
 src/core/windows/pch_cpp.s: src/core/windows/pch_cpp.cpp.s
@@ -1025,7 +1025,7 @@ src/core/windows/pch_cpp.s: src/core/windows/pch_cpp.cpp.s
 
 # target to generate assembly for a file
 src/core/windows/pch_cpp.cpp.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/pch_cpp.cpp.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/pch_cpp.cpp.s
 .PHONY : src/core/windows/pch_cpp.cpp.s
 
 src/core/windows/version.obj: src/core/windows/version.rc.obj
@@ -1033,7 +1033,7 @@ src/core/windows/version.obj: src/core/windows/version.rc.obj
 
 # target to build an object file
 src/core/windows/version.rc.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/version.rc.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/core/windows/version.rc.obj
 .PHONY : src/core/windows/version.rc.obj
 
 src/cpuinfo/SDL_cpuinfo.obj: src/cpuinfo/SDL_cpuinfo.c.obj
@@ -1041,7 +1041,7 @@ src/cpuinfo/SDL_cpuinfo.obj: src/cpuinfo/SDL_cpuinfo.c.obj
 
 # target to build an object file
 src/cpuinfo/SDL_cpuinfo.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.obj
 .PHONY : src/cpuinfo/SDL_cpuinfo.c.obj
 
 src/cpuinfo/SDL_cpuinfo.i: src/cpuinfo/SDL_cpuinfo.c.i
@@ -1049,7 +1049,7 @@ src/cpuinfo/SDL_cpuinfo.i: src/cpuinfo/SDL_cpuinfo.c.i
 
 # target to preprocess a source file
 src/cpuinfo/SDL_cpuinfo.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.i
 .PHONY : src/cpuinfo/SDL_cpuinfo.c.i
 
 src/cpuinfo/SDL_cpuinfo.s: src/cpuinfo/SDL_cpuinfo.c.s
@@ -1057,7 +1057,7 @@ src/cpuinfo/SDL_cpuinfo.s: src/cpuinfo/SDL_cpuinfo.c.s
 
 # target to generate assembly for a file
 src/cpuinfo/SDL_cpuinfo.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.s
 .PHONY : src/cpuinfo/SDL_cpuinfo.c.s
 
 src/dialog/SDL_dialog.obj: src/dialog/SDL_dialog.c.obj
@@ -1065,7 +1065,7 @@ src/dialog/SDL_dialog.obj: src/dialog/SDL_dialog.c.obj
 
 # target to build an object file
 src/dialog/SDL_dialog.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.obj
 .PHONY : src/dialog/SDL_dialog.c.obj
 
 src/dialog/SDL_dialog.i: src/dialog/SDL_dialog.c.i
@@ -1073,7 +1073,7 @@ src/dialog/SDL_dialog.i: src/dialog/SDL_dialog.c.i
 
 # target to preprocess a source file
 src/dialog/SDL_dialog.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.i
 .PHONY : src/dialog/SDL_dialog.c.i
 
 src/dialog/SDL_dialog.s: src/dialog/SDL_dialog.c.s
@@ -1081,7 +1081,7 @@ src/dialog/SDL_dialog.s: src/dialog/SDL_dialog.c.s
 
 # target to generate assembly for a file
 src/dialog/SDL_dialog.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.s
 .PHONY : src/dialog/SDL_dialog.c.s
 
 src/dialog/SDL_dialog_utils.obj: src/dialog/SDL_dialog_utils.c.obj
@@ -1089,7 +1089,7 @@ src/dialog/SDL_dialog_utils.obj: src/dialog/SDL_dialog_utils.c.obj
 
 # target to build an object file
 src/dialog/SDL_dialog_utils.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.obj
 .PHONY : src/dialog/SDL_dialog_utils.c.obj
 
 src/dialog/SDL_dialog_utils.i: src/dialog/SDL_dialog_utils.c.i
@@ -1097,7 +1097,7 @@ src/dialog/SDL_dialog_utils.i: src/dialog/SDL_dialog_utils.c.i
 
 # target to preprocess a source file
 src/dialog/SDL_dialog_utils.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.i
 .PHONY : src/dialog/SDL_dialog_utils.c.i
 
 src/dialog/SDL_dialog_utils.s: src/dialog/SDL_dialog_utils.c.s
@@ -1105,7 +1105,7 @@ src/dialog/SDL_dialog_utils.s: src/dialog/SDL_dialog_utils.c.s
 
 # target to generate assembly for a file
 src/dialog/SDL_dialog_utils.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.s
 .PHONY : src/dialog/SDL_dialog_utils.c.s
 
 src/dialog/windows/SDL_windowsdialog.obj: src/dialog/windows/SDL_windowsdialog.c.obj
@@ -1113,7 +1113,7 @@ src/dialog/windows/SDL_windowsdialog.obj: src/dialog/windows/SDL_windowsdialog.c
 
 # target to build an object file
 src/dialog/windows/SDL_windowsdialog.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/windows/SDL_windowsdialog.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/windows/SDL_windowsdialog.c.obj
 .PHONY : src/dialog/windows/SDL_windowsdialog.c.obj
 
 src/dialog/windows/SDL_windowsdialog.i: src/dialog/windows/SDL_windowsdialog.c.i
@@ -1121,7 +1121,7 @@ src/dialog/windows/SDL_windowsdialog.i: src/dialog/windows/SDL_windowsdialog.c.i
 
 # target to preprocess a source file
 src/dialog/windows/SDL_windowsdialog.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/windows/SDL_windowsdialog.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/windows/SDL_windowsdialog.c.i
 .PHONY : src/dialog/windows/SDL_windowsdialog.c.i
 
 src/dialog/windows/SDL_windowsdialog.s: src/dialog/windows/SDL_windowsdialog.c.s
@@ -1129,7 +1129,7 @@ src/dialog/windows/SDL_windowsdialog.s: src/dialog/windows/SDL_windowsdialog.c.s
 
 # target to generate assembly for a file
 src/dialog/windows/SDL_windowsdialog.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/windows/SDL_windowsdialog.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dialog/windows/SDL_windowsdialog.c.s
 .PHONY : src/dialog/windows/SDL_windowsdialog.c.s
 
 src/dynapi/SDL_dynapi.obj: src/dynapi/SDL_dynapi.c.obj
@@ -1137,7 +1137,7 @@ src/dynapi/SDL_dynapi.obj: src/dynapi/SDL_dynapi.c.obj
 
 # target to build an object file
 src/dynapi/SDL_dynapi.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.obj
 .PHONY : src/dynapi/SDL_dynapi.c.obj
 
 src/dynapi/SDL_dynapi.i: src/dynapi/SDL_dynapi.c.i
@@ -1145,7 +1145,7 @@ src/dynapi/SDL_dynapi.i: src/dynapi/SDL_dynapi.c.i
 
 # target to preprocess a source file
 src/dynapi/SDL_dynapi.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.i
 .PHONY : src/dynapi/SDL_dynapi.c.i
 
 src/dynapi/SDL_dynapi.s: src/dynapi/SDL_dynapi.c.s
@@ -1153,7 +1153,7 @@ src/dynapi/SDL_dynapi.s: src/dynapi/SDL_dynapi.c.s
 
 # target to generate assembly for a file
 src/dynapi/SDL_dynapi.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.s
 .PHONY : src/dynapi/SDL_dynapi.c.s
 
 src/events/SDL_categories.obj: src/events/SDL_categories.c.obj
@@ -1161,7 +1161,7 @@ src/events/SDL_categories.obj: src/events/SDL_categories.c.obj
 
 # target to build an object file
 src/events/SDL_categories.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.obj
 .PHONY : src/events/SDL_categories.c.obj
 
 src/events/SDL_categories.i: src/events/SDL_categories.c.i
@@ -1169,7 +1169,7 @@ src/events/SDL_categories.i: src/events/SDL_categories.c.i
 
 # target to preprocess a source file
 src/events/SDL_categories.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.i
 .PHONY : src/events/SDL_categories.c.i
 
 src/events/SDL_categories.s: src/events/SDL_categories.c.s
@@ -1177,7 +1177,7 @@ src/events/SDL_categories.s: src/events/SDL_categories.c.s
 
 # target to generate assembly for a file
 src/events/SDL_categories.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.s
 .PHONY : src/events/SDL_categories.c.s
 
 src/events/SDL_clipboardevents.obj: src/events/SDL_clipboardevents.c.obj
@@ -1185,7 +1185,7 @@ src/events/SDL_clipboardevents.obj: src/events/SDL_clipboardevents.c.obj
 
 # target to build an object file
 src/events/SDL_clipboardevents.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.obj
 .PHONY : src/events/SDL_clipboardevents.c.obj
 
 src/events/SDL_clipboardevents.i: src/events/SDL_clipboardevents.c.i
@@ -1193,7 +1193,7 @@ src/events/SDL_clipboardevents.i: src/events/SDL_clipboardevents.c.i
 
 # target to preprocess a source file
 src/events/SDL_clipboardevents.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.i
 .PHONY : src/events/SDL_clipboardevents.c.i
 
 src/events/SDL_clipboardevents.s: src/events/SDL_clipboardevents.c.s
@@ -1201,7 +1201,7 @@ src/events/SDL_clipboardevents.s: src/events/SDL_clipboardevents.c.s
 
 # target to generate assembly for a file
 src/events/SDL_clipboardevents.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.s
 .PHONY : src/events/SDL_clipboardevents.c.s
 
 src/events/SDL_displayevents.obj: src/events/SDL_displayevents.c.obj
@@ -1209,7 +1209,7 @@ src/events/SDL_displayevents.obj: src/events/SDL_displayevents.c.obj
 
 # target to build an object file
 src/events/SDL_displayevents.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.obj
 .PHONY : src/events/SDL_displayevents.c.obj
 
 src/events/SDL_displayevents.i: src/events/SDL_displayevents.c.i
@@ -1217,7 +1217,7 @@ src/events/SDL_displayevents.i: src/events/SDL_displayevents.c.i
 
 # target to preprocess a source file
 src/events/SDL_displayevents.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.i
 .PHONY : src/events/SDL_displayevents.c.i
 
 src/events/SDL_displayevents.s: src/events/SDL_displayevents.c.s
@@ -1225,7 +1225,7 @@ src/events/SDL_displayevents.s: src/events/SDL_displayevents.c.s
 
 # target to generate assembly for a file
 src/events/SDL_displayevents.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.s
 .PHONY : src/events/SDL_displayevents.c.s
 
 src/events/SDL_dropevents.obj: src/events/SDL_dropevents.c.obj
@@ -1233,7 +1233,7 @@ src/events/SDL_dropevents.obj: src/events/SDL_dropevents.c.obj
 
 # target to build an object file
 src/events/SDL_dropevents.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.obj
 .PHONY : src/events/SDL_dropevents.c.obj
 
 src/events/SDL_dropevents.i: src/events/SDL_dropevents.c.i
@@ -1241,7 +1241,7 @@ src/events/SDL_dropevents.i: src/events/SDL_dropevents.c.i
 
 # target to preprocess a source file
 src/events/SDL_dropevents.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.i
 .PHONY : src/events/SDL_dropevents.c.i
 
 src/events/SDL_dropevents.s: src/events/SDL_dropevents.c.s
@@ -1249,7 +1249,7 @@ src/events/SDL_dropevents.s: src/events/SDL_dropevents.c.s
 
 # target to generate assembly for a file
 src/events/SDL_dropevents.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.s
 .PHONY : src/events/SDL_dropevents.c.s
 
 src/events/SDL_events.obj: src/events/SDL_events.c.obj
@@ -1257,7 +1257,7 @@ src/events/SDL_events.obj: src/events/SDL_events.c.obj
 
 # target to build an object file
 src/events/SDL_events.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.obj
 .PHONY : src/events/SDL_events.c.obj
 
 src/events/SDL_events.i: src/events/SDL_events.c.i
@@ -1265,7 +1265,7 @@ src/events/SDL_events.i: src/events/SDL_events.c.i
 
 # target to preprocess a source file
 src/events/SDL_events.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.i
 .PHONY : src/events/SDL_events.c.i
 
 src/events/SDL_events.s: src/events/SDL_events.c.s
@@ -1273,7 +1273,7 @@ src/events/SDL_events.s: src/events/SDL_events.c.s
 
 # target to generate assembly for a file
 src/events/SDL_events.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.s
 .PHONY : src/events/SDL_events.c.s
 
 src/events/SDL_eventwatch.obj: src/events/SDL_eventwatch.c.obj
@@ -1281,7 +1281,7 @@ src/events/SDL_eventwatch.obj: src/events/SDL_eventwatch.c.obj
 
 # target to build an object file
 src/events/SDL_eventwatch.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.obj
 .PHONY : src/events/SDL_eventwatch.c.obj
 
 src/events/SDL_eventwatch.i: src/events/SDL_eventwatch.c.i
@@ -1289,7 +1289,7 @@ src/events/SDL_eventwatch.i: src/events/SDL_eventwatch.c.i
 
 # target to preprocess a source file
 src/events/SDL_eventwatch.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.i
 .PHONY : src/events/SDL_eventwatch.c.i
 
 src/events/SDL_eventwatch.s: src/events/SDL_eventwatch.c.s
@@ -1297,7 +1297,7 @@ src/events/SDL_eventwatch.s: src/events/SDL_eventwatch.c.s
 
 # target to generate assembly for a file
 src/events/SDL_eventwatch.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.s
 .PHONY : src/events/SDL_eventwatch.c.s
 
 src/events/SDL_keyboard.obj: src/events/SDL_keyboard.c.obj
@@ -1305,7 +1305,7 @@ src/events/SDL_keyboard.obj: src/events/SDL_keyboard.c.obj
 
 # target to build an object file
 src/events/SDL_keyboard.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.obj
 .PHONY : src/events/SDL_keyboard.c.obj
 
 src/events/SDL_keyboard.i: src/events/SDL_keyboard.c.i
@@ -1313,7 +1313,7 @@ src/events/SDL_keyboard.i: src/events/SDL_keyboard.c.i
 
 # target to preprocess a source file
 src/events/SDL_keyboard.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.i
 .PHONY : src/events/SDL_keyboard.c.i
 
 src/events/SDL_keyboard.s: src/events/SDL_keyboard.c.s
@@ -1321,7 +1321,7 @@ src/events/SDL_keyboard.s: src/events/SDL_keyboard.c.s
 
 # target to generate assembly for a file
 src/events/SDL_keyboard.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.s
 .PHONY : src/events/SDL_keyboard.c.s
 
 src/events/SDL_keymap.obj: src/events/SDL_keymap.c.obj
@@ -1329,7 +1329,7 @@ src/events/SDL_keymap.obj: src/events/SDL_keymap.c.obj
 
 # target to build an object file
 src/events/SDL_keymap.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.obj
 .PHONY : src/events/SDL_keymap.c.obj
 
 src/events/SDL_keymap.i: src/events/SDL_keymap.c.i
@@ -1337,7 +1337,7 @@ src/events/SDL_keymap.i: src/events/SDL_keymap.c.i
 
 # target to preprocess a source file
 src/events/SDL_keymap.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.i
 .PHONY : src/events/SDL_keymap.c.i
 
 src/events/SDL_keymap.s: src/events/SDL_keymap.c.s
@@ -1345,7 +1345,7 @@ src/events/SDL_keymap.s: src/events/SDL_keymap.c.s
 
 # target to generate assembly for a file
 src/events/SDL_keymap.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.s
 .PHONY : src/events/SDL_keymap.c.s
 
 src/events/SDL_keysym_to_keycode.obj: src/events/SDL_keysym_to_keycode.c.obj
@@ -1353,7 +1353,7 @@ src/events/SDL_keysym_to_keycode.obj: src/events/SDL_keysym_to_keycode.c.obj
 
 # target to build an object file
 src/events/SDL_keysym_to_keycode.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.obj
 .PHONY : src/events/SDL_keysym_to_keycode.c.obj
 
 src/events/SDL_keysym_to_keycode.i: src/events/SDL_keysym_to_keycode.c.i
@@ -1361,7 +1361,7 @@ src/events/SDL_keysym_to_keycode.i: src/events/SDL_keysym_to_keycode.c.i
 
 # target to preprocess a source file
 src/events/SDL_keysym_to_keycode.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.i
 .PHONY : src/events/SDL_keysym_to_keycode.c.i
 
 src/events/SDL_keysym_to_keycode.s: src/events/SDL_keysym_to_keycode.c.s
@@ -1369,7 +1369,7 @@ src/events/SDL_keysym_to_keycode.s: src/events/SDL_keysym_to_keycode.c.s
 
 # target to generate assembly for a file
 src/events/SDL_keysym_to_keycode.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.s
 .PHONY : src/events/SDL_keysym_to_keycode.c.s
 
 src/events/SDL_keysym_to_scancode.obj: src/events/SDL_keysym_to_scancode.c.obj
@@ -1377,7 +1377,7 @@ src/events/SDL_keysym_to_scancode.obj: src/events/SDL_keysym_to_scancode.c.obj
 
 # target to build an object file
 src/events/SDL_keysym_to_scancode.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.obj
 .PHONY : src/events/SDL_keysym_to_scancode.c.obj
 
 src/events/SDL_keysym_to_scancode.i: src/events/SDL_keysym_to_scancode.c.i
@@ -1385,7 +1385,7 @@ src/events/SDL_keysym_to_scancode.i: src/events/SDL_keysym_to_scancode.c.i
 
 # target to preprocess a source file
 src/events/SDL_keysym_to_scancode.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.i
 .PHONY : src/events/SDL_keysym_to_scancode.c.i
 
 src/events/SDL_keysym_to_scancode.s: src/events/SDL_keysym_to_scancode.c.s
@@ -1393,7 +1393,7 @@ src/events/SDL_keysym_to_scancode.s: src/events/SDL_keysym_to_scancode.c.s
 
 # target to generate assembly for a file
 src/events/SDL_keysym_to_scancode.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.s
 .PHONY : src/events/SDL_keysym_to_scancode.c.s
 
 src/events/SDL_mouse.obj: src/events/SDL_mouse.c.obj
@@ -1401,7 +1401,7 @@ src/events/SDL_mouse.obj: src/events/SDL_mouse.c.obj
 
 # target to build an object file
 src/events/SDL_mouse.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.obj
 .PHONY : src/events/SDL_mouse.c.obj
 
 src/events/SDL_mouse.i: src/events/SDL_mouse.c.i
@@ -1409,7 +1409,7 @@ src/events/SDL_mouse.i: src/events/SDL_mouse.c.i
 
 # target to preprocess a source file
 src/events/SDL_mouse.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.i
 .PHONY : src/events/SDL_mouse.c.i
 
 src/events/SDL_mouse.s: src/events/SDL_mouse.c.s
@@ -1417,7 +1417,7 @@ src/events/SDL_mouse.s: src/events/SDL_mouse.c.s
 
 # target to generate assembly for a file
 src/events/SDL_mouse.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.s
 .PHONY : src/events/SDL_mouse.c.s
 
 src/events/SDL_pen.obj: src/events/SDL_pen.c.obj
@@ -1425,7 +1425,7 @@ src/events/SDL_pen.obj: src/events/SDL_pen.c.obj
 
 # target to build an object file
 src/events/SDL_pen.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.obj
 .PHONY : src/events/SDL_pen.c.obj
 
 src/events/SDL_pen.i: src/events/SDL_pen.c.i
@@ -1433,7 +1433,7 @@ src/events/SDL_pen.i: src/events/SDL_pen.c.i
 
 # target to preprocess a source file
 src/events/SDL_pen.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.i
 .PHONY : src/events/SDL_pen.c.i
 
 src/events/SDL_pen.s: src/events/SDL_pen.c.s
@@ -1441,7 +1441,7 @@ src/events/SDL_pen.s: src/events/SDL_pen.c.s
 
 # target to generate assembly for a file
 src/events/SDL_pen.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.s
 .PHONY : src/events/SDL_pen.c.s
 
 src/events/SDL_quit.obj: src/events/SDL_quit.c.obj
@@ -1449,7 +1449,7 @@ src/events/SDL_quit.obj: src/events/SDL_quit.c.obj
 
 # target to build an object file
 src/events/SDL_quit.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.obj
 .PHONY : src/events/SDL_quit.c.obj
 
 src/events/SDL_quit.i: src/events/SDL_quit.c.i
@@ -1457,7 +1457,7 @@ src/events/SDL_quit.i: src/events/SDL_quit.c.i
 
 # target to preprocess a source file
 src/events/SDL_quit.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.i
 .PHONY : src/events/SDL_quit.c.i
 
 src/events/SDL_quit.s: src/events/SDL_quit.c.s
@@ -1465,7 +1465,7 @@ src/events/SDL_quit.s: src/events/SDL_quit.c.s
 
 # target to generate assembly for a file
 src/events/SDL_quit.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.s
 .PHONY : src/events/SDL_quit.c.s
 
 src/events/SDL_scancode_tables.obj: src/events/SDL_scancode_tables.c.obj
@@ -1473,7 +1473,7 @@ src/events/SDL_scancode_tables.obj: src/events/SDL_scancode_tables.c.obj
 
 # target to build an object file
 src/events/SDL_scancode_tables.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.obj
 .PHONY : src/events/SDL_scancode_tables.c.obj
 
 src/events/SDL_scancode_tables.i: src/events/SDL_scancode_tables.c.i
@@ -1481,7 +1481,7 @@ src/events/SDL_scancode_tables.i: src/events/SDL_scancode_tables.c.i
 
 # target to preprocess a source file
 src/events/SDL_scancode_tables.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.i
 .PHONY : src/events/SDL_scancode_tables.c.i
 
 src/events/SDL_scancode_tables.s: src/events/SDL_scancode_tables.c.s
@@ -1489,7 +1489,7 @@ src/events/SDL_scancode_tables.s: src/events/SDL_scancode_tables.c.s
 
 # target to generate assembly for a file
 src/events/SDL_scancode_tables.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.s
 .PHONY : src/events/SDL_scancode_tables.c.s
 
 src/events/SDL_touch.obj: src/events/SDL_touch.c.obj
@@ -1497,7 +1497,7 @@ src/events/SDL_touch.obj: src/events/SDL_touch.c.obj
 
 # target to build an object file
 src/events/SDL_touch.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.obj
 .PHONY : src/events/SDL_touch.c.obj
 
 src/events/SDL_touch.i: src/events/SDL_touch.c.i
@@ -1505,7 +1505,7 @@ src/events/SDL_touch.i: src/events/SDL_touch.c.i
 
 # target to preprocess a source file
 src/events/SDL_touch.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.i
 .PHONY : src/events/SDL_touch.c.i
 
 src/events/SDL_touch.s: src/events/SDL_touch.c.s
@@ -1513,7 +1513,7 @@ src/events/SDL_touch.s: src/events/SDL_touch.c.s
 
 # target to generate assembly for a file
 src/events/SDL_touch.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.s
 .PHONY : src/events/SDL_touch.c.s
 
 src/events/SDL_windowevents.obj: src/events/SDL_windowevents.c.obj
@@ -1521,7 +1521,7 @@ src/events/SDL_windowevents.obj: src/events/SDL_windowevents.c.obj
 
 # target to build an object file
 src/events/SDL_windowevents.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.obj
 .PHONY : src/events/SDL_windowevents.c.obj
 
 src/events/SDL_windowevents.i: src/events/SDL_windowevents.c.i
@@ -1529,7 +1529,7 @@ src/events/SDL_windowevents.i: src/events/SDL_windowevents.c.i
 
 # target to preprocess a source file
 src/events/SDL_windowevents.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.i
 .PHONY : src/events/SDL_windowevents.c.i
 
 src/events/SDL_windowevents.s: src/events/SDL_windowevents.c.s
@@ -1537,7 +1537,7 @@ src/events/SDL_windowevents.s: src/events/SDL_windowevents.c.s
 
 # target to generate assembly for a file
 src/events/SDL_windowevents.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.s
 .PHONY : src/events/SDL_windowevents.c.s
 
 src/events/imKStoUCS.obj: src/events/imKStoUCS.c.obj
@@ -1545,7 +1545,7 @@ src/events/imKStoUCS.obj: src/events/imKStoUCS.c.obj
 
 # target to build an object file
 src/events/imKStoUCS.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.obj
 .PHONY : src/events/imKStoUCS.c.obj
 
 src/events/imKStoUCS.i: src/events/imKStoUCS.c.i
@@ -1553,7 +1553,7 @@ src/events/imKStoUCS.i: src/events/imKStoUCS.c.i
 
 # target to preprocess a source file
 src/events/imKStoUCS.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.i
 .PHONY : src/events/imKStoUCS.c.i
 
 src/events/imKStoUCS.s: src/events/imKStoUCS.c.s
@@ -1561,7 +1561,7 @@ src/events/imKStoUCS.s: src/events/imKStoUCS.c.s
 
 # target to generate assembly for a file
 src/events/imKStoUCS.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.s
 .PHONY : src/events/imKStoUCS.c.s
 
 src/filesystem/SDL_filesystem.obj: src/filesystem/SDL_filesystem.c.obj
@@ -1569,7 +1569,7 @@ src/filesystem/SDL_filesystem.obj: src/filesystem/SDL_filesystem.c.obj
 
 # target to build an object file
 src/filesystem/SDL_filesystem.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.obj
 .PHONY : src/filesystem/SDL_filesystem.c.obj
 
 src/filesystem/SDL_filesystem.i: src/filesystem/SDL_filesystem.c.i
@@ -1577,7 +1577,7 @@ src/filesystem/SDL_filesystem.i: src/filesystem/SDL_filesystem.c.i
 
 # target to preprocess a source file
 src/filesystem/SDL_filesystem.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.i
 .PHONY : src/filesystem/SDL_filesystem.c.i
 
 src/filesystem/SDL_filesystem.s: src/filesystem/SDL_filesystem.c.s
@@ -1585,7 +1585,7 @@ src/filesystem/SDL_filesystem.s: src/filesystem/SDL_filesystem.c.s
 
 # target to generate assembly for a file
 src/filesystem/SDL_filesystem.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.s
 .PHONY : src/filesystem/SDL_filesystem.c.s
 
 src/filesystem/windows/SDL_sysfilesystem.obj: src/filesystem/windows/SDL_sysfilesystem.c.obj
@@ -1593,7 +1593,7 @@ src/filesystem/windows/SDL_sysfilesystem.obj: src/filesystem/windows/SDL_sysfile
 
 # target to build an object file
 src/filesystem/windows/SDL_sysfilesystem.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/windows/SDL_sysfilesystem.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/windows/SDL_sysfilesystem.c.obj
 .PHONY : src/filesystem/windows/SDL_sysfilesystem.c.obj
 
 src/filesystem/windows/SDL_sysfilesystem.i: src/filesystem/windows/SDL_sysfilesystem.c.i
@@ -1601,7 +1601,7 @@ src/filesystem/windows/SDL_sysfilesystem.i: src/filesystem/windows/SDL_sysfilesy
 
 # target to preprocess a source file
 src/filesystem/windows/SDL_sysfilesystem.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/windows/SDL_sysfilesystem.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/windows/SDL_sysfilesystem.c.i
 .PHONY : src/filesystem/windows/SDL_sysfilesystem.c.i
 
 src/filesystem/windows/SDL_sysfilesystem.s: src/filesystem/windows/SDL_sysfilesystem.c.s
@@ -1609,7 +1609,7 @@ src/filesystem/windows/SDL_sysfilesystem.s: src/filesystem/windows/SDL_sysfilesy
 
 # target to generate assembly for a file
 src/filesystem/windows/SDL_sysfilesystem.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/windows/SDL_sysfilesystem.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/windows/SDL_sysfilesystem.c.s
 .PHONY : src/filesystem/windows/SDL_sysfilesystem.c.s
 
 src/filesystem/windows/SDL_sysfsops.obj: src/filesystem/windows/SDL_sysfsops.c.obj
@@ -1617,7 +1617,7 @@ src/filesystem/windows/SDL_sysfsops.obj: src/filesystem/windows/SDL_sysfsops.c.o
 
 # target to build an object file
 src/filesystem/windows/SDL_sysfsops.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/windows/SDL_sysfsops.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/windows/SDL_sysfsops.c.obj
 .PHONY : src/filesystem/windows/SDL_sysfsops.c.obj
 
 src/filesystem/windows/SDL_sysfsops.i: src/filesystem/windows/SDL_sysfsops.c.i
@@ -1625,7 +1625,7 @@ src/filesystem/windows/SDL_sysfsops.i: src/filesystem/windows/SDL_sysfsops.c.i
 
 # target to preprocess a source file
 src/filesystem/windows/SDL_sysfsops.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/windows/SDL_sysfsops.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/windows/SDL_sysfsops.c.i
 .PHONY : src/filesystem/windows/SDL_sysfsops.c.i
 
 src/filesystem/windows/SDL_sysfsops.s: src/filesystem/windows/SDL_sysfsops.c.s
@@ -1633,7 +1633,7 @@ src/filesystem/windows/SDL_sysfsops.s: src/filesystem/windows/SDL_sysfsops.c.s
 
 # target to generate assembly for a file
 src/filesystem/windows/SDL_sysfsops.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/windows/SDL_sysfsops.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/windows/SDL_sysfsops.c.s
 .PHONY : src/filesystem/windows/SDL_sysfsops.c.s
 
 src/gpu/SDL_gpu.obj: src/gpu/SDL_gpu.c.obj
@@ -1641,7 +1641,7 @@ src/gpu/SDL_gpu.obj: src/gpu/SDL_gpu.c.obj
 
 # target to build an object file
 src/gpu/SDL_gpu.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.obj
 .PHONY : src/gpu/SDL_gpu.c.obj
 
 src/gpu/SDL_gpu.i: src/gpu/SDL_gpu.c.i
@@ -1649,7 +1649,7 @@ src/gpu/SDL_gpu.i: src/gpu/SDL_gpu.c.i
 
 # target to preprocess a source file
 src/gpu/SDL_gpu.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.i
 .PHONY : src/gpu/SDL_gpu.c.i
 
 src/gpu/SDL_gpu.s: src/gpu/SDL_gpu.c.s
@@ -1657,7 +1657,7 @@ src/gpu/SDL_gpu.s: src/gpu/SDL_gpu.c.s
 
 # target to generate assembly for a file
 src/gpu/SDL_gpu.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.s
 .PHONY : src/gpu/SDL_gpu.c.s
 
 src/gpu/d3d12/SDL_gpu_d3d12.obj: src/gpu/d3d12/SDL_gpu_d3d12.c.obj
@@ -1665,7 +1665,7 @@ src/gpu/d3d12/SDL_gpu_d3d12.obj: src/gpu/d3d12/SDL_gpu_d3d12.c.obj
 
 # target to build an object file
 src/gpu/d3d12/SDL_gpu_d3d12.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/d3d12/SDL_gpu_d3d12.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/d3d12/SDL_gpu_d3d12.c.obj
 .PHONY : src/gpu/d3d12/SDL_gpu_d3d12.c.obj
 
 src/gpu/d3d12/SDL_gpu_d3d12.i: src/gpu/d3d12/SDL_gpu_d3d12.c.i
@@ -1673,7 +1673,7 @@ src/gpu/d3d12/SDL_gpu_d3d12.i: src/gpu/d3d12/SDL_gpu_d3d12.c.i
 
 # target to preprocess a source file
 src/gpu/d3d12/SDL_gpu_d3d12.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/d3d12/SDL_gpu_d3d12.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/d3d12/SDL_gpu_d3d12.c.i
 .PHONY : src/gpu/d3d12/SDL_gpu_d3d12.c.i
 
 src/gpu/d3d12/SDL_gpu_d3d12.s: src/gpu/d3d12/SDL_gpu_d3d12.c.s
@@ -1681,7 +1681,7 @@ src/gpu/d3d12/SDL_gpu_d3d12.s: src/gpu/d3d12/SDL_gpu_d3d12.c.s
 
 # target to generate assembly for a file
 src/gpu/d3d12/SDL_gpu_d3d12.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/d3d12/SDL_gpu_d3d12.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/d3d12/SDL_gpu_d3d12.c.s
 .PHONY : src/gpu/d3d12/SDL_gpu_d3d12.c.s
 
 src/gpu/vulkan/SDL_gpu_vulkan.obj: src/gpu/vulkan/SDL_gpu_vulkan.c.obj
@@ -1689,7 +1689,7 @@ src/gpu/vulkan/SDL_gpu_vulkan.obj: src/gpu/vulkan/SDL_gpu_vulkan.c.obj
 
 # target to build an object file
 src/gpu/vulkan/SDL_gpu_vulkan.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.obj
 .PHONY : src/gpu/vulkan/SDL_gpu_vulkan.c.obj
 
 src/gpu/vulkan/SDL_gpu_vulkan.i: src/gpu/vulkan/SDL_gpu_vulkan.c.i
@@ -1697,7 +1697,7 @@ src/gpu/vulkan/SDL_gpu_vulkan.i: src/gpu/vulkan/SDL_gpu_vulkan.c.i
 
 # target to preprocess a source file
 src/gpu/vulkan/SDL_gpu_vulkan.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.i
 .PHONY : src/gpu/vulkan/SDL_gpu_vulkan.c.i
 
 src/gpu/vulkan/SDL_gpu_vulkan.s: src/gpu/vulkan/SDL_gpu_vulkan.c.s
@@ -1705,7 +1705,7 @@ src/gpu/vulkan/SDL_gpu_vulkan.s: src/gpu/vulkan/SDL_gpu_vulkan.c.s
 
 # target to generate assembly for a file
 src/gpu/vulkan/SDL_gpu_vulkan.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.s
 .PHONY : src/gpu/vulkan/SDL_gpu_vulkan.c.s
 
 src/haptic/SDL_haptic.obj: src/haptic/SDL_haptic.c.obj
@@ -1713,7 +1713,7 @@ src/haptic/SDL_haptic.obj: src/haptic/SDL_haptic.c.obj
 
 # target to build an object file
 src/haptic/SDL_haptic.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.obj
 .PHONY : src/haptic/SDL_haptic.c.obj
 
 src/haptic/SDL_haptic.i: src/haptic/SDL_haptic.c.i
@@ -1721,7 +1721,7 @@ src/haptic/SDL_haptic.i: src/haptic/SDL_haptic.c.i
 
 # target to preprocess a source file
 src/haptic/SDL_haptic.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.i
 .PHONY : src/haptic/SDL_haptic.c.i
 
 src/haptic/SDL_haptic.s: src/haptic/SDL_haptic.c.s
@@ -1729,7 +1729,7 @@ src/haptic/SDL_haptic.s: src/haptic/SDL_haptic.c.s
 
 # target to generate assembly for a file
 src/haptic/SDL_haptic.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.s
 .PHONY : src/haptic/SDL_haptic.c.s
 
 src/haptic/hidapi/SDL_hidapihaptic.obj: src/haptic/hidapi/SDL_hidapihaptic.c.obj
@@ -1737,7 +1737,7 @@ src/haptic/hidapi/SDL_hidapihaptic.obj: src/haptic/hidapi/SDL_hidapihaptic.c.obj
 
 # target to build an object file
 src/haptic/hidapi/SDL_hidapihaptic.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.obj
 .PHONY : src/haptic/hidapi/SDL_hidapihaptic.c.obj
 
 src/haptic/hidapi/SDL_hidapihaptic.i: src/haptic/hidapi/SDL_hidapihaptic.c.i
@@ -1745,7 +1745,7 @@ src/haptic/hidapi/SDL_hidapihaptic.i: src/haptic/hidapi/SDL_hidapihaptic.c.i
 
 # target to preprocess a source file
 src/haptic/hidapi/SDL_hidapihaptic.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.i
 .PHONY : src/haptic/hidapi/SDL_hidapihaptic.c.i
 
 src/haptic/hidapi/SDL_hidapihaptic.s: src/haptic/hidapi/SDL_hidapihaptic.c.s
@@ -1753,7 +1753,7 @@ src/haptic/hidapi/SDL_hidapihaptic.s: src/haptic/hidapi/SDL_hidapihaptic.c.s
 
 # target to generate assembly for a file
 src/haptic/hidapi/SDL_hidapihaptic.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic.c.s
 .PHONY : src/haptic/hidapi/SDL_hidapihaptic.c.s
 
 src/haptic/hidapi/SDL_hidapihaptic_lg4ff.obj: src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.obj
@@ -1761,7 +1761,7 @@ src/haptic/hidapi/SDL_hidapihaptic_lg4ff.obj: src/haptic/hidapi/SDL_hidapihaptic
 
 # target to build an object file
 src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.obj
 .PHONY : src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.obj
 
 src/haptic/hidapi/SDL_hidapihaptic_lg4ff.i: src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.i
@@ -1769,7 +1769,7 @@ src/haptic/hidapi/SDL_hidapihaptic_lg4ff.i: src/haptic/hidapi/SDL_hidapihaptic_l
 
 # target to preprocess a source file
 src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.i
 .PHONY : src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.i
 
 src/haptic/hidapi/SDL_hidapihaptic_lg4ff.s: src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.s
@@ -1777,7 +1777,7 @@ src/haptic/hidapi/SDL_hidapihaptic_lg4ff.s: src/haptic/hidapi/SDL_hidapihaptic_l
 
 # target to generate assembly for a file
 src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.s
 .PHONY : src/haptic/hidapi/SDL_hidapihaptic_lg4ff.c.s
 
 src/haptic/windows/SDL_dinputhaptic.obj: src/haptic/windows/SDL_dinputhaptic.c.obj
@@ -1785,7 +1785,7 @@ src/haptic/windows/SDL_dinputhaptic.obj: src/haptic/windows/SDL_dinputhaptic.c.o
 
 # target to build an object file
 src/haptic/windows/SDL_dinputhaptic.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_dinputhaptic.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_dinputhaptic.c.obj
 .PHONY : src/haptic/windows/SDL_dinputhaptic.c.obj
 
 src/haptic/windows/SDL_dinputhaptic.i: src/haptic/windows/SDL_dinputhaptic.c.i
@@ -1793,7 +1793,7 @@ src/haptic/windows/SDL_dinputhaptic.i: src/haptic/windows/SDL_dinputhaptic.c.i
 
 # target to preprocess a source file
 src/haptic/windows/SDL_dinputhaptic.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_dinputhaptic.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_dinputhaptic.c.i
 .PHONY : src/haptic/windows/SDL_dinputhaptic.c.i
 
 src/haptic/windows/SDL_dinputhaptic.s: src/haptic/windows/SDL_dinputhaptic.c.s
@@ -1801,7 +1801,7 @@ src/haptic/windows/SDL_dinputhaptic.s: src/haptic/windows/SDL_dinputhaptic.c.s
 
 # target to generate assembly for a file
 src/haptic/windows/SDL_dinputhaptic.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_dinputhaptic.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_dinputhaptic.c.s
 .PHONY : src/haptic/windows/SDL_dinputhaptic.c.s
 
 src/haptic/windows/SDL_windowshaptic.obj: src/haptic/windows/SDL_windowshaptic.c.obj
@@ -1809,7 +1809,7 @@ src/haptic/windows/SDL_windowshaptic.obj: src/haptic/windows/SDL_windowshaptic.c
 
 # target to build an object file
 src/haptic/windows/SDL_windowshaptic.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_windowshaptic.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_windowshaptic.c.obj
 .PHONY : src/haptic/windows/SDL_windowshaptic.c.obj
 
 src/haptic/windows/SDL_windowshaptic.i: src/haptic/windows/SDL_windowshaptic.c.i
@@ -1817,7 +1817,7 @@ src/haptic/windows/SDL_windowshaptic.i: src/haptic/windows/SDL_windowshaptic.c.i
 
 # target to preprocess a source file
 src/haptic/windows/SDL_windowshaptic.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_windowshaptic.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_windowshaptic.c.i
 .PHONY : src/haptic/windows/SDL_windowshaptic.c.i
 
 src/haptic/windows/SDL_windowshaptic.s: src/haptic/windows/SDL_windowshaptic.c.s
@@ -1825,7 +1825,7 @@ src/haptic/windows/SDL_windowshaptic.s: src/haptic/windows/SDL_windowshaptic.c.s
 
 # target to generate assembly for a file
 src/haptic/windows/SDL_windowshaptic.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_windowshaptic.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_windowshaptic.c.s
 .PHONY : src/haptic/windows/SDL_windowshaptic.c.s
 
 src/hidapi/SDL_hidapi.obj: src/hidapi/SDL_hidapi.c.obj
@@ -1833,7 +1833,7 @@ src/hidapi/SDL_hidapi.obj: src/hidapi/SDL_hidapi.c.obj
 
 # target to build an object file
 src/hidapi/SDL_hidapi.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.obj
 .PHONY : src/hidapi/SDL_hidapi.c.obj
 
 src/hidapi/SDL_hidapi.i: src/hidapi/SDL_hidapi.c.i
@@ -1841,7 +1841,7 @@ src/hidapi/SDL_hidapi.i: src/hidapi/SDL_hidapi.c.i
 
 # target to preprocess a source file
 src/hidapi/SDL_hidapi.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.i
 .PHONY : src/hidapi/SDL_hidapi.c.i
 
 src/hidapi/SDL_hidapi.s: src/hidapi/SDL_hidapi.c.s
@@ -1849,7 +1849,7 @@ src/hidapi/SDL_hidapi.s: src/hidapi/SDL_hidapi.c.s
 
 # target to generate assembly for a file
 src/hidapi/SDL_hidapi.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.s
 .PHONY : src/hidapi/SDL_hidapi.c.s
 
 src/io/SDL_asyncio.obj: src/io/SDL_asyncio.c.obj
@@ -1857,7 +1857,7 @@ src/io/SDL_asyncio.obj: src/io/SDL_asyncio.c.obj
 
 # target to build an object file
 src/io/SDL_asyncio.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.obj
 .PHONY : src/io/SDL_asyncio.c.obj
 
 src/io/SDL_asyncio.i: src/io/SDL_asyncio.c.i
@@ -1865,7 +1865,7 @@ src/io/SDL_asyncio.i: src/io/SDL_asyncio.c.i
 
 # target to preprocess a source file
 src/io/SDL_asyncio.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.i
 .PHONY : src/io/SDL_asyncio.c.i
 
 src/io/SDL_asyncio.s: src/io/SDL_asyncio.c.s
@@ -1873,7 +1873,7 @@ src/io/SDL_asyncio.s: src/io/SDL_asyncio.c.s
 
 # target to generate assembly for a file
 src/io/SDL_asyncio.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.s
 .PHONY : src/io/SDL_asyncio.c.s
 
 src/io/SDL_iostream.obj: src/io/SDL_iostream.c.obj
@@ -1881,7 +1881,7 @@ src/io/SDL_iostream.obj: src/io/SDL_iostream.c.obj
 
 # target to build an object file
 src/io/SDL_iostream.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.obj
 .PHONY : src/io/SDL_iostream.c.obj
 
 src/io/SDL_iostream.i: src/io/SDL_iostream.c.i
@@ -1889,7 +1889,7 @@ src/io/SDL_iostream.i: src/io/SDL_iostream.c.i
 
 # target to preprocess a source file
 src/io/SDL_iostream.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.i
 .PHONY : src/io/SDL_iostream.c.i
 
 src/io/SDL_iostream.s: src/io/SDL_iostream.c.s
@@ -1897,7 +1897,7 @@ src/io/SDL_iostream.s: src/io/SDL_iostream.c.s
 
 # target to generate assembly for a file
 src/io/SDL_iostream.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.s
 .PHONY : src/io/SDL_iostream.c.s
 
 src/io/generic/SDL_asyncio_generic.obj: src/io/generic/SDL_asyncio_generic.c.obj
@@ -1905,7 +1905,7 @@ src/io/generic/SDL_asyncio_generic.obj: src/io/generic/SDL_asyncio_generic.c.obj
 
 # target to build an object file
 src/io/generic/SDL_asyncio_generic.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.obj
 .PHONY : src/io/generic/SDL_asyncio_generic.c.obj
 
 src/io/generic/SDL_asyncio_generic.i: src/io/generic/SDL_asyncio_generic.c.i
@@ -1913,7 +1913,7 @@ src/io/generic/SDL_asyncio_generic.i: src/io/generic/SDL_asyncio_generic.c.i
 
 # target to preprocess a source file
 src/io/generic/SDL_asyncio_generic.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.i
 .PHONY : src/io/generic/SDL_asyncio_generic.c.i
 
 src/io/generic/SDL_asyncio_generic.s: src/io/generic/SDL_asyncio_generic.c.s
@@ -1921,7 +1921,7 @@ src/io/generic/SDL_asyncio_generic.s: src/io/generic/SDL_asyncio_generic.c.s
 
 # target to generate assembly for a file
 src/io/generic/SDL_asyncio_generic.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.s
 .PHONY : src/io/generic/SDL_asyncio_generic.c.s
 
 src/io/windows/SDL_asyncio_windows_ioring.obj: src/io/windows/SDL_asyncio_windows_ioring.c.obj
@@ -1929,7 +1929,7 @@ src/io/windows/SDL_asyncio_windows_ioring.obj: src/io/windows/SDL_asyncio_window
 
 # target to build an object file
 src/io/windows/SDL_asyncio_windows_ioring.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/windows/SDL_asyncio_windows_ioring.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/windows/SDL_asyncio_windows_ioring.c.obj
 .PHONY : src/io/windows/SDL_asyncio_windows_ioring.c.obj
 
 src/io/windows/SDL_asyncio_windows_ioring.i: src/io/windows/SDL_asyncio_windows_ioring.c.i
@@ -1937,7 +1937,7 @@ src/io/windows/SDL_asyncio_windows_ioring.i: src/io/windows/SDL_asyncio_windows_
 
 # target to preprocess a source file
 src/io/windows/SDL_asyncio_windows_ioring.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/windows/SDL_asyncio_windows_ioring.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/windows/SDL_asyncio_windows_ioring.c.i
 .PHONY : src/io/windows/SDL_asyncio_windows_ioring.c.i
 
 src/io/windows/SDL_asyncio_windows_ioring.s: src/io/windows/SDL_asyncio_windows_ioring.c.s
@@ -1945,7 +1945,7 @@ src/io/windows/SDL_asyncio_windows_ioring.s: src/io/windows/SDL_asyncio_windows_
 
 # target to generate assembly for a file
 src/io/windows/SDL_asyncio_windows_ioring.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/windows/SDL_asyncio_windows_ioring.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/io/windows/SDL_asyncio_windows_ioring.c.s
 .PHONY : src/io/windows/SDL_asyncio_windows_ioring.c.s
 
 src/joystick/SDL_gamepad.obj: src/joystick/SDL_gamepad.c.obj
@@ -1953,7 +1953,7 @@ src/joystick/SDL_gamepad.obj: src/joystick/SDL_gamepad.c.obj
 
 # target to build an object file
 src/joystick/SDL_gamepad.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.obj
 .PHONY : src/joystick/SDL_gamepad.c.obj
 
 src/joystick/SDL_gamepad.i: src/joystick/SDL_gamepad.c.i
@@ -1961,7 +1961,7 @@ src/joystick/SDL_gamepad.i: src/joystick/SDL_gamepad.c.i
 
 # target to preprocess a source file
 src/joystick/SDL_gamepad.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.i
 .PHONY : src/joystick/SDL_gamepad.c.i
 
 src/joystick/SDL_gamepad.s: src/joystick/SDL_gamepad.c.s
@@ -1969,7 +1969,7 @@ src/joystick/SDL_gamepad.s: src/joystick/SDL_gamepad.c.s
 
 # target to generate assembly for a file
 src/joystick/SDL_gamepad.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.s
 .PHONY : src/joystick/SDL_gamepad.c.s
 
 src/joystick/SDL_joystick.obj: src/joystick/SDL_joystick.c.obj
@@ -1977,7 +1977,7 @@ src/joystick/SDL_joystick.obj: src/joystick/SDL_joystick.c.obj
 
 # target to build an object file
 src/joystick/SDL_joystick.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.obj
 .PHONY : src/joystick/SDL_joystick.c.obj
 
 src/joystick/SDL_joystick.i: src/joystick/SDL_joystick.c.i
@@ -1985,7 +1985,7 @@ src/joystick/SDL_joystick.i: src/joystick/SDL_joystick.c.i
 
 # target to preprocess a source file
 src/joystick/SDL_joystick.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.i
 .PHONY : src/joystick/SDL_joystick.c.i
 
 src/joystick/SDL_joystick.s: src/joystick/SDL_joystick.c.s
@@ -1993,7 +1993,7 @@ src/joystick/SDL_joystick.s: src/joystick/SDL_joystick.c.s
 
 # target to generate assembly for a file
 src/joystick/SDL_joystick.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.s
 .PHONY : src/joystick/SDL_joystick.c.s
 
 src/joystick/SDL_steam_virtual_gamepad.obj: src/joystick/SDL_steam_virtual_gamepad.c.obj
@@ -2001,7 +2001,7 @@ src/joystick/SDL_steam_virtual_gamepad.obj: src/joystick/SDL_steam_virtual_gamep
 
 # target to build an object file
 src/joystick/SDL_steam_virtual_gamepad.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.obj
 .PHONY : src/joystick/SDL_steam_virtual_gamepad.c.obj
 
 src/joystick/SDL_steam_virtual_gamepad.i: src/joystick/SDL_steam_virtual_gamepad.c.i
@@ -2009,7 +2009,7 @@ src/joystick/SDL_steam_virtual_gamepad.i: src/joystick/SDL_steam_virtual_gamepad
 
 # target to preprocess a source file
 src/joystick/SDL_steam_virtual_gamepad.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.i
 .PHONY : src/joystick/SDL_steam_virtual_gamepad.c.i
 
 src/joystick/SDL_steam_virtual_gamepad.s: src/joystick/SDL_steam_virtual_gamepad.c.s
@@ -2017,7 +2017,7 @@ src/joystick/SDL_steam_virtual_gamepad.s: src/joystick/SDL_steam_virtual_gamepad
 
 # target to generate assembly for a file
 src/joystick/SDL_steam_virtual_gamepad.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.s
 .PHONY : src/joystick/SDL_steam_virtual_gamepad.c.s
 
 src/joystick/controller_type.obj: src/joystick/controller_type.c.obj
@@ -2025,7 +2025,7 @@ src/joystick/controller_type.obj: src/joystick/controller_type.c.obj
 
 # target to build an object file
 src/joystick/controller_type.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.obj
 .PHONY : src/joystick/controller_type.c.obj
 
 src/joystick/controller_type.i: src/joystick/controller_type.c.i
@@ -2033,7 +2033,7 @@ src/joystick/controller_type.i: src/joystick/controller_type.c.i
 
 # target to preprocess a source file
 src/joystick/controller_type.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.i
 .PHONY : src/joystick/controller_type.c.i
 
 src/joystick/controller_type.s: src/joystick/controller_type.c.s
@@ -2041,7 +2041,7 @@ src/joystick/controller_type.s: src/joystick/controller_type.c.s
 
 # target to generate assembly for a file
 src/joystick/controller_type.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.s
 .PHONY : src/joystick/controller_type.c.s
 
 src/joystick/hidapi/SDL_hidapi_8bitdo.obj: src/joystick/hidapi/SDL_hidapi_8bitdo.c.obj
@@ -2049,7 +2049,7 @@ src/joystick/hidapi/SDL_hidapi_8bitdo.obj: src/joystick/hidapi/SDL_hidapi_8bitdo
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_8bitdo.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_8bitdo.c.obj
 
 src/joystick/hidapi/SDL_hidapi_8bitdo.i: src/joystick/hidapi/SDL_hidapi_8bitdo.c.i
@@ -2057,7 +2057,7 @@ src/joystick/hidapi/SDL_hidapi_8bitdo.i: src/joystick/hidapi/SDL_hidapi_8bitdo.c
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_8bitdo.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_8bitdo.c.i
 
 src/joystick/hidapi/SDL_hidapi_8bitdo.s: src/joystick/hidapi/SDL_hidapi_8bitdo.c.s
@@ -2065,7 +2065,7 @@ src/joystick/hidapi/SDL_hidapi_8bitdo.s: src/joystick/hidapi/SDL_hidapi_8bitdo.c
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_8bitdo.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_8bitdo.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_8bitdo.c.s
 
 src/joystick/hidapi/SDL_hidapi_combined.obj: src/joystick/hidapi/SDL_hidapi_combined.c.obj
@@ -2073,7 +2073,7 @@ src/joystick/hidapi/SDL_hidapi_combined.obj: src/joystick/hidapi/SDL_hidapi_comb
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_combined.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_combined.c.obj
 
 src/joystick/hidapi/SDL_hidapi_combined.i: src/joystick/hidapi/SDL_hidapi_combined.c.i
@@ -2081,7 +2081,7 @@ src/joystick/hidapi/SDL_hidapi_combined.i: src/joystick/hidapi/SDL_hidapi_combin
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_combined.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_combined.c.i
 
 src/joystick/hidapi/SDL_hidapi_combined.s: src/joystick/hidapi/SDL_hidapi_combined.c.s
@@ -2089,7 +2089,7 @@ src/joystick/hidapi/SDL_hidapi_combined.s: src/joystick/hidapi/SDL_hidapi_combin
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_combined.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_combined.c.s
 
 src/joystick/hidapi/SDL_hidapi_flydigi.obj: src/joystick/hidapi/SDL_hidapi_flydigi.c.obj
@@ -2097,7 +2097,7 @@ src/joystick/hidapi/SDL_hidapi_flydigi.obj: src/joystick/hidapi/SDL_hidapi_flydi
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_flydigi.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_flydigi.c.obj
 
 src/joystick/hidapi/SDL_hidapi_flydigi.i: src/joystick/hidapi/SDL_hidapi_flydigi.c.i
@@ -2105,7 +2105,7 @@ src/joystick/hidapi/SDL_hidapi_flydigi.i: src/joystick/hidapi/SDL_hidapi_flydigi
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_flydigi.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_flydigi.c.i
 
 src/joystick/hidapi/SDL_hidapi_flydigi.s: src/joystick/hidapi/SDL_hidapi_flydigi.c.s
@@ -2113,7 +2113,7 @@ src/joystick/hidapi/SDL_hidapi_flydigi.s: src/joystick/hidapi/SDL_hidapi_flydigi
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_flydigi.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_flydigi.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_flydigi.c.s
 
 src/joystick/hidapi/SDL_hidapi_gamecube.obj: src/joystick/hidapi/SDL_hidapi_gamecube.c.obj
@@ -2121,7 +2121,7 @@ src/joystick/hidapi/SDL_hidapi_gamecube.obj: src/joystick/hidapi/SDL_hidapi_game
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_gamecube.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_gamecube.c.obj
 
 src/joystick/hidapi/SDL_hidapi_gamecube.i: src/joystick/hidapi/SDL_hidapi_gamecube.c.i
@@ -2129,7 +2129,7 @@ src/joystick/hidapi/SDL_hidapi_gamecube.i: src/joystick/hidapi/SDL_hidapi_gamecu
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_gamecube.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_gamecube.c.i
 
 src/joystick/hidapi/SDL_hidapi_gamecube.s: src/joystick/hidapi/SDL_hidapi_gamecube.c.s
@@ -2137,7 +2137,7 @@ src/joystick/hidapi/SDL_hidapi_gamecube.s: src/joystick/hidapi/SDL_hidapi_gamecu
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_gamecube.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_gamecube.c.s
 
 src/joystick/hidapi/SDL_hidapi_gip.obj: src/joystick/hidapi/SDL_hidapi_gip.c.obj
@@ -2145,7 +2145,7 @@ src/joystick/hidapi/SDL_hidapi_gip.obj: src/joystick/hidapi/SDL_hidapi_gip.c.obj
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_gip.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_gip.c.obj
 
 src/joystick/hidapi/SDL_hidapi_gip.i: src/joystick/hidapi/SDL_hidapi_gip.c.i
@@ -2153,7 +2153,7 @@ src/joystick/hidapi/SDL_hidapi_gip.i: src/joystick/hidapi/SDL_hidapi_gip.c.i
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_gip.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_gip.c.i
 
 src/joystick/hidapi/SDL_hidapi_gip.s: src/joystick/hidapi/SDL_hidapi_gip.c.s
@@ -2161,7 +2161,7 @@ src/joystick/hidapi/SDL_hidapi_gip.s: src/joystick/hidapi/SDL_hidapi_gip.c.s
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_gip.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gip.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_gip.c.s
 
 src/joystick/hidapi/SDL_hidapi_lg4ff.obj: src/joystick/hidapi/SDL_hidapi_lg4ff.c.obj
@@ -2169,7 +2169,7 @@ src/joystick/hidapi/SDL_hidapi_lg4ff.obj: src/joystick/hidapi/SDL_hidapi_lg4ff.c
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_lg4ff.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_lg4ff.c.obj
 
 src/joystick/hidapi/SDL_hidapi_lg4ff.i: src/joystick/hidapi/SDL_hidapi_lg4ff.c.i
@@ -2177,7 +2177,7 @@ src/joystick/hidapi/SDL_hidapi_lg4ff.i: src/joystick/hidapi/SDL_hidapi_lg4ff.c.i
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_lg4ff.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_lg4ff.c.i
 
 src/joystick/hidapi/SDL_hidapi_lg4ff.s: src/joystick/hidapi/SDL_hidapi_lg4ff.c.s
@@ -2185,7 +2185,7 @@ src/joystick/hidapi/SDL_hidapi_lg4ff.s: src/joystick/hidapi/SDL_hidapi_lg4ff.c.s
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_lg4ff.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_lg4ff.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_lg4ff.c.s
 
 src/joystick/hidapi/SDL_hidapi_luna.obj: src/joystick/hidapi/SDL_hidapi_luna.c.obj
@@ -2193,7 +2193,7 @@ src/joystick/hidapi/SDL_hidapi_luna.obj: src/joystick/hidapi/SDL_hidapi_luna.c.o
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_luna.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_luna.c.obj
 
 src/joystick/hidapi/SDL_hidapi_luna.i: src/joystick/hidapi/SDL_hidapi_luna.c.i
@@ -2201,7 +2201,7 @@ src/joystick/hidapi/SDL_hidapi_luna.i: src/joystick/hidapi/SDL_hidapi_luna.c.i
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_luna.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_luna.c.i
 
 src/joystick/hidapi/SDL_hidapi_luna.s: src/joystick/hidapi/SDL_hidapi_luna.c.s
@@ -2209,7 +2209,7 @@ src/joystick/hidapi/SDL_hidapi_luna.s: src/joystick/hidapi/SDL_hidapi_luna.c.s
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_luna.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_luna.c.s
 
 src/joystick/hidapi/SDL_hidapi_ps3.obj: src/joystick/hidapi/SDL_hidapi_ps3.c.obj
@@ -2217,7 +2217,7 @@ src/joystick/hidapi/SDL_hidapi_ps3.obj: src/joystick/hidapi/SDL_hidapi_ps3.c.obj
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_ps3.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps3.c.obj
 
 src/joystick/hidapi/SDL_hidapi_ps3.i: src/joystick/hidapi/SDL_hidapi_ps3.c.i
@@ -2225,7 +2225,7 @@ src/joystick/hidapi/SDL_hidapi_ps3.i: src/joystick/hidapi/SDL_hidapi_ps3.c.i
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_ps3.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps3.c.i
 
 src/joystick/hidapi/SDL_hidapi_ps3.s: src/joystick/hidapi/SDL_hidapi_ps3.c.s
@@ -2233,7 +2233,7 @@ src/joystick/hidapi/SDL_hidapi_ps3.s: src/joystick/hidapi/SDL_hidapi_ps3.c.s
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_ps3.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps3.c.s
 
 src/joystick/hidapi/SDL_hidapi_ps4.obj: src/joystick/hidapi/SDL_hidapi_ps4.c.obj
@@ -2241,7 +2241,7 @@ src/joystick/hidapi/SDL_hidapi_ps4.obj: src/joystick/hidapi/SDL_hidapi_ps4.c.obj
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_ps4.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps4.c.obj
 
 src/joystick/hidapi/SDL_hidapi_ps4.i: src/joystick/hidapi/SDL_hidapi_ps4.c.i
@@ -2249,7 +2249,7 @@ src/joystick/hidapi/SDL_hidapi_ps4.i: src/joystick/hidapi/SDL_hidapi_ps4.c.i
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_ps4.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps4.c.i
 
 src/joystick/hidapi/SDL_hidapi_ps4.s: src/joystick/hidapi/SDL_hidapi_ps4.c.s
@@ -2257,7 +2257,7 @@ src/joystick/hidapi/SDL_hidapi_ps4.s: src/joystick/hidapi/SDL_hidapi_ps4.c.s
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_ps4.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps4.c.s
 
 src/joystick/hidapi/SDL_hidapi_ps5.obj: src/joystick/hidapi/SDL_hidapi_ps5.c.obj
@@ -2265,7 +2265,7 @@ src/joystick/hidapi/SDL_hidapi_ps5.obj: src/joystick/hidapi/SDL_hidapi_ps5.c.obj
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_ps5.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps5.c.obj
 
 src/joystick/hidapi/SDL_hidapi_ps5.i: src/joystick/hidapi/SDL_hidapi_ps5.c.i
@@ -2273,7 +2273,7 @@ src/joystick/hidapi/SDL_hidapi_ps5.i: src/joystick/hidapi/SDL_hidapi_ps5.c.i
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_ps5.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps5.c.i
 
 src/joystick/hidapi/SDL_hidapi_ps5.s: src/joystick/hidapi/SDL_hidapi_ps5.c.s
@@ -2281,7 +2281,7 @@ src/joystick/hidapi/SDL_hidapi_ps5.s: src/joystick/hidapi/SDL_hidapi_ps5.c.s
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_ps5.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps5.c.s
 
 src/joystick/hidapi/SDL_hidapi_rumble.obj: src/joystick/hidapi/SDL_hidapi_rumble.c.obj
@@ -2289,7 +2289,7 @@ src/joystick/hidapi/SDL_hidapi_rumble.obj: src/joystick/hidapi/SDL_hidapi_rumble
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_rumble.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_rumble.c.obj
 
 src/joystick/hidapi/SDL_hidapi_rumble.i: src/joystick/hidapi/SDL_hidapi_rumble.c.i
@@ -2297,7 +2297,7 @@ src/joystick/hidapi/SDL_hidapi_rumble.i: src/joystick/hidapi/SDL_hidapi_rumble.c
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_rumble.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_rumble.c.i
 
 src/joystick/hidapi/SDL_hidapi_rumble.s: src/joystick/hidapi/SDL_hidapi_rumble.c.s
@@ -2305,7 +2305,7 @@ src/joystick/hidapi/SDL_hidapi_rumble.s: src/joystick/hidapi/SDL_hidapi_rumble.c
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_rumble.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_rumble.c.s
 
 src/joystick/hidapi/SDL_hidapi_shield.obj: src/joystick/hidapi/SDL_hidapi_shield.c.obj
@@ -2313,7 +2313,7 @@ src/joystick/hidapi/SDL_hidapi_shield.obj: src/joystick/hidapi/SDL_hidapi_shield
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_shield.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_shield.c.obj
 
 src/joystick/hidapi/SDL_hidapi_shield.i: src/joystick/hidapi/SDL_hidapi_shield.c.i
@@ -2321,7 +2321,7 @@ src/joystick/hidapi/SDL_hidapi_shield.i: src/joystick/hidapi/SDL_hidapi_shield.c
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_shield.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_shield.c.i
 
 src/joystick/hidapi/SDL_hidapi_shield.s: src/joystick/hidapi/SDL_hidapi_shield.c.s
@@ -2329,7 +2329,7 @@ src/joystick/hidapi/SDL_hidapi_shield.s: src/joystick/hidapi/SDL_hidapi_shield.c
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_shield.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_shield.c.s
 
 src/joystick/hidapi/SDL_hidapi_sinput.obj: src/joystick/hidapi/SDL_hidapi_sinput.c.obj
@@ -2337,7 +2337,7 @@ src/joystick/hidapi/SDL_hidapi_sinput.obj: src/joystick/hidapi/SDL_hidapi_sinput
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_sinput.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_sinput.c.obj
 
 src/joystick/hidapi/SDL_hidapi_sinput.i: src/joystick/hidapi/SDL_hidapi_sinput.c.i
@@ -2345,7 +2345,7 @@ src/joystick/hidapi/SDL_hidapi_sinput.i: src/joystick/hidapi/SDL_hidapi_sinput.c
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_sinput.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_sinput.c.i
 
 src/joystick/hidapi/SDL_hidapi_sinput.s: src/joystick/hidapi/SDL_hidapi_sinput.c.s
@@ -2353,7 +2353,7 @@ src/joystick/hidapi/SDL_hidapi_sinput.s: src/joystick/hidapi/SDL_hidapi_sinput.c
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_sinput.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_sinput.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_sinput.c.s
 
 src/joystick/hidapi/SDL_hidapi_stadia.obj: src/joystick/hidapi/SDL_hidapi_stadia.c.obj
@@ -2361,7 +2361,7 @@ src/joystick/hidapi/SDL_hidapi_stadia.obj: src/joystick/hidapi/SDL_hidapi_stadia
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_stadia.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_stadia.c.obj
 
 src/joystick/hidapi/SDL_hidapi_stadia.i: src/joystick/hidapi/SDL_hidapi_stadia.c.i
@@ -2369,7 +2369,7 @@ src/joystick/hidapi/SDL_hidapi_stadia.i: src/joystick/hidapi/SDL_hidapi_stadia.c
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_stadia.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_stadia.c.i
 
 src/joystick/hidapi/SDL_hidapi_stadia.s: src/joystick/hidapi/SDL_hidapi_stadia.c.s
@@ -2377,7 +2377,7 @@ src/joystick/hidapi/SDL_hidapi_stadia.s: src/joystick/hidapi/SDL_hidapi_stadia.c
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_stadia.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_stadia.c.s
 
 src/joystick/hidapi/SDL_hidapi_steam.obj: src/joystick/hidapi/SDL_hidapi_steam.c.obj
@@ -2385,7 +2385,7 @@ src/joystick/hidapi/SDL_hidapi_steam.obj: src/joystick/hidapi/SDL_hidapi_steam.c
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_steam.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_steam.c.obj
 
 src/joystick/hidapi/SDL_hidapi_steam.i: src/joystick/hidapi/SDL_hidapi_steam.c.i
@@ -2393,7 +2393,7 @@ src/joystick/hidapi/SDL_hidapi_steam.i: src/joystick/hidapi/SDL_hidapi_steam.c.i
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_steam.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_steam.c.i
 
 src/joystick/hidapi/SDL_hidapi_steam.s: src/joystick/hidapi/SDL_hidapi_steam.c.s
@@ -2401,7 +2401,7 @@ src/joystick/hidapi/SDL_hidapi_steam.s: src/joystick/hidapi/SDL_hidapi_steam.c.s
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_steam.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_steam.c.s
 
 src/joystick/hidapi/SDL_hidapi_steam_hori.obj: src/joystick/hidapi/SDL_hidapi_steam_hori.c.obj
@@ -2409,7 +2409,7 @@ src/joystick/hidapi/SDL_hidapi_steam_hori.obj: src/joystick/hidapi/SDL_hidapi_st
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_steam_hori.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_steam_hori.c.obj
 
 src/joystick/hidapi/SDL_hidapi_steam_hori.i: src/joystick/hidapi/SDL_hidapi_steam_hori.c.i
@@ -2417,7 +2417,7 @@ src/joystick/hidapi/SDL_hidapi_steam_hori.i: src/joystick/hidapi/SDL_hidapi_stea
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_steam_hori.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_steam_hori.c.i
 
 src/joystick/hidapi/SDL_hidapi_steam_hori.s: src/joystick/hidapi/SDL_hidapi_steam_hori.c.s
@@ -2425,7 +2425,7 @@ src/joystick/hidapi/SDL_hidapi_steam_hori.s: src/joystick/hidapi/SDL_hidapi_stea
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_steam_hori.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_steam_hori.c.s
 
 src/joystick/hidapi/SDL_hidapi_steam_triton.obj: src/joystick/hidapi/SDL_hidapi_steam_triton.c.obj
@@ -2433,7 +2433,7 @@ src/joystick/hidapi/SDL_hidapi_steam_triton.obj: src/joystick/hidapi/SDL_hidapi_
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_steam_triton.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_steam_triton.c.obj
 
 src/joystick/hidapi/SDL_hidapi_steam_triton.i: src/joystick/hidapi/SDL_hidapi_steam_triton.c.i
@@ -2441,7 +2441,7 @@ src/joystick/hidapi/SDL_hidapi_steam_triton.i: src/joystick/hidapi/SDL_hidapi_st
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_steam_triton.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_steam_triton.c.i
 
 src/joystick/hidapi/SDL_hidapi_steam_triton.s: src/joystick/hidapi/SDL_hidapi_steam_triton.c.s
@@ -2449,7 +2449,7 @@ src/joystick/hidapi/SDL_hidapi_steam_triton.s: src/joystick/hidapi/SDL_hidapi_st
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_steam_triton.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_triton.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_steam_triton.c.s
 
 src/joystick/hidapi/SDL_hidapi_steamdeck.obj: src/joystick/hidapi/SDL_hidapi_steamdeck.c.obj
@@ -2457,7 +2457,7 @@ src/joystick/hidapi/SDL_hidapi_steamdeck.obj: src/joystick/hidapi/SDL_hidapi_ste
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_steamdeck.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_steamdeck.c.obj
 
 src/joystick/hidapi/SDL_hidapi_steamdeck.i: src/joystick/hidapi/SDL_hidapi_steamdeck.c.i
@@ -2465,7 +2465,7 @@ src/joystick/hidapi/SDL_hidapi_steamdeck.i: src/joystick/hidapi/SDL_hidapi_steam
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_steamdeck.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_steamdeck.c.i
 
 src/joystick/hidapi/SDL_hidapi_steamdeck.s: src/joystick/hidapi/SDL_hidapi_steamdeck.c.s
@@ -2473,7 +2473,7 @@ src/joystick/hidapi/SDL_hidapi_steamdeck.s: src/joystick/hidapi/SDL_hidapi_steam
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_steamdeck.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_steamdeck.c.s
 
 src/joystick/hidapi/SDL_hidapi_switch.obj: src/joystick/hidapi/SDL_hidapi_switch.c.obj
@@ -2481,7 +2481,7 @@ src/joystick/hidapi/SDL_hidapi_switch.obj: src/joystick/hidapi/SDL_hidapi_switch
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_switch.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_switch.c.obj
 
 src/joystick/hidapi/SDL_hidapi_switch.i: src/joystick/hidapi/SDL_hidapi_switch.c.i
@@ -2489,7 +2489,7 @@ src/joystick/hidapi/SDL_hidapi_switch.i: src/joystick/hidapi/SDL_hidapi_switch.c
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_switch.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_switch.c.i
 
 src/joystick/hidapi/SDL_hidapi_switch.s: src/joystick/hidapi/SDL_hidapi_switch.c.s
@@ -2497,7 +2497,7 @@ src/joystick/hidapi/SDL_hidapi_switch.s: src/joystick/hidapi/SDL_hidapi_switch.c
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_switch.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_switch.c.s
 
 src/joystick/hidapi/SDL_hidapi_switch2.obj: src/joystick/hidapi/SDL_hidapi_switch2.c.obj
@@ -2505,7 +2505,7 @@ src/joystick/hidapi/SDL_hidapi_switch2.obj: src/joystick/hidapi/SDL_hidapi_switc
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_switch2.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_switch2.c.obj
 
 src/joystick/hidapi/SDL_hidapi_switch2.i: src/joystick/hidapi/SDL_hidapi_switch2.c.i
@@ -2513,7 +2513,7 @@ src/joystick/hidapi/SDL_hidapi_switch2.i: src/joystick/hidapi/SDL_hidapi_switch2
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_switch2.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_switch2.c.i
 
 src/joystick/hidapi/SDL_hidapi_switch2.s: src/joystick/hidapi/SDL_hidapi_switch2.c.s
@@ -2521,7 +2521,7 @@ src/joystick/hidapi/SDL_hidapi_switch2.s: src/joystick/hidapi/SDL_hidapi_switch2
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_switch2.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch2.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_switch2.c.s
 
 src/joystick/hidapi/SDL_hidapi_wii.obj: src/joystick/hidapi/SDL_hidapi_wii.c.obj
@@ -2529,7 +2529,7 @@ src/joystick/hidapi/SDL_hidapi_wii.obj: src/joystick/hidapi/SDL_hidapi_wii.c.obj
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_wii.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_wii.c.obj
 
 src/joystick/hidapi/SDL_hidapi_wii.i: src/joystick/hidapi/SDL_hidapi_wii.c.i
@@ -2537,7 +2537,7 @@ src/joystick/hidapi/SDL_hidapi_wii.i: src/joystick/hidapi/SDL_hidapi_wii.c.i
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_wii.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_wii.c.i
 
 src/joystick/hidapi/SDL_hidapi_wii.s: src/joystick/hidapi/SDL_hidapi_wii.c.s
@@ -2545,7 +2545,7 @@ src/joystick/hidapi/SDL_hidapi_wii.s: src/joystick/hidapi/SDL_hidapi_wii.c.s
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_wii.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_wii.c.s
 
 src/joystick/hidapi/SDL_hidapi_xbox360.obj: src/joystick/hidapi/SDL_hidapi_xbox360.c.obj
@@ -2553,7 +2553,7 @@ src/joystick/hidapi/SDL_hidapi_xbox360.obj: src/joystick/hidapi/SDL_hidapi_xbox3
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_xbox360.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360.c.obj
 
 src/joystick/hidapi/SDL_hidapi_xbox360.i: src/joystick/hidapi/SDL_hidapi_xbox360.c.i
@@ -2561,7 +2561,7 @@ src/joystick/hidapi/SDL_hidapi_xbox360.i: src/joystick/hidapi/SDL_hidapi_xbox360
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_xbox360.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360.c.i
 
 src/joystick/hidapi/SDL_hidapi_xbox360.s: src/joystick/hidapi/SDL_hidapi_xbox360.c.s
@@ -2569,7 +2569,7 @@ src/joystick/hidapi/SDL_hidapi_xbox360.s: src/joystick/hidapi/SDL_hidapi_xbox360
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_xbox360.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360.c.s
 
 src/joystick/hidapi/SDL_hidapi_xbox360w.obj: src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj
@@ -2577,7 +2577,7 @@ src/joystick/hidapi/SDL_hidapi_xbox360w.obj: src/joystick/hidapi/SDL_hidapi_xbox
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj
 
 src/joystick/hidapi/SDL_hidapi_xbox360w.i: src/joystick/hidapi/SDL_hidapi_xbox360w.c.i
@@ -2585,7 +2585,7 @@ src/joystick/hidapi/SDL_hidapi_xbox360w.i: src/joystick/hidapi/SDL_hidapi_xbox36
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_xbox360w.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360w.c.i
 
 src/joystick/hidapi/SDL_hidapi_xbox360w.s: src/joystick/hidapi/SDL_hidapi_xbox360w.c.s
@@ -2593,7 +2593,7 @@ src/joystick/hidapi/SDL_hidapi_xbox360w.s: src/joystick/hidapi/SDL_hidapi_xbox36
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_xbox360w.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360w.c.s
 
 src/joystick/hidapi/SDL_hidapi_xboxone.obj: src/joystick/hidapi/SDL_hidapi_xboxone.c.obj
@@ -2601,7 +2601,7 @@ src/joystick/hidapi/SDL_hidapi_xboxone.obj: src/joystick/hidapi/SDL_hidapi_xboxo
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_xboxone.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_xboxone.c.obj
 
 src/joystick/hidapi/SDL_hidapi_xboxone.i: src/joystick/hidapi/SDL_hidapi_xboxone.c.i
@@ -2609,7 +2609,7 @@ src/joystick/hidapi/SDL_hidapi_xboxone.i: src/joystick/hidapi/SDL_hidapi_xboxone
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_xboxone.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_xboxone.c.i
 
 src/joystick/hidapi/SDL_hidapi_xboxone.s: src/joystick/hidapi/SDL_hidapi_xboxone.c.s
@@ -2617,7 +2617,7 @@ src/joystick/hidapi/SDL_hidapi_xboxone.s: src/joystick/hidapi/SDL_hidapi_xboxone
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_xboxone.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_xboxone.c.s
 
 src/joystick/hidapi/SDL_hidapi_zuiki.obj: src/joystick/hidapi/SDL_hidapi_zuiki.c.obj
@@ -2625,7 +2625,7 @@ src/joystick/hidapi/SDL_hidapi_zuiki.obj: src/joystick/hidapi/SDL_hidapi_zuiki.c
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_zuiki.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_zuiki.c.obj
 
 src/joystick/hidapi/SDL_hidapi_zuiki.i: src/joystick/hidapi/SDL_hidapi_zuiki.c.i
@@ -2633,7 +2633,7 @@ src/joystick/hidapi/SDL_hidapi_zuiki.i: src/joystick/hidapi/SDL_hidapi_zuiki.c.i
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_zuiki.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_zuiki.c.i
 
 src/joystick/hidapi/SDL_hidapi_zuiki.s: src/joystick/hidapi/SDL_hidapi_zuiki.c.s
@@ -2641,7 +2641,7 @@ src/joystick/hidapi/SDL_hidapi_zuiki.s: src/joystick/hidapi/SDL_hidapi_zuiki.c.s
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_zuiki.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_zuiki.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_zuiki.c.s
 
 src/joystick/hidapi/SDL_hidapijoystick.obj: src/joystick/hidapi/SDL_hidapijoystick.c.obj
@@ -2649,7 +2649,7 @@ src/joystick/hidapi/SDL_hidapijoystick.obj: src/joystick/hidapi/SDL_hidapijoysti
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapijoystick.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapijoystick.c.obj
 
 src/joystick/hidapi/SDL_hidapijoystick.i: src/joystick/hidapi/SDL_hidapijoystick.c.i
@@ -2657,7 +2657,7 @@ src/joystick/hidapi/SDL_hidapijoystick.i: src/joystick/hidapi/SDL_hidapijoystick
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapijoystick.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapijoystick.c.i
 
 src/joystick/hidapi/SDL_hidapijoystick.s: src/joystick/hidapi/SDL_hidapijoystick.c.s
@@ -2665,7 +2665,7 @@ src/joystick/hidapi/SDL_hidapijoystick.s: src/joystick/hidapi/SDL_hidapijoystick
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapijoystick.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapijoystick.c.s
 
 src/joystick/hidapi/SDL_report_descriptor.obj: src/joystick/hidapi/SDL_report_descriptor.c.obj
@@ -2673,7 +2673,7 @@ src/joystick/hidapi/SDL_report_descriptor.obj: src/joystick/hidapi/SDL_report_de
 
 # target to build an object file
 src/joystick/hidapi/SDL_report_descriptor.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descriptor.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descriptor.c.obj
 .PHONY : src/joystick/hidapi/SDL_report_descriptor.c.obj
 
 src/joystick/hidapi/SDL_report_descriptor.i: src/joystick/hidapi/SDL_report_descriptor.c.i
@@ -2681,7 +2681,7 @@ src/joystick/hidapi/SDL_report_descriptor.i: src/joystick/hidapi/SDL_report_desc
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_report_descriptor.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descriptor.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descriptor.c.i
 .PHONY : src/joystick/hidapi/SDL_report_descriptor.c.i
 
 src/joystick/hidapi/SDL_report_descriptor.s: src/joystick/hidapi/SDL_report_descriptor.c.s
@@ -2689,7 +2689,7 @@ src/joystick/hidapi/SDL_report_descriptor.s: src/joystick/hidapi/SDL_report_desc
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_report_descriptor.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descriptor.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_report_descriptor.c.s
 .PHONY : src/joystick/hidapi/SDL_report_descriptor.c.s
 
 src/joystick/virtual/SDL_virtualjoystick.obj: src/joystick/virtual/SDL_virtualjoystick.c.obj
@@ -2697,7 +2697,7 @@ src/joystick/virtual/SDL_virtualjoystick.obj: src/joystick/virtual/SDL_virtualjo
 
 # target to build an object file
 src/joystick/virtual/SDL_virtualjoystick.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.obj
 .PHONY : src/joystick/virtual/SDL_virtualjoystick.c.obj
 
 src/joystick/virtual/SDL_virtualjoystick.i: src/joystick/virtual/SDL_virtualjoystick.c.i
@@ -2705,7 +2705,7 @@ src/joystick/virtual/SDL_virtualjoystick.i: src/joystick/virtual/SDL_virtualjoys
 
 # target to preprocess a source file
 src/joystick/virtual/SDL_virtualjoystick.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.i
 .PHONY : src/joystick/virtual/SDL_virtualjoystick.c.i
 
 src/joystick/virtual/SDL_virtualjoystick.s: src/joystick/virtual/SDL_virtualjoystick.c.s
@@ -2713,7 +2713,7 @@ src/joystick/virtual/SDL_virtualjoystick.s: src/joystick/virtual/SDL_virtualjoys
 
 # target to generate assembly for a file
 src/joystick/virtual/SDL_virtualjoystick.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.s
 .PHONY : src/joystick/virtual/SDL_virtualjoystick.c.s
 
 src/joystick/windows/SDL_dinputjoystick.obj: src/joystick/windows/SDL_dinputjoystick.c.obj
@@ -2721,7 +2721,7 @@ src/joystick/windows/SDL_dinputjoystick.obj: src/joystick/windows/SDL_dinputjoys
 
 # target to build an object file
 src/joystick/windows/SDL_dinputjoystick.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_dinputjoystick.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_dinputjoystick.c.obj
 .PHONY : src/joystick/windows/SDL_dinputjoystick.c.obj
 
 src/joystick/windows/SDL_dinputjoystick.i: src/joystick/windows/SDL_dinputjoystick.c.i
@@ -2729,7 +2729,7 @@ src/joystick/windows/SDL_dinputjoystick.i: src/joystick/windows/SDL_dinputjoysti
 
 # target to preprocess a source file
 src/joystick/windows/SDL_dinputjoystick.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_dinputjoystick.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_dinputjoystick.c.i
 .PHONY : src/joystick/windows/SDL_dinputjoystick.c.i
 
 src/joystick/windows/SDL_dinputjoystick.s: src/joystick/windows/SDL_dinputjoystick.c.s
@@ -2737,7 +2737,7 @@ src/joystick/windows/SDL_dinputjoystick.s: src/joystick/windows/SDL_dinputjoysti
 
 # target to generate assembly for a file
 src/joystick/windows/SDL_dinputjoystick.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_dinputjoystick.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_dinputjoystick.c.s
 .PHONY : src/joystick/windows/SDL_dinputjoystick.c.s
 
 src/joystick/windows/SDL_rawinputjoystick.obj: src/joystick/windows/SDL_rawinputjoystick.c.obj
@@ -2745,7 +2745,7 @@ src/joystick/windows/SDL_rawinputjoystick.obj: src/joystick/windows/SDL_rawinput
 
 # target to build an object file
 src/joystick/windows/SDL_rawinputjoystick.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_rawinputjoystick.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_rawinputjoystick.c.obj
 .PHONY : src/joystick/windows/SDL_rawinputjoystick.c.obj
 
 src/joystick/windows/SDL_rawinputjoystick.i: src/joystick/windows/SDL_rawinputjoystick.c.i
@@ -2753,7 +2753,7 @@ src/joystick/windows/SDL_rawinputjoystick.i: src/joystick/windows/SDL_rawinputjo
 
 # target to preprocess a source file
 src/joystick/windows/SDL_rawinputjoystick.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_rawinputjoystick.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_rawinputjoystick.c.i
 .PHONY : src/joystick/windows/SDL_rawinputjoystick.c.i
 
 src/joystick/windows/SDL_rawinputjoystick.s: src/joystick/windows/SDL_rawinputjoystick.c.s
@@ -2761,7 +2761,7 @@ src/joystick/windows/SDL_rawinputjoystick.s: src/joystick/windows/SDL_rawinputjo
 
 # target to generate assembly for a file
 src/joystick/windows/SDL_rawinputjoystick.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_rawinputjoystick.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_rawinputjoystick.c.s
 .PHONY : src/joystick/windows/SDL_rawinputjoystick.c.s
 
 src/joystick/windows/SDL_windows_gaming_input.obj: src/joystick/windows/SDL_windows_gaming_input.c.obj
@@ -2769,7 +2769,7 @@ src/joystick/windows/SDL_windows_gaming_input.obj: src/joystick/windows/SDL_wind
 
 # target to build an object file
 src/joystick/windows/SDL_windows_gaming_input.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_windows_gaming_input.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_windows_gaming_input.c.obj
 .PHONY : src/joystick/windows/SDL_windows_gaming_input.c.obj
 
 src/joystick/windows/SDL_windows_gaming_input.i: src/joystick/windows/SDL_windows_gaming_input.c.i
@@ -2777,7 +2777,7 @@ src/joystick/windows/SDL_windows_gaming_input.i: src/joystick/windows/SDL_window
 
 # target to preprocess a source file
 src/joystick/windows/SDL_windows_gaming_input.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_windows_gaming_input.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_windows_gaming_input.c.i
 .PHONY : src/joystick/windows/SDL_windows_gaming_input.c.i
 
 src/joystick/windows/SDL_windows_gaming_input.s: src/joystick/windows/SDL_windows_gaming_input.c.s
@@ -2785,7 +2785,7 @@ src/joystick/windows/SDL_windows_gaming_input.s: src/joystick/windows/SDL_window
 
 # target to generate assembly for a file
 src/joystick/windows/SDL_windows_gaming_input.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_windows_gaming_input.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_windows_gaming_input.c.s
 .PHONY : src/joystick/windows/SDL_windows_gaming_input.c.s
 
 src/joystick/windows/SDL_windowsjoystick.obj: src/joystick/windows/SDL_windowsjoystick.c.obj
@@ -2793,7 +2793,7 @@ src/joystick/windows/SDL_windowsjoystick.obj: src/joystick/windows/SDL_windowsjo
 
 # target to build an object file
 src/joystick/windows/SDL_windowsjoystick.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_windowsjoystick.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_windowsjoystick.c.obj
 .PHONY : src/joystick/windows/SDL_windowsjoystick.c.obj
 
 src/joystick/windows/SDL_windowsjoystick.i: src/joystick/windows/SDL_windowsjoystick.c.i
@@ -2801,7 +2801,7 @@ src/joystick/windows/SDL_windowsjoystick.i: src/joystick/windows/SDL_windowsjoys
 
 # target to preprocess a source file
 src/joystick/windows/SDL_windowsjoystick.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_windowsjoystick.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_windowsjoystick.c.i
 .PHONY : src/joystick/windows/SDL_windowsjoystick.c.i
 
 src/joystick/windows/SDL_windowsjoystick.s: src/joystick/windows/SDL_windowsjoystick.c.s
@@ -2809,7 +2809,7 @@ src/joystick/windows/SDL_windowsjoystick.s: src/joystick/windows/SDL_windowsjoys
 
 # target to generate assembly for a file
 src/joystick/windows/SDL_windowsjoystick.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_windowsjoystick.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_windowsjoystick.c.s
 .PHONY : src/joystick/windows/SDL_windowsjoystick.c.s
 
 src/joystick/windows/SDL_xinputjoystick.obj: src/joystick/windows/SDL_xinputjoystick.c.obj
@@ -2817,7 +2817,7 @@ src/joystick/windows/SDL_xinputjoystick.obj: src/joystick/windows/SDL_xinputjoys
 
 # target to build an object file
 src/joystick/windows/SDL_xinputjoystick.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_xinputjoystick.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_xinputjoystick.c.obj
 .PHONY : src/joystick/windows/SDL_xinputjoystick.c.obj
 
 src/joystick/windows/SDL_xinputjoystick.i: src/joystick/windows/SDL_xinputjoystick.c.i
@@ -2825,7 +2825,7 @@ src/joystick/windows/SDL_xinputjoystick.i: src/joystick/windows/SDL_xinputjoysti
 
 # target to preprocess a source file
 src/joystick/windows/SDL_xinputjoystick.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_xinputjoystick.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_xinputjoystick.c.i
 .PHONY : src/joystick/windows/SDL_xinputjoystick.c.i
 
 src/joystick/windows/SDL_xinputjoystick.s: src/joystick/windows/SDL_xinputjoystick.c.s
@@ -2833,7 +2833,7 @@ src/joystick/windows/SDL_xinputjoystick.s: src/joystick/windows/SDL_xinputjoysti
 
 # target to generate assembly for a file
 src/joystick/windows/SDL_xinputjoystick.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_xinputjoystick.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/joystick/windows/SDL_xinputjoystick.c.s
 .PHONY : src/joystick/windows/SDL_xinputjoystick.c.s
 
 src/libm/e_atan2.obj: src/libm/e_atan2.c.obj
@@ -2841,7 +2841,7 @@ src/libm/e_atan2.obj: src/libm/e_atan2.c.obj
 
 # target to build an object file
 src/libm/e_atan2.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.obj
 .PHONY : src/libm/e_atan2.c.obj
 
 src/libm/e_atan2.i: src/libm/e_atan2.c.i
@@ -2849,7 +2849,7 @@ src/libm/e_atan2.i: src/libm/e_atan2.c.i
 
 # target to preprocess a source file
 src/libm/e_atan2.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.i
 .PHONY : src/libm/e_atan2.c.i
 
 src/libm/e_atan2.s: src/libm/e_atan2.c.s
@@ -2857,7 +2857,7 @@ src/libm/e_atan2.s: src/libm/e_atan2.c.s
 
 # target to generate assembly for a file
 src/libm/e_atan2.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.s
 .PHONY : src/libm/e_atan2.c.s
 
 src/libm/e_exp.obj: src/libm/e_exp.c.obj
@@ -2865,7 +2865,7 @@ src/libm/e_exp.obj: src/libm/e_exp.c.obj
 
 # target to build an object file
 src/libm/e_exp.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.obj
 .PHONY : src/libm/e_exp.c.obj
 
 src/libm/e_exp.i: src/libm/e_exp.c.i
@@ -2873,7 +2873,7 @@ src/libm/e_exp.i: src/libm/e_exp.c.i
 
 # target to preprocess a source file
 src/libm/e_exp.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.i
 .PHONY : src/libm/e_exp.c.i
 
 src/libm/e_exp.s: src/libm/e_exp.c.s
@@ -2881,7 +2881,7 @@ src/libm/e_exp.s: src/libm/e_exp.c.s
 
 # target to generate assembly for a file
 src/libm/e_exp.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.s
 .PHONY : src/libm/e_exp.c.s
 
 src/libm/e_fmod.obj: src/libm/e_fmod.c.obj
@@ -2889,7 +2889,7 @@ src/libm/e_fmod.obj: src/libm/e_fmod.c.obj
 
 # target to build an object file
 src/libm/e_fmod.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.obj
 .PHONY : src/libm/e_fmod.c.obj
 
 src/libm/e_fmod.i: src/libm/e_fmod.c.i
@@ -2897,7 +2897,7 @@ src/libm/e_fmod.i: src/libm/e_fmod.c.i
 
 # target to preprocess a source file
 src/libm/e_fmod.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.i
 .PHONY : src/libm/e_fmod.c.i
 
 src/libm/e_fmod.s: src/libm/e_fmod.c.s
@@ -2905,7 +2905,7 @@ src/libm/e_fmod.s: src/libm/e_fmod.c.s
 
 # target to generate assembly for a file
 src/libm/e_fmod.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.s
 .PHONY : src/libm/e_fmod.c.s
 
 src/libm/e_log.obj: src/libm/e_log.c.obj
@@ -2913,7 +2913,7 @@ src/libm/e_log.obj: src/libm/e_log.c.obj
 
 # target to build an object file
 src/libm/e_log.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.obj
 .PHONY : src/libm/e_log.c.obj
 
 src/libm/e_log.i: src/libm/e_log.c.i
@@ -2921,7 +2921,7 @@ src/libm/e_log.i: src/libm/e_log.c.i
 
 # target to preprocess a source file
 src/libm/e_log.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.i
 .PHONY : src/libm/e_log.c.i
 
 src/libm/e_log.s: src/libm/e_log.c.s
@@ -2929,7 +2929,7 @@ src/libm/e_log.s: src/libm/e_log.c.s
 
 # target to generate assembly for a file
 src/libm/e_log.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.s
 .PHONY : src/libm/e_log.c.s
 
 src/libm/e_log10.obj: src/libm/e_log10.c.obj
@@ -2937,7 +2937,7 @@ src/libm/e_log10.obj: src/libm/e_log10.c.obj
 
 # target to build an object file
 src/libm/e_log10.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj
 .PHONY : src/libm/e_log10.c.obj
 
 src/libm/e_log10.i: src/libm/e_log10.c.i
@@ -2945,7 +2945,7 @@ src/libm/e_log10.i: src/libm/e_log10.c.i
 
 # target to preprocess a source file
 src/libm/e_log10.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.i
 .PHONY : src/libm/e_log10.c.i
 
 src/libm/e_log10.s: src/libm/e_log10.c.s
@@ -2953,7 +2953,7 @@ src/libm/e_log10.s: src/libm/e_log10.c.s
 
 # target to generate assembly for a file
 src/libm/e_log10.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.s
 .PHONY : src/libm/e_log10.c.s
 
 src/libm/e_pow.obj: src/libm/e_pow.c.obj
@@ -2961,7 +2961,7 @@ src/libm/e_pow.obj: src/libm/e_pow.c.obj
 
 # target to build an object file
 src/libm/e_pow.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.obj
 .PHONY : src/libm/e_pow.c.obj
 
 src/libm/e_pow.i: src/libm/e_pow.c.i
@@ -2969,7 +2969,7 @@ src/libm/e_pow.i: src/libm/e_pow.c.i
 
 # target to preprocess a source file
 src/libm/e_pow.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.i
 .PHONY : src/libm/e_pow.c.i
 
 src/libm/e_pow.s: src/libm/e_pow.c.s
@@ -2977,7 +2977,7 @@ src/libm/e_pow.s: src/libm/e_pow.c.s
 
 # target to generate assembly for a file
 src/libm/e_pow.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.s
 .PHONY : src/libm/e_pow.c.s
 
 src/libm/e_rem_pio2.obj: src/libm/e_rem_pio2.c.obj
@@ -2985,7 +2985,7 @@ src/libm/e_rem_pio2.obj: src/libm/e_rem_pio2.c.obj
 
 # target to build an object file
 src/libm/e_rem_pio2.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.obj
 .PHONY : src/libm/e_rem_pio2.c.obj
 
 src/libm/e_rem_pio2.i: src/libm/e_rem_pio2.c.i
@@ -2993,7 +2993,7 @@ src/libm/e_rem_pio2.i: src/libm/e_rem_pio2.c.i
 
 # target to preprocess a source file
 src/libm/e_rem_pio2.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.i
 .PHONY : src/libm/e_rem_pio2.c.i
 
 src/libm/e_rem_pio2.s: src/libm/e_rem_pio2.c.s
@@ -3001,7 +3001,7 @@ src/libm/e_rem_pio2.s: src/libm/e_rem_pio2.c.s
 
 # target to generate assembly for a file
 src/libm/e_rem_pio2.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.s
 .PHONY : src/libm/e_rem_pio2.c.s
 
 src/libm/e_sqrt.obj: src/libm/e_sqrt.c.obj
@@ -3009,7 +3009,7 @@ src/libm/e_sqrt.obj: src/libm/e_sqrt.c.obj
 
 # target to build an object file
 src/libm/e_sqrt.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.obj
 .PHONY : src/libm/e_sqrt.c.obj
 
 src/libm/e_sqrt.i: src/libm/e_sqrt.c.i
@@ -3017,7 +3017,7 @@ src/libm/e_sqrt.i: src/libm/e_sqrt.c.i
 
 # target to preprocess a source file
 src/libm/e_sqrt.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.i
 .PHONY : src/libm/e_sqrt.c.i
 
 src/libm/e_sqrt.s: src/libm/e_sqrt.c.s
@@ -3025,7 +3025,7 @@ src/libm/e_sqrt.s: src/libm/e_sqrt.c.s
 
 # target to generate assembly for a file
 src/libm/e_sqrt.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.s
 .PHONY : src/libm/e_sqrt.c.s
 
 src/libm/k_cos.obj: src/libm/k_cos.c.obj
@@ -3033,7 +3033,7 @@ src/libm/k_cos.obj: src/libm/k_cos.c.obj
 
 # target to build an object file
 src/libm/k_cos.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.obj
 .PHONY : src/libm/k_cos.c.obj
 
 src/libm/k_cos.i: src/libm/k_cos.c.i
@@ -3041,7 +3041,7 @@ src/libm/k_cos.i: src/libm/k_cos.c.i
 
 # target to preprocess a source file
 src/libm/k_cos.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.i
 .PHONY : src/libm/k_cos.c.i
 
 src/libm/k_cos.s: src/libm/k_cos.c.s
@@ -3049,7 +3049,7 @@ src/libm/k_cos.s: src/libm/k_cos.c.s
 
 # target to generate assembly for a file
 src/libm/k_cos.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.s
 .PHONY : src/libm/k_cos.c.s
 
 src/libm/k_rem_pio2.obj: src/libm/k_rem_pio2.c.obj
@@ -3057,7 +3057,7 @@ src/libm/k_rem_pio2.obj: src/libm/k_rem_pio2.c.obj
 
 # target to build an object file
 src/libm/k_rem_pio2.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.obj
 .PHONY : src/libm/k_rem_pio2.c.obj
 
 src/libm/k_rem_pio2.i: src/libm/k_rem_pio2.c.i
@@ -3065,7 +3065,7 @@ src/libm/k_rem_pio2.i: src/libm/k_rem_pio2.c.i
 
 # target to preprocess a source file
 src/libm/k_rem_pio2.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.i
 .PHONY : src/libm/k_rem_pio2.c.i
 
 src/libm/k_rem_pio2.s: src/libm/k_rem_pio2.c.s
@@ -3073,7 +3073,7 @@ src/libm/k_rem_pio2.s: src/libm/k_rem_pio2.c.s
 
 # target to generate assembly for a file
 src/libm/k_rem_pio2.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.s
 .PHONY : src/libm/k_rem_pio2.c.s
 
 src/libm/k_sin.obj: src/libm/k_sin.c.obj
@@ -3081,7 +3081,7 @@ src/libm/k_sin.obj: src/libm/k_sin.c.obj
 
 # target to build an object file
 src/libm/k_sin.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.obj
 .PHONY : src/libm/k_sin.c.obj
 
 src/libm/k_sin.i: src/libm/k_sin.c.i
@@ -3089,7 +3089,7 @@ src/libm/k_sin.i: src/libm/k_sin.c.i
 
 # target to preprocess a source file
 src/libm/k_sin.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.i
 .PHONY : src/libm/k_sin.c.i
 
 src/libm/k_sin.s: src/libm/k_sin.c.s
@@ -3097,7 +3097,7 @@ src/libm/k_sin.s: src/libm/k_sin.c.s
 
 # target to generate assembly for a file
 src/libm/k_sin.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.s
 .PHONY : src/libm/k_sin.c.s
 
 src/libm/k_tan.obj: src/libm/k_tan.c.obj
@@ -3105,7 +3105,7 @@ src/libm/k_tan.obj: src/libm/k_tan.c.obj
 
 # target to build an object file
 src/libm/k_tan.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.obj
 .PHONY : src/libm/k_tan.c.obj
 
 src/libm/k_tan.i: src/libm/k_tan.c.i
@@ -3113,7 +3113,7 @@ src/libm/k_tan.i: src/libm/k_tan.c.i
 
 # target to preprocess a source file
 src/libm/k_tan.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.i
 .PHONY : src/libm/k_tan.c.i
 
 src/libm/k_tan.s: src/libm/k_tan.c.s
@@ -3121,7 +3121,7 @@ src/libm/k_tan.s: src/libm/k_tan.c.s
 
 # target to generate assembly for a file
 src/libm/k_tan.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.s
 .PHONY : src/libm/k_tan.c.s
 
 src/libm/s_atan.obj: src/libm/s_atan.c.obj
@@ -3129,7 +3129,7 @@ src/libm/s_atan.obj: src/libm/s_atan.c.obj
 
 # target to build an object file
 src/libm/s_atan.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.obj
 .PHONY : src/libm/s_atan.c.obj
 
 src/libm/s_atan.i: src/libm/s_atan.c.i
@@ -3137,7 +3137,7 @@ src/libm/s_atan.i: src/libm/s_atan.c.i
 
 # target to preprocess a source file
 src/libm/s_atan.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.i
 .PHONY : src/libm/s_atan.c.i
 
 src/libm/s_atan.s: src/libm/s_atan.c.s
@@ -3145,7 +3145,7 @@ src/libm/s_atan.s: src/libm/s_atan.c.s
 
 # target to generate assembly for a file
 src/libm/s_atan.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.s
 .PHONY : src/libm/s_atan.c.s
 
 src/libm/s_copysign.obj: src/libm/s_copysign.c.obj
@@ -3153,7 +3153,7 @@ src/libm/s_copysign.obj: src/libm/s_copysign.c.obj
 
 # target to build an object file
 src/libm/s_copysign.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.obj
 .PHONY : src/libm/s_copysign.c.obj
 
 src/libm/s_copysign.i: src/libm/s_copysign.c.i
@@ -3161,7 +3161,7 @@ src/libm/s_copysign.i: src/libm/s_copysign.c.i
 
 # target to preprocess a source file
 src/libm/s_copysign.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.i
 .PHONY : src/libm/s_copysign.c.i
 
 src/libm/s_copysign.s: src/libm/s_copysign.c.s
@@ -3169,7 +3169,7 @@ src/libm/s_copysign.s: src/libm/s_copysign.c.s
 
 # target to generate assembly for a file
 src/libm/s_copysign.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.s
 .PHONY : src/libm/s_copysign.c.s
 
 src/libm/s_cos.obj: src/libm/s_cos.c.obj
@@ -3177,7 +3177,7 @@ src/libm/s_cos.obj: src/libm/s_cos.c.obj
 
 # target to build an object file
 src/libm/s_cos.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.obj
 .PHONY : src/libm/s_cos.c.obj
 
 src/libm/s_cos.i: src/libm/s_cos.c.i
@@ -3185,7 +3185,7 @@ src/libm/s_cos.i: src/libm/s_cos.c.i
 
 # target to preprocess a source file
 src/libm/s_cos.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.i
 .PHONY : src/libm/s_cos.c.i
 
 src/libm/s_cos.s: src/libm/s_cos.c.s
@@ -3193,7 +3193,7 @@ src/libm/s_cos.s: src/libm/s_cos.c.s
 
 # target to generate assembly for a file
 src/libm/s_cos.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.s
 .PHONY : src/libm/s_cos.c.s
 
 src/libm/s_fabs.obj: src/libm/s_fabs.c.obj
@@ -3201,7 +3201,7 @@ src/libm/s_fabs.obj: src/libm/s_fabs.c.obj
 
 # target to build an object file
 src/libm/s_fabs.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.obj
 .PHONY : src/libm/s_fabs.c.obj
 
 src/libm/s_fabs.i: src/libm/s_fabs.c.i
@@ -3209,7 +3209,7 @@ src/libm/s_fabs.i: src/libm/s_fabs.c.i
 
 # target to preprocess a source file
 src/libm/s_fabs.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.i
 .PHONY : src/libm/s_fabs.c.i
 
 src/libm/s_fabs.s: src/libm/s_fabs.c.s
@@ -3217,7 +3217,7 @@ src/libm/s_fabs.s: src/libm/s_fabs.c.s
 
 # target to generate assembly for a file
 src/libm/s_fabs.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.s
 .PHONY : src/libm/s_fabs.c.s
 
 src/libm/s_floor.obj: src/libm/s_floor.c.obj
@@ -3225,7 +3225,7 @@ src/libm/s_floor.obj: src/libm/s_floor.c.obj
 
 # target to build an object file
 src/libm/s_floor.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.obj
 .PHONY : src/libm/s_floor.c.obj
 
 src/libm/s_floor.i: src/libm/s_floor.c.i
@@ -3233,7 +3233,7 @@ src/libm/s_floor.i: src/libm/s_floor.c.i
 
 # target to preprocess a source file
 src/libm/s_floor.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.i
 .PHONY : src/libm/s_floor.c.i
 
 src/libm/s_floor.s: src/libm/s_floor.c.s
@@ -3241,7 +3241,7 @@ src/libm/s_floor.s: src/libm/s_floor.c.s
 
 # target to generate assembly for a file
 src/libm/s_floor.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.s
 .PHONY : src/libm/s_floor.c.s
 
 src/libm/s_isinf.obj: src/libm/s_isinf.c.obj
@@ -3249,7 +3249,7 @@ src/libm/s_isinf.obj: src/libm/s_isinf.c.obj
 
 # target to build an object file
 src/libm/s_isinf.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.obj
 .PHONY : src/libm/s_isinf.c.obj
 
 src/libm/s_isinf.i: src/libm/s_isinf.c.i
@@ -3257,7 +3257,7 @@ src/libm/s_isinf.i: src/libm/s_isinf.c.i
 
 # target to preprocess a source file
 src/libm/s_isinf.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.i
 .PHONY : src/libm/s_isinf.c.i
 
 src/libm/s_isinf.s: src/libm/s_isinf.c.s
@@ -3265,7 +3265,7 @@ src/libm/s_isinf.s: src/libm/s_isinf.c.s
 
 # target to generate assembly for a file
 src/libm/s_isinf.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.s
 .PHONY : src/libm/s_isinf.c.s
 
 src/libm/s_isinff.obj: src/libm/s_isinff.c.obj
@@ -3273,7 +3273,7 @@ src/libm/s_isinff.obj: src/libm/s_isinff.c.obj
 
 # target to build an object file
 src/libm/s_isinff.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.obj
 .PHONY : src/libm/s_isinff.c.obj
 
 src/libm/s_isinff.i: src/libm/s_isinff.c.i
@@ -3281,7 +3281,7 @@ src/libm/s_isinff.i: src/libm/s_isinff.c.i
 
 # target to preprocess a source file
 src/libm/s_isinff.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.i
 .PHONY : src/libm/s_isinff.c.i
 
 src/libm/s_isinff.s: src/libm/s_isinff.c.s
@@ -3289,7 +3289,7 @@ src/libm/s_isinff.s: src/libm/s_isinff.c.s
 
 # target to generate assembly for a file
 src/libm/s_isinff.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.s
 .PHONY : src/libm/s_isinff.c.s
 
 src/libm/s_isnan.obj: src/libm/s_isnan.c.obj
@@ -3297,7 +3297,7 @@ src/libm/s_isnan.obj: src/libm/s_isnan.c.obj
 
 # target to build an object file
 src/libm/s_isnan.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.obj
 .PHONY : src/libm/s_isnan.c.obj
 
 src/libm/s_isnan.i: src/libm/s_isnan.c.i
@@ -3305,7 +3305,7 @@ src/libm/s_isnan.i: src/libm/s_isnan.c.i
 
 # target to preprocess a source file
 src/libm/s_isnan.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.i
 .PHONY : src/libm/s_isnan.c.i
 
 src/libm/s_isnan.s: src/libm/s_isnan.c.s
@@ -3313,7 +3313,7 @@ src/libm/s_isnan.s: src/libm/s_isnan.c.s
 
 # target to generate assembly for a file
 src/libm/s_isnan.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.s
 .PHONY : src/libm/s_isnan.c.s
 
 src/libm/s_isnanf.obj: src/libm/s_isnanf.c.obj
@@ -3321,7 +3321,7 @@ src/libm/s_isnanf.obj: src/libm/s_isnanf.c.obj
 
 # target to build an object file
 src/libm/s_isnanf.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.obj
 .PHONY : src/libm/s_isnanf.c.obj
 
 src/libm/s_isnanf.i: src/libm/s_isnanf.c.i
@@ -3329,7 +3329,7 @@ src/libm/s_isnanf.i: src/libm/s_isnanf.c.i
 
 # target to preprocess a source file
 src/libm/s_isnanf.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.i
 .PHONY : src/libm/s_isnanf.c.i
 
 src/libm/s_isnanf.s: src/libm/s_isnanf.c.s
@@ -3337,7 +3337,7 @@ src/libm/s_isnanf.s: src/libm/s_isnanf.c.s
 
 # target to generate assembly for a file
 src/libm/s_isnanf.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.s
 .PHONY : src/libm/s_isnanf.c.s
 
 src/libm/s_modf.obj: src/libm/s_modf.c.obj
@@ -3345,7 +3345,7 @@ src/libm/s_modf.obj: src/libm/s_modf.c.obj
 
 # target to build an object file
 src/libm/s_modf.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.obj
 .PHONY : src/libm/s_modf.c.obj
 
 src/libm/s_modf.i: src/libm/s_modf.c.i
@@ -3353,7 +3353,7 @@ src/libm/s_modf.i: src/libm/s_modf.c.i
 
 # target to preprocess a source file
 src/libm/s_modf.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.i
 .PHONY : src/libm/s_modf.c.i
 
 src/libm/s_modf.s: src/libm/s_modf.c.s
@@ -3361,7 +3361,7 @@ src/libm/s_modf.s: src/libm/s_modf.c.s
 
 # target to generate assembly for a file
 src/libm/s_modf.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.s
 .PHONY : src/libm/s_modf.c.s
 
 src/libm/s_scalbn.obj: src/libm/s_scalbn.c.obj
@@ -3369,7 +3369,7 @@ src/libm/s_scalbn.obj: src/libm/s_scalbn.c.obj
 
 # target to build an object file
 src/libm/s_scalbn.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.obj
 .PHONY : src/libm/s_scalbn.c.obj
 
 src/libm/s_scalbn.i: src/libm/s_scalbn.c.i
@@ -3377,7 +3377,7 @@ src/libm/s_scalbn.i: src/libm/s_scalbn.c.i
 
 # target to preprocess a source file
 src/libm/s_scalbn.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.i
 .PHONY : src/libm/s_scalbn.c.i
 
 src/libm/s_scalbn.s: src/libm/s_scalbn.c.s
@@ -3385,7 +3385,7 @@ src/libm/s_scalbn.s: src/libm/s_scalbn.c.s
 
 # target to generate assembly for a file
 src/libm/s_scalbn.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.s
 .PHONY : src/libm/s_scalbn.c.s
 
 src/libm/s_sin.obj: src/libm/s_sin.c.obj
@@ -3393,7 +3393,7 @@ src/libm/s_sin.obj: src/libm/s_sin.c.obj
 
 # target to build an object file
 src/libm/s_sin.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.obj
 .PHONY : src/libm/s_sin.c.obj
 
 src/libm/s_sin.i: src/libm/s_sin.c.i
@@ -3401,7 +3401,7 @@ src/libm/s_sin.i: src/libm/s_sin.c.i
 
 # target to preprocess a source file
 src/libm/s_sin.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.i
 .PHONY : src/libm/s_sin.c.i
 
 src/libm/s_sin.s: src/libm/s_sin.c.s
@@ -3409,7 +3409,7 @@ src/libm/s_sin.s: src/libm/s_sin.c.s
 
 # target to generate assembly for a file
 src/libm/s_sin.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.s
 .PHONY : src/libm/s_sin.c.s
 
 src/libm/s_tan.obj: src/libm/s_tan.c.obj
@@ -3417,7 +3417,7 @@ src/libm/s_tan.obj: src/libm/s_tan.c.obj
 
 # target to build an object file
 src/libm/s_tan.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.obj
 .PHONY : src/libm/s_tan.c.obj
 
 src/libm/s_tan.i: src/libm/s_tan.c.i
@@ -3425,7 +3425,7 @@ src/libm/s_tan.i: src/libm/s_tan.c.i
 
 # target to preprocess a source file
 src/libm/s_tan.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.i
 .PHONY : src/libm/s_tan.c.i
 
 src/libm/s_tan.s: src/libm/s_tan.c.s
@@ -3433,7 +3433,7 @@ src/libm/s_tan.s: src/libm/s_tan.c.s
 
 # target to generate assembly for a file
 src/libm/s_tan.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL_uclibc.dir\build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.s
 .PHONY : src/libm/s_tan.c.s
 
 src/loadso/windows/SDL_sysloadso.obj: src/loadso/windows/SDL_sysloadso.c.obj
@@ -3441,7 +3441,7 @@ src/loadso/windows/SDL_sysloadso.obj: src/loadso/windows/SDL_sysloadso.c.obj
 
 # target to build an object file
 src/loadso/windows/SDL_sysloadso.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/windows/SDL_sysloadso.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/windows/SDL_sysloadso.c.obj
 .PHONY : src/loadso/windows/SDL_sysloadso.c.obj
 
 src/loadso/windows/SDL_sysloadso.i: src/loadso/windows/SDL_sysloadso.c.i
@@ -3449,7 +3449,7 @@ src/loadso/windows/SDL_sysloadso.i: src/loadso/windows/SDL_sysloadso.c.i
 
 # target to preprocess a source file
 src/loadso/windows/SDL_sysloadso.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/windows/SDL_sysloadso.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/windows/SDL_sysloadso.c.i
 .PHONY : src/loadso/windows/SDL_sysloadso.c.i
 
 src/loadso/windows/SDL_sysloadso.s: src/loadso/windows/SDL_sysloadso.c.s
@@ -3457,7 +3457,7 @@ src/loadso/windows/SDL_sysloadso.s: src/loadso/windows/SDL_sysloadso.c.s
 
 # target to generate assembly for a file
 src/loadso/windows/SDL_sysloadso.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/windows/SDL_sysloadso.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/loadso/windows/SDL_sysloadso.c.s
 .PHONY : src/loadso/windows/SDL_sysloadso.c.s
 
 src/locale/SDL_locale.obj: src/locale/SDL_locale.c.obj
@@ -3465,7 +3465,7 @@ src/locale/SDL_locale.obj: src/locale/SDL_locale.c.obj
 
 # target to build an object file
 src/locale/SDL_locale.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.obj
 .PHONY : src/locale/SDL_locale.c.obj
 
 src/locale/SDL_locale.i: src/locale/SDL_locale.c.i
@@ -3473,7 +3473,7 @@ src/locale/SDL_locale.i: src/locale/SDL_locale.c.i
 
 # target to preprocess a source file
 src/locale/SDL_locale.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.i
 .PHONY : src/locale/SDL_locale.c.i
 
 src/locale/SDL_locale.s: src/locale/SDL_locale.c.s
@@ -3481,7 +3481,7 @@ src/locale/SDL_locale.s: src/locale/SDL_locale.c.s
 
 # target to generate assembly for a file
 src/locale/SDL_locale.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.s
 .PHONY : src/locale/SDL_locale.c.s
 
 src/locale/windows/SDL_syslocale.obj: src/locale/windows/SDL_syslocale.c.obj
@@ -3489,7 +3489,7 @@ src/locale/windows/SDL_syslocale.obj: src/locale/windows/SDL_syslocale.c.obj
 
 # target to build an object file
 src/locale/windows/SDL_syslocale.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/locale/windows/SDL_syslocale.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/locale/windows/SDL_syslocale.c.obj
 .PHONY : src/locale/windows/SDL_syslocale.c.obj
 
 src/locale/windows/SDL_syslocale.i: src/locale/windows/SDL_syslocale.c.i
@@ -3497,7 +3497,7 @@ src/locale/windows/SDL_syslocale.i: src/locale/windows/SDL_syslocale.c.i
 
 # target to preprocess a source file
 src/locale/windows/SDL_syslocale.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/locale/windows/SDL_syslocale.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/locale/windows/SDL_syslocale.c.i
 .PHONY : src/locale/windows/SDL_syslocale.c.i
 
 src/locale/windows/SDL_syslocale.s: src/locale/windows/SDL_syslocale.c.s
@@ -3505,7 +3505,7 @@ src/locale/windows/SDL_syslocale.s: src/locale/windows/SDL_syslocale.c.s
 
 # target to generate assembly for a file
 src/locale/windows/SDL_syslocale.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/locale/windows/SDL_syslocale.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/locale/windows/SDL_syslocale.c.s
 .PHONY : src/locale/windows/SDL_syslocale.c.s
 
 src/main/SDL_main_callbacks.obj: src/main/SDL_main_callbacks.c.obj
@@ -3513,7 +3513,7 @@ src/main/SDL_main_callbacks.obj: src/main/SDL_main_callbacks.c.obj
 
 # target to build an object file
 src/main/SDL_main_callbacks.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.obj
 .PHONY : src/main/SDL_main_callbacks.c.obj
 
 src/main/SDL_main_callbacks.i: src/main/SDL_main_callbacks.c.i
@@ -3521,7 +3521,7 @@ src/main/SDL_main_callbacks.i: src/main/SDL_main_callbacks.c.i
 
 # target to preprocess a source file
 src/main/SDL_main_callbacks.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.i
 .PHONY : src/main/SDL_main_callbacks.c.i
 
 src/main/SDL_main_callbacks.s: src/main/SDL_main_callbacks.c.s
@@ -3529,7 +3529,7 @@ src/main/SDL_main_callbacks.s: src/main/SDL_main_callbacks.c.s
 
 # target to generate assembly for a file
 src/main/SDL_main_callbacks.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.s
 .PHONY : src/main/SDL_main_callbacks.c.s
 
 src/main/SDL_runapp.obj: src/main/SDL_runapp.c.obj
@@ -3537,7 +3537,7 @@ src/main/SDL_runapp.obj: src/main/SDL_runapp.c.obj
 
 # target to build an object file
 src/main/SDL_runapp.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.obj
 .PHONY : src/main/SDL_runapp.c.obj
 
 src/main/SDL_runapp.i: src/main/SDL_runapp.c.i
@@ -3545,7 +3545,7 @@ src/main/SDL_runapp.i: src/main/SDL_runapp.c.i
 
 # target to preprocess a source file
 src/main/SDL_runapp.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.i
 .PHONY : src/main/SDL_runapp.c.i
 
 src/main/SDL_runapp.s: src/main/SDL_runapp.c.s
@@ -3553,7 +3553,7 @@ src/main/SDL_runapp.s: src/main/SDL_runapp.c.s
 
 # target to generate assembly for a file
 src/main/SDL_runapp.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.s
 .PHONY : src/main/SDL_runapp.c.s
 
 src/main/generic/SDL_sysmain_callbacks.obj: src/main/generic/SDL_sysmain_callbacks.c.obj
@@ -3561,7 +3561,7 @@ src/main/generic/SDL_sysmain_callbacks.obj: src/main/generic/SDL_sysmain_callbac
 
 # target to build an object file
 src/main/generic/SDL_sysmain_callbacks.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.obj
 .PHONY : src/main/generic/SDL_sysmain_callbacks.c.obj
 
 src/main/generic/SDL_sysmain_callbacks.i: src/main/generic/SDL_sysmain_callbacks.c.i
@@ -3569,7 +3569,7 @@ src/main/generic/SDL_sysmain_callbacks.i: src/main/generic/SDL_sysmain_callbacks
 
 # target to preprocess a source file
 src/main/generic/SDL_sysmain_callbacks.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.i
 .PHONY : src/main/generic/SDL_sysmain_callbacks.c.i
 
 src/main/generic/SDL_sysmain_callbacks.s: src/main/generic/SDL_sysmain_callbacks.c.s
@@ -3577,7 +3577,7 @@ src/main/generic/SDL_sysmain_callbacks.s: src/main/generic/SDL_sysmain_callbacks
 
 # target to generate assembly for a file
 src/main/generic/SDL_sysmain_callbacks.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.s
 .PHONY : src/main/generic/SDL_sysmain_callbacks.c.s
 
 src/main/windows/SDL_sysmain_runapp.obj: src/main/windows/SDL_sysmain_runapp.c.obj
@@ -3585,7 +3585,7 @@ src/main/windows/SDL_sysmain_runapp.obj: src/main/windows/SDL_sysmain_runapp.c.o
 
 # target to build an object file
 src/main/windows/SDL_sysmain_runapp.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/windows/SDL_sysmain_runapp.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/windows/SDL_sysmain_runapp.c.obj
 .PHONY : src/main/windows/SDL_sysmain_runapp.c.obj
 
 src/main/windows/SDL_sysmain_runapp.i: src/main/windows/SDL_sysmain_runapp.c.i
@@ -3593,7 +3593,7 @@ src/main/windows/SDL_sysmain_runapp.i: src/main/windows/SDL_sysmain_runapp.c.i
 
 # target to preprocess a source file
 src/main/windows/SDL_sysmain_runapp.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/windows/SDL_sysmain_runapp.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/windows/SDL_sysmain_runapp.c.i
 .PHONY : src/main/windows/SDL_sysmain_runapp.c.i
 
 src/main/windows/SDL_sysmain_runapp.s: src/main/windows/SDL_sysmain_runapp.c.s
@@ -3601,7 +3601,7 @@ src/main/windows/SDL_sysmain_runapp.s: src/main/windows/SDL_sysmain_runapp.c.s
 
 # target to generate assembly for a file
 src/main/windows/SDL_sysmain_runapp.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/windows/SDL_sysmain_runapp.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/main/windows/SDL_sysmain_runapp.c.s
 .PHONY : src/main/windows/SDL_sysmain_runapp.c.s
 
 src/misc/SDL_libusb.obj: src/misc/SDL_libusb.c.obj
@@ -3609,7 +3609,7 @@ src/misc/SDL_libusb.obj: src/misc/SDL_libusb.c.obj
 
 # target to build an object file
 src/misc/SDL_libusb.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.obj
 .PHONY : src/misc/SDL_libusb.c.obj
 
 src/misc/SDL_libusb.i: src/misc/SDL_libusb.c.i
@@ -3617,7 +3617,7 @@ src/misc/SDL_libusb.i: src/misc/SDL_libusb.c.i
 
 # target to preprocess a source file
 src/misc/SDL_libusb.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.i
 .PHONY : src/misc/SDL_libusb.c.i
 
 src/misc/SDL_libusb.s: src/misc/SDL_libusb.c.s
@@ -3625,7 +3625,7 @@ src/misc/SDL_libusb.s: src/misc/SDL_libusb.c.s
 
 # target to generate assembly for a file
 src/misc/SDL_libusb.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_libusb.c.s
 .PHONY : src/misc/SDL_libusb.c.s
 
 src/misc/SDL_url.obj: src/misc/SDL_url.c.obj
@@ -3633,7 +3633,7 @@ src/misc/SDL_url.obj: src/misc/SDL_url.c.obj
 
 # target to build an object file
 src/misc/SDL_url.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.obj
 .PHONY : src/misc/SDL_url.c.obj
 
 src/misc/SDL_url.i: src/misc/SDL_url.c.i
@@ -3641,7 +3641,7 @@ src/misc/SDL_url.i: src/misc/SDL_url.c.i
 
 # target to preprocess a source file
 src/misc/SDL_url.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.i
 .PHONY : src/misc/SDL_url.c.i
 
 src/misc/SDL_url.s: src/misc/SDL_url.c.s
@@ -3649,7 +3649,7 @@ src/misc/SDL_url.s: src/misc/SDL_url.c.s
 
 # target to generate assembly for a file
 src/misc/SDL_url.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.s
 .PHONY : src/misc/SDL_url.c.s
 
 src/misc/windows/SDL_sysurl.obj: src/misc/windows/SDL_sysurl.c.obj
@@ -3657,7 +3657,7 @@ src/misc/windows/SDL_sysurl.obj: src/misc/windows/SDL_sysurl.c.obj
 
 # target to build an object file
 src/misc/windows/SDL_sysurl.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/windows/SDL_sysurl.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/windows/SDL_sysurl.c.obj
 .PHONY : src/misc/windows/SDL_sysurl.c.obj
 
 src/misc/windows/SDL_sysurl.i: src/misc/windows/SDL_sysurl.c.i
@@ -3665,7 +3665,7 @@ src/misc/windows/SDL_sysurl.i: src/misc/windows/SDL_sysurl.c.i
 
 # target to preprocess a source file
 src/misc/windows/SDL_sysurl.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/windows/SDL_sysurl.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/windows/SDL_sysurl.c.i
 .PHONY : src/misc/windows/SDL_sysurl.c.i
 
 src/misc/windows/SDL_sysurl.s: src/misc/windows/SDL_sysurl.c.s
@@ -3673,7 +3673,7 @@ src/misc/windows/SDL_sysurl.s: src/misc/windows/SDL_sysurl.c.s
 
 # target to generate assembly for a file
 src/misc/windows/SDL_sysurl.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/windows/SDL_sysurl.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/misc/windows/SDL_sysurl.c.s
 .PHONY : src/misc/windows/SDL_sysurl.c.s
 
 src/power/SDL_power.obj: src/power/SDL_power.c.obj
@@ -3681,7 +3681,7 @@ src/power/SDL_power.obj: src/power/SDL_power.c.obj
 
 # target to build an object file
 src/power/SDL_power.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.obj
 .PHONY : src/power/SDL_power.c.obj
 
 src/power/SDL_power.i: src/power/SDL_power.c.i
@@ -3689,7 +3689,7 @@ src/power/SDL_power.i: src/power/SDL_power.c.i
 
 # target to preprocess a source file
 src/power/SDL_power.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.i
 .PHONY : src/power/SDL_power.c.i
 
 src/power/SDL_power.s: src/power/SDL_power.c.s
@@ -3697,7 +3697,7 @@ src/power/SDL_power.s: src/power/SDL_power.c.s
 
 # target to generate assembly for a file
 src/power/SDL_power.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.s
 .PHONY : src/power/SDL_power.c.s
 
 src/power/windows/SDL_syspower.obj: src/power/windows/SDL_syspower.c.obj
@@ -3705,7 +3705,7 @@ src/power/windows/SDL_syspower.obj: src/power/windows/SDL_syspower.c.obj
 
 # target to build an object file
 src/power/windows/SDL_syspower.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/power/windows/SDL_syspower.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/power/windows/SDL_syspower.c.obj
 .PHONY : src/power/windows/SDL_syspower.c.obj
 
 src/power/windows/SDL_syspower.i: src/power/windows/SDL_syspower.c.i
@@ -3713,7 +3713,7 @@ src/power/windows/SDL_syspower.i: src/power/windows/SDL_syspower.c.i
 
 # target to preprocess a source file
 src/power/windows/SDL_syspower.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/power/windows/SDL_syspower.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/power/windows/SDL_syspower.c.i
 .PHONY : src/power/windows/SDL_syspower.c.i
 
 src/power/windows/SDL_syspower.s: src/power/windows/SDL_syspower.c.s
@@ -3721,7 +3721,7 @@ src/power/windows/SDL_syspower.s: src/power/windows/SDL_syspower.c.s
 
 # target to generate assembly for a file
 src/power/windows/SDL_syspower.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/power/windows/SDL_syspower.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/power/windows/SDL_syspower.c.s
 .PHONY : src/power/windows/SDL_syspower.c.s
 
 src/process/SDL_process.obj: src/process/SDL_process.c.obj
@@ -3729,7 +3729,7 @@ src/process/SDL_process.obj: src/process/SDL_process.c.obj
 
 # target to build an object file
 src/process/SDL_process.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.obj
 .PHONY : src/process/SDL_process.c.obj
 
 src/process/SDL_process.i: src/process/SDL_process.c.i
@@ -3737,7 +3737,7 @@ src/process/SDL_process.i: src/process/SDL_process.c.i
 
 # target to preprocess a source file
 src/process/SDL_process.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.i
 .PHONY : src/process/SDL_process.c.i
 
 src/process/SDL_process.s: src/process/SDL_process.c.s
@@ -3745,7 +3745,7 @@ src/process/SDL_process.s: src/process/SDL_process.c.s
 
 # target to generate assembly for a file
 src/process/SDL_process.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.s
 .PHONY : src/process/SDL_process.c.s
 
 src/process/windows/SDL_windowsprocess.obj: src/process/windows/SDL_windowsprocess.c.obj
@@ -3753,7 +3753,7 @@ src/process/windows/SDL_windowsprocess.obj: src/process/windows/SDL_windowsproce
 
 # target to build an object file
 src/process/windows/SDL_windowsprocess.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/windows/SDL_windowsprocess.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/windows/SDL_windowsprocess.c.obj
 .PHONY : src/process/windows/SDL_windowsprocess.c.obj
 
 src/process/windows/SDL_windowsprocess.i: src/process/windows/SDL_windowsprocess.c.i
@@ -3761,7 +3761,7 @@ src/process/windows/SDL_windowsprocess.i: src/process/windows/SDL_windowsprocess
 
 # target to preprocess a source file
 src/process/windows/SDL_windowsprocess.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/windows/SDL_windowsprocess.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/windows/SDL_windowsprocess.c.i
 .PHONY : src/process/windows/SDL_windowsprocess.c.i
 
 src/process/windows/SDL_windowsprocess.s: src/process/windows/SDL_windowsprocess.c.s
@@ -3769,7 +3769,7 @@ src/process/windows/SDL_windowsprocess.s: src/process/windows/SDL_windowsprocess
 
 # target to generate assembly for a file
 src/process/windows/SDL_windowsprocess.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/windows/SDL_windowsprocess.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/process/windows/SDL_windowsprocess.c.s
 .PHONY : src/process/windows/SDL_windowsprocess.c.s
 
 src/render/SDL_render.obj: src/render/SDL_render.c.obj
@@ -3777,7 +3777,7 @@ src/render/SDL_render.obj: src/render/SDL_render.c.obj
 
 # target to build an object file
 src/render/SDL_render.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.obj
 .PHONY : src/render/SDL_render.c.obj
 
 src/render/SDL_render.i: src/render/SDL_render.c.i
@@ -3785,7 +3785,7 @@ src/render/SDL_render.i: src/render/SDL_render.c.i
 
 # target to preprocess a source file
 src/render/SDL_render.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.i
 .PHONY : src/render/SDL_render.c.i
 
 src/render/SDL_render.s: src/render/SDL_render.c.s
@@ -3793,7 +3793,7 @@ src/render/SDL_render.s: src/render/SDL_render.c.s
 
 # target to generate assembly for a file
 src/render/SDL_render.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.s
 .PHONY : src/render/SDL_render.c.s
 
 src/render/SDL_render_unsupported.obj: src/render/SDL_render_unsupported.c.obj
@@ -3801,7 +3801,7 @@ src/render/SDL_render_unsupported.obj: src/render/SDL_render_unsupported.c.obj
 
 # target to build an object file
 src/render/SDL_render_unsupported.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.obj
 .PHONY : src/render/SDL_render_unsupported.c.obj
 
 src/render/SDL_render_unsupported.i: src/render/SDL_render_unsupported.c.i
@@ -3809,7 +3809,7 @@ src/render/SDL_render_unsupported.i: src/render/SDL_render_unsupported.c.i
 
 # target to preprocess a source file
 src/render/SDL_render_unsupported.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.i
 .PHONY : src/render/SDL_render_unsupported.c.i
 
 src/render/SDL_render_unsupported.s: src/render/SDL_render_unsupported.c.s
@@ -3817,7 +3817,7 @@ src/render/SDL_render_unsupported.s: src/render/SDL_render_unsupported.c.s
 
 # target to generate assembly for a file
 src/render/SDL_render_unsupported.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.s
 .PHONY : src/render/SDL_render_unsupported.c.s
 
 src/render/SDL_yuv_sw.obj: src/render/SDL_yuv_sw.c.obj
@@ -3825,7 +3825,7 @@ src/render/SDL_yuv_sw.obj: src/render/SDL_yuv_sw.c.obj
 
 # target to build an object file
 src/render/SDL_yuv_sw.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.obj
 .PHONY : src/render/SDL_yuv_sw.c.obj
 
 src/render/SDL_yuv_sw.i: src/render/SDL_yuv_sw.c.i
@@ -3833,7 +3833,7 @@ src/render/SDL_yuv_sw.i: src/render/SDL_yuv_sw.c.i
 
 # target to preprocess a source file
 src/render/SDL_yuv_sw.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.i
 .PHONY : src/render/SDL_yuv_sw.c.i
 
 src/render/SDL_yuv_sw.s: src/render/SDL_yuv_sw.c.s
@@ -3841,7 +3841,7 @@ src/render/SDL_yuv_sw.s: src/render/SDL_yuv_sw.c.s
 
 # target to generate assembly for a file
 src/render/SDL_yuv_sw.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.s
 .PHONY : src/render/SDL_yuv_sw.c.s
 
 src/render/direct3d/SDL_render_d3d.obj: src/render/direct3d/SDL_render_d3d.c.obj
@@ -3849,7 +3849,7 @@ src/render/direct3d/SDL_render_d3d.obj: src/render/direct3d/SDL_render_d3d.c.obj
 
 # target to build an object file
 src/render/direct3d/SDL_render_d3d.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.obj
 .PHONY : src/render/direct3d/SDL_render_d3d.c.obj
 
 src/render/direct3d/SDL_render_d3d.i: src/render/direct3d/SDL_render_d3d.c.i
@@ -3857,7 +3857,7 @@ src/render/direct3d/SDL_render_d3d.i: src/render/direct3d/SDL_render_d3d.c.i
 
 # target to preprocess a source file
 src/render/direct3d/SDL_render_d3d.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.i
 .PHONY : src/render/direct3d/SDL_render_d3d.c.i
 
 src/render/direct3d/SDL_render_d3d.s: src/render/direct3d/SDL_render_d3d.c.s
@@ -3865,7 +3865,7 @@ src/render/direct3d/SDL_render_d3d.s: src/render/direct3d/SDL_render_d3d.c.s
 
 # target to generate assembly for a file
 src/render/direct3d/SDL_render_d3d.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.s
 .PHONY : src/render/direct3d/SDL_render_d3d.c.s
 
 src/render/direct3d/SDL_shaders_d3d.obj: src/render/direct3d/SDL_shaders_d3d.c.obj
@@ -3873,7 +3873,7 @@ src/render/direct3d/SDL_shaders_d3d.obj: src/render/direct3d/SDL_shaders_d3d.c.o
 
 # target to build an object file
 src/render/direct3d/SDL_shaders_d3d.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.obj
 .PHONY : src/render/direct3d/SDL_shaders_d3d.c.obj
 
 src/render/direct3d/SDL_shaders_d3d.i: src/render/direct3d/SDL_shaders_d3d.c.i
@@ -3881,7 +3881,7 @@ src/render/direct3d/SDL_shaders_d3d.i: src/render/direct3d/SDL_shaders_d3d.c.i
 
 # target to preprocess a source file
 src/render/direct3d/SDL_shaders_d3d.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.i
 .PHONY : src/render/direct3d/SDL_shaders_d3d.c.i
 
 src/render/direct3d/SDL_shaders_d3d.s: src/render/direct3d/SDL_shaders_d3d.c.s
@@ -3889,7 +3889,7 @@ src/render/direct3d/SDL_shaders_d3d.s: src/render/direct3d/SDL_shaders_d3d.c.s
 
 # target to generate assembly for a file
 src/render/direct3d/SDL_shaders_d3d.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.s
 .PHONY : src/render/direct3d/SDL_shaders_d3d.c.s
 
 src/render/direct3d11/SDL_render_d3d11.obj: src/render/direct3d11/SDL_render_d3d11.c.obj
@@ -3897,7 +3897,7 @@ src/render/direct3d11/SDL_render_d3d11.obj: src/render/direct3d11/SDL_render_d3d
 
 # target to build an object file
 src/render/direct3d11/SDL_render_d3d11.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.obj
 .PHONY : src/render/direct3d11/SDL_render_d3d11.c.obj
 
 src/render/direct3d11/SDL_render_d3d11.i: src/render/direct3d11/SDL_render_d3d11.c.i
@@ -3905,7 +3905,7 @@ src/render/direct3d11/SDL_render_d3d11.i: src/render/direct3d11/SDL_render_d3d11
 
 # target to preprocess a source file
 src/render/direct3d11/SDL_render_d3d11.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.i
 .PHONY : src/render/direct3d11/SDL_render_d3d11.c.i
 
 src/render/direct3d11/SDL_render_d3d11.s: src/render/direct3d11/SDL_render_d3d11.c.s
@@ -3913,7 +3913,7 @@ src/render/direct3d11/SDL_render_d3d11.s: src/render/direct3d11/SDL_render_d3d11
 
 # target to generate assembly for a file
 src/render/direct3d11/SDL_render_d3d11.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.s
 .PHONY : src/render/direct3d11/SDL_render_d3d11.c.s
 
 src/render/direct3d11/SDL_shaders_d3d11.obj: src/render/direct3d11/SDL_shaders_d3d11.c.obj
@@ -3921,7 +3921,7 @@ src/render/direct3d11/SDL_shaders_d3d11.obj: src/render/direct3d11/SDL_shaders_d
 
 # target to build an object file
 src/render/direct3d11/SDL_shaders_d3d11.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.obj
 .PHONY : src/render/direct3d11/SDL_shaders_d3d11.c.obj
 
 src/render/direct3d11/SDL_shaders_d3d11.i: src/render/direct3d11/SDL_shaders_d3d11.c.i
@@ -3929,7 +3929,7 @@ src/render/direct3d11/SDL_shaders_d3d11.i: src/render/direct3d11/SDL_shaders_d3d
 
 # target to preprocess a source file
 src/render/direct3d11/SDL_shaders_d3d11.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.i
 .PHONY : src/render/direct3d11/SDL_shaders_d3d11.c.i
 
 src/render/direct3d11/SDL_shaders_d3d11.s: src/render/direct3d11/SDL_shaders_d3d11.c.s
@@ -3937,7 +3937,7 @@ src/render/direct3d11/SDL_shaders_d3d11.s: src/render/direct3d11/SDL_shaders_d3d
 
 # target to generate assembly for a file
 src/render/direct3d11/SDL_shaders_d3d11.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.s
 .PHONY : src/render/direct3d11/SDL_shaders_d3d11.c.s
 
 src/render/direct3d12/SDL_render_d3d12.obj: src/render/direct3d12/SDL_render_d3d12.c.obj
@@ -3945,7 +3945,7 @@ src/render/direct3d12/SDL_render_d3d12.obj: src/render/direct3d12/SDL_render_d3d
 
 # target to build an object file
 src/render/direct3d12/SDL_render_d3d12.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.obj
 .PHONY : src/render/direct3d12/SDL_render_d3d12.c.obj
 
 src/render/direct3d12/SDL_render_d3d12.i: src/render/direct3d12/SDL_render_d3d12.c.i
@@ -3953,7 +3953,7 @@ src/render/direct3d12/SDL_render_d3d12.i: src/render/direct3d12/SDL_render_d3d12
 
 # target to preprocess a source file
 src/render/direct3d12/SDL_render_d3d12.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.i
 .PHONY : src/render/direct3d12/SDL_render_d3d12.c.i
 
 src/render/direct3d12/SDL_render_d3d12.s: src/render/direct3d12/SDL_render_d3d12.c.s
@@ -3961,7 +3961,7 @@ src/render/direct3d12/SDL_render_d3d12.s: src/render/direct3d12/SDL_render_d3d12
 
 # target to generate assembly for a file
 src/render/direct3d12/SDL_render_d3d12.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.s
 .PHONY : src/render/direct3d12/SDL_render_d3d12.c.s
 
 src/render/direct3d12/SDL_shaders_d3d12.obj: src/render/direct3d12/SDL_shaders_d3d12.c.obj
@@ -3969,7 +3969,7 @@ src/render/direct3d12/SDL_shaders_d3d12.obj: src/render/direct3d12/SDL_shaders_d
 
 # target to build an object file
 src/render/direct3d12/SDL_shaders_d3d12.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.obj
 .PHONY : src/render/direct3d12/SDL_shaders_d3d12.c.obj
 
 src/render/direct3d12/SDL_shaders_d3d12.i: src/render/direct3d12/SDL_shaders_d3d12.c.i
@@ -3977,7 +3977,7 @@ src/render/direct3d12/SDL_shaders_d3d12.i: src/render/direct3d12/SDL_shaders_d3d
 
 # target to preprocess a source file
 src/render/direct3d12/SDL_shaders_d3d12.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.i
 .PHONY : src/render/direct3d12/SDL_shaders_d3d12.c.i
 
 src/render/direct3d12/SDL_shaders_d3d12.s: src/render/direct3d12/SDL_shaders_d3d12.c.s
@@ -3985,7 +3985,7 @@ src/render/direct3d12/SDL_shaders_d3d12.s: src/render/direct3d12/SDL_shaders_d3d
 
 # target to generate assembly for a file
 src/render/direct3d12/SDL_shaders_d3d12.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.s
 .PHONY : src/render/direct3d12/SDL_shaders_d3d12.c.s
 
 src/render/gpu/SDL_pipeline_gpu.obj: src/render/gpu/SDL_pipeline_gpu.c.obj
@@ -3993,7 +3993,7 @@ src/render/gpu/SDL_pipeline_gpu.obj: src/render/gpu/SDL_pipeline_gpu.c.obj
 
 # target to build an object file
 src/render/gpu/SDL_pipeline_gpu.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.obj
 .PHONY : src/render/gpu/SDL_pipeline_gpu.c.obj
 
 src/render/gpu/SDL_pipeline_gpu.i: src/render/gpu/SDL_pipeline_gpu.c.i
@@ -4001,7 +4001,7 @@ src/render/gpu/SDL_pipeline_gpu.i: src/render/gpu/SDL_pipeline_gpu.c.i
 
 # target to preprocess a source file
 src/render/gpu/SDL_pipeline_gpu.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.i
 .PHONY : src/render/gpu/SDL_pipeline_gpu.c.i
 
 src/render/gpu/SDL_pipeline_gpu.s: src/render/gpu/SDL_pipeline_gpu.c.s
@@ -4009,7 +4009,7 @@ src/render/gpu/SDL_pipeline_gpu.s: src/render/gpu/SDL_pipeline_gpu.c.s
 
 # target to generate assembly for a file
 src/render/gpu/SDL_pipeline_gpu.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.s
 .PHONY : src/render/gpu/SDL_pipeline_gpu.c.s
 
 src/render/gpu/SDL_render_gpu.obj: src/render/gpu/SDL_render_gpu.c.obj
@@ -4017,7 +4017,7 @@ src/render/gpu/SDL_render_gpu.obj: src/render/gpu/SDL_render_gpu.c.obj
 
 # target to build an object file
 src/render/gpu/SDL_render_gpu.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.obj
 .PHONY : src/render/gpu/SDL_render_gpu.c.obj
 
 src/render/gpu/SDL_render_gpu.i: src/render/gpu/SDL_render_gpu.c.i
@@ -4025,7 +4025,7 @@ src/render/gpu/SDL_render_gpu.i: src/render/gpu/SDL_render_gpu.c.i
 
 # target to preprocess a source file
 src/render/gpu/SDL_render_gpu.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.i
 .PHONY : src/render/gpu/SDL_render_gpu.c.i
 
 src/render/gpu/SDL_render_gpu.s: src/render/gpu/SDL_render_gpu.c.s
@@ -4033,7 +4033,7 @@ src/render/gpu/SDL_render_gpu.s: src/render/gpu/SDL_render_gpu.c.s
 
 # target to generate assembly for a file
 src/render/gpu/SDL_render_gpu.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.s
 .PHONY : src/render/gpu/SDL_render_gpu.c.s
 
 src/render/gpu/SDL_shaders_gpu.obj: src/render/gpu/SDL_shaders_gpu.c.obj
@@ -4041,7 +4041,7 @@ src/render/gpu/SDL_shaders_gpu.obj: src/render/gpu/SDL_shaders_gpu.c.obj
 
 # target to build an object file
 src/render/gpu/SDL_shaders_gpu.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.obj
 .PHONY : src/render/gpu/SDL_shaders_gpu.c.obj
 
 src/render/gpu/SDL_shaders_gpu.i: src/render/gpu/SDL_shaders_gpu.c.i
@@ -4049,7 +4049,7 @@ src/render/gpu/SDL_shaders_gpu.i: src/render/gpu/SDL_shaders_gpu.c.i
 
 # target to preprocess a source file
 src/render/gpu/SDL_shaders_gpu.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.i
 .PHONY : src/render/gpu/SDL_shaders_gpu.c.i
 
 src/render/gpu/SDL_shaders_gpu.s: src/render/gpu/SDL_shaders_gpu.c.s
@@ -4057,7 +4057,7 @@ src/render/gpu/SDL_shaders_gpu.s: src/render/gpu/SDL_shaders_gpu.c.s
 
 # target to generate assembly for a file
 src/render/gpu/SDL_shaders_gpu.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.s
 .PHONY : src/render/gpu/SDL_shaders_gpu.c.s
 
 src/render/ngage/SDL_render_ngage.obj: src/render/ngage/SDL_render_ngage.c.obj
@@ -4065,7 +4065,7 @@ src/render/ngage/SDL_render_ngage.obj: src/render/ngage/SDL_render_ngage.c.obj
 
 # target to build an object file
 src/render/ngage/SDL_render_ngage.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.obj
 .PHONY : src/render/ngage/SDL_render_ngage.c.obj
 
 src/render/ngage/SDL_render_ngage.i: src/render/ngage/SDL_render_ngage.c.i
@@ -4073,7 +4073,7 @@ src/render/ngage/SDL_render_ngage.i: src/render/ngage/SDL_render_ngage.c.i
 
 # target to preprocess a source file
 src/render/ngage/SDL_render_ngage.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.i
 .PHONY : src/render/ngage/SDL_render_ngage.c.i
 
 src/render/ngage/SDL_render_ngage.s: src/render/ngage/SDL_render_ngage.c.s
@@ -4081,7 +4081,7 @@ src/render/ngage/SDL_render_ngage.s: src/render/ngage/SDL_render_ngage.c.s
 
 # target to generate assembly for a file
 src/render/ngage/SDL_render_ngage.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/ngage/SDL_render_ngage.c.s
 .PHONY : src/render/ngage/SDL_render_ngage.c.s
 
 src/render/opengl/SDL_render_gl.obj: src/render/opengl/SDL_render_gl.c.obj
@@ -4089,7 +4089,7 @@ src/render/opengl/SDL_render_gl.obj: src/render/opengl/SDL_render_gl.c.obj
 
 # target to build an object file
 src/render/opengl/SDL_render_gl.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.obj
 .PHONY : src/render/opengl/SDL_render_gl.c.obj
 
 src/render/opengl/SDL_render_gl.i: src/render/opengl/SDL_render_gl.c.i
@@ -4097,7 +4097,7 @@ src/render/opengl/SDL_render_gl.i: src/render/opengl/SDL_render_gl.c.i
 
 # target to preprocess a source file
 src/render/opengl/SDL_render_gl.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.i
 .PHONY : src/render/opengl/SDL_render_gl.c.i
 
 src/render/opengl/SDL_render_gl.s: src/render/opengl/SDL_render_gl.c.s
@@ -4105,7 +4105,7 @@ src/render/opengl/SDL_render_gl.s: src/render/opengl/SDL_render_gl.c.s
 
 # target to generate assembly for a file
 src/render/opengl/SDL_render_gl.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.s
 .PHONY : src/render/opengl/SDL_render_gl.c.s
 
 src/render/opengl/SDL_shaders_gl.obj: src/render/opengl/SDL_shaders_gl.c.obj
@@ -4113,7 +4113,7 @@ src/render/opengl/SDL_shaders_gl.obj: src/render/opengl/SDL_shaders_gl.c.obj
 
 # target to build an object file
 src/render/opengl/SDL_shaders_gl.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.obj
 .PHONY : src/render/opengl/SDL_shaders_gl.c.obj
 
 src/render/opengl/SDL_shaders_gl.i: src/render/opengl/SDL_shaders_gl.c.i
@@ -4121,7 +4121,7 @@ src/render/opengl/SDL_shaders_gl.i: src/render/opengl/SDL_shaders_gl.c.i
 
 # target to preprocess a source file
 src/render/opengl/SDL_shaders_gl.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.i
 .PHONY : src/render/opengl/SDL_shaders_gl.c.i
 
 src/render/opengl/SDL_shaders_gl.s: src/render/opengl/SDL_shaders_gl.c.s
@@ -4129,7 +4129,7 @@ src/render/opengl/SDL_shaders_gl.s: src/render/opengl/SDL_shaders_gl.c.s
 
 # target to generate assembly for a file
 src/render/opengl/SDL_shaders_gl.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.s
 .PHONY : src/render/opengl/SDL_shaders_gl.c.s
 
 src/render/opengles2/SDL_render_gles2.obj: src/render/opengles2/SDL_render_gles2.c.obj
@@ -4137,7 +4137,7 @@ src/render/opengles2/SDL_render_gles2.obj: src/render/opengles2/SDL_render_gles2
 
 # target to build an object file
 src/render/opengles2/SDL_render_gles2.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.obj
 .PHONY : src/render/opengles2/SDL_render_gles2.c.obj
 
 src/render/opengles2/SDL_render_gles2.i: src/render/opengles2/SDL_render_gles2.c.i
@@ -4145,7 +4145,7 @@ src/render/opengles2/SDL_render_gles2.i: src/render/opengles2/SDL_render_gles2.c
 
 # target to preprocess a source file
 src/render/opengles2/SDL_render_gles2.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.i
 .PHONY : src/render/opengles2/SDL_render_gles2.c.i
 
 src/render/opengles2/SDL_render_gles2.s: src/render/opengles2/SDL_render_gles2.c.s
@@ -4153,7 +4153,7 @@ src/render/opengles2/SDL_render_gles2.s: src/render/opengles2/SDL_render_gles2.c
 
 # target to generate assembly for a file
 src/render/opengles2/SDL_render_gles2.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.s
 .PHONY : src/render/opengles2/SDL_render_gles2.c.s
 
 src/render/opengles2/SDL_shaders_gles2.obj: src/render/opengles2/SDL_shaders_gles2.c.obj
@@ -4161,7 +4161,7 @@ src/render/opengles2/SDL_shaders_gles2.obj: src/render/opengles2/SDL_shaders_gle
 
 # target to build an object file
 src/render/opengles2/SDL_shaders_gles2.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.obj
 .PHONY : src/render/opengles2/SDL_shaders_gles2.c.obj
 
 src/render/opengles2/SDL_shaders_gles2.i: src/render/opengles2/SDL_shaders_gles2.c.i
@@ -4169,7 +4169,7 @@ src/render/opengles2/SDL_shaders_gles2.i: src/render/opengles2/SDL_shaders_gles2
 
 # target to preprocess a source file
 src/render/opengles2/SDL_shaders_gles2.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.i
 .PHONY : src/render/opengles2/SDL_shaders_gles2.c.i
 
 src/render/opengles2/SDL_shaders_gles2.s: src/render/opengles2/SDL_shaders_gles2.c.s
@@ -4177,7 +4177,7 @@ src/render/opengles2/SDL_shaders_gles2.s: src/render/opengles2/SDL_shaders_gles2
 
 # target to generate assembly for a file
 src/render/opengles2/SDL_shaders_gles2.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.s
 .PHONY : src/render/opengles2/SDL_shaders_gles2.c.s
 
 src/render/ps2/SDL_render_ps2.obj: src/render/ps2/SDL_render_ps2.c.obj
@@ -4185,7 +4185,7 @@ src/render/ps2/SDL_render_ps2.obj: src/render/ps2/SDL_render_ps2.c.obj
 
 # target to build an object file
 src/render/ps2/SDL_render_ps2.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.obj
 .PHONY : src/render/ps2/SDL_render_ps2.c.obj
 
 src/render/ps2/SDL_render_ps2.i: src/render/ps2/SDL_render_ps2.c.i
@@ -4193,7 +4193,7 @@ src/render/ps2/SDL_render_ps2.i: src/render/ps2/SDL_render_ps2.c.i
 
 # target to preprocess a source file
 src/render/ps2/SDL_render_ps2.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.i
 .PHONY : src/render/ps2/SDL_render_ps2.c.i
 
 src/render/ps2/SDL_render_ps2.s: src/render/ps2/SDL_render_ps2.c.s
@@ -4201,7 +4201,7 @@ src/render/ps2/SDL_render_ps2.s: src/render/ps2/SDL_render_ps2.c.s
 
 # target to generate assembly for a file
 src/render/ps2/SDL_render_ps2.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.s
 .PHONY : src/render/ps2/SDL_render_ps2.c.s
 
 src/render/psp/SDL_render_psp.obj: src/render/psp/SDL_render_psp.c.obj
@@ -4209,7 +4209,7 @@ src/render/psp/SDL_render_psp.obj: src/render/psp/SDL_render_psp.c.obj
 
 # target to build an object file
 src/render/psp/SDL_render_psp.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.obj
 .PHONY : src/render/psp/SDL_render_psp.c.obj
 
 src/render/psp/SDL_render_psp.i: src/render/psp/SDL_render_psp.c.i
@@ -4217,7 +4217,7 @@ src/render/psp/SDL_render_psp.i: src/render/psp/SDL_render_psp.c.i
 
 # target to preprocess a source file
 src/render/psp/SDL_render_psp.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.i
 .PHONY : src/render/psp/SDL_render_psp.c.i
 
 src/render/psp/SDL_render_psp.s: src/render/psp/SDL_render_psp.c.s
@@ -4225,7 +4225,7 @@ src/render/psp/SDL_render_psp.s: src/render/psp/SDL_render_psp.c.s
 
 # target to generate assembly for a file
 src/render/psp/SDL_render_psp.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.s
 .PHONY : src/render/psp/SDL_render_psp.c.s
 
 src/render/software/SDL_blendfillrect.obj: src/render/software/SDL_blendfillrect.c.obj
@@ -4233,7 +4233,7 @@ src/render/software/SDL_blendfillrect.obj: src/render/software/SDL_blendfillrect
 
 # target to build an object file
 src/render/software/SDL_blendfillrect.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.obj
 .PHONY : src/render/software/SDL_blendfillrect.c.obj
 
 src/render/software/SDL_blendfillrect.i: src/render/software/SDL_blendfillrect.c.i
@@ -4241,7 +4241,7 @@ src/render/software/SDL_blendfillrect.i: src/render/software/SDL_blendfillrect.c
 
 # target to preprocess a source file
 src/render/software/SDL_blendfillrect.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.i
 .PHONY : src/render/software/SDL_blendfillrect.c.i
 
 src/render/software/SDL_blendfillrect.s: src/render/software/SDL_blendfillrect.c.s
@@ -4249,7 +4249,7 @@ src/render/software/SDL_blendfillrect.s: src/render/software/SDL_blendfillrect.c
 
 # target to generate assembly for a file
 src/render/software/SDL_blendfillrect.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.s
 .PHONY : src/render/software/SDL_blendfillrect.c.s
 
 src/render/software/SDL_blendline.obj: src/render/software/SDL_blendline.c.obj
@@ -4257,7 +4257,7 @@ src/render/software/SDL_blendline.obj: src/render/software/SDL_blendline.c.obj
 
 # target to build an object file
 src/render/software/SDL_blendline.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.obj
 .PHONY : src/render/software/SDL_blendline.c.obj
 
 src/render/software/SDL_blendline.i: src/render/software/SDL_blendline.c.i
@@ -4265,7 +4265,7 @@ src/render/software/SDL_blendline.i: src/render/software/SDL_blendline.c.i
 
 # target to preprocess a source file
 src/render/software/SDL_blendline.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.i
 .PHONY : src/render/software/SDL_blendline.c.i
 
 src/render/software/SDL_blendline.s: src/render/software/SDL_blendline.c.s
@@ -4273,7 +4273,7 @@ src/render/software/SDL_blendline.s: src/render/software/SDL_blendline.c.s
 
 # target to generate assembly for a file
 src/render/software/SDL_blendline.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.s
 .PHONY : src/render/software/SDL_blendline.c.s
 
 src/render/software/SDL_blendpoint.obj: src/render/software/SDL_blendpoint.c.obj
@@ -4281,7 +4281,7 @@ src/render/software/SDL_blendpoint.obj: src/render/software/SDL_blendpoint.c.obj
 
 # target to build an object file
 src/render/software/SDL_blendpoint.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.obj
 .PHONY : src/render/software/SDL_blendpoint.c.obj
 
 src/render/software/SDL_blendpoint.i: src/render/software/SDL_blendpoint.c.i
@@ -4289,7 +4289,7 @@ src/render/software/SDL_blendpoint.i: src/render/software/SDL_blendpoint.c.i
 
 # target to preprocess a source file
 src/render/software/SDL_blendpoint.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.i
 .PHONY : src/render/software/SDL_blendpoint.c.i
 
 src/render/software/SDL_blendpoint.s: src/render/software/SDL_blendpoint.c.s
@@ -4297,7 +4297,7 @@ src/render/software/SDL_blendpoint.s: src/render/software/SDL_blendpoint.c.s
 
 # target to generate assembly for a file
 src/render/software/SDL_blendpoint.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.s
 .PHONY : src/render/software/SDL_blendpoint.c.s
 
 src/render/software/SDL_drawline.obj: src/render/software/SDL_drawline.c.obj
@@ -4305,7 +4305,7 @@ src/render/software/SDL_drawline.obj: src/render/software/SDL_drawline.c.obj
 
 # target to build an object file
 src/render/software/SDL_drawline.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.obj
 .PHONY : src/render/software/SDL_drawline.c.obj
 
 src/render/software/SDL_drawline.i: src/render/software/SDL_drawline.c.i
@@ -4313,7 +4313,7 @@ src/render/software/SDL_drawline.i: src/render/software/SDL_drawline.c.i
 
 # target to preprocess a source file
 src/render/software/SDL_drawline.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.i
 .PHONY : src/render/software/SDL_drawline.c.i
 
 src/render/software/SDL_drawline.s: src/render/software/SDL_drawline.c.s
@@ -4321,7 +4321,7 @@ src/render/software/SDL_drawline.s: src/render/software/SDL_drawline.c.s
 
 # target to generate assembly for a file
 src/render/software/SDL_drawline.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.s
 .PHONY : src/render/software/SDL_drawline.c.s
 
 src/render/software/SDL_drawpoint.obj: src/render/software/SDL_drawpoint.c.obj
@@ -4329,7 +4329,7 @@ src/render/software/SDL_drawpoint.obj: src/render/software/SDL_drawpoint.c.obj
 
 # target to build an object file
 src/render/software/SDL_drawpoint.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.obj
 .PHONY : src/render/software/SDL_drawpoint.c.obj
 
 src/render/software/SDL_drawpoint.i: src/render/software/SDL_drawpoint.c.i
@@ -4337,7 +4337,7 @@ src/render/software/SDL_drawpoint.i: src/render/software/SDL_drawpoint.c.i
 
 # target to preprocess a source file
 src/render/software/SDL_drawpoint.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.i
 .PHONY : src/render/software/SDL_drawpoint.c.i
 
 src/render/software/SDL_drawpoint.s: src/render/software/SDL_drawpoint.c.s
@@ -4345,7 +4345,7 @@ src/render/software/SDL_drawpoint.s: src/render/software/SDL_drawpoint.c.s
 
 # target to generate assembly for a file
 src/render/software/SDL_drawpoint.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.s
 .PHONY : src/render/software/SDL_drawpoint.c.s
 
 src/render/software/SDL_render_sw.obj: src/render/software/SDL_render_sw.c.obj
@@ -4353,7 +4353,7 @@ src/render/software/SDL_render_sw.obj: src/render/software/SDL_render_sw.c.obj
 
 # target to build an object file
 src/render/software/SDL_render_sw.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.obj
 .PHONY : src/render/software/SDL_render_sw.c.obj
 
 src/render/software/SDL_render_sw.i: src/render/software/SDL_render_sw.c.i
@@ -4361,7 +4361,7 @@ src/render/software/SDL_render_sw.i: src/render/software/SDL_render_sw.c.i
 
 # target to preprocess a source file
 src/render/software/SDL_render_sw.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.i
 .PHONY : src/render/software/SDL_render_sw.c.i
 
 src/render/software/SDL_render_sw.s: src/render/software/SDL_render_sw.c.s
@@ -4369,7 +4369,7 @@ src/render/software/SDL_render_sw.s: src/render/software/SDL_render_sw.c.s
 
 # target to generate assembly for a file
 src/render/software/SDL_render_sw.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.s
 .PHONY : src/render/software/SDL_render_sw.c.s
 
 src/render/software/SDL_triangle.obj: src/render/software/SDL_triangle.c.obj
@@ -4377,7 +4377,7 @@ src/render/software/SDL_triangle.obj: src/render/software/SDL_triangle.c.obj
 
 # target to build an object file
 src/render/software/SDL_triangle.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.obj
 .PHONY : src/render/software/SDL_triangle.c.obj
 
 src/render/software/SDL_triangle.i: src/render/software/SDL_triangle.c.i
@@ -4385,7 +4385,7 @@ src/render/software/SDL_triangle.i: src/render/software/SDL_triangle.c.i
 
 # target to preprocess a source file
 src/render/software/SDL_triangle.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.i
 .PHONY : src/render/software/SDL_triangle.c.i
 
 src/render/software/SDL_triangle.s: src/render/software/SDL_triangle.c.s
@@ -4393,7 +4393,7 @@ src/render/software/SDL_triangle.s: src/render/software/SDL_triangle.c.s
 
 # target to generate assembly for a file
 src/render/software/SDL_triangle.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.s
 .PHONY : src/render/software/SDL_triangle.c.s
 
 src/render/vitagxm/SDL_render_vita_gxm.obj: src/render/vitagxm/SDL_render_vita_gxm.c.obj
@@ -4401,7 +4401,7 @@ src/render/vitagxm/SDL_render_vita_gxm.obj: src/render/vitagxm/SDL_render_vita_g
 
 # target to build an object file
 src/render/vitagxm/SDL_render_vita_gxm.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.obj
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm.c.obj
 
 src/render/vitagxm/SDL_render_vita_gxm.i: src/render/vitagxm/SDL_render_vita_gxm.c.i
@@ -4409,7 +4409,7 @@ src/render/vitagxm/SDL_render_vita_gxm.i: src/render/vitagxm/SDL_render_vita_gxm
 
 # target to preprocess a source file
 src/render/vitagxm/SDL_render_vita_gxm.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.i
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm.c.i
 
 src/render/vitagxm/SDL_render_vita_gxm.s: src/render/vitagxm/SDL_render_vita_gxm.c.s
@@ -4417,7 +4417,7 @@ src/render/vitagxm/SDL_render_vita_gxm.s: src/render/vitagxm/SDL_render_vita_gxm
 
 # target to generate assembly for a file
 src/render/vitagxm/SDL_render_vita_gxm.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.s
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm.c.s
 
 src/render/vitagxm/SDL_render_vita_gxm_memory.obj: src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj
@@ -4425,7 +4425,7 @@ src/render/vitagxm/SDL_render_vita_gxm_memory.obj: src/render/vitagxm/SDL_render
 
 # target to build an object file
 src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj
 
 src/render/vitagxm/SDL_render_vita_gxm_memory.i: src/render/vitagxm/SDL_render_vita_gxm_memory.c.i
@@ -4433,7 +4433,7 @@ src/render/vitagxm/SDL_render_vita_gxm_memory.i: src/render/vitagxm/SDL_render_v
 
 # target to preprocess a source file
 src/render/vitagxm/SDL_render_vita_gxm_memory.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.i
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_memory.c.i
 
 src/render/vitagxm/SDL_render_vita_gxm_memory.s: src/render/vitagxm/SDL_render_vita_gxm_memory.c.s
@@ -4441,7 +4441,7 @@ src/render/vitagxm/SDL_render_vita_gxm_memory.s: src/render/vitagxm/SDL_render_v
 
 # target to generate assembly for a file
 src/render/vitagxm/SDL_render_vita_gxm_memory.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.s
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_memory.c.s
 
 src/render/vitagxm/SDL_render_vita_gxm_tools.obj: src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj
@@ -4449,7 +4449,7 @@ src/render/vitagxm/SDL_render_vita_gxm_tools.obj: src/render/vitagxm/SDL_render_
 
 # target to build an object file
 src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj
 
 src/render/vitagxm/SDL_render_vita_gxm_tools.i: src/render/vitagxm/SDL_render_vita_gxm_tools.c.i
@@ -4457,7 +4457,7 @@ src/render/vitagxm/SDL_render_vita_gxm_tools.i: src/render/vitagxm/SDL_render_vi
 
 # target to preprocess a source file
 src/render/vitagxm/SDL_render_vita_gxm_tools.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.i
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_tools.c.i
 
 src/render/vitagxm/SDL_render_vita_gxm_tools.s: src/render/vitagxm/SDL_render_vita_gxm_tools.c.s
@@ -4465,7 +4465,7 @@ src/render/vitagxm/SDL_render_vita_gxm_tools.s: src/render/vitagxm/SDL_render_vi
 
 # target to generate assembly for a file
 src/render/vitagxm/SDL_render_vita_gxm_tools.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.s
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_tools.c.s
 
 src/render/vulkan/SDL_render_vulkan.obj: src/render/vulkan/SDL_render_vulkan.c.obj
@@ -4473,7 +4473,7 @@ src/render/vulkan/SDL_render_vulkan.obj: src/render/vulkan/SDL_render_vulkan.c.o
 
 # target to build an object file
 src/render/vulkan/SDL_render_vulkan.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.obj
 .PHONY : src/render/vulkan/SDL_render_vulkan.c.obj
 
 src/render/vulkan/SDL_render_vulkan.i: src/render/vulkan/SDL_render_vulkan.c.i
@@ -4481,7 +4481,7 @@ src/render/vulkan/SDL_render_vulkan.i: src/render/vulkan/SDL_render_vulkan.c.i
 
 # target to preprocess a source file
 src/render/vulkan/SDL_render_vulkan.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.i
 .PHONY : src/render/vulkan/SDL_render_vulkan.c.i
 
 src/render/vulkan/SDL_render_vulkan.s: src/render/vulkan/SDL_render_vulkan.c.s
@@ -4489,7 +4489,7 @@ src/render/vulkan/SDL_render_vulkan.s: src/render/vulkan/SDL_render_vulkan.c.s
 
 # target to generate assembly for a file
 src/render/vulkan/SDL_render_vulkan.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.s
 .PHONY : src/render/vulkan/SDL_render_vulkan.c.s
 
 src/render/vulkan/SDL_shaders_vulkan.obj: src/render/vulkan/SDL_shaders_vulkan.c.obj
@@ -4497,7 +4497,7 @@ src/render/vulkan/SDL_shaders_vulkan.obj: src/render/vulkan/SDL_shaders_vulkan.c
 
 # target to build an object file
 src/render/vulkan/SDL_shaders_vulkan.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.obj
 .PHONY : src/render/vulkan/SDL_shaders_vulkan.c.obj
 
 src/render/vulkan/SDL_shaders_vulkan.i: src/render/vulkan/SDL_shaders_vulkan.c.i
@@ -4505,7 +4505,7 @@ src/render/vulkan/SDL_shaders_vulkan.i: src/render/vulkan/SDL_shaders_vulkan.c.i
 
 # target to preprocess a source file
 src/render/vulkan/SDL_shaders_vulkan.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.i
 .PHONY : src/render/vulkan/SDL_shaders_vulkan.c.i
 
 src/render/vulkan/SDL_shaders_vulkan.s: src/render/vulkan/SDL_shaders_vulkan.c.s
@@ -4513,7 +4513,7 @@ src/render/vulkan/SDL_shaders_vulkan.s: src/render/vulkan/SDL_shaders_vulkan.c.s
 
 # target to generate assembly for a file
 src/render/vulkan/SDL_shaders_vulkan.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.s
 .PHONY : src/render/vulkan/SDL_shaders_vulkan.c.s
 
 src/sensor/SDL_sensor.obj: src/sensor/SDL_sensor.c.obj
@@ -4521,7 +4521,7 @@ src/sensor/SDL_sensor.obj: src/sensor/SDL_sensor.c.obj
 
 # target to build an object file
 src/sensor/SDL_sensor.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.obj
 .PHONY : src/sensor/SDL_sensor.c.obj
 
 src/sensor/SDL_sensor.i: src/sensor/SDL_sensor.c.i
@@ -4529,7 +4529,7 @@ src/sensor/SDL_sensor.i: src/sensor/SDL_sensor.c.i
 
 # target to preprocess a source file
 src/sensor/SDL_sensor.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.i
 .PHONY : src/sensor/SDL_sensor.c.i
 
 src/sensor/SDL_sensor.s: src/sensor/SDL_sensor.c.s
@@ -4537,7 +4537,7 @@ src/sensor/SDL_sensor.s: src/sensor/SDL_sensor.c.s
 
 # target to generate assembly for a file
 src/sensor/SDL_sensor.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.s
 .PHONY : src/sensor/SDL_sensor.c.s
 
 src/sensor/windows/SDL_windowssensor.obj: src/sensor/windows/SDL_windowssensor.c.obj
@@ -4545,7 +4545,7 @@ src/sensor/windows/SDL_windowssensor.obj: src/sensor/windows/SDL_windowssensor.c
 
 # target to build an object file
 src/sensor/windows/SDL_windowssensor.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/windows/SDL_windowssensor.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/windows/SDL_windowssensor.c.obj
 .PHONY : src/sensor/windows/SDL_windowssensor.c.obj
 
 src/sensor/windows/SDL_windowssensor.i: src/sensor/windows/SDL_windowssensor.c.i
@@ -4553,7 +4553,7 @@ src/sensor/windows/SDL_windowssensor.i: src/sensor/windows/SDL_windowssensor.c.i
 
 # target to preprocess a source file
 src/sensor/windows/SDL_windowssensor.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/windows/SDL_windowssensor.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/windows/SDL_windowssensor.c.i
 .PHONY : src/sensor/windows/SDL_windowssensor.c.i
 
 src/sensor/windows/SDL_windowssensor.s: src/sensor/windows/SDL_windowssensor.c.s
@@ -4561,7 +4561,7 @@ src/sensor/windows/SDL_windowssensor.s: src/sensor/windows/SDL_windowssensor.c.s
 
 # target to generate assembly for a file
 src/sensor/windows/SDL_windowssensor.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/windows/SDL_windowssensor.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/sensor/windows/SDL_windowssensor.c.s
 .PHONY : src/sensor/windows/SDL_windowssensor.c.s
 
 src/stdlib/SDL_crc16.obj: src/stdlib/SDL_crc16.c.obj
@@ -4569,7 +4569,7 @@ src/stdlib/SDL_crc16.obj: src/stdlib/SDL_crc16.c.obj
 
 # target to build an object file
 src/stdlib/SDL_crc16.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.obj
 .PHONY : src/stdlib/SDL_crc16.c.obj
 
 src/stdlib/SDL_crc16.i: src/stdlib/SDL_crc16.c.i
@@ -4577,7 +4577,7 @@ src/stdlib/SDL_crc16.i: src/stdlib/SDL_crc16.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_crc16.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.i
 .PHONY : src/stdlib/SDL_crc16.c.i
 
 src/stdlib/SDL_crc16.s: src/stdlib/SDL_crc16.c.s
@@ -4585,7 +4585,7 @@ src/stdlib/SDL_crc16.s: src/stdlib/SDL_crc16.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_crc16.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.s
 .PHONY : src/stdlib/SDL_crc16.c.s
 
 src/stdlib/SDL_crc32.obj: src/stdlib/SDL_crc32.c.obj
@@ -4593,7 +4593,7 @@ src/stdlib/SDL_crc32.obj: src/stdlib/SDL_crc32.c.obj
 
 # target to build an object file
 src/stdlib/SDL_crc32.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.obj
 .PHONY : src/stdlib/SDL_crc32.c.obj
 
 src/stdlib/SDL_crc32.i: src/stdlib/SDL_crc32.c.i
@@ -4601,7 +4601,7 @@ src/stdlib/SDL_crc32.i: src/stdlib/SDL_crc32.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_crc32.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.i
 .PHONY : src/stdlib/SDL_crc32.c.i
 
 src/stdlib/SDL_crc32.s: src/stdlib/SDL_crc32.c.s
@@ -4609,7 +4609,7 @@ src/stdlib/SDL_crc32.s: src/stdlib/SDL_crc32.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_crc32.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.s
 .PHONY : src/stdlib/SDL_crc32.c.s
 
 src/stdlib/SDL_getenv.obj: src/stdlib/SDL_getenv.c.obj
@@ -4617,7 +4617,7 @@ src/stdlib/SDL_getenv.obj: src/stdlib/SDL_getenv.c.obj
 
 # target to build an object file
 src/stdlib/SDL_getenv.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.obj
 .PHONY : src/stdlib/SDL_getenv.c.obj
 
 src/stdlib/SDL_getenv.i: src/stdlib/SDL_getenv.c.i
@@ -4625,7 +4625,7 @@ src/stdlib/SDL_getenv.i: src/stdlib/SDL_getenv.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_getenv.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.i
 .PHONY : src/stdlib/SDL_getenv.c.i
 
 src/stdlib/SDL_getenv.s: src/stdlib/SDL_getenv.c.s
@@ -4633,7 +4633,7 @@ src/stdlib/SDL_getenv.s: src/stdlib/SDL_getenv.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_getenv.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.s
 .PHONY : src/stdlib/SDL_getenv.c.s
 
 src/stdlib/SDL_iconv.obj: src/stdlib/SDL_iconv.c.obj
@@ -4641,7 +4641,7 @@ src/stdlib/SDL_iconv.obj: src/stdlib/SDL_iconv.c.obj
 
 # target to build an object file
 src/stdlib/SDL_iconv.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.obj
 .PHONY : src/stdlib/SDL_iconv.c.obj
 
 src/stdlib/SDL_iconv.i: src/stdlib/SDL_iconv.c.i
@@ -4649,7 +4649,7 @@ src/stdlib/SDL_iconv.i: src/stdlib/SDL_iconv.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_iconv.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.i
 .PHONY : src/stdlib/SDL_iconv.c.i
 
 src/stdlib/SDL_iconv.s: src/stdlib/SDL_iconv.c.s
@@ -4657,7 +4657,7 @@ src/stdlib/SDL_iconv.s: src/stdlib/SDL_iconv.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_iconv.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.s
 .PHONY : src/stdlib/SDL_iconv.c.s
 
 src/stdlib/SDL_malloc.obj: src/stdlib/SDL_malloc.c.obj
@@ -4665,7 +4665,7 @@ src/stdlib/SDL_malloc.obj: src/stdlib/SDL_malloc.c.obj
 
 # target to build an object file
 src/stdlib/SDL_malloc.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.obj
 .PHONY : src/stdlib/SDL_malloc.c.obj
 
 src/stdlib/SDL_malloc.i: src/stdlib/SDL_malloc.c.i
@@ -4673,7 +4673,7 @@ src/stdlib/SDL_malloc.i: src/stdlib/SDL_malloc.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_malloc.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.i
 .PHONY : src/stdlib/SDL_malloc.c.i
 
 src/stdlib/SDL_malloc.s: src/stdlib/SDL_malloc.c.s
@@ -4681,7 +4681,7 @@ src/stdlib/SDL_malloc.s: src/stdlib/SDL_malloc.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_malloc.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.s
 .PHONY : src/stdlib/SDL_malloc.c.s
 
 src/stdlib/SDL_memcpy.obj: src/stdlib/SDL_memcpy.c.obj
@@ -4689,7 +4689,7 @@ src/stdlib/SDL_memcpy.obj: src/stdlib/SDL_memcpy.c.obj
 
 # target to build an object file
 src/stdlib/SDL_memcpy.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.obj
 .PHONY : src/stdlib/SDL_memcpy.c.obj
 
 src/stdlib/SDL_memcpy.i: src/stdlib/SDL_memcpy.c.i
@@ -4697,7 +4697,7 @@ src/stdlib/SDL_memcpy.i: src/stdlib/SDL_memcpy.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_memcpy.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.i
 .PHONY : src/stdlib/SDL_memcpy.c.i
 
 src/stdlib/SDL_memcpy.s: src/stdlib/SDL_memcpy.c.s
@@ -4705,7 +4705,7 @@ src/stdlib/SDL_memcpy.s: src/stdlib/SDL_memcpy.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_memcpy.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.s
 .PHONY : src/stdlib/SDL_memcpy.c.s
 
 src/stdlib/SDL_memmove.obj: src/stdlib/SDL_memmove.c.obj
@@ -4713,7 +4713,7 @@ src/stdlib/SDL_memmove.obj: src/stdlib/SDL_memmove.c.obj
 
 # target to build an object file
 src/stdlib/SDL_memmove.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.obj
 .PHONY : src/stdlib/SDL_memmove.c.obj
 
 src/stdlib/SDL_memmove.i: src/stdlib/SDL_memmove.c.i
@@ -4721,7 +4721,7 @@ src/stdlib/SDL_memmove.i: src/stdlib/SDL_memmove.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_memmove.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.i
 .PHONY : src/stdlib/SDL_memmove.c.i
 
 src/stdlib/SDL_memmove.s: src/stdlib/SDL_memmove.c.s
@@ -4729,7 +4729,7 @@ src/stdlib/SDL_memmove.s: src/stdlib/SDL_memmove.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_memmove.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.s
 .PHONY : src/stdlib/SDL_memmove.c.s
 
 src/stdlib/SDL_memset.obj: src/stdlib/SDL_memset.c.obj
@@ -4737,7 +4737,7 @@ src/stdlib/SDL_memset.obj: src/stdlib/SDL_memset.c.obj
 
 # target to build an object file
 src/stdlib/SDL_memset.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.obj
 .PHONY : src/stdlib/SDL_memset.c.obj
 
 src/stdlib/SDL_memset.i: src/stdlib/SDL_memset.c.i
@@ -4745,7 +4745,7 @@ src/stdlib/SDL_memset.i: src/stdlib/SDL_memset.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_memset.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.i
 .PHONY : src/stdlib/SDL_memset.c.i
 
 src/stdlib/SDL_memset.s: src/stdlib/SDL_memset.c.s
@@ -4753,7 +4753,7 @@ src/stdlib/SDL_memset.s: src/stdlib/SDL_memset.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_memset.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.s
 .PHONY : src/stdlib/SDL_memset.c.s
 
 src/stdlib/SDL_mslibc.obj: src/stdlib/SDL_mslibc.c.obj
@@ -4761,7 +4761,7 @@ src/stdlib/SDL_mslibc.obj: src/stdlib/SDL_mslibc.c.obj
 
 # target to build an object file
 src/stdlib/SDL_mslibc.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.obj
 .PHONY : src/stdlib/SDL_mslibc.c.obj
 
 src/stdlib/SDL_mslibc.i: src/stdlib/SDL_mslibc.c.i
@@ -4769,7 +4769,7 @@ src/stdlib/SDL_mslibc.i: src/stdlib/SDL_mslibc.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_mslibc.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.i
 .PHONY : src/stdlib/SDL_mslibc.c.i
 
 src/stdlib/SDL_mslibc.s: src/stdlib/SDL_mslibc.c.s
@@ -4777,7 +4777,7 @@ src/stdlib/SDL_mslibc.s: src/stdlib/SDL_mslibc.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_mslibc.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.s
 .PHONY : src/stdlib/SDL_mslibc.c.s
 
 src/stdlib/SDL_murmur3.obj: src/stdlib/SDL_murmur3.c.obj
@@ -4785,7 +4785,7 @@ src/stdlib/SDL_murmur3.obj: src/stdlib/SDL_murmur3.c.obj
 
 # target to build an object file
 src/stdlib/SDL_murmur3.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.obj
 .PHONY : src/stdlib/SDL_murmur3.c.obj
 
 src/stdlib/SDL_murmur3.i: src/stdlib/SDL_murmur3.c.i
@@ -4793,7 +4793,7 @@ src/stdlib/SDL_murmur3.i: src/stdlib/SDL_murmur3.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_murmur3.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.i
 .PHONY : src/stdlib/SDL_murmur3.c.i
 
 src/stdlib/SDL_murmur3.s: src/stdlib/SDL_murmur3.c.s
@@ -4801,7 +4801,7 @@ src/stdlib/SDL_murmur3.s: src/stdlib/SDL_murmur3.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_murmur3.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.s
 .PHONY : src/stdlib/SDL_murmur3.c.s
 
 src/stdlib/SDL_qsort.obj: src/stdlib/SDL_qsort.c.obj
@@ -4809,7 +4809,7 @@ src/stdlib/SDL_qsort.obj: src/stdlib/SDL_qsort.c.obj
 
 # target to build an object file
 src/stdlib/SDL_qsort.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.obj
 .PHONY : src/stdlib/SDL_qsort.c.obj
 
 src/stdlib/SDL_qsort.i: src/stdlib/SDL_qsort.c.i
@@ -4817,7 +4817,7 @@ src/stdlib/SDL_qsort.i: src/stdlib/SDL_qsort.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_qsort.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.i
 .PHONY : src/stdlib/SDL_qsort.c.i
 
 src/stdlib/SDL_qsort.s: src/stdlib/SDL_qsort.c.s
@@ -4825,7 +4825,7 @@ src/stdlib/SDL_qsort.s: src/stdlib/SDL_qsort.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_qsort.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.s
 .PHONY : src/stdlib/SDL_qsort.c.s
 
 src/stdlib/SDL_random.obj: src/stdlib/SDL_random.c.obj
@@ -4833,7 +4833,7 @@ src/stdlib/SDL_random.obj: src/stdlib/SDL_random.c.obj
 
 # target to build an object file
 src/stdlib/SDL_random.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.obj
 .PHONY : src/stdlib/SDL_random.c.obj
 
 src/stdlib/SDL_random.i: src/stdlib/SDL_random.c.i
@@ -4841,7 +4841,7 @@ src/stdlib/SDL_random.i: src/stdlib/SDL_random.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_random.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.i
 .PHONY : src/stdlib/SDL_random.c.i
 
 src/stdlib/SDL_random.s: src/stdlib/SDL_random.c.s
@@ -4849,7 +4849,7 @@ src/stdlib/SDL_random.s: src/stdlib/SDL_random.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_random.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.s
 .PHONY : src/stdlib/SDL_random.c.s
 
 src/stdlib/SDL_stdlib.obj: src/stdlib/SDL_stdlib.c.obj
@@ -4857,7 +4857,7 @@ src/stdlib/SDL_stdlib.obj: src/stdlib/SDL_stdlib.c.obj
 
 # target to build an object file
 src/stdlib/SDL_stdlib.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.obj
 .PHONY : src/stdlib/SDL_stdlib.c.obj
 
 src/stdlib/SDL_stdlib.i: src/stdlib/SDL_stdlib.c.i
@@ -4865,7 +4865,7 @@ src/stdlib/SDL_stdlib.i: src/stdlib/SDL_stdlib.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_stdlib.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.i
 .PHONY : src/stdlib/SDL_stdlib.c.i
 
 src/stdlib/SDL_stdlib.s: src/stdlib/SDL_stdlib.c.s
@@ -4873,7 +4873,7 @@ src/stdlib/SDL_stdlib.s: src/stdlib/SDL_stdlib.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_stdlib.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.s
 .PHONY : src/stdlib/SDL_stdlib.c.s
 
 src/stdlib/SDL_string.obj: src/stdlib/SDL_string.c.obj
@@ -4881,7 +4881,7 @@ src/stdlib/SDL_string.obj: src/stdlib/SDL_string.c.obj
 
 # target to build an object file
 src/stdlib/SDL_string.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.obj
 .PHONY : src/stdlib/SDL_string.c.obj
 
 src/stdlib/SDL_string.i: src/stdlib/SDL_string.c.i
@@ -4889,7 +4889,7 @@ src/stdlib/SDL_string.i: src/stdlib/SDL_string.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_string.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.i
 .PHONY : src/stdlib/SDL_string.c.i
 
 src/stdlib/SDL_string.s: src/stdlib/SDL_string.c.s
@@ -4897,7 +4897,7 @@ src/stdlib/SDL_string.s: src/stdlib/SDL_string.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_string.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.s
 .PHONY : src/stdlib/SDL_string.c.s
 
 src/stdlib/SDL_strtokr.obj: src/stdlib/SDL_strtokr.c.obj
@@ -4905,7 +4905,7 @@ src/stdlib/SDL_strtokr.obj: src/stdlib/SDL_strtokr.c.obj
 
 # target to build an object file
 src/stdlib/SDL_strtokr.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.obj
 .PHONY : src/stdlib/SDL_strtokr.c.obj
 
 src/stdlib/SDL_strtokr.i: src/stdlib/SDL_strtokr.c.i
@@ -4913,7 +4913,7 @@ src/stdlib/SDL_strtokr.i: src/stdlib/SDL_strtokr.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_strtokr.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.i
 .PHONY : src/stdlib/SDL_strtokr.c.i
 
 src/stdlib/SDL_strtokr.s: src/stdlib/SDL_strtokr.c.s
@@ -4921,7 +4921,7 @@ src/stdlib/SDL_strtokr.s: src/stdlib/SDL_strtokr.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_strtokr.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.s
 .PHONY : src/stdlib/SDL_strtokr.c.s
 
 src/storage/SDL_storage.obj: src/storage/SDL_storage.c.obj
@@ -4929,7 +4929,7 @@ src/storage/SDL_storage.obj: src/storage/SDL_storage.c.obj
 
 # target to build an object file
 src/storage/SDL_storage.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.obj
 .PHONY : src/storage/SDL_storage.c.obj
 
 src/storage/SDL_storage.i: src/storage/SDL_storage.c.i
@@ -4937,7 +4937,7 @@ src/storage/SDL_storage.i: src/storage/SDL_storage.c.i
 
 # target to preprocess a source file
 src/storage/SDL_storage.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.i
 .PHONY : src/storage/SDL_storage.c.i
 
 src/storage/SDL_storage.s: src/storage/SDL_storage.c.s
@@ -4945,7 +4945,7 @@ src/storage/SDL_storage.s: src/storage/SDL_storage.c.s
 
 # target to generate assembly for a file
 src/storage/SDL_storage.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.s
 .PHONY : src/storage/SDL_storage.c.s
 
 src/storage/generic/SDL_genericstorage.obj: src/storage/generic/SDL_genericstorage.c.obj
@@ -4953,7 +4953,7 @@ src/storage/generic/SDL_genericstorage.obj: src/storage/generic/SDL_genericstora
 
 # target to build an object file
 src/storage/generic/SDL_genericstorage.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.obj
 .PHONY : src/storage/generic/SDL_genericstorage.c.obj
 
 src/storage/generic/SDL_genericstorage.i: src/storage/generic/SDL_genericstorage.c.i
@@ -4961,7 +4961,7 @@ src/storage/generic/SDL_genericstorage.i: src/storage/generic/SDL_genericstorage
 
 # target to preprocess a source file
 src/storage/generic/SDL_genericstorage.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.i
 .PHONY : src/storage/generic/SDL_genericstorage.c.i
 
 src/storage/generic/SDL_genericstorage.s: src/storage/generic/SDL_genericstorage.c.s
@@ -4969,7 +4969,7 @@ src/storage/generic/SDL_genericstorage.s: src/storage/generic/SDL_genericstorage
 
 # target to generate assembly for a file
 src/storage/generic/SDL_genericstorage.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.s
 .PHONY : src/storage/generic/SDL_genericstorage.c.s
 
 src/storage/steam/SDL_steamstorage.obj: src/storage/steam/SDL_steamstorage.c.obj
@@ -4977,7 +4977,7 @@ src/storage/steam/SDL_steamstorage.obj: src/storage/steam/SDL_steamstorage.c.obj
 
 # target to build an object file
 src/storage/steam/SDL_steamstorage.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.obj
 .PHONY : src/storage/steam/SDL_steamstorage.c.obj
 
 src/storage/steam/SDL_steamstorage.i: src/storage/steam/SDL_steamstorage.c.i
@@ -4985,7 +4985,7 @@ src/storage/steam/SDL_steamstorage.i: src/storage/steam/SDL_steamstorage.c.i
 
 # target to preprocess a source file
 src/storage/steam/SDL_steamstorage.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.i
 .PHONY : src/storage/steam/SDL_steamstorage.c.i
 
 src/storage/steam/SDL_steamstorage.s: src/storage/steam/SDL_steamstorage.c.s
@@ -4993,7 +4993,7 @@ src/storage/steam/SDL_steamstorage.s: src/storage/steam/SDL_steamstorage.c.s
 
 # target to generate assembly for a file
 src/storage/steam/SDL_steamstorage.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.s
 .PHONY : src/storage/steam/SDL_steamstorage.c.s
 
 src/test/SDL_test_assert.obj: src/test/SDL_test_assert.c.obj
@@ -5001,7 +5001,7 @@ src/test/SDL_test_assert.obj: src/test/SDL_test_assert.c.obj
 
 # target to build an object file
 src/test/SDL_test_assert.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.obj
 .PHONY : src/test/SDL_test_assert.c.obj
 
 src/test/SDL_test_assert.i: src/test/SDL_test_assert.c.i
@@ -5009,7 +5009,7 @@ src/test/SDL_test_assert.i: src/test/SDL_test_assert.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_assert.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.i
 .PHONY : src/test/SDL_test_assert.c.i
 
 src/test/SDL_test_assert.s: src/test/SDL_test_assert.c.s
@@ -5017,7 +5017,7 @@ src/test/SDL_test_assert.s: src/test/SDL_test_assert.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_assert.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.s
 .PHONY : src/test/SDL_test_assert.c.s
 
 src/test/SDL_test_common.obj: src/test/SDL_test_common.c.obj
@@ -5025,7 +5025,7 @@ src/test/SDL_test_common.obj: src/test/SDL_test_common.c.obj
 
 # target to build an object file
 src/test/SDL_test_common.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.obj
 .PHONY : src/test/SDL_test_common.c.obj
 
 src/test/SDL_test_common.i: src/test/SDL_test_common.c.i
@@ -5033,7 +5033,7 @@ src/test/SDL_test_common.i: src/test/SDL_test_common.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_common.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.i
 .PHONY : src/test/SDL_test_common.c.i
 
 src/test/SDL_test_common.s: src/test/SDL_test_common.c.s
@@ -5041,7 +5041,7 @@ src/test/SDL_test_common.s: src/test/SDL_test_common.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_common.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.s
 .PHONY : src/test/SDL_test_common.c.s
 
 src/test/SDL_test_compare.obj: src/test/SDL_test_compare.c.obj
@@ -5049,7 +5049,7 @@ src/test/SDL_test_compare.obj: src/test/SDL_test_compare.c.obj
 
 # target to build an object file
 src/test/SDL_test_compare.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.obj
 .PHONY : src/test/SDL_test_compare.c.obj
 
 src/test/SDL_test_compare.i: src/test/SDL_test_compare.c.i
@@ -5057,7 +5057,7 @@ src/test/SDL_test_compare.i: src/test/SDL_test_compare.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_compare.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.i
 .PHONY : src/test/SDL_test_compare.c.i
 
 src/test/SDL_test_compare.s: src/test/SDL_test_compare.c.s
@@ -5065,7 +5065,7 @@ src/test/SDL_test_compare.s: src/test/SDL_test_compare.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_compare.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.s
 .PHONY : src/test/SDL_test_compare.c.s
 
 src/test/SDL_test_crc32.obj: src/test/SDL_test_crc32.c.obj
@@ -5073,7 +5073,7 @@ src/test/SDL_test_crc32.obj: src/test/SDL_test_crc32.c.obj
 
 # target to build an object file
 src/test/SDL_test_crc32.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.obj
 .PHONY : src/test/SDL_test_crc32.c.obj
 
 src/test/SDL_test_crc32.i: src/test/SDL_test_crc32.c.i
@@ -5081,7 +5081,7 @@ src/test/SDL_test_crc32.i: src/test/SDL_test_crc32.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_crc32.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.i
 .PHONY : src/test/SDL_test_crc32.c.i
 
 src/test/SDL_test_crc32.s: src/test/SDL_test_crc32.c.s
@@ -5089,7 +5089,7 @@ src/test/SDL_test_crc32.s: src/test/SDL_test_crc32.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_crc32.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.s
 .PHONY : src/test/SDL_test_crc32.c.s
 
 src/test/SDL_test_font.obj: src/test/SDL_test_font.c.obj
@@ -5097,7 +5097,7 @@ src/test/SDL_test_font.obj: src/test/SDL_test_font.c.obj
 
 # target to build an object file
 src/test/SDL_test_font.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.obj
 .PHONY : src/test/SDL_test_font.c.obj
 
 src/test/SDL_test_font.i: src/test/SDL_test_font.c.i
@@ -5105,7 +5105,7 @@ src/test/SDL_test_font.i: src/test/SDL_test_font.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_font.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.i
 .PHONY : src/test/SDL_test_font.c.i
 
 src/test/SDL_test_font.s: src/test/SDL_test_font.c.s
@@ -5113,7 +5113,7 @@ src/test/SDL_test_font.s: src/test/SDL_test_font.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_font.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.s
 .PHONY : src/test/SDL_test_font.c.s
 
 src/test/SDL_test_fuzzer.obj: src/test/SDL_test_fuzzer.c.obj
@@ -5121,7 +5121,7 @@ src/test/SDL_test_fuzzer.obj: src/test/SDL_test_fuzzer.c.obj
 
 # target to build an object file
 src/test/SDL_test_fuzzer.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.obj
 .PHONY : src/test/SDL_test_fuzzer.c.obj
 
 src/test/SDL_test_fuzzer.i: src/test/SDL_test_fuzzer.c.i
@@ -5129,7 +5129,7 @@ src/test/SDL_test_fuzzer.i: src/test/SDL_test_fuzzer.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_fuzzer.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.i
 .PHONY : src/test/SDL_test_fuzzer.c.i
 
 src/test/SDL_test_fuzzer.s: src/test/SDL_test_fuzzer.c.s
@@ -5137,7 +5137,7 @@ src/test/SDL_test_fuzzer.s: src/test/SDL_test_fuzzer.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_fuzzer.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.s
 .PHONY : src/test/SDL_test_fuzzer.c.s
 
 src/test/SDL_test_harness.obj: src/test/SDL_test_harness.c.obj
@@ -5145,7 +5145,7 @@ src/test/SDL_test_harness.obj: src/test/SDL_test_harness.c.obj
 
 # target to build an object file
 src/test/SDL_test_harness.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.obj
 .PHONY : src/test/SDL_test_harness.c.obj
 
 src/test/SDL_test_harness.i: src/test/SDL_test_harness.c.i
@@ -5153,7 +5153,7 @@ src/test/SDL_test_harness.i: src/test/SDL_test_harness.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_harness.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.i
 .PHONY : src/test/SDL_test_harness.c.i
 
 src/test/SDL_test_harness.s: src/test/SDL_test_harness.c.s
@@ -5161,7 +5161,7 @@ src/test/SDL_test_harness.s: src/test/SDL_test_harness.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_harness.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.s
 .PHONY : src/test/SDL_test_harness.c.s
 
 src/test/SDL_test_log.obj: src/test/SDL_test_log.c.obj
@@ -5169,7 +5169,7 @@ src/test/SDL_test_log.obj: src/test/SDL_test_log.c.obj
 
 # target to build an object file
 src/test/SDL_test_log.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.obj
 .PHONY : src/test/SDL_test_log.c.obj
 
 src/test/SDL_test_log.i: src/test/SDL_test_log.c.i
@@ -5177,7 +5177,7 @@ src/test/SDL_test_log.i: src/test/SDL_test_log.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_log.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.i
 .PHONY : src/test/SDL_test_log.c.i
 
 src/test/SDL_test_log.s: src/test/SDL_test_log.c.s
@@ -5185,7 +5185,7 @@ src/test/SDL_test_log.s: src/test/SDL_test_log.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_log.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.s
 .PHONY : src/test/SDL_test_log.c.s
 
 src/test/SDL_test_md5.obj: src/test/SDL_test_md5.c.obj
@@ -5193,7 +5193,7 @@ src/test/SDL_test_md5.obj: src/test/SDL_test_md5.c.obj
 
 # target to build an object file
 src/test/SDL_test_md5.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.obj
 .PHONY : src/test/SDL_test_md5.c.obj
 
 src/test/SDL_test_md5.i: src/test/SDL_test_md5.c.i
@@ -5201,7 +5201,7 @@ src/test/SDL_test_md5.i: src/test/SDL_test_md5.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_md5.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.i
 .PHONY : src/test/SDL_test_md5.c.i
 
 src/test/SDL_test_md5.s: src/test/SDL_test_md5.c.s
@@ -5209,7 +5209,7 @@ src/test/SDL_test_md5.s: src/test/SDL_test_md5.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_md5.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.s
 .PHONY : src/test/SDL_test_md5.c.s
 
 src/test/SDL_test_memory.obj: src/test/SDL_test_memory.c.obj
@@ -5217,7 +5217,7 @@ src/test/SDL_test_memory.obj: src/test/SDL_test_memory.c.obj
 
 # target to build an object file
 src/test/SDL_test_memory.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.obj
 .PHONY : src/test/SDL_test_memory.c.obj
 
 src/test/SDL_test_memory.i: src/test/SDL_test_memory.c.i
@@ -5225,7 +5225,7 @@ src/test/SDL_test_memory.i: src/test/SDL_test_memory.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_memory.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.i
 .PHONY : src/test/SDL_test_memory.c.i
 
 src/test/SDL_test_memory.s: src/test/SDL_test_memory.c.s
@@ -5233,7 +5233,7 @@ src/test/SDL_test_memory.s: src/test/SDL_test_memory.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_memory.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3_test.dir\build.make vendored/SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.s
 .PHONY : src/test/SDL_test_memory.c.s
 
 src/thread/SDL_thread.obj: src/thread/SDL_thread.c.obj
@@ -5241,7 +5241,7 @@ src/thread/SDL_thread.obj: src/thread/SDL_thread.c.obj
 
 # target to build an object file
 src/thread/SDL_thread.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.obj
 .PHONY : src/thread/SDL_thread.c.obj
 
 src/thread/SDL_thread.i: src/thread/SDL_thread.c.i
@@ -5249,7 +5249,7 @@ src/thread/SDL_thread.i: src/thread/SDL_thread.c.i
 
 # target to preprocess a source file
 src/thread/SDL_thread.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.i
 .PHONY : src/thread/SDL_thread.c.i
 
 src/thread/SDL_thread.s: src/thread/SDL_thread.c.s
@@ -5257,7 +5257,7 @@ src/thread/SDL_thread.s: src/thread/SDL_thread.c.s
 
 # target to generate assembly for a file
 src/thread/SDL_thread.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.s
 .PHONY : src/thread/SDL_thread.c.s
 
 src/thread/generic/SDL_syscond.obj: src/thread/generic/SDL_syscond.c.obj
@@ -5265,7 +5265,7 @@ src/thread/generic/SDL_syscond.obj: src/thread/generic/SDL_syscond.c.obj
 
 # target to build an object file
 src/thread/generic/SDL_syscond.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/generic/SDL_syscond.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/generic/SDL_syscond.c.obj
 .PHONY : src/thread/generic/SDL_syscond.c.obj
 
 src/thread/generic/SDL_syscond.i: src/thread/generic/SDL_syscond.c.i
@@ -5273,7 +5273,7 @@ src/thread/generic/SDL_syscond.i: src/thread/generic/SDL_syscond.c.i
 
 # target to preprocess a source file
 src/thread/generic/SDL_syscond.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/generic/SDL_syscond.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/generic/SDL_syscond.c.i
 .PHONY : src/thread/generic/SDL_syscond.c.i
 
 src/thread/generic/SDL_syscond.s: src/thread/generic/SDL_syscond.c.s
@@ -5281,7 +5281,7 @@ src/thread/generic/SDL_syscond.s: src/thread/generic/SDL_syscond.c.s
 
 # target to generate assembly for a file
 src/thread/generic/SDL_syscond.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/generic/SDL_syscond.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/generic/SDL_syscond.c.s
 .PHONY : src/thread/generic/SDL_syscond.c.s
 
 src/thread/generic/SDL_sysrwlock.obj: src/thread/generic/SDL_sysrwlock.c.obj
@@ -5289,7 +5289,7 @@ src/thread/generic/SDL_sysrwlock.obj: src/thread/generic/SDL_sysrwlock.c.obj
 
 # target to build an object file
 src/thread/generic/SDL_sysrwlock.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/generic/SDL_sysrwlock.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/generic/SDL_sysrwlock.c.obj
 .PHONY : src/thread/generic/SDL_sysrwlock.c.obj
 
 src/thread/generic/SDL_sysrwlock.i: src/thread/generic/SDL_sysrwlock.c.i
@@ -5297,7 +5297,7 @@ src/thread/generic/SDL_sysrwlock.i: src/thread/generic/SDL_sysrwlock.c.i
 
 # target to preprocess a source file
 src/thread/generic/SDL_sysrwlock.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/generic/SDL_sysrwlock.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/generic/SDL_sysrwlock.c.i
 .PHONY : src/thread/generic/SDL_sysrwlock.c.i
 
 src/thread/generic/SDL_sysrwlock.s: src/thread/generic/SDL_sysrwlock.c.s
@@ -5305,7 +5305,7 @@ src/thread/generic/SDL_sysrwlock.s: src/thread/generic/SDL_sysrwlock.c.s
 
 # target to generate assembly for a file
 src/thread/generic/SDL_sysrwlock.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/generic/SDL_sysrwlock.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/generic/SDL_sysrwlock.c.s
 .PHONY : src/thread/generic/SDL_sysrwlock.c.s
 
 src/thread/windows/SDL_syscond_cv.obj: src/thread/windows/SDL_syscond_cv.c.obj
@@ -5313,7 +5313,7 @@ src/thread/windows/SDL_syscond_cv.obj: src/thread/windows/SDL_syscond_cv.c.obj
 
 # target to build an object file
 src/thread/windows/SDL_syscond_cv.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_syscond_cv.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_syscond_cv.c.obj
 .PHONY : src/thread/windows/SDL_syscond_cv.c.obj
 
 src/thread/windows/SDL_syscond_cv.i: src/thread/windows/SDL_syscond_cv.c.i
@@ -5321,7 +5321,7 @@ src/thread/windows/SDL_syscond_cv.i: src/thread/windows/SDL_syscond_cv.c.i
 
 # target to preprocess a source file
 src/thread/windows/SDL_syscond_cv.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_syscond_cv.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_syscond_cv.c.i
 .PHONY : src/thread/windows/SDL_syscond_cv.c.i
 
 src/thread/windows/SDL_syscond_cv.s: src/thread/windows/SDL_syscond_cv.c.s
@@ -5329,7 +5329,7 @@ src/thread/windows/SDL_syscond_cv.s: src/thread/windows/SDL_syscond_cv.c.s
 
 # target to generate assembly for a file
 src/thread/windows/SDL_syscond_cv.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_syscond_cv.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_syscond_cv.c.s
 .PHONY : src/thread/windows/SDL_syscond_cv.c.s
 
 src/thread/windows/SDL_sysmutex.obj: src/thread/windows/SDL_sysmutex.c.obj
@@ -5337,7 +5337,7 @@ src/thread/windows/SDL_sysmutex.obj: src/thread/windows/SDL_sysmutex.c.obj
 
 # target to build an object file
 src/thread/windows/SDL_sysmutex.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysmutex.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysmutex.c.obj
 .PHONY : src/thread/windows/SDL_sysmutex.c.obj
 
 src/thread/windows/SDL_sysmutex.i: src/thread/windows/SDL_sysmutex.c.i
@@ -5345,7 +5345,7 @@ src/thread/windows/SDL_sysmutex.i: src/thread/windows/SDL_sysmutex.c.i
 
 # target to preprocess a source file
 src/thread/windows/SDL_sysmutex.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysmutex.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysmutex.c.i
 .PHONY : src/thread/windows/SDL_sysmutex.c.i
 
 src/thread/windows/SDL_sysmutex.s: src/thread/windows/SDL_sysmutex.c.s
@@ -5353,7 +5353,7 @@ src/thread/windows/SDL_sysmutex.s: src/thread/windows/SDL_sysmutex.c.s
 
 # target to generate assembly for a file
 src/thread/windows/SDL_sysmutex.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysmutex.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysmutex.c.s
 .PHONY : src/thread/windows/SDL_sysmutex.c.s
 
 src/thread/windows/SDL_sysrwlock_srw.obj: src/thread/windows/SDL_sysrwlock_srw.c.obj
@@ -5361,7 +5361,7 @@ src/thread/windows/SDL_sysrwlock_srw.obj: src/thread/windows/SDL_sysrwlock_srw.c
 
 # target to build an object file
 src/thread/windows/SDL_sysrwlock_srw.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysrwlock_srw.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysrwlock_srw.c.obj
 .PHONY : src/thread/windows/SDL_sysrwlock_srw.c.obj
 
 src/thread/windows/SDL_sysrwlock_srw.i: src/thread/windows/SDL_sysrwlock_srw.c.i
@@ -5369,7 +5369,7 @@ src/thread/windows/SDL_sysrwlock_srw.i: src/thread/windows/SDL_sysrwlock_srw.c.i
 
 # target to preprocess a source file
 src/thread/windows/SDL_sysrwlock_srw.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysrwlock_srw.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysrwlock_srw.c.i
 .PHONY : src/thread/windows/SDL_sysrwlock_srw.c.i
 
 src/thread/windows/SDL_sysrwlock_srw.s: src/thread/windows/SDL_sysrwlock_srw.c.s
@@ -5377,7 +5377,7 @@ src/thread/windows/SDL_sysrwlock_srw.s: src/thread/windows/SDL_sysrwlock_srw.c.s
 
 # target to generate assembly for a file
 src/thread/windows/SDL_sysrwlock_srw.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysrwlock_srw.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_sysrwlock_srw.c.s
 .PHONY : src/thread/windows/SDL_sysrwlock_srw.c.s
 
 src/thread/windows/SDL_syssem.obj: src/thread/windows/SDL_syssem.c.obj
@@ -5385,7 +5385,7 @@ src/thread/windows/SDL_syssem.obj: src/thread/windows/SDL_syssem.c.obj
 
 # target to build an object file
 src/thread/windows/SDL_syssem.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_syssem.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_syssem.c.obj
 .PHONY : src/thread/windows/SDL_syssem.c.obj
 
 src/thread/windows/SDL_syssem.i: src/thread/windows/SDL_syssem.c.i
@@ -5393,7 +5393,7 @@ src/thread/windows/SDL_syssem.i: src/thread/windows/SDL_syssem.c.i
 
 # target to preprocess a source file
 src/thread/windows/SDL_syssem.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_syssem.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_syssem.c.i
 .PHONY : src/thread/windows/SDL_syssem.c.i
 
 src/thread/windows/SDL_syssem.s: src/thread/windows/SDL_syssem.c.s
@@ -5401,7 +5401,7 @@ src/thread/windows/SDL_syssem.s: src/thread/windows/SDL_syssem.c.s
 
 # target to generate assembly for a file
 src/thread/windows/SDL_syssem.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_syssem.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_syssem.c.s
 .PHONY : src/thread/windows/SDL_syssem.c.s
 
 src/thread/windows/SDL_systhread.obj: src/thread/windows/SDL_systhread.c.obj
@@ -5409,7 +5409,7 @@ src/thread/windows/SDL_systhread.obj: src/thread/windows/SDL_systhread.c.obj
 
 # target to build an object file
 src/thread/windows/SDL_systhread.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_systhread.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_systhread.c.obj
 .PHONY : src/thread/windows/SDL_systhread.c.obj
 
 src/thread/windows/SDL_systhread.i: src/thread/windows/SDL_systhread.c.i
@@ -5417,7 +5417,7 @@ src/thread/windows/SDL_systhread.i: src/thread/windows/SDL_systhread.c.i
 
 # target to preprocess a source file
 src/thread/windows/SDL_systhread.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_systhread.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_systhread.c.i
 .PHONY : src/thread/windows/SDL_systhread.c.i
 
 src/thread/windows/SDL_systhread.s: src/thread/windows/SDL_systhread.c.s
@@ -5425,7 +5425,7 @@ src/thread/windows/SDL_systhread.s: src/thread/windows/SDL_systhread.c.s
 
 # target to generate assembly for a file
 src/thread/windows/SDL_systhread.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_systhread.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_systhread.c.s
 .PHONY : src/thread/windows/SDL_systhread.c.s
 
 src/thread/windows/SDL_systls.obj: src/thread/windows/SDL_systls.c.obj
@@ -5433,7 +5433,7 @@ src/thread/windows/SDL_systls.obj: src/thread/windows/SDL_systls.c.obj
 
 # target to build an object file
 src/thread/windows/SDL_systls.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_systls.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_systls.c.obj
 .PHONY : src/thread/windows/SDL_systls.c.obj
 
 src/thread/windows/SDL_systls.i: src/thread/windows/SDL_systls.c.i
@@ -5441,7 +5441,7 @@ src/thread/windows/SDL_systls.i: src/thread/windows/SDL_systls.c.i
 
 # target to preprocess a source file
 src/thread/windows/SDL_systls.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_systls.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_systls.c.i
 .PHONY : src/thread/windows/SDL_systls.c.i
 
 src/thread/windows/SDL_systls.s: src/thread/windows/SDL_systls.c.s
@@ -5449,7 +5449,7 @@ src/thread/windows/SDL_systls.s: src/thread/windows/SDL_systls.c.s
 
 # target to generate assembly for a file
 src/thread/windows/SDL_systls.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_systls.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/windows/SDL_systls.c.s
 .PHONY : src/thread/windows/SDL_systls.c.s
 
 src/time/SDL_time.obj: src/time/SDL_time.c.obj
@@ -5457,7 +5457,7 @@ src/time/SDL_time.obj: src/time/SDL_time.c.obj
 
 # target to build an object file
 src/time/SDL_time.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.obj
 .PHONY : src/time/SDL_time.c.obj
 
 src/time/SDL_time.i: src/time/SDL_time.c.i
@@ -5465,7 +5465,7 @@ src/time/SDL_time.i: src/time/SDL_time.c.i
 
 # target to preprocess a source file
 src/time/SDL_time.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.i
 .PHONY : src/time/SDL_time.c.i
 
 src/time/SDL_time.s: src/time/SDL_time.c.s
@@ -5473,7 +5473,7 @@ src/time/SDL_time.s: src/time/SDL_time.c.s
 
 # target to generate assembly for a file
 src/time/SDL_time.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.s
 .PHONY : src/time/SDL_time.c.s
 
 src/time/windows/SDL_systime.obj: src/time/windows/SDL_systime.c.obj
@@ -5481,7 +5481,7 @@ src/time/windows/SDL_systime.obj: src/time/windows/SDL_systime.c.obj
 
 # target to build an object file
 src/time/windows/SDL_systime.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/time/windows/SDL_systime.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/time/windows/SDL_systime.c.obj
 .PHONY : src/time/windows/SDL_systime.c.obj
 
 src/time/windows/SDL_systime.i: src/time/windows/SDL_systime.c.i
@@ -5489,7 +5489,7 @@ src/time/windows/SDL_systime.i: src/time/windows/SDL_systime.c.i
 
 # target to preprocess a source file
 src/time/windows/SDL_systime.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/time/windows/SDL_systime.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/time/windows/SDL_systime.c.i
 .PHONY : src/time/windows/SDL_systime.c.i
 
 src/time/windows/SDL_systime.s: src/time/windows/SDL_systime.c.s
@@ -5497,7 +5497,7 @@ src/time/windows/SDL_systime.s: src/time/windows/SDL_systime.c.s
 
 # target to generate assembly for a file
 src/time/windows/SDL_systime.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/time/windows/SDL_systime.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/time/windows/SDL_systime.c.s
 .PHONY : src/time/windows/SDL_systime.c.s
 
 src/timer/SDL_timer.obj: src/timer/SDL_timer.c.obj
@@ -5505,7 +5505,7 @@ src/timer/SDL_timer.obj: src/timer/SDL_timer.c.obj
 
 # target to build an object file
 src/timer/SDL_timer.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.obj
 .PHONY : src/timer/SDL_timer.c.obj
 
 src/timer/SDL_timer.i: src/timer/SDL_timer.c.i
@@ -5513,7 +5513,7 @@ src/timer/SDL_timer.i: src/timer/SDL_timer.c.i
 
 # target to preprocess a source file
 src/timer/SDL_timer.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.i
 .PHONY : src/timer/SDL_timer.c.i
 
 src/timer/SDL_timer.s: src/timer/SDL_timer.c.s
@@ -5521,7 +5521,7 @@ src/timer/SDL_timer.s: src/timer/SDL_timer.c.s
 
 # target to generate assembly for a file
 src/timer/SDL_timer.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.s
 .PHONY : src/timer/SDL_timer.c.s
 
 src/timer/windows/SDL_systimer.obj: src/timer/windows/SDL_systimer.c.obj
@@ -5529,7 +5529,7 @@ src/timer/windows/SDL_systimer.obj: src/timer/windows/SDL_systimer.c.obj
 
 # target to build an object file
 src/timer/windows/SDL_systimer.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/timer/windows/SDL_systimer.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/timer/windows/SDL_systimer.c.obj
 .PHONY : src/timer/windows/SDL_systimer.c.obj
 
 src/timer/windows/SDL_systimer.i: src/timer/windows/SDL_systimer.c.i
@@ -5537,7 +5537,7 @@ src/timer/windows/SDL_systimer.i: src/timer/windows/SDL_systimer.c.i
 
 # target to preprocess a source file
 src/timer/windows/SDL_systimer.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/timer/windows/SDL_systimer.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/timer/windows/SDL_systimer.c.i
 .PHONY : src/timer/windows/SDL_systimer.c.i
 
 src/timer/windows/SDL_systimer.s: src/timer/windows/SDL_systimer.c.s
@@ -5545,7 +5545,7 @@ src/timer/windows/SDL_systimer.s: src/timer/windows/SDL_systimer.c.s
 
 # target to generate assembly for a file
 src/timer/windows/SDL_systimer.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/timer/windows/SDL_systimer.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/timer/windows/SDL_systimer.c.s
 .PHONY : src/timer/windows/SDL_systimer.c.s
 
 src/tray/SDL_tray_utils.obj: src/tray/SDL_tray_utils.c.obj
@@ -5553,7 +5553,7 @@ src/tray/SDL_tray_utils.obj: src/tray/SDL_tray_utils.c.obj
 
 # target to build an object file
 src/tray/SDL_tray_utils.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.obj
 .PHONY : src/tray/SDL_tray_utils.c.obj
 
 src/tray/SDL_tray_utils.i: src/tray/SDL_tray_utils.c.i
@@ -5561,7 +5561,7 @@ src/tray/SDL_tray_utils.i: src/tray/SDL_tray_utils.c.i
 
 # target to preprocess a source file
 src/tray/SDL_tray_utils.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.i
 .PHONY : src/tray/SDL_tray_utils.c.i
 
 src/tray/SDL_tray_utils.s: src/tray/SDL_tray_utils.c.s
@@ -5569,7 +5569,7 @@ src/tray/SDL_tray_utils.s: src/tray/SDL_tray_utils.c.s
 
 # target to generate assembly for a file
 src/tray/SDL_tray_utils.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.s
 .PHONY : src/tray/SDL_tray_utils.c.s
 
 src/tray/windows/SDL_tray.obj: src/tray/windows/SDL_tray.c.obj
@@ -5577,7 +5577,7 @@ src/tray/windows/SDL_tray.obj: src/tray/windows/SDL_tray.c.obj
 
 # target to build an object file
 src/tray/windows/SDL_tray.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/tray/windows/SDL_tray.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/tray/windows/SDL_tray.c.obj
 .PHONY : src/tray/windows/SDL_tray.c.obj
 
 src/tray/windows/SDL_tray.i: src/tray/windows/SDL_tray.c.i
@@ -5585,7 +5585,7 @@ src/tray/windows/SDL_tray.i: src/tray/windows/SDL_tray.c.i
 
 # target to preprocess a source file
 src/tray/windows/SDL_tray.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/tray/windows/SDL_tray.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/tray/windows/SDL_tray.c.i
 .PHONY : src/tray/windows/SDL_tray.c.i
 
 src/tray/windows/SDL_tray.s: src/tray/windows/SDL_tray.c.s
@@ -5593,7 +5593,7 @@ src/tray/windows/SDL_tray.s: src/tray/windows/SDL_tray.c.s
 
 # target to generate assembly for a file
 src/tray/windows/SDL_tray.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/tray/windows/SDL_tray.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/tray/windows/SDL_tray.c.s
 .PHONY : src/tray/windows/SDL_tray.c.s
 
 src/video/SDL_RLEaccel.obj: src/video/SDL_RLEaccel.c.obj
@@ -5601,7 +5601,7 @@ src/video/SDL_RLEaccel.obj: src/video/SDL_RLEaccel.c.obj
 
 # target to build an object file
 src/video/SDL_RLEaccel.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.obj
 .PHONY : src/video/SDL_RLEaccel.c.obj
 
 src/video/SDL_RLEaccel.i: src/video/SDL_RLEaccel.c.i
@@ -5609,7 +5609,7 @@ src/video/SDL_RLEaccel.i: src/video/SDL_RLEaccel.c.i
 
 # target to preprocess a source file
 src/video/SDL_RLEaccel.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.i
 .PHONY : src/video/SDL_RLEaccel.c.i
 
 src/video/SDL_RLEaccel.s: src/video/SDL_RLEaccel.c.s
@@ -5617,7 +5617,7 @@ src/video/SDL_RLEaccel.s: src/video/SDL_RLEaccel.c.s
 
 # target to generate assembly for a file
 src/video/SDL_RLEaccel.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.s
 .PHONY : src/video/SDL_RLEaccel.c.s
 
 src/video/SDL_blit.obj: src/video/SDL_blit.c.obj
@@ -5625,7 +5625,7 @@ src/video/SDL_blit.obj: src/video/SDL_blit.c.obj
 
 # target to build an object file
 src/video/SDL_blit.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.obj
 .PHONY : src/video/SDL_blit.c.obj
 
 src/video/SDL_blit.i: src/video/SDL_blit.c.i
@@ -5633,7 +5633,7 @@ src/video/SDL_blit.i: src/video/SDL_blit.c.i
 
 # target to preprocess a source file
 src/video/SDL_blit.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.i
 .PHONY : src/video/SDL_blit.c.i
 
 src/video/SDL_blit.s: src/video/SDL_blit.c.s
@@ -5641,7 +5641,7 @@ src/video/SDL_blit.s: src/video/SDL_blit.c.s
 
 # target to generate assembly for a file
 src/video/SDL_blit.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.s
 .PHONY : src/video/SDL_blit.c.s
 
 src/video/SDL_blit_0.obj: src/video/SDL_blit_0.c.obj
@@ -5649,7 +5649,7 @@ src/video/SDL_blit_0.obj: src/video/SDL_blit_0.c.obj
 
 # target to build an object file
 src/video/SDL_blit_0.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.obj
 .PHONY : src/video/SDL_blit_0.c.obj
 
 src/video/SDL_blit_0.i: src/video/SDL_blit_0.c.i
@@ -5657,7 +5657,7 @@ src/video/SDL_blit_0.i: src/video/SDL_blit_0.c.i
 
 # target to preprocess a source file
 src/video/SDL_blit_0.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.i
 .PHONY : src/video/SDL_blit_0.c.i
 
 src/video/SDL_blit_0.s: src/video/SDL_blit_0.c.s
@@ -5665,7 +5665,7 @@ src/video/SDL_blit_0.s: src/video/SDL_blit_0.c.s
 
 # target to generate assembly for a file
 src/video/SDL_blit_0.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.s
 .PHONY : src/video/SDL_blit_0.c.s
 
 src/video/SDL_blit_1.obj: src/video/SDL_blit_1.c.obj
@@ -5673,7 +5673,7 @@ src/video/SDL_blit_1.obj: src/video/SDL_blit_1.c.obj
 
 # target to build an object file
 src/video/SDL_blit_1.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.obj
 .PHONY : src/video/SDL_blit_1.c.obj
 
 src/video/SDL_blit_1.i: src/video/SDL_blit_1.c.i
@@ -5681,7 +5681,7 @@ src/video/SDL_blit_1.i: src/video/SDL_blit_1.c.i
 
 # target to preprocess a source file
 src/video/SDL_blit_1.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.i
 .PHONY : src/video/SDL_blit_1.c.i
 
 src/video/SDL_blit_1.s: src/video/SDL_blit_1.c.s
@@ -5689,7 +5689,7 @@ src/video/SDL_blit_1.s: src/video/SDL_blit_1.c.s
 
 # target to generate assembly for a file
 src/video/SDL_blit_1.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.s
 .PHONY : src/video/SDL_blit_1.c.s
 
 src/video/SDL_blit_A.obj: src/video/SDL_blit_A.c.obj
@@ -5697,7 +5697,7 @@ src/video/SDL_blit_A.obj: src/video/SDL_blit_A.c.obj
 
 # target to build an object file
 src/video/SDL_blit_A.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.obj
 .PHONY : src/video/SDL_blit_A.c.obj
 
 src/video/SDL_blit_A.i: src/video/SDL_blit_A.c.i
@@ -5705,7 +5705,7 @@ src/video/SDL_blit_A.i: src/video/SDL_blit_A.c.i
 
 # target to preprocess a source file
 src/video/SDL_blit_A.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.i
 .PHONY : src/video/SDL_blit_A.c.i
 
 src/video/SDL_blit_A.s: src/video/SDL_blit_A.c.s
@@ -5713,7 +5713,7 @@ src/video/SDL_blit_A.s: src/video/SDL_blit_A.c.s
 
 # target to generate assembly for a file
 src/video/SDL_blit_A.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.s
 .PHONY : src/video/SDL_blit_A.c.s
 
 src/video/SDL_blit_N.obj: src/video/SDL_blit_N.c.obj
@@ -5721,7 +5721,7 @@ src/video/SDL_blit_N.obj: src/video/SDL_blit_N.c.obj
 
 # target to build an object file
 src/video/SDL_blit_N.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.obj
 .PHONY : src/video/SDL_blit_N.c.obj
 
 src/video/SDL_blit_N.i: src/video/SDL_blit_N.c.i
@@ -5729,7 +5729,7 @@ src/video/SDL_blit_N.i: src/video/SDL_blit_N.c.i
 
 # target to preprocess a source file
 src/video/SDL_blit_N.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.i
 .PHONY : src/video/SDL_blit_N.c.i
 
 src/video/SDL_blit_N.s: src/video/SDL_blit_N.c.s
@@ -5737,7 +5737,7 @@ src/video/SDL_blit_N.s: src/video/SDL_blit_N.c.s
 
 # target to generate assembly for a file
 src/video/SDL_blit_N.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.s
 .PHONY : src/video/SDL_blit_N.c.s
 
 src/video/SDL_blit_auto.obj: src/video/SDL_blit_auto.c.obj
@@ -5745,7 +5745,7 @@ src/video/SDL_blit_auto.obj: src/video/SDL_blit_auto.c.obj
 
 # target to build an object file
 src/video/SDL_blit_auto.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.obj
 .PHONY : src/video/SDL_blit_auto.c.obj
 
 src/video/SDL_blit_auto.i: src/video/SDL_blit_auto.c.i
@@ -5753,7 +5753,7 @@ src/video/SDL_blit_auto.i: src/video/SDL_blit_auto.c.i
 
 # target to preprocess a source file
 src/video/SDL_blit_auto.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.i
 .PHONY : src/video/SDL_blit_auto.c.i
 
 src/video/SDL_blit_auto.s: src/video/SDL_blit_auto.c.s
@@ -5761,7 +5761,7 @@ src/video/SDL_blit_auto.s: src/video/SDL_blit_auto.c.s
 
 # target to generate assembly for a file
 src/video/SDL_blit_auto.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.s
 .PHONY : src/video/SDL_blit_auto.c.s
 
 src/video/SDL_blit_copy.obj: src/video/SDL_blit_copy.c.obj
@@ -5769,7 +5769,7 @@ src/video/SDL_blit_copy.obj: src/video/SDL_blit_copy.c.obj
 
 # target to build an object file
 src/video/SDL_blit_copy.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.obj
 .PHONY : src/video/SDL_blit_copy.c.obj
 
 src/video/SDL_blit_copy.i: src/video/SDL_blit_copy.c.i
@@ -5777,7 +5777,7 @@ src/video/SDL_blit_copy.i: src/video/SDL_blit_copy.c.i
 
 # target to preprocess a source file
 src/video/SDL_blit_copy.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.i
 .PHONY : src/video/SDL_blit_copy.c.i
 
 src/video/SDL_blit_copy.s: src/video/SDL_blit_copy.c.s
@@ -5785,7 +5785,7 @@ src/video/SDL_blit_copy.s: src/video/SDL_blit_copy.c.s
 
 # target to generate assembly for a file
 src/video/SDL_blit_copy.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.s
 .PHONY : src/video/SDL_blit_copy.c.s
 
 src/video/SDL_blit_slow.obj: src/video/SDL_blit_slow.c.obj
@@ -5793,7 +5793,7 @@ src/video/SDL_blit_slow.obj: src/video/SDL_blit_slow.c.obj
 
 # target to build an object file
 src/video/SDL_blit_slow.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.obj
 .PHONY : src/video/SDL_blit_slow.c.obj
 
 src/video/SDL_blit_slow.i: src/video/SDL_blit_slow.c.i
@@ -5801,7 +5801,7 @@ src/video/SDL_blit_slow.i: src/video/SDL_blit_slow.c.i
 
 # target to preprocess a source file
 src/video/SDL_blit_slow.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.i
 .PHONY : src/video/SDL_blit_slow.c.i
 
 src/video/SDL_blit_slow.s: src/video/SDL_blit_slow.c.s
@@ -5809,7 +5809,7 @@ src/video/SDL_blit_slow.s: src/video/SDL_blit_slow.c.s
 
 # target to generate assembly for a file
 src/video/SDL_blit_slow.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.s
 .PHONY : src/video/SDL_blit_slow.c.s
 
 src/video/SDL_bmp.obj: src/video/SDL_bmp.c.obj
@@ -5817,7 +5817,7 @@ src/video/SDL_bmp.obj: src/video/SDL_bmp.c.obj
 
 # target to build an object file
 src/video/SDL_bmp.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.obj
 .PHONY : src/video/SDL_bmp.c.obj
 
 src/video/SDL_bmp.i: src/video/SDL_bmp.c.i
@@ -5825,7 +5825,7 @@ src/video/SDL_bmp.i: src/video/SDL_bmp.c.i
 
 # target to preprocess a source file
 src/video/SDL_bmp.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.i
 .PHONY : src/video/SDL_bmp.c.i
 
 src/video/SDL_bmp.s: src/video/SDL_bmp.c.s
@@ -5833,7 +5833,7 @@ src/video/SDL_bmp.s: src/video/SDL_bmp.c.s
 
 # target to generate assembly for a file
 src/video/SDL_bmp.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.s
 .PHONY : src/video/SDL_bmp.c.s
 
 src/video/SDL_clipboard.obj: src/video/SDL_clipboard.c.obj
@@ -5841,7 +5841,7 @@ src/video/SDL_clipboard.obj: src/video/SDL_clipboard.c.obj
 
 # target to build an object file
 src/video/SDL_clipboard.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.obj
 .PHONY : src/video/SDL_clipboard.c.obj
 
 src/video/SDL_clipboard.i: src/video/SDL_clipboard.c.i
@@ -5849,7 +5849,7 @@ src/video/SDL_clipboard.i: src/video/SDL_clipboard.c.i
 
 # target to preprocess a source file
 src/video/SDL_clipboard.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.i
 .PHONY : src/video/SDL_clipboard.c.i
 
 src/video/SDL_clipboard.s: src/video/SDL_clipboard.c.s
@@ -5857,7 +5857,7 @@ src/video/SDL_clipboard.s: src/video/SDL_clipboard.c.s
 
 # target to generate assembly for a file
 src/video/SDL_clipboard.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.s
 .PHONY : src/video/SDL_clipboard.c.s
 
 src/video/SDL_egl.obj: src/video/SDL_egl.c.obj
@@ -5865,7 +5865,7 @@ src/video/SDL_egl.obj: src/video/SDL_egl.c.obj
 
 # target to build an object file
 src/video/SDL_egl.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.obj
 .PHONY : src/video/SDL_egl.c.obj
 
 src/video/SDL_egl.i: src/video/SDL_egl.c.i
@@ -5873,7 +5873,7 @@ src/video/SDL_egl.i: src/video/SDL_egl.c.i
 
 # target to preprocess a source file
 src/video/SDL_egl.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.i
 .PHONY : src/video/SDL_egl.c.i
 
 src/video/SDL_egl.s: src/video/SDL_egl.c.s
@@ -5881,7 +5881,7 @@ src/video/SDL_egl.s: src/video/SDL_egl.c.s
 
 # target to generate assembly for a file
 src/video/SDL_egl.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.s
 .PHONY : src/video/SDL_egl.c.s
 
 src/video/SDL_fillrect.obj: src/video/SDL_fillrect.c.obj
@@ -5889,7 +5889,7 @@ src/video/SDL_fillrect.obj: src/video/SDL_fillrect.c.obj
 
 # target to build an object file
 src/video/SDL_fillrect.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.obj
 .PHONY : src/video/SDL_fillrect.c.obj
 
 src/video/SDL_fillrect.i: src/video/SDL_fillrect.c.i
@@ -5897,7 +5897,7 @@ src/video/SDL_fillrect.i: src/video/SDL_fillrect.c.i
 
 # target to preprocess a source file
 src/video/SDL_fillrect.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.i
 .PHONY : src/video/SDL_fillrect.c.i
 
 src/video/SDL_fillrect.s: src/video/SDL_fillrect.c.s
@@ -5905,7 +5905,7 @@ src/video/SDL_fillrect.s: src/video/SDL_fillrect.c.s
 
 # target to generate assembly for a file
 src/video/SDL_fillrect.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.s
 .PHONY : src/video/SDL_fillrect.c.s
 
 src/video/SDL_pixels.obj: src/video/SDL_pixels.c.obj
@@ -5913,7 +5913,7 @@ src/video/SDL_pixels.obj: src/video/SDL_pixels.c.obj
 
 # target to build an object file
 src/video/SDL_pixels.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.obj
 .PHONY : src/video/SDL_pixels.c.obj
 
 src/video/SDL_pixels.i: src/video/SDL_pixels.c.i
@@ -5921,7 +5921,7 @@ src/video/SDL_pixels.i: src/video/SDL_pixels.c.i
 
 # target to preprocess a source file
 src/video/SDL_pixels.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.i
 .PHONY : src/video/SDL_pixels.c.i
 
 src/video/SDL_pixels.s: src/video/SDL_pixels.c.s
@@ -5929,7 +5929,7 @@ src/video/SDL_pixels.s: src/video/SDL_pixels.c.s
 
 # target to generate assembly for a file
 src/video/SDL_pixels.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.s
 .PHONY : src/video/SDL_pixels.c.s
 
 src/video/SDL_rect.obj: src/video/SDL_rect.c.obj
@@ -5937,7 +5937,7 @@ src/video/SDL_rect.obj: src/video/SDL_rect.c.obj
 
 # target to build an object file
 src/video/SDL_rect.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.obj
 .PHONY : src/video/SDL_rect.c.obj
 
 src/video/SDL_rect.i: src/video/SDL_rect.c.i
@@ -5945,7 +5945,7 @@ src/video/SDL_rect.i: src/video/SDL_rect.c.i
 
 # target to preprocess a source file
 src/video/SDL_rect.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.i
 .PHONY : src/video/SDL_rect.c.i
 
 src/video/SDL_rect.s: src/video/SDL_rect.c.s
@@ -5953,7 +5953,7 @@ src/video/SDL_rect.s: src/video/SDL_rect.c.s
 
 # target to generate assembly for a file
 src/video/SDL_rect.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.s
 .PHONY : src/video/SDL_rect.c.s
 
 src/video/SDL_rotate.obj: src/video/SDL_rotate.c.obj
@@ -5961,7 +5961,7 @@ src/video/SDL_rotate.obj: src/video/SDL_rotate.c.obj
 
 # target to build an object file
 src/video/SDL_rotate.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.obj
 .PHONY : src/video/SDL_rotate.c.obj
 
 src/video/SDL_rotate.i: src/video/SDL_rotate.c.i
@@ -5969,7 +5969,7 @@ src/video/SDL_rotate.i: src/video/SDL_rotate.c.i
 
 # target to preprocess a source file
 src/video/SDL_rotate.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.i
 .PHONY : src/video/SDL_rotate.c.i
 
 src/video/SDL_rotate.s: src/video/SDL_rotate.c.s
@@ -5977,7 +5977,7 @@ src/video/SDL_rotate.s: src/video/SDL_rotate.c.s
 
 # target to generate assembly for a file
 src/video/SDL_rotate.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_rotate.c.s
 .PHONY : src/video/SDL_rotate.c.s
 
 src/video/SDL_stb.obj: src/video/SDL_stb.c.obj
@@ -5985,7 +5985,7 @@ src/video/SDL_stb.obj: src/video/SDL_stb.c.obj
 
 # target to build an object file
 src/video/SDL_stb.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.obj
 .PHONY : src/video/SDL_stb.c.obj
 
 src/video/SDL_stb.i: src/video/SDL_stb.c.i
@@ -5993,7 +5993,7 @@ src/video/SDL_stb.i: src/video/SDL_stb.c.i
 
 # target to preprocess a source file
 src/video/SDL_stb.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.i
 .PHONY : src/video/SDL_stb.c.i
 
 src/video/SDL_stb.s: src/video/SDL_stb.c.s
@@ -6001,7 +6001,7 @@ src/video/SDL_stb.s: src/video/SDL_stb.c.s
 
 # target to generate assembly for a file
 src/video/SDL_stb.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.s
 .PHONY : src/video/SDL_stb.c.s
 
 src/video/SDL_stretch.obj: src/video/SDL_stretch.c.obj
@@ -6009,7 +6009,7 @@ src/video/SDL_stretch.obj: src/video/SDL_stretch.c.obj
 
 # target to build an object file
 src/video/SDL_stretch.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.obj
 .PHONY : src/video/SDL_stretch.c.obj
 
 src/video/SDL_stretch.i: src/video/SDL_stretch.c.i
@@ -6017,7 +6017,7 @@ src/video/SDL_stretch.i: src/video/SDL_stretch.c.i
 
 # target to preprocess a source file
 src/video/SDL_stretch.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.i
 .PHONY : src/video/SDL_stretch.c.i
 
 src/video/SDL_stretch.s: src/video/SDL_stretch.c.s
@@ -6025,7 +6025,7 @@ src/video/SDL_stretch.s: src/video/SDL_stretch.c.s
 
 # target to generate assembly for a file
 src/video/SDL_stretch.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.s
 .PHONY : src/video/SDL_stretch.c.s
 
 src/video/SDL_surface.obj: src/video/SDL_surface.c.obj
@@ -6033,7 +6033,7 @@ src/video/SDL_surface.obj: src/video/SDL_surface.c.obj
 
 # target to build an object file
 src/video/SDL_surface.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.obj
 .PHONY : src/video/SDL_surface.c.obj
 
 src/video/SDL_surface.i: src/video/SDL_surface.c.i
@@ -6041,7 +6041,7 @@ src/video/SDL_surface.i: src/video/SDL_surface.c.i
 
 # target to preprocess a source file
 src/video/SDL_surface.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.i
 .PHONY : src/video/SDL_surface.c.i
 
 src/video/SDL_surface.s: src/video/SDL_surface.c.s
@@ -6049,7 +6049,7 @@ src/video/SDL_surface.s: src/video/SDL_surface.c.s
 
 # target to generate assembly for a file
 src/video/SDL_surface.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.s
 .PHONY : src/video/SDL_surface.c.s
 
 src/video/SDL_video.obj: src/video/SDL_video.c.obj
@@ -6057,7 +6057,7 @@ src/video/SDL_video.obj: src/video/SDL_video.c.obj
 
 # target to build an object file
 src/video/SDL_video.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.obj
 .PHONY : src/video/SDL_video.c.obj
 
 src/video/SDL_video.i: src/video/SDL_video.c.i
@@ -6065,7 +6065,7 @@ src/video/SDL_video.i: src/video/SDL_video.c.i
 
 # target to preprocess a source file
 src/video/SDL_video.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.i
 .PHONY : src/video/SDL_video.c.i
 
 src/video/SDL_video.s: src/video/SDL_video.c.s
@@ -6073,7 +6073,7 @@ src/video/SDL_video.s: src/video/SDL_video.c.s
 
 # target to generate assembly for a file
 src/video/SDL_video.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.s
 .PHONY : src/video/SDL_video.c.s
 
 src/video/SDL_video_unsupported.obj: src/video/SDL_video_unsupported.c.obj
@@ -6081,7 +6081,7 @@ src/video/SDL_video_unsupported.obj: src/video/SDL_video_unsupported.c.obj
 
 # target to build an object file
 src/video/SDL_video_unsupported.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.obj
 .PHONY : src/video/SDL_video_unsupported.c.obj
 
 src/video/SDL_video_unsupported.i: src/video/SDL_video_unsupported.c.i
@@ -6089,7 +6089,7 @@ src/video/SDL_video_unsupported.i: src/video/SDL_video_unsupported.c.i
 
 # target to preprocess a source file
 src/video/SDL_video_unsupported.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.i
 .PHONY : src/video/SDL_video_unsupported.c.i
 
 src/video/SDL_video_unsupported.s: src/video/SDL_video_unsupported.c.s
@@ -6097,7 +6097,7 @@ src/video/SDL_video_unsupported.s: src/video/SDL_video_unsupported.c.s
 
 # target to generate assembly for a file
 src/video/SDL_video_unsupported.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.s
 .PHONY : src/video/SDL_video_unsupported.c.s
 
 src/video/SDL_vulkan_utils.obj: src/video/SDL_vulkan_utils.c.obj
@@ -6105,7 +6105,7 @@ src/video/SDL_vulkan_utils.obj: src/video/SDL_vulkan_utils.c.obj
 
 # target to build an object file
 src/video/SDL_vulkan_utils.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.obj
 .PHONY : src/video/SDL_vulkan_utils.c.obj
 
 src/video/SDL_vulkan_utils.i: src/video/SDL_vulkan_utils.c.i
@@ -6113,7 +6113,7 @@ src/video/SDL_vulkan_utils.i: src/video/SDL_vulkan_utils.c.i
 
 # target to preprocess a source file
 src/video/SDL_vulkan_utils.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.i
 .PHONY : src/video/SDL_vulkan_utils.c.i
 
 src/video/SDL_vulkan_utils.s: src/video/SDL_vulkan_utils.c.s
@@ -6121,7 +6121,7 @@ src/video/SDL_vulkan_utils.s: src/video/SDL_vulkan_utils.c.s
 
 # target to generate assembly for a file
 src/video/SDL_vulkan_utils.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.s
 .PHONY : src/video/SDL_vulkan_utils.c.s
 
 src/video/SDL_yuv.obj: src/video/SDL_yuv.c.obj
@@ -6129,7 +6129,7 @@ src/video/SDL_yuv.obj: src/video/SDL_yuv.c.obj
 
 # target to build an object file
 src/video/SDL_yuv.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.obj
 .PHONY : src/video/SDL_yuv.c.obj
 
 src/video/SDL_yuv.i: src/video/SDL_yuv.c.i
@@ -6137,7 +6137,7 @@ src/video/SDL_yuv.i: src/video/SDL_yuv.c.i
 
 # target to preprocess a source file
 src/video/SDL_yuv.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.i
 .PHONY : src/video/SDL_yuv.c.i
 
 src/video/SDL_yuv.s: src/video/SDL_yuv.c.s
@@ -6145,7 +6145,7 @@ src/video/SDL_yuv.s: src/video/SDL_yuv.c.s
 
 # target to generate assembly for a file
 src/video/SDL_yuv.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.s
 .PHONY : src/video/SDL_yuv.c.s
 
 src/video/dummy/SDL_nullevents.obj: src/video/dummy/SDL_nullevents.c.obj
@@ -6153,7 +6153,7 @@ src/video/dummy/SDL_nullevents.obj: src/video/dummy/SDL_nullevents.c.obj
 
 # target to build an object file
 src/video/dummy/SDL_nullevents.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.obj
 .PHONY : src/video/dummy/SDL_nullevents.c.obj
 
 src/video/dummy/SDL_nullevents.i: src/video/dummy/SDL_nullevents.c.i
@@ -6161,7 +6161,7 @@ src/video/dummy/SDL_nullevents.i: src/video/dummy/SDL_nullevents.c.i
 
 # target to preprocess a source file
 src/video/dummy/SDL_nullevents.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.i
 .PHONY : src/video/dummy/SDL_nullevents.c.i
 
 src/video/dummy/SDL_nullevents.s: src/video/dummy/SDL_nullevents.c.s
@@ -6169,7 +6169,7 @@ src/video/dummy/SDL_nullevents.s: src/video/dummy/SDL_nullevents.c.s
 
 # target to generate assembly for a file
 src/video/dummy/SDL_nullevents.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.s
 .PHONY : src/video/dummy/SDL_nullevents.c.s
 
 src/video/dummy/SDL_nullframebuffer.obj: src/video/dummy/SDL_nullframebuffer.c.obj
@@ -6177,7 +6177,7 @@ src/video/dummy/SDL_nullframebuffer.obj: src/video/dummy/SDL_nullframebuffer.c.o
 
 # target to build an object file
 src/video/dummy/SDL_nullframebuffer.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.obj
 .PHONY : src/video/dummy/SDL_nullframebuffer.c.obj
 
 src/video/dummy/SDL_nullframebuffer.i: src/video/dummy/SDL_nullframebuffer.c.i
@@ -6185,7 +6185,7 @@ src/video/dummy/SDL_nullframebuffer.i: src/video/dummy/SDL_nullframebuffer.c.i
 
 # target to preprocess a source file
 src/video/dummy/SDL_nullframebuffer.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.i
 .PHONY : src/video/dummy/SDL_nullframebuffer.c.i
 
 src/video/dummy/SDL_nullframebuffer.s: src/video/dummy/SDL_nullframebuffer.c.s
@@ -6193,7 +6193,7 @@ src/video/dummy/SDL_nullframebuffer.s: src/video/dummy/SDL_nullframebuffer.c.s
 
 # target to generate assembly for a file
 src/video/dummy/SDL_nullframebuffer.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.s
 .PHONY : src/video/dummy/SDL_nullframebuffer.c.s
 
 src/video/dummy/SDL_nullvideo.obj: src/video/dummy/SDL_nullvideo.c.obj
@@ -6201,7 +6201,7 @@ src/video/dummy/SDL_nullvideo.obj: src/video/dummy/SDL_nullvideo.c.obj
 
 # target to build an object file
 src/video/dummy/SDL_nullvideo.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.obj
 .PHONY : src/video/dummy/SDL_nullvideo.c.obj
 
 src/video/dummy/SDL_nullvideo.i: src/video/dummy/SDL_nullvideo.c.i
@@ -6209,7 +6209,7 @@ src/video/dummy/SDL_nullvideo.i: src/video/dummy/SDL_nullvideo.c.i
 
 # target to preprocess a source file
 src/video/dummy/SDL_nullvideo.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.i
 .PHONY : src/video/dummy/SDL_nullvideo.c.i
 
 src/video/dummy/SDL_nullvideo.s: src/video/dummy/SDL_nullvideo.c.s
@@ -6217,7 +6217,7 @@ src/video/dummy/SDL_nullvideo.s: src/video/dummy/SDL_nullvideo.c.s
 
 # target to generate assembly for a file
 src/video/dummy/SDL_nullvideo.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.s
 .PHONY : src/video/dummy/SDL_nullvideo.c.s
 
 src/video/offscreen/SDL_offscreenevents.obj: src/video/offscreen/SDL_offscreenevents.c.obj
@@ -6225,7 +6225,7 @@ src/video/offscreen/SDL_offscreenevents.obj: src/video/offscreen/SDL_offscreenev
 
 # target to build an object file
 src/video/offscreen/SDL_offscreenevents.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.obj
 .PHONY : src/video/offscreen/SDL_offscreenevents.c.obj
 
 src/video/offscreen/SDL_offscreenevents.i: src/video/offscreen/SDL_offscreenevents.c.i
@@ -6233,7 +6233,7 @@ src/video/offscreen/SDL_offscreenevents.i: src/video/offscreen/SDL_offscreeneven
 
 # target to preprocess a source file
 src/video/offscreen/SDL_offscreenevents.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.i
 .PHONY : src/video/offscreen/SDL_offscreenevents.c.i
 
 src/video/offscreen/SDL_offscreenevents.s: src/video/offscreen/SDL_offscreenevents.c.s
@@ -6241,7 +6241,7 @@ src/video/offscreen/SDL_offscreenevents.s: src/video/offscreen/SDL_offscreeneven
 
 # target to generate assembly for a file
 src/video/offscreen/SDL_offscreenevents.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.s
 .PHONY : src/video/offscreen/SDL_offscreenevents.c.s
 
 src/video/offscreen/SDL_offscreenframebuffer.obj: src/video/offscreen/SDL_offscreenframebuffer.c.obj
@@ -6249,7 +6249,7 @@ src/video/offscreen/SDL_offscreenframebuffer.obj: src/video/offscreen/SDL_offscr
 
 # target to build an object file
 src/video/offscreen/SDL_offscreenframebuffer.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.obj
 .PHONY : src/video/offscreen/SDL_offscreenframebuffer.c.obj
 
 src/video/offscreen/SDL_offscreenframebuffer.i: src/video/offscreen/SDL_offscreenframebuffer.c.i
@@ -6257,7 +6257,7 @@ src/video/offscreen/SDL_offscreenframebuffer.i: src/video/offscreen/SDL_offscree
 
 # target to preprocess a source file
 src/video/offscreen/SDL_offscreenframebuffer.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.i
 .PHONY : src/video/offscreen/SDL_offscreenframebuffer.c.i
 
 src/video/offscreen/SDL_offscreenframebuffer.s: src/video/offscreen/SDL_offscreenframebuffer.c.s
@@ -6265,7 +6265,7 @@ src/video/offscreen/SDL_offscreenframebuffer.s: src/video/offscreen/SDL_offscree
 
 # target to generate assembly for a file
 src/video/offscreen/SDL_offscreenframebuffer.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.s
 .PHONY : src/video/offscreen/SDL_offscreenframebuffer.c.s
 
 src/video/offscreen/SDL_offscreenopengles.obj: src/video/offscreen/SDL_offscreenopengles.c.obj
@@ -6273,7 +6273,7 @@ src/video/offscreen/SDL_offscreenopengles.obj: src/video/offscreen/SDL_offscreen
 
 # target to build an object file
 src/video/offscreen/SDL_offscreenopengles.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.obj
 .PHONY : src/video/offscreen/SDL_offscreenopengles.c.obj
 
 src/video/offscreen/SDL_offscreenopengles.i: src/video/offscreen/SDL_offscreenopengles.c.i
@@ -6281,7 +6281,7 @@ src/video/offscreen/SDL_offscreenopengles.i: src/video/offscreen/SDL_offscreenop
 
 # target to preprocess a source file
 src/video/offscreen/SDL_offscreenopengles.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.i
 .PHONY : src/video/offscreen/SDL_offscreenopengles.c.i
 
 src/video/offscreen/SDL_offscreenopengles.s: src/video/offscreen/SDL_offscreenopengles.c.s
@@ -6289,7 +6289,7 @@ src/video/offscreen/SDL_offscreenopengles.s: src/video/offscreen/SDL_offscreenop
 
 # target to generate assembly for a file
 src/video/offscreen/SDL_offscreenopengles.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.s
 .PHONY : src/video/offscreen/SDL_offscreenopengles.c.s
 
 src/video/offscreen/SDL_offscreenvideo.obj: src/video/offscreen/SDL_offscreenvideo.c.obj
@@ -6297,7 +6297,7 @@ src/video/offscreen/SDL_offscreenvideo.obj: src/video/offscreen/SDL_offscreenvid
 
 # target to build an object file
 src/video/offscreen/SDL_offscreenvideo.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.obj
 .PHONY : src/video/offscreen/SDL_offscreenvideo.c.obj
 
 src/video/offscreen/SDL_offscreenvideo.i: src/video/offscreen/SDL_offscreenvideo.c.i
@@ -6305,7 +6305,7 @@ src/video/offscreen/SDL_offscreenvideo.i: src/video/offscreen/SDL_offscreenvideo
 
 # target to preprocess a source file
 src/video/offscreen/SDL_offscreenvideo.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.i
 .PHONY : src/video/offscreen/SDL_offscreenvideo.c.i
 
 src/video/offscreen/SDL_offscreenvideo.s: src/video/offscreen/SDL_offscreenvideo.c.s
@@ -6313,7 +6313,7 @@ src/video/offscreen/SDL_offscreenvideo.s: src/video/offscreen/SDL_offscreenvideo
 
 # target to generate assembly for a file
 src/video/offscreen/SDL_offscreenvideo.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.s
 .PHONY : src/video/offscreen/SDL_offscreenvideo.c.s
 
 src/video/offscreen/SDL_offscreenvulkan.obj: src/video/offscreen/SDL_offscreenvulkan.c.obj
@@ -6321,7 +6321,7 @@ src/video/offscreen/SDL_offscreenvulkan.obj: src/video/offscreen/SDL_offscreenvu
 
 # target to build an object file
 src/video/offscreen/SDL_offscreenvulkan.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.obj
 .PHONY : src/video/offscreen/SDL_offscreenvulkan.c.obj
 
 src/video/offscreen/SDL_offscreenvulkan.i: src/video/offscreen/SDL_offscreenvulkan.c.i
@@ -6329,7 +6329,7 @@ src/video/offscreen/SDL_offscreenvulkan.i: src/video/offscreen/SDL_offscreenvulk
 
 # target to preprocess a source file
 src/video/offscreen/SDL_offscreenvulkan.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.i
 .PHONY : src/video/offscreen/SDL_offscreenvulkan.c.i
 
 src/video/offscreen/SDL_offscreenvulkan.s: src/video/offscreen/SDL_offscreenvulkan.c.s
@@ -6337,7 +6337,7 @@ src/video/offscreen/SDL_offscreenvulkan.s: src/video/offscreen/SDL_offscreenvulk
 
 # target to generate assembly for a file
 src/video/offscreen/SDL_offscreenvulkan.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.s
 .PHONY : src/video/offscreen/SDL_offscreenvulkan.c.s
 
 src/video/offscreen/SDL_offscreenwindow.obj: src/video/offscreen/SDL_offscreenwindow.c.obj
@@ -6345,7 +6345,7 @@ src/video/offscreen/SDL_offscreenwindow.obj: src/video/offscreen/SDL_offscreenwi
 
 # target to build an object file
 src/video/offscreen/SDL_offscreenwindow.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.obj
 .PHONY : src/video/offscreen/SDL_offscreenwindow.c.obj
 
 src/video/offscreen/SDL_offscreenwindow.i: src/video/offscreen/SDL_offscreenwindow.c.i
@@ -6353,7 +6353,7 @@ src/video/offscreen/SDL_offscreenwindow.i: src/video/offscreen/SDL_offscreenwind
 
 # target to preprocess a source file
 src/video/offscreen/SDL_offscreenwindow.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.i
 .PHONY : src/video/offscreen/SDL_offscreenwindow.c.i
 
 src/video/offscreen/SDL_offscreenwindow.s: src/video/offscreen/SDL_offscreenwindow.c.s
@@ -6361,7 +6361,7 @@ src/video/offscreen/SDL_offscreenwindow.s: src/video/offscreen/SDL_offscreenwind
 
 # target to generate assembly for a file
 src/video/offscreen/SDL_offscreenwindow.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.s
 .PHONY : src/video/offscreen/SDL_offscreenwindow.c.s
 
 src/video/windows/SDL_windowsclipboard.obj: src/video/windows/SDL_windowsclipboard.c.obj
@@ -6369,7 +6369,7 @@ src/video/windows/SDL_windowsclipboard.obj: src/video/windows/SDL_windowsclipboa
 
 # target to build an object file
 src/video/windows/SDL_windowsclipboard.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsclipboard.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsclipboard.c.obj
 .PHONY : src/video/windows/SDL_windowsclipboard.c.obj
 
 src/video/windows/SDL_windowsclipboard.i: src/video/windows/SDL_windowsclipboard.c.i
@@ -6377,7 +6377,7 @@ src/video/windows/SDL_windowsclipboard.i: src/video/windows/SDL_windowsclipboard
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsclipboard.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsclipboard.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsclipboard.c.i
 .PHONY : src/video/windows/SDL_windowsclipboard.c.i
 
 src/video/windows/SDL_windowsclipboard.s: src/video/windows/SDL_windowsclipboard.c.s
@@ -6385,7 +6385,7 @@ src/video/windows/SDL_windowsclipboard.s: src/video/windows/SDL_windowsclipboard
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsclipboard.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsclipboard.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsclipboard.c.s
 .PHONY : src/video/windows/SDL_windowsclipboard.c.s
 
 src/video/windows/SDL_windowsevents.obj: src/video/windows/SDL_windowsevents.c.obj
@@ -6393,7 +6393,7 @@ src/video/windows/SDL_windowsevents.obj: src/video/windows/SDL_windowsevents.c.o
 
 # target to build an object file
 src/video/windows/SDL_windowsevents.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsevents.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsevents.c.obj
 .PHONY : src/video/windows/SDL_windowsevents.c.obj
 
 src/video/windows/SDL_windowsevents.i: src/video/windows/SDL_windowsevents.c.i
@@ -6401,7 +6401,7 @@ src/video/windows/SDL_windowsevents.i: src/video/windows/SDL_windowsevents.c.i
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsevents.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsevents.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsevents.c.i
 .PHONY : src/video/windows/SDL_windowsevents.c.i
 
 src/video/windows/SDL_windowsevents.s: src/video/windows/SDL_windowsevents.c.s
@@ -6409,7 +6409,7 @@ src/video/windows/SDL_windowsevents.s: src/video/windows/SDL_windowsevents.c.s
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsevents.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsevents.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsevents.c.s
 .PHONY : src/video/windows/SDL_windowsevents.c.s
 
 src/video/windows/SDL_windowsframebuffer.obj: src/video/windows/SDL_windowsframebuffer.c.obj
@@ -6417,7 +6417,7 @@ src/video/windows/SDL_windowsframebuffer.obj: src/video/windows/SDL_windowsframe
 
 # target to build an object file
 src/video/windows/SDL_windowsframebuffer.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsframebuffer.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsframebuffer.c.obj
 .PHONY : src/video/windows/SDL_windowsframebuffer.c.obj
 
 src/video/windows/SDL_windowsframebuffer.i: src/video/windows/SDL_windowsframebuffer.c.i
@@ -6425,7 +6425,7 @@ src/video/windows/SDL_windowsframebuffer.i: src/video/windows/SDL_windowsframebu
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsframebuffer.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsframebuffer.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsframebuffer.c.i
 .PHONY : src/video/windows/SDL_windowsframebuffer.c.i
 
 src/video/windows/SDL_windowsframebuffer.s: src/video/windows/SDL_windowsframebuffer.c.s
@@ -6433,7 +6433,7 @@ src/video/windows/SDL_windowsframebuffer.s: src/video/windows/SDL_windowsframebu
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsframebuffer.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsframebuffer.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsframebuffer.c.s
 .PHONY : src/video/windows/SDL_windowsframebuffer.c.s
 
 src/video/windows/SDL_windowsgameinput.obj: src/video/windows/SDL_windowsgameinput.cpp.obj
@@ -6441,7 +6441,7 @@ src/video/windows/SDL_windowsgameinput.obj: src/video/windows/SDL_windowsgameinp
 
 # target to build an object file
 src/video/windows/SDL_windowsgameinput.cpp.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsgameinput.cpp.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsgameinput.cpp.obj
 .PHONY : src/video/windows/SDL_windowsgameinput.cpp.obj
 
 src/video/windows/SDL_windowsgameinput.i: src/video/windows/SDL_windowsgameinput.cpp.i
@@ -6449,7 +6449,7 @@ src/video/windows/SDL_windowsgameinput.i: src/video/windows/SDL_windowsgameinput
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsgameinput.cpp.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsgameinput.cpp.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsgameinput.cpp.i
 .PHONY : src/video/windows/SDL_windowsgameinput.cpp.i
 
 src/video/windows/SDL_windowsgameinput.s: src/video/windows/SDL_windowsgameinput.cpp.s
@@ -6457,7 +6457,7 @@ src/video/windows/SDL_windowsgameinput.s: src/video/windows/SDL_windowsgameinput
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsgameinput.cpp.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsgameinput.cpp.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsgameinput.cpp.s
 .PHONY : src/video/windows/SDL_windowsgameinput.cpp.s
 
 src/video/windows/SDL_windowskeyboard.obj: src/video/windows/SDL_windowskeyboard.c.obj
@@ -6465,7 +6465,7 @@ src/video/windows/SDL_windowskeyboard.obj: src/video/windows/SDL_windowskeyboard
 
 # target to build an object file
 src/video/windows/SDL_windowskeyboard.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowskeyboard.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowskeyboard.c.obj
 .PHONY : src/video/windows/SDL_windowskeyboard.c.obj
 
 src/video/windows/SDL_windowskeyboard.i: src/video/windows/SDL_windowskeyboard.c.i
@@ -6473,7 +6473,7 @@ src/video/windows/SDL_windowskeyboard.i: src/video/windows/SDL_windowskeyboard.c
 
 # target to preprocess a source file
 src/video/windows/SDL_windowskeyboard.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowskeyboard.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowskeyboard.c.i
 .PHONY : src/video/windows/SDL_windowskeyboard.c.i
 
 src/video/windows/SDL_windowskeyboard.s: src/video/windows/SDL_windowskeyboard.c.s
@@ -6481,7 +6481,7 @@ src/video/windows/SDL_windowskeyboard.s: src/video/windows/SDL_windowskeyboard.c
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowskeyboard.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowskeyboard.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowskeyboard.c.s
 .PHONY : src/video/windows/SDL_windowskeyboard.c.s
 
 src/video/windows/SDL_windowsmessagebox.obj: src/video/windows/SDL_windowsmessagebox.c.obj
@@ -6489,7 +6489,7 @@ src/video/windows/SDL_windowsmessagebox.obj: src/video/windows/SDL_windowsmessag
 
 # target to build an object file
 src/video/windows/SDL_windowsmessagebox.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmessagebox.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmessagebox.c.obj
 .PHONY : src/video/windows/SDL_windowsmessagebox.c.obj
 
 src/video/windows/SDL_windowsmessagebox.i: src/video/windows/SDL_windowsmessagebox.c.i
@@ -6497,7 +6497,7 @@ src/video/windows/SDL_windowsmessagebox.i: src/video/windows/SDL_windowsmessageb
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsmessagebox.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmessagebox.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmessagebox.c.i
 .PHONY : src/video/windows/SDL_windowsmessagebox.c.i
 
 src/video/windows/SDL_windowsmessagebox.s: src/video/windows/SDL_windowsmessagebox.c.s
@@ -6505,7 +6505,7 @@ src/video/windows/SDL_windowsmessagebox.s: src/video/windows/SDL_windowsmessageb
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsmessagebox.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmessagebox.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmessagebox.c.s
 .PHONY : src/video/windows/SDL_windowsmessagebox.c.s
 
 src/video/windows/SDL_windowsmodes.obj: src/video/windows/SDL_windowsmodes.c.obj
@@ -6513,7 +6513,7 @@ src/video/windows/SDL_windowsmodes.obj: src/video/windows/SDL_windowsmodes.c.obj
 
 # target to build an object file
 src/video/windows/SDL_windowsmodes.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmodes.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmodes.c.obj
 .PHONY : src/video/windows/SDL_windowsmodes.c.obj
 
 src/video/windows/SDL_windowsmodes.i: src/video/windows/SDL_windowsmodes.c.i
@@ -6521,7 +6521,7 @@ src/video/windows/SDL_windowsmodes.i: src/video/windows/SDL_windowsmodes.c.i
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsmodes.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmodes.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmodes.c.i
 .PHONY : src/video/windows/SDL_windowsmodes.c.i
 
 src/video/windows/SDL_windowsmodes.s: src/video/windows/SDL_windowsmodes.c.s
@@ -6529,7 +6529,7 @@ src/video/windows/SDL_windowsmodes.s: src/video/windows/SDL_windowsmodes.c.s
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsmodes.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmodes.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmodes.c.s
 .PHONY : src/video/windows/SDL_windowsmodes.c.s
 
 src/video/windows/SDL_windowsmouse.obj: src/video/windows/SDL_windowsmouse.c.obj
@@ -6537,7 +6537,7 @@ src/video/windows/SDL_windowsmouse.obj: src/video/windows/SDL_windowsmouse.c.obj
 
 # target to build an object file
 src/video/windows/SDL_windowsmouse.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmouse.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmouse.c.obj
 .PHONY : src/video/windows/SDL_windowsmouse.c.obj
 
 src/video/windows/SDL_windowsmouse.i: src/video/windows/SDL_windowsmouse.c.i
@@ -6545,7 +6545,7 @@ src/video/windows/SDL_windowsmouse.i: src/video/windows/SDL_windowsmouse.c.i
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsmouse.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmouse.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmouse.c.i
 .PHONY : src/video/windows/SDL_windowsmouse.c.i
 
 src/video/windows/SDL_windowsmouse.s: src/video/windows/SDL_windowsmouse.c.s
@@ -6553,7 +6553,7 @@ src/video/windows/SDL_windowsmouse.s: src/video/windows/SDL_windowsmouse.c.s
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsmouse.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmouse.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsmouse.c.s
 .PHONY : src/video/windows/SDL_windowsmouse.c.s
 
 src/video/windows/SDL_windowsopengl.obj: src/video/windows/SDL_windowsopengl.c.obj
@@ -6561,7 +6561,7 @@ src/video/windows/SDL_windowsopengl.obj: src/video/windows/SDL_windowsopengl.c.o
 
 # target to build an object file
 src/video/windows/SDL_windowsopengl.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsopengl.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsopengl.c.obj
 .PHONY : src/video/windows/SDL_windowsopengl.c.obj
 
 src/video/windows/SDL_windowsopengl.i: src/video/windows/SDL_windowsopengl.c.i
@@ -6569,7 +6569,7 @@ src/video/windows/SDL_windowsopengl.i: src/video/windows/SDL_windowsopengl.c.i
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsopengl.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsopengl.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsopengl.c.i
 .PHONY : src/video/windows/SDL_windowsopengl.c.i
 
 src/video/windows/SDL_windowsopengl.s: src/video/windows/SDL_windowsopengl.c.s
@@ -6577,7 +6577,7 @@ src/video/windows/SDL_windowsopengl.s: src/video/windows/SDL_windowsopengl.c.s
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsopengl.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsopengl.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsopengl.c.s
 .PHONY : src/video/windows/SDL_windowsopengl.c.s
 
 src/video/windows/SDL_windowsopengles.obj: src/video/windows/SDL_windowsopengles.c.obj
@@ -6585,7 +6585,7 @@ src/video/windows/SDL_windowsopengles.obj: src/video/windows/SDL_windowsopengles
 
 # target to build an object file
 src/video/windows/SDL_windowsopengles.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsopengles.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsopengles.c.obj
 .PHONY : src/video/windows/SDL_windowsopengles.c.obj
 
 src/video/windows/SDL_windowsopengles.i: src/video/windows/SDL_windowsopengles.c.i
@@ -6593,7 +6593,7 @@ src/video/windows/SDL_windowsopengles.i: src/video/windows/SDL_windowsopengles.c
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsopengles.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsopengles.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsopengles.c.i
 .PHONY : src/video/windows/SDL_windowsopengles.c.i
 
 src/video/windows/SDL_windowsopengles.s: src/video/windows/SDL_windowsopengles.c.s
@@ -6601,7 +6601,7 @@ src/video/windows/SDL_windowsopengles.s: src/video/windows/SDL_windowsopengles.c
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsopengles.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsopengles.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsopengles.c.s
 .PHONY : src/video/windows/SDL_windowsopengles.c.s
 
 src/video/windows/SDL_windowsrawinput.obj: src/video/windows/SDL_windowsrawinput.c.obj
@@ -6609,7 +6609,7 @@ src/video/windows/SDL_windowsrawinput.obj: src/video/windows/SDL_windowsrawinput
 
 # target to build an object file
 src/video/windows/SDL_windowsrawinput.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsrawinput.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsrawinput.c.obj
 .PHONY : src/video/windows/SDL_windowsrawinput.c.obj
 
 src/video/windows/SDL_windowsrawinput.i: src/video/windows/SDL_windowsrawinput.c.i
@@ -6617,7 +6617,7 @@ src/video/windows/SDL_windowsrawinput.i: src/video/windows/SDL_windowsrawinput.c
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsrawinput.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsrawinput.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsrawinput.c.i
 .PHONY : src/video/windows/SDL_windowsrawinput.c.i
 
 src/video/windows/SDL_windowsrawinput.s: src/video/windows/SDL_windowsrawinput.c.s
@@ -6625,7 +6625,7 @@ src/video/windows/SDL_windowsrawinput.s: src/video/windows/SDL_windowsrawinput.c
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsrawinput.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsrawinput.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsrawinput.c.s
 .PHONY : src/video/windows/SDL_windowsrawinput.c.s
 
 src/video/windows/SDL_windowsshape.obj: src/video/windows/SDL_windowsshape.c.obj
@@ -6633,7 +6633,7 @@ src/video/windows/SDL_windowsshape.obj: src/video/windows/SDL_windowsshape.c.obj
 
 # target to build an object file
 src/video/windows/SDL_windowsshape.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsshape.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsshape.c.obj
 .PHONY : src/video/windows/SDL_windowsshape.c.obj
 
 src/video/windows/SDL_windowsshape.i: src/video/windows/SDL_windowsshape.c.i
@@ -6641,7 +6641,7 @@ src/video/windows/SDL_windowsshape.i: src/video/windows/SDL_windowsshape.c.i
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsshape.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsshape.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsshape.c.i
 .PHONY : src/video/windows/SDL_windowsshape.c.i
 
 src/video/windows/SDL_windowsshape.s: src/video/windows/SDL_windowsshape.c.s
@@ -6649,7 +6649,7 @@ src/video/windows/SDL_windowsshape.s: src/video/windows/SDL_windowsshape.c.s
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsshape.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsshape.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsshape.c.s
 .PHONY : src/video/windows/SDL_windowsshape.c.s
 
 src/video/windows/SDL_windowsvideo.obj: src/video/windows/SDL_windowsvideo.c.obj
@@ -6657,7 +6657,7 @@ src/video/windows/SDL_windowsvideo.obj: src/video/windows/SDL_windowsvideo.c.obj
 
 # target to build an object file
 src/video/windows/SDL_windowsvideo.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsvideo.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsvideo.c.obj
 .PHONY : src/video/windows/SDL_windowsvideo.c.obj
 
 src/video/windows/SDL_windowsvideo.i: src/video/windows/SDL_windowsvideo.c.i
@@ -6665,7 +6665,7 @@ src/video/windows/SDL_windowsvideo.i: src/video/windows/SDL_windowsvideo.c.i
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsvideo.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsvideo.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsvideo.c.i
 .PHONY : src/video/windows/SDL_windowsvideo.c.i
 
 src/video/windows/SDL_windowsvideo.s: src/video/windows/SDL_windowsvideo.c.s
@@ -6673,7 +6673,7 @@ src/video/windows/SDL_windowsvideo.s: src/video/windows/SDL_windowsvideo.c.s
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsvideo.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsvideo.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsvideo.c.s
 .PHONY : src/video/windows/SDL_windowsvideo.c.s
 
 src/video/windows/SDL_windowsvulkan.obj: src/video/windows/SDL_windowsvulkan.c.obj
@@ -6681,7 +6681,7 @@ src/video/windows/SDL_windowsvulkan.obj: src/video/windows/SDL_windowsvulkan.c.o
 
 # target to build an object file
 src/video/windows/SDL_windowsvulkan.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsvulkan.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsvulkan.c.obj
 .PHONY : src/video/windows/SDL_windowsvulkan.c.obj
 
 src/video/windows/SDL_windowsvulkan.i: src/video/windows/SDL_windowsvulkan.c.i
@@ -6689,7 +6689,7 @@ src/video/windows/SDL_windowsvulkan.i: src/video/windows/SDL_windowsvulkan.c.i
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsvulkan.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsvulkan.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsvulkan.c.i
 .PHONY : src/video/windows/SDL_windowsvulkan.c.i
 
 src/video/windows/SDL_windowsvulkan.s: src/video/windows/SDL_windowsvulkan.c.s
@@ -6697,7 +6697,7 @@ src/video/windows/SDL_windowsvulkan.s: src/video/windows/SDL_windowsvulkan.c.s
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsvulkan.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsvulkan.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowsvulkan.c.s
 .PHONY : src/video/windows/SDL_windowsvulkan.c.s
 
 src/video/windows/SDL_windowswindow.obj: src/video/windows/SDL_windowswindow.c.obj
@@ -6705,7 +6705,7 @@ src/video/windows/SDL_windowswindow.obj: src/video/windows/SDL_windowswindow.c.o
 
 # target to build an object file
 src/video/windows/SDL_windowswindow.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowswindow.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowswindow.c.obj
 .PHONY : src/video/windows/SDL_windowswindow.c.obj
 
 src/video/windows/SDL_windowswindow.i: src/video/windows/SDL_windowswindow.c.i
@@ -6713,7 +6713,7 @@ src/video/windows/SDL_windowswindow.i: src/video/windows/SDL_windowswindow.c.i
 
 # target to preprocess a source file
 src/video/windows/SDL_windowswindow.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowswindow.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowswindow.c.i
 .PHONY : src/video/windows/SDL_windowswindow.c.i
 
 src/video/windows/SDL_windowswindow.s: src/video/windows/SDL_windowswindow.c.s
@@ -6721,7 +6721,7 @@ src/video/windows/SDL_windowswindow.s: src/video/windows/SDL_windowswindow.c.s
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowswindow.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowswindow.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/windows/SDL_windowswindow.c.s
 .PHONY : src/video/windows/SDL_windowswindow.c.s
 
 src/video/yuv2rgb/yuv_rgb_lsx.obj: src/video/yuv2rgb/yuv_rgb_lsx.c.obj
@@ -6729,7 +6729,7 @@ src/video/yuv2rgb/yuv_rgb_lsx.obj: src/video/yuv2rgb/yuv_rgb_lsx.c.obj
 
 # target to build an object file
 src/video/yuv2rgb/yuv_rgb_lsx.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.obj
 .PHONY : src/video/yuv2rgb/yuv_rgb_lsx.c.obj
 
 src/video/yuv2rgb/yuv_rgb_lsx.i: src/video/yuv2rgb/yuv_rgb_lsx.c.i
@@ -6737,7 +6737,7 @@ src/video/yuv2rgb/yuv_rgb_lsx.i: src/video/yuv2rgb/yuv_rgb_lsx.c.i
 
 # target to preprocess a source file
 src/video/yuv2rgb/yuv_rgb_lsx.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.i
 .PHONY : src/video/yuv2rgb/yuv_rgb_lsx.c.i
 
 src/video/yuv2rgb/yuv_rgb_lsx.s: src/video/yuv2rgb/yuv_rgb_lsx.c.s
@@ -6745,7 +6745,7 @@ src/video/yuv2rgb/yuv_rgb_lsx.s: src/video/yuv2rgb/yuv_rgb_lsx.c.s
 
 # target to generate assembly for a file
 src/video/yuv2rgb/yuv_rgb_lsx.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.s
 .PHONY : src/video/yuv2rgb/yuv_rgb_lsx.c.s
 
 src/video/yuv2rgb/yuv_rgb_sse.obj: src/video/yuv2rgb/yuv_rgb_sse.c.obj
@@ -6753,7 +6753,7 @@ src/video/yuv2rgb/yuv_rgb_sse.obj: src/video/yuv2rgb/yuv_rgb_sse.c.obj
 
 # target to build an object file
 src/video/yuv2rgb/yuv_rgb_sse.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.obj
 .PHONY : src/video/yuv2rgb/yuv_rgb_sse.c.obj
 
 src/video/yuv2rgb/yuv_rgb_sse.i: src/video/yuv2rgb/yuv_rgb_sse.c.i
@@ -6761,7 +6761,7 @@ src/video/yuv2rgb/yuv_rgb_sse.i: src/video/yuv2rgb/yuv_rgb_sse.c.i
 
 # target to preprocess a source file
 src/video/yuv2rgb/yuv_rgb_sse.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.i
 .PHONY : src/video/yuv2rgb/yuv_rgb_sse.c.i
 
 src/video/yuv2rgb/yuv_rgb_sse.s: src/video/yuv2rgb/yuv_rgb_sse.c.s
@@ -6769,7 +6769,7 @@ src/video/yuv2rgb/yuv_rgb_sse.s: src/video/yuv2rgb/yuv_rgb_sse.c.s
 
 # target to generate assembly for a file
 src/video/yuv2rgb/yuv_rgb_sse.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.s
 .PHONY : src/video/yuv2rgb/yuv_rgb_sse.c.s
 
 src/video/yuv2rgb/yuv_rgb_std.obj: src/video/yuv2rgb/yuv_rgb_std.c.obj
@@ -6777,7 +6777,7 @@ src/video/yuv2rgb/yuv_rgb_std.obj: src/video/yuv2rgb/yuv_rgb_std.c.obj
 
 # target to build an object file
 src/video/yuv2rgb/yuv_rgb_std.c.obj:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.obj
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.obj
 .PHONY : src/video/yuv2rgb/yuv_rgb_std.c.obj
 
 src/video/yuv2rgb/yuv_rgb_std.i: src/video/yuv2rgb/yuv_rgb_std.c.i
@@ -6785,7 +6785,7 @@ src/video/yuv2rgb/yuv_rgb_std.i: src/video/yuv2rgb/yuv_rgb_std.c.i
 
 # target to preprocess a source file
 src/video/yuv2rgb/yuv_rgb_std.c.i:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.i
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.i
 .PHONY : src/video/yuv2rgb/yuv_rgb_std.c.i
 
 src/video/yuv2rgb/yuv_rgb_std.s: src/video/yuv2rgb/yuv_rgb_std.c.s
@@ -6793,7 +6793,7 @@ src/video/yuv2rgb/yuv_rgb_std.s: src/video/yuv2rgb/yuv_rgb_std.c.s
 
 # target to generate assembly for a file
 src/video/yuv2rgb/yuv_rgb_std.c.s:
-	cd /d D:\projects\text-editor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.s
+	cd /d D:\texeditor\build && $(MAKE) $(MAKESILENT) -f vendored\SDL\CMakeFiles\SDL3-shared.dir\build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.s
 .PHONY : src/video/yuv2rgb/yuv_rgb_std.c.s
 
 # Help Target
@@ -7650,7 +7650,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\projects\text-editor\build && $(CMAKE_COMMAND) -P D:\projects\text-editor\build\CMakeFiles\VerifyGlobs.cmake
-	cd /d D:\projects\text-editor\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\texeditor\build && $(CMAKE_COMMAND) -P D:\texeditor\build\CMakeFiles\VerifyGlobs.cmake
+	cd /d D:\texeditor\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

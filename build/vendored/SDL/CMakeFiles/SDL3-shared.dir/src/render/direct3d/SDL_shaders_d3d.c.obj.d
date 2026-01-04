@@ -1,7 +1,7 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\render\direct3d\SDL_shaders_d3d.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\render\direct3d\SDL_shaders_d3d.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -98,7 +98,7 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.ob
  C:/msys64/mingw64/include/propidl.h \
  C:/msys64/mingw64/include/d3d9types.h \
  C:/msys64/mingw64/include/d3d9caps.h \
- D:\projects\text-editor\vendored\SDL\src\render\direct3d\SDL_shaders_d3d.h \
- D:\projects\text-editor\vendored\SDL\src\render\direct3d\D3D9_PixelShader_Palette_Nearest.h \
- D:\projects\text-editor\vendored\SDL\src\render\direct3d\D3D9_PixelShader_Palette_Linear.h \
- D:\projects\text-editor\vendored\SDL\src\render\direct3d\D3D9_PixelShader_YUV.h
+ D:\texeditor\vendored\SDL\src\render\direct3d\SDL_shaders_d3d.h \
+ D:\texeditor\vendored\SDL\src\render\direct3d\D3D9_PixelShader_Palette_Nearest.h \
+ D:\texeditor\vendored\SDL\src\render\direct3d\D3D9_PixelShader_Palette_Linear.h \
+ D:\texeditor\vendored\SDL\src\render\direct3d\D3D9_PixelShader_YUV.h

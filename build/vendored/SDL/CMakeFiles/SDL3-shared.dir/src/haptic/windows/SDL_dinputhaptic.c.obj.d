@@ -1,10 +1,10 @@
 vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_dinputhaptic.c.obj: \
- D:\projects\text-editor\vendored\SDL\src\haptic\windows\SDL_dinputhaptic.c \
- D:/projects/text-editor/vendored/SDL/src/SDL_internal.h \
- D:/projects/text-editor/vendored/SDL/src/haptic/SDL_syshaptic.h \
- D:\projects\text-editor\vendored\SDL\src\haptic\windows\SDL_windowshaptic_c.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_directx.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:\texeditor\vendored\SDL\src\haptic\windows\SDL_dinputhaptic.c \
+ D:/texeditor/vendored/SDL/src/SDL_internal.h \
+ D:/texeditor/vendored/SDL/src/haptic/SDL_syshaptic.h \
+ D:\texeditor\vendored\SDL\src\haptic\windows\SDL_windowshaptic_c.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_directx.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/crtdefs.h \
@@ -111,11 +111,11 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/src/haptic/windows/SDL_dinputhaptic.c.ob
  C:/msys64/mingw64/include/dsound.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
  C:/msys64/mingw64/include/float.h C:/msys64/mingw64/include/dinput.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_xinput.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_xinput.h \
  C:/msys64/mingw64/include/xinput.h \
- D:\projects\text-editor\vendored\SDL\src\haptic\windows\SDL_dinputhaptic_c.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick_c.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
- D:/projects/text-editor/vendored/SDL/src/joystick/SDL_joystick_c.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_windows.h \
- D:/projects/text-editor/vendored/SDL/src/core/windows/SDL_directx.h
+ D:\texeditor\vendored\SDL\src\haptic\windows\SDL_dinputhaptic_c.h \
+ D:/texeditor/vendored/SDL/src/joystick/windows/SDL_windowsjoystick_c.h \
+ D:/texeditor/vendored/SDL/src/joystick/SDL_sysjoystick.h \
+ D:/texeditor/vendored/SDL/src/joystick/SDL_joystick_c.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_windows.h \
+ D:/texeditor/vendored/SDL/src/core/windows/SDL_directx.h

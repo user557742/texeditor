@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_RC
-  "D:/projects/text-editor/vendored/SDL_ttf/src/version.rc" "D:/projects/text-editor/build/vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/version.rc.obj"
+  "D:/texeditor/vendored/SDL_ttf/src/version.rc" "D:/texeditor/build/vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/version.rc.obj"
   )
 
 # Preprocessor definitions for this target.
@@ -23,21 +23,21 @@ set(CMAKE_TARGET_DEFINITIONS_RC
 
 # The include file search paths:
 set(CMAKE_RC_TARGET_INCLUDE_PATH
-  "D:/projects/text-editor/vendored/SDL_ttf/include"
+  "D:/texeditor/vendored/SDL_ttf/include"
   "vendored/SDL/include-revision"
-  "D:/projects/text-editor/vendored/SDL/include"
+  "D:/texeditor/vendored/SDL/include"
   "C:/msys64/mingw64/include/harfbuzz"
   "C:/msys64/mingw64/include/freetype2"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/projects/text-editor/vendored/SDL_ttf/src/SDL_gpu_textengine.c" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.obj" "gcc" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.obj.d"
-  "D:/projects/text-editor/vendored/SDL_ttf/src/SDL_hashtable.c" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.obj" "gcc" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.obj.d"
-  "D:/projects/text-editor/vendored/SDL_ttf/src/SDL_hashtable_ttf.c" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.obj" "gcc" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.obj.d"
-  "D:/projects/text-editor/vendored/SDL_ttf/src/SDL_renderer_textengine.c" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.obj" "gcc" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.obj.d"
-  "D:/projects/text-editor/vendored/SDL_ttf/src/SDL_surface_textengine.c" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.obj" "gcc" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.obj.d"
-  "D:/projects/text-editor/vendored/SDL_ttf/src/SDL_ttf.c" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.obj" "gcc" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.obj.d"
+  "D:/texeditor/vendored/SDL_ttf/src/SDL_gpu_textengine.c" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.obj" "gcc" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_gpu_textengine.c.obj.d"
+  "D:/texeditor/vendored/SDL_ttf/src/SDL_hashtable.c" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.obj" "gcc" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable.c.obj.d"
+  "D:/texeditor/vendored/SDL_ttf/src/SDL_hashtable_ttf.c" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.obj" "gcc" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_hashtable_ttf.c.obj.d"
+  "D:/texeditor/vendored/SDL_ttf/src/SDL_renderer_textengine.c" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.obj" "gcc" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_renderer_textengine.c.obj.d"
+  "D:/texeditor/vendored/SDL_ttf/src/SDL_surface_textengine.c" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.obj" "gcc" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_surface_textengine.c.obj.d"
+  "D:/texeditor/vendored/SDL_ttf/src/SDL_ttf.c" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.obj" "gcc" "vendored/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir/src/SDL_ttf.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
