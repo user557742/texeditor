@@ -3,6 +3,7 @@
 #include <SDL3_ttf/SDL_ttf.h>
 #include <windows.h>
 #include <commdlg.h>
+// #include <SDL3/SDL_syswm.h>
 #define rei(i,a,b) for(int i=a;i<=b;i++)
 using namespace std;
 
@@ -57,7 +58,11 @@ SDL_Texture* CreateAsciiAtlas(
     SDL_SetRenderTarget(renderer,nullptr);
     return atlas;
 }
-
+HWND getHWND(SDL_Window*) {
+    HWND h = GetActiveWindow();
+    if (!h) h = GetForegroundWindow();
+    return h;
+}
 /* ================= TEXT ================= */
 SDL_Texture* renderText(
     SDL_Renderer* renderer,
@@ -143,7 +148,7 @@ void rebuild_font(
     cpy=row*chh;
     cpx=col*chw;
 }
-bool openFile(std::string &path) {
+bool openFile(string &path,SDL_Window* win) {
     char buf[MAX_PATH] = "";
 
     OPENFILENAMEA ofn{};
@@ -152,14 +157,14 @@ bool openFile(std::string &path) {
     ofn.lpstrFile = buf;
     ofn.nMaxFile = MAX_PATH;
     ofn.Flags = OFN_EXPLORER | OFN_FILEMUSTEXIST | OFN_PATHMUSTEXIST;
-
+    ofn.hwndOwner = getHWND(win);
     if (GetOpenFileNameA(&ofn)) {
         path = buf;
         return true;
     }
     return false;
 }
-bool saveFile(std::string &path) {
+bool saveFile(string &path,SDL_Window* win) {
     char buf[MAX_PATH] = "";
 
     OPENFILENAMEA ofn{};
@@ -168,7 +173,7 @@ bool saveFile(std::string &path) {
     ofn.lpstrFile = buf;
     ofn.nMaxFile = MAX_PATH;
     ofn.Flags = OFN_EXPLORER | OFN_PATHMUSTEXIST | OFN_OVERWRITEPROMPT;
-
+    ofn.hwndOwner = getHWND(win);
     if (GetSaveFileNameA(&ofn)) {
         path = buf;
         return true;
@@ -327,17 +332,15 @@ int main(){
                 
                 if(fullmh) SDL_SetWindowFullscreen(win,1);
                 else SDL_SetWindowFullscreen(win,0);
-                if(borderlessss) SDL_SetWindowBordered(win,1);
-                else SDL_SetWindowBordered(win,0);
                 if(e.key.key==SDLK_O&&(e.key.mod&SDL_KMOD_CTRL)){
-                    if (openFile(path)) {
+                    if (openFile(path,win)) {
                         readFile(path, text);
                         loadText(text);
                     }
                 }
                 if (e.key.key == SDLK_S && (e.key.mod & SDL_KMOD_CTRL)) {
                     if (path.empty()) {
-                        if (saveFile(path)) {
+                        if (saveFile(path,win)) {
                             text=ctr(lines);
                             writeFile(path, text);
                         }
@@ -350,7 +353,7 @@ int main(){
                     (e.key.mod & SDL_KMOD_CTRL) &&
                     (e.key.mod & SDL_KMOD_SHIFT)) {
                     string newPath;
-                    if (saveFile(newPath)) {
+                    if (saveFile(newPath,win)) {
                         path = newPath;
                         text=ctr(lines);
                         writeFile(path,text);
@@ -400,10 +403,8 @@ int main(){
         SDL_FRect caret={(float)cpx,(float)cpy,(float)chw,(float)chh};
         SDL_SetRenderDrawColor(ren,255,255,255,80);
         SDL_RenderRect(ren,&caret);
-
         SDL_RenderPresent(ren);
     }
-
     for(auto& l:lines) if(l.tex) SDL_DestroyTexture(l.tex);
     SDL_DestroyTexture(atlas);
     TTF_CloseFont(font);
